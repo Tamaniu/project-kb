@@ -1,3 +1,64 @@
+---
+product: MediaCentral | Cloud UX
+module: Cloud UX Platform
+version: 2024.10
+patch_range: 2024.10.0–2024.10.8
+release_type: LTM
+release_date: 2024-10-01
+source_docs:
+  - name: MCCUX 2024.10.0–2024.10.8 New Features
+    type: internal-word-doc
+    location: JoJo/private-source
+  - name: MCCUX 2024.10 ReadMe (public)
+    type: avid-pdf
+    url: https://resources.avid.com/SupportFiles/attach/MediaCentral_Cloud_UX/MCCUX_2024_10_ReadMe.pdf
+---
+
+# MediaCentral | Cloud UX 2024.10 – New Features  
+Long-Term Maintenance Release (Patch Levels 0–8)
+
+This document groups new features by **patch version**, and within each patch by **functional area**.  
+It reflects *all* changes delivered between **2024.10.0 → 2024.10.8**.
+
+---
+
+# ## 🔷 Patch 2024.10.8  
+### Asset Editor
+#### HDR Identifier
+- An **HDR icon** now appears to the left of the Mark In timecode when viewing HDR media.  
+- Only appears during playback of HDR segments in a mixed SDR/HDR sequence.  
+- Supports master clips and sequences.  
+- Helps operators quickly identify dynamic-range changes during editing or review.
+
+---
+
+# ## 🔷 Patch 2024.10.7  
+### Configuration Settings App
+#### Subclip Creation Behaviour
+New configuration toggle:
+
+- **If disabled (default):**  
+  Users must hold **Alt/Option** when drag-dropping from Media Viewer → Browse to create a subclip.
+- **If enabled:**  
+  Subclip creation works with drag-and-drop *without* modifier keys.
+
+This gives broadcasters more flexibility aligned with local editing standards.
+
+---
+
+# ## 🔷 Patch 2024.10.5  
+### Platform GCP Storage Connector
+#### Improved Upload/Download Performance
+- Connector now uses **low-level GCP APIs**:
+  - XML API multipart upload  
+  - Sliced object download  
+- Previously used sequential uploads → slower.
+- Faster and more resilient for large-object transfers.
+
+### MediaCentral Panel for 3rd Party Creative Tools
+#### Memory Scaling for Large Sequence Imports
+- Large/complex MC sequences imported into Premiere Pro can require more memory in the **avid-pam-services** pod.
+- Admins can manually increase memory limits:
 - No impact on in-platform editing inside Asset Editor.
 
 ---
