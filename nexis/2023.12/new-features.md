@@ -40,4 +40,37 @@ This release introduces improvements to cloud workflows, workspace management vi
 ---
 
 ### Workspace Delete Feedback
-- Workspaces marked for deletion now receive the suffix:  
+- Workspaces marked for deletion now receive the suffix:
+- - Helps administrators identify workspaces undergoing block/object deletion (useful for workspaces with large media volumes).  
+:contentReference[oaicite:3]{index=3}
+
+---
+
+# ## 🔷 Performance — Avid Pro Tools + F2 SSD
+
+### Performance Improvements for Pro Tools Workflows on F2 SSD  
+- Significant performance enhancements introduced for customers using:  
+- **Avid NEXIS | F2 SSD Engines**, and  
+- **Avid Pro Tools** with **high track counts**
+
+- Improvements include support for **up to 4000 voices (channels) per SSD Media Pack**, subject to network conditions.  
+- Avid strongly recommends:  
+- Connecting Pro Tools clients via **compatible 10GbE switches** for best performance.  
+- Refer to the *Avid NEXIS Network and Switch Guide* for details.  
+:contentReference[oaicite:4]{index=4}
+
+---
+
+# ## Summary
+
+Avid NEXIS 2023.12 delivers:
+
+- New Ubuntu Linux client support for cloud workflows  
+- Clearer UI feedback when modifying workspace access rights  
+- Better visibility when deleting large workspaces  
+- Major performance improvements for Pro Tools on F2 SSD systems  
+
+This version closes out the 2023 cycle with a focus on reliability, clarity, and performance.
+
+---
+
