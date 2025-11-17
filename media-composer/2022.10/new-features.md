@@ -13,74 +13,109 @@ source_docs:
 
 # Media Composer 2022.10 – New Features
 
-Media Composer 2022.10 expands AVC-LongG support, introduces important audio monitoring improvements, and delivers multiple Titler+, Project, and user-experience enhancements.
+This release introduces expanded support for proxy media in Edge workflows, improvements to the Media Cache dialog, new sequence templates, UI updates, and enhanced relink handling.
+
+All items below are taken directly from the 2022.10 section of the source document.
 
 ---
 
-# ## 🔷 Formats & Codec Support
+# ## 🔷 Proxy Media (Edge Workflows)
 
-### **AVC-LongG 12-bit High Profile Support**  
-- Adds support for **12-bit AVC-LongG High Profile (HLG)** media.  
-- Extends compatibility with more modern cameras and broadcast workflows.  
+### **Working with Proxy Media (Edge Environments)**  
+- Support for working with proxy media in **Media Composer | Enterprise** and **Avid NEXIS | Edge** environments.  
+- Enhances performance and responsiveness in remote workflows.  
 :contentReference[oaicite:1]{index=1}
 
 ---
 
-# ## 🔷 Audio & Monitoring
+# ## 🔷 Media Cache
 
-### **5.1 Audio Monitoring Across All Mix Modes**  
-- Updated behaviour allows monitoring 5.1 **in every mix mode**, ensuring consistent playback across:  
-  - Direct Out  
-  - Stereo Downmix  
-  - Surround modes  
+### **Media Cache Dialog Update**  
+- The Media Cache dialog has been refreshed with new options and clearer controls.  
+- Helps editors manage cached UME media more effectively.  
 :contentReference[oaicite:2]{index=2}
 
 ---
 
-# ## 🔷 Titler+ Improvements
+# ## 🔷 Sequence Templates
 
-### **Alignment Widget**  
-- New dedicated Alignment widget added to the interface.  
-- Provides faster access to alignment and distribution options for text and graphics.  
+### **New Sequence Templates**  
+- Several new Avid-supplied **Sequence Templates** are included.  
+- Provides ready-made editorial structures for common formats and deliverables.  
 :contentReference[oaicite:3]{index=3}
 
 ---
 
-# ## 🔷 Project Management
+# ## 🔷 Project Creation
 
-### **Support for Creating a 24fps Drop Frame Project**  
-- 24fps Drop Frame projects can now be created.  
-- Enables editing workflows requiring precise timecode alignment for North American broadcast.  
+### **“Choose For Me” Option for New Projects**  
+- When creating a new project, Media Composer can now automatically select the project format using **Choose For Me**.  
 :contentReference[oaicite:4]{index=4}
 
 ---
 
-# ## 🔷 Miscellaneous Improvements
+# ## 🔷 UI & Keyboard Shortcuts
 
-### **QuickTime AMA Plug-in Deprecation**  
-- QuickTime AMA plug-in functionality has been fully migrated to native UME (Universal Media Engine).  
-- QuickTime-based workflows no longer require the older AMA architecture.  
+### **Keyboard Shortcuts to Switch Focus Between Windows and Tabs**  
+- New shortcuts allow editors to quickly switch focus between open windows and tabbed panels.  
 :contentReference[oaicite:5]{index=5}
 
 ---
 
-### **NEXIS & Project File Handling**  
-- Improvements made when handling large numbers of project files stored on NEXIS workspaces.  
+# ## 🔷 Bin Metadata
+
+### **Bin Metadata Tooltips**  
+- Bin columns now display metadata tooltips when hovering over values.  
+- Helps identify long or truncated metadata fields.  
 :contentReference[oaicite:6]{index=6}
+
+---
+
+# ## 🔷 Titling
+
+### **FreeType Font Support in Titler+**  
+- Titler+ now supports **FreeType fonts**, improving compatibility with a wider range of typefaces.  
+:contentReference[oaicite:7]{index=7}
+
+---
+
+# ## 🔷 Audio
+
+### **Support for 2 or More Ganged Groups in Audio Mixer**  
+- The Audio Mixer now supports **two or more ganged groups**, increasing flexibility for complex mixes.  
+:contentReference[oaicite:8]{index=8}
+
+---
+
+# ## 🔷 Media Handling
+
+### **New Relink Menu**  
+- Media Composer introduces an updated Relink command with improved layout and control.  
+:contentReference[oaicite:9]{index=9}
+
+---
+
+### **Linked Media Dialog Update**  
+- Enhancements to the **Linked Media** dialog improve visibility and control over linked UME files.  
+:contentReference[oaicite:10]{index=10}
 
 ---
 
 # ## Summary
 
-Media Composer 2022.10 delivers:
+Media Composer 2022.10 introduces:
 
-- 12-bit AVC-LongG High Profile support  
-- Consistent 5.1 monitoring across all mix modes  
-- A new Titler+ alignment widget  
-- 24fps Drop Frame project creation  
-- QuickTime AMA retirement (full UME transition)  
-- Better project-handling performance over NEXIS  
+- Proxy media workflow support for Edge  
+- Updated Media Cache dialog  
+- New sequence templates  
+- Automatic “Choose For Me” project selection  
+- Keyboard nav improvements  
+- Bin metadata tooltips  
+- Titler+ FreeType font support  
+- Multiple ganged groups in Audio Mixer  
+- Updated Relink and Linked Media dialogs  
 
-A substantial Q4 release leading directly into the 2022.12 LTM milestone.
+This release completes the 2022 feature cycle ahead of the 2022.12 LTM.
 
 ---
+
