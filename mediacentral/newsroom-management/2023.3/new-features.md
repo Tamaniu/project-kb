@@ -19,4 +19,21 @@ Note: These two accounts are not available to manage under the user manager in i
 
 ### UEC flags
 
-The Wires server now accepts stories with production cues and **UEC flags** in all applicable fields.
+The Wires server accepts stories with production cues and **UEC flags** in all applicable fields.
+
+---
+
+## MOS Gateway
+
+### Secure user credentials
+
+The MOS Gateway server now supports secure user credentials.  
+See the MOS Gateway ReadMe for more information.
+
+---
+
+## Data Receiver
+
+### Enhanced debugging
+
+Data Receiver **2023.3 (v3.1)** is available and offers an improved debu
