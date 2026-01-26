@@ -1,3 +1,4 @@
+øøøøøøø
 # Avid Product Knowledge Base (Internal)
 
 Private, structured reference for Avid products and versions from 2021 onwards.
