@@ -1,0 +1,158 @@
+Avid recommends that you read all the information in this ReadMe thoroughly before installing software or attempting to use the Avid NEXIS system. This ReadMe provides information that is not in the other Avid NEXIS documentation. This ReadMe is cumulative for the 2025.x release stream.
+
+This ReadMe provides hardware and software requirements, an overview of the major features of this release, and limitations and known issues. See the appropriate Avid NEXIS Setup Guide for information on physical connection of the system and loading the system and client software. You can access the documentation, including previous versions of the ReadMe, from the Avid NEXIS Documentation page on the Avid Knowledge Base.
+
+For information about Avid’s security recommendations specific to Avid products, and our responses to current world-wide security issues, see Avid Security Guidelines and Best Practices for Dealing with Virus Threats.
+
+For compatibility with other Avid products, see the Knowledge Base page for Avid Audio and Video Compatibility Charts.
+
+Avid recommends that you purchase installation services with your Avid NEXIS system.
+
+---
+
+## Revision History
+
+| Date | Version | Changes |
+|-----|--------|--------|
+| February 3, 2026 | 2025.5.7 | See “What’s New in Avid NEXIS 2025.5.7” |
+| December 18, 2025 | 2025.5.6 | See “What’s New in Avid NEXIS 2025.5.6” |
+| December 1, 2025 | 2025.5.5 | See “What’s New in Avid NEXIS 2025.5.5” |
+| October 21, 2025 | 2025.10.0 | See “What’s New in Avid NEXIS 2025.10.0” |
+| September 23, 2025 | 2025.5.3 | See “What’s New in Avid NEXIS 2025.5.3” |
+| July 31, 2025 | 2025.5.1 | Added full support for macOS 15 Sequoia |
+| June 4, 2025 | 2025.5.0 | Withdrawn due to write failure issue on Avid NEXIS | F5 |
+
+---
+
+## Contents
+
+- Recommended and Required Releases  
+- What’s New in Avid NEXIS 2025.5.7  
+- What’s New in Avid NEXIS 2025.5.6  
+- What’s New in Avid NEXIS 2025.5.5  
+- What’s New in Avid NEXIS 2025.10.0  
+- What’s New in Avid NEXIS 2025.5.3  
+- What’s New in Avid NEXIS 2025.5.1  
+- What’s New in Avid NEXIS 2025.5.0  
+- What’s New in Avid NEXIS 2025.2.2  
+- What’s New in Avid NEXIS 2025.3.0  
+- What’s New in Avid NEXIS 2025.2.0  
+- USM Versions  
+- Hardware and Software Requirements  
+- Supported Upgrade Paths  
+- System Director and Client Version Compatibility  
+- Compatibility with Other Avid Products  
+- Third Party Editor Compatibility  
+- System Configuration Limits  
+- On-Premises System Performance  
+- Cloud System Performance  
+- Known Issues  
+- Special Notes  
+
+---
+
+## Recommended and Required Releases
+
+The newest release is always recommended. The following Avid NEXIS | VFS releases are either recommended or required in the cases listed below.
+
+According to Avid’s Customer Support Contract Terms and Conditions, customers are required to upgrade regularly to benefit from fixes and stability enhancements. All customers must plan to upgrade at least once per year.
+
+An Avid NEXIS system (server) can be updated before the clients to allow server-only fixes to be deployed faster.
+
+---
+
+## What’s New in Avid NEXIS 2025.5.7
+
+Avid NEXIS version 2025.5.7 is a patch release for **on-premises systems only**.
+
+### Server Fixes
+
+- **SSENG-46549, SSENG-46595, SSENG-46563**  
+  Fixes a Storage Manager deadlock during shutdown that could prevent restart and cause Media Pack disconnections.
+
+- **SSENG-46654**  
+  Fixes slow Media Composer export operations caused by a scheduling issue in the Storage Manager read workflow.
+
+---
+
+## What’s New in Avid NEXIS 2025.5.6
+
+Avid NEXIS version 2025.5.6 is a **client-only** patch release.
+
+### Client Fixes
+
+- **SSENG-45048**  
+  Fixes Media Composer crashes on Intel Macs and Apple Silicon Macs running via Rosetta due to exported BOOST symbols.
+
+---
+
+## What’s New in Avid NEXIS 2025.5.5
+
+Patch release for **on-premises systems only**.
+
+### Server Fixes
+
+- Storage Group and Workspace capacity display issues
+- Broken documentation link in Management Console
+- Index Server segmentation faults with File Delete Logging enabled
+- Media Pack disconnections on mirrored systems
+- Blank Connection Status page when only one active connection exists
+- Certificate initialization errors causing HTTP 502
+
+Windows 10 is no longer supported in this release.
+
+---
+
+## What’s New in Avid NEXIS 2025.10.0
+
+Client-only release for on-premises systems and full Cloud kit release.
+
+Includes:
+
+- Ubuntu 24.04 client support
+- Rocky Linux support for Cloud Storage
+- Avid NEXIS | Remote
+- Avid NEXIS Management API documentation
+- Removal of CentOS installers
+- Windows 10 end of qualification
+
+---
+
+## Known Issues
+
+This section documents known issues affecting Avid NEXIS software and supported third-party components.
+
+Includes:
+
+- On-premises system issues
+- Client issues
+- Cloud Storage issues
+- VFS Gateway issues
+- Avid NEXIS | Remote issues
+- macOS issues
+- Ubuntu issues
+- Windows issues
+
+Workarounds are listed where applicable.
+
+---
+
+## Special Notes
+
+Includes:
+
+- Qualified and approved switches
+- Flow control requirements
+- ATTO ThunderLink adapter guidance
+- VMware support notes
+- LDAP limitations
+- Fast User Switching limitations
+
+---
+
+## Legal Notices
+
+Product specifications are subject to change without notice.  
+This document is distributed electronically only.
+
+Avid NEXIS ReadMe • Created 2/2/2026
