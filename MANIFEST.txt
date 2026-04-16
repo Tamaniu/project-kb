@@ -1,8 +1,8 @@
 # project-kb MANIFEST
 # Generated: 16/04/2026
-# Canonical .md files: 119
-# Structure: product/versions/{ver}/ for versioned content, wolftech/modules/ for Wolftech
-# LEGACY section at end — files requiring git cleanup (cannot be deleted via sandbox)
+# Git-tracked .md files: 119
+# Structure: product/versions/{ver}/ for versioned content
+# Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
 
 ## _meta
 _meta/compatibility-matrix.md
@@ -140,93 +140,3 @@ transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
 
 ## root
 README.md
-
-## LEGACY — requires git cleanup on Mac
-# These files are git-tracked from the previous repo or were written to wrong paths.
-# To remove: close VS Code, delete project-kb/.git/index.lock, then run:
-# git rm <file> (for each) or git rm -r production-management
-
-# avid-stream-io_2025.2_whats-new.md
-# avid-stream-io_2025.6_whats-new.md
-# media-composer/2021.12/new-features.md
-# media-composer/2022.10/new-features.md
-# media-composer/2022.12/new-features.md
-# media-composer/2022.4/new-features.md
-# media-composer/2022.7/new-features.md
-# media-composer/2023.12/new-features.md
-# media-composer/2023.3/new-features.md
-# media-composer/2023.8/new-features.md
-# media-composer/2024.10/new-features.md
-# media-composer/2024.12/new-features.md
-# media-composer/2024.2/new-features.md
-# media-composer/2024.6/new-features.md
-# media-composer/2025.12/new-features.md
-# media-composer/2025.6/new-features.md
-# mediacentral/cloud-ux/2022.12/new-features.md
-# mediacentral/cloud-ux/2023.12/new-features.md
-# mediacentral/cloud-ux/2023.7/new-features.md
-# mediacentral/cloud-ux/2024.10/new-features.md
-# mediacentral/cloud-ux/2024.2/new-features.md
-# mediacentral/cloud-ux/2025.10/limitations.md
-# mediacentral/cloud-ux/2025.10/new-features.md
-# mediacentral/cloud-ux/2025.6/new-features.md
-# mediacentral/cloud-ux/mediacentral-cloud-ux_2025.10_new-features.md
-# mediacentral/cloud-ux/mediacentral/cloud-ux/new-features/mediacentral-cloud-ux-2025.10-new-features.md
-# mediacentral/mediacentral/analytics/2023.7/new-features.md
-# mediacentral/mediacentral/analytics/mediacentral/analytics/2024.10/new-features.md
-# mediacentral/mediacentral/avid-mediacentral_compatibility-support-matrix_2025.12.md
-# mediacentral/mediacentral/cloud-ux/2023.7/hardware-guide.md
-# mediacentral/mediacentral/cloud-ux/2025.6/hardware-guide.md
-# mediacentral/mediacentral/cloud-ux/mediacentral/cloud-ux/2023.12/hardware-guide.md
-# mediacentral/mediacentral/command/readmes/mediacentral-command-2022.3-readme.md
-# mediacentral/mediacentral/media-files-plugin/readmes/mediacentral-media-files-plugin-2022.3.1-readme.md
-# mediacentral/mediacentral/mediacentral-cloud-ux_vmware-best-practices_legacy.md
-# mediacentral/mediacentral/mediacentral-media-files-plugin_2024.10_readme.md
-# mediacentral/mediacentral/mediacentral-panel-3rd-party-creative-tools_2025.6_readme.md
-# mediacentral/mediacentral/mediacentral-panel-for-enps_2024.10.6_readme.md
-# mediacentral/mediacentral/mediacentral/cloud-ux/2023.3/hardware-guide.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/data-receiver/2023.7/new-features.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/data-receiver/2024.10/new-features.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/newsroom-management/data-receiver/2022.12/new-features.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/newsroom-management/data-receiver/2022.3/new-features.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/newsroom-management/data-receiver/2023.3/new-features.md
-# mediacentral/mediacentral/newsroom-management/mediacentral/newsroom-management/wsapi/2023.7/new-features.md
-# mediacentral/mediacentral/newsroom-management/wsapi/2023.3/new-features.md
-# mediacentral/newsroom-management/2022.3/mediacentral/newsroom-management/2022.3.4/new-features.md
-# mediacentral/newsroom-management/2022.3/new-features.md
-# mediacentral/newsroom-management/2023.3/new-features.md
-# mediacentral/newsroom-management/2023.7/new-features.md
-# mediacentral/newsroom-management/2024.10.4/new-features.md
-# mediacentral/newsroom-management/2024.10.5/new-features.md
-# mediacentral/newsroom-management/2024.10/new-features.md
-# mediacentral/newsroom-management/mediacentral/newsroom-management/2022.12/new-features.md
-# nexis/2022.12/new-features.md
-# nexis/2022.5/new-features.md
-# nexis/2022.9/new-features.md
-# nexis/2023.0/new-features.md
-# nexis/2023.12/new-features.md
-# nexis/2023.8.1/new-features.md
-# nexis/2023.8/new-features.md
-# nexis/2024.10/new-features.md
-# nexis/2024.11/new-features.md
-# nexis/2024.2/new-features.md
-# nexis/2024.5/new-features.md
-# nexis/2024.6.1/new-features.md
-# nexis/2024.6.2/new-features.md
-# nexis/2024.6/new-features.md
-# nexis/2025.10/new-features.md
-# nexis/2025.2.2/new-features.md
-# nexis/2025.2/new-features-WITHDRAWN.md
-# nexis/2025.3/new-features.md
-# nexis/2025.5.1/new-features-REQ SUPPORT CLEARANCE.md
-# nexis/2025.5.3/new-features.md
-# nexis/2025.5/new-features-WITHDRAWN.md
-# production-management/2022.3.4/new-features.md
-# production-management/2022.3/new-features.md
-# production-management/2023.7.2/new-features - complete.md
-# production-management/2023.7.2/new-features.md
-# production-management/2024.10.1/new-features.md
-# production-management/2024.10.3/new-features.md
-# production-management/2024.10/new-features.md
-# 📄 production-management/2023.7.3/new-features.md
-# 📄 production-management/2023.7/new-features.md
