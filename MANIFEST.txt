@@ -1,6 +1,6 @@
 # project-kb MANIFEST
 # Generated: 16/04/2026
-# Git-tracked .md files: 119
+# Git-tracked .md files: 182
 # Structure: product/versions/{ver}/ for versioned content
 # Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
 
@@ -140,3 +140,68 @@ transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
 
 ## root
 README.md
+
+## transcripts/workflows/cuttingroom
+transcripts/workflows/cuttingroom/adjust-audio-advanced.md
+transcripts/workflows/cuttingroom/adjust-audio-basic.md
+transcripts/workflows/cuttingroom/backblaze.md
+transcripts/workflows/cuttingroom/cloud-based-video-editing-with-cuttingroom.md
+transcripts/workflows/cuttingroom/cuttingrooms-seamless-solution.md
+transcripts/workflows/cuttingroom/dealing-with-missing-media.md
+transcripts/workflows/cuttingroom/deleting-media.md
+transcripts/workflows/cuttingroom/dropbox.md
+transcripts/workflows/cuttingroom/edit-the-story-adding-videos-to-the-timeline.md
+transcripts/workflows/cuttingroom/edit-the-story-edit-in-different-aspect-ratios.md
+transcripts/workflows/cuttingroom/edit-the-story-frame-rates.md
+transcripts/workflows/cuttingroom/edit-the-story-publishing.md
+transcripts/workflows/cuttingroom/edit-the-story-selecting-the-thumbnail.md
+transcripts/workflows/cuttingroom/edit-the-story-transitions.md
+transcripts/workflows/cuttingroom/edit-the-story-what-collaborative-editing-looks-like.md
+transcripts/workflows/cuttingroom/editing-transcript-captions.md
+transcripts/workflows/cuttingroom/editing-transform-mask-color-correction.md
+transcripts/workflows/cuttingroom/google-drive.md
+transcripts/workflows/cuttingroom/graphics-adding-images.md
+transcripts/workflows/cuttingroom/graphics-adding-your-own-font.md
+transcripts/workflows/cuttingroom/graphics-creating-your-first-template.md
+transcripts/workflows/cuttingroom/graphics-keyframes.md
+transcripts/workflows/cuttingroom/graphics-overview.md
+transcripts/workflows/cuttingroom/graphics-pin-to-graphic.md
+transcripts/workflows/cuttingroom/graphics-saving-and-deleting.md
+transcripts/workflows/cuttingroom/graphics-scale-function.md
+transcripts/workflows/cuttingroom/graphics-sharing-a-graphic-with-other-cuttingrooms.md
+transcripts/workflows/cuttingroom/guided-aspect-awareness.md
+transcripts/workflows/cuttingroom/integration-iconik.md
+transcripts/workflows/cuttingroom/integration-zype.md
+transcripts/workflows/cuttingroom/integrations-brightcove.md
+transcripts/workflows/cuttingroom/integrations-frameio.md
+transcripts/workflows/cuttingroom/integrations-mediebank.md
+transcripts/workflows/cuttingroom/integrations-storyteller.md
+transcripts/workflows/cuttingroom/integrations-zype.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-audio.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-managing-clips.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-navigating-the-timeline.md
+transcripts/workflows/cuttingroom/live-rtmp.md
+transcripts/workflows/cuttingroom/live-srt.md
+transcripts/workflows/cuttingroom/live-zixi.md
+transcripts/workflows/cuttingroom/mark-a-segment-in-the-timeline.md
+transcripts/workflows/cuttingroom/previewing-uploaded-content.md
+transcripts/workflows/cuttingroom/quick-intro.md
+transcripts/workflows/cuttingroom/reporter-app-camera-anti-shake-zoom-audio-teleprompter.md
+transcripts/workflows/cuttingroom/reporter-app-deleting-the-app.md
+transcripts/workflows/cuttingroom/reporter-app-sending-videos-to-cuttingroom.md
+transcripts/workflows/cuttingroom/reporter-app-subclipping-transcript.md
+transcripts/workflows/cuttingroom/reporter-app-using-different-microphones.md
+transcripts/workflows/cuttingroom/reporter-settings.md
+transcripts/workflows/cuttingroom/searching-for-media.md
+transcripts/workflows/cuttingroom/settings-distribution.md
+transcripts/workflows/cuttingroom/settings-output.md
+transcripts/workflows/cuttingroom/settings-reporter.md
+transcripts/workflows/cuttingroom/settings-user-rolles.md
+transcripts/workflows/cuttingroom/storage-s3-compatible.md
+transcripts/workflows/cuttingroom/storj.md
+transcripts/workflows/cuttingroom/the-concept-of-stories.md
+transcripts/workflows/cuttingroom/uploading-content-from-cuttingroom-reporter-iphone-app.md
+transcripts/workflows/cuttingroom/uploading-content-from-integrations.md
+transcripts/workflows/cuttingroom/uploading-content-from-laptop.md
+transcripts/workflows/cuttingroom/user-roles.md
+transcripts/workflows/cuttingroom/wasabi.md
