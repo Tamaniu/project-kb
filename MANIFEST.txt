@@ -1,8 +1,11 @@
 # project-kb MANIFEST
-# Generated: 16/04/2026
-# Git-tracked .md files: 182
+# Generated: 17/04/2026
+# Git-tracked .md files: 293
 # Structure: product/versions/{ver}/ for versioned content
 # Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
+
+## root
+README.md
 
 ## _meta
 _meta/compatibility-matrix.md
@@ -15,6 +18,21 @@ fastserve/ingest/versions/2022.9/new-features-2022.9-to-2024.3.md
 fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
 
 ## media-composer
+media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
+media-composer/distributed-processing/versions/2024.10.0/readme.md
+media-composer/distributed-processing/versions/2024.10.1/readme.md
+media-composer/distributed-processing/versions/2024.10.2/readme.md
+media-composer/distributed-processing/versions/2025.10.0/admin-guide.md
+media-composer/distributed-processing/versions/2025.10.0/readme.md
+media-composer/distributed-processing/versions/2025.12.0/admin-guide.md
+media-composer/distributed-processing/versions/2025.12.0/readme.md
+media-composer/distributed-processing/versions/2025.12.1/readme.md
+media-composer/guides/2022/vdi-guide.md
+media-composer/guides/2024/admin-guide.md
+media-composer/guides/2025.x/vdi-guide.md
+media-composer/guides/2025/editing-guide.md
+media-composer/guides/2025/fx-guide.md
+media-composer/guides/2025/install-guide.md
 media-composer/versions/2021.12/new-features.md
 media-composer/versions/2022.10/new-features.md
 media-composer/versions/2022.12/new-features.md
@@ -26,13 +44,18 @@ media-composer/versions/2023.8/new-features.md
 media-composer/versions/2024.2/new-features.md
 media-composer/versions/2024.6/new-features.md
 media-composer/versions/2025.12/new-features.md
+media-composer/versions/2025.12/readme.md
 media-composer/versions/2025.6/new-features-detail.md
 media-composer/versions/2025.6/new-features-standalone.md
 media-composer/versions/2025.6/new-features.md
+media-composer/versions/2025.6/readme.md
+media-composer/versions/2025/release-notes.md
 
-## mediacentral
+## mediacentral/analytics
 mediacentral/analytics/versions/2023.7/new-features.md
 mediacentral/analytics/versions/2024.10/new-features.md
+
+## mediacentral/cloud-ux
 mediacentral/cloud-ux/limitations/2024.10.md
 mediacentral/cloud-ux/limitations/2025.10.md
 mediacentral/cloud-ux/limitations/2025.6.md
@@ -41,6 +64,8 @@ mediacentral/cloud-ux/plugins/enps-panel/2024.10.6-readme.md
 mediacentral/cloud-ux/plugins/media-files-plugin/2022.3.1-readme.md
 mediacentral/cloud-ux/plugins/media-files-plugin/2024.10-readme.md
 mediacentral/cloud-ux/plugins/vmware/vmware-best-practices.md
+mediacentral/cloud-ux/versions/2019.9.0/mobile-guide.md
+mediacentral/cloud-ux/versions/2020.4.2/integration-guide.md
 mediacentral/cloud-ux/versions/2022.12/new-features.md
 mediacentral/cloud-ux/versions/2022.3/new-features.md
 mediacentral/cloud-ux/versions/2023.12/hardware-guide.md
@@ -48,14 +73,69 @@ mediacentral/cloud-ux/versions/2023.12/new-features.md
 mediacentral/cloud-ux/versions/2023.3/hardware-guide.md
 mediacentral/cloud-ux/versions/2023.7/hardware-guide.md
 mediacentral/cloud-ux/versions/2023.7/new-features.md
+mediacentral/cloud-ux/versions/2024.10.0/admin-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/install-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/readme.md
+mediacentral/cloud-ux/versions/2024.10.0/third-party-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/users-guide.md
+mediacentral/cloud-ux/versions/2024.10.1/readme.md
+mediacentral/cloud-ux/versions/2024.10.10/readme.md
+mediacentral/cloud-ux/versions/2024.10.11/readme.md
+mediacentral/cloud-ux/versions/2024.10.12/readme.md
+mediacentral/cloud-ux/versions/2024.10.13/readme.md
+mediacentral/cloud-ux/versions/2024.10.14/readme.md
+mediacentral/cloud-ux/versions/2024.10.16/readme.md
+mediacentral/cloud-ux/versions/2024.10.2/readme.md
+mediacentral/cloud-ux/versions/2024.10.3/integration-guide.md
+mediacentral/cloud-ux/versions/2024.10.3/readme.md
+mediacentral/cloud-ux/versions/2024.10.4/readme.md
+mediacentral/cloud-ux/versions/2024.10.5/readme.md
+mediacentral/cloud-ux/versions/2024.10.6/integration-guide.md
+mediacentral/cloud-ux/versions/2024.10.6/readme.md
+mediacentral/cloud-ux/versions/2024.10.7/readme.md
+mediacentral/cloud-ux/versions/2024.10.8/readme.md
+mediacentral/cloud-ux/versions/2024.10.9/readme.md
 mediacentral/cloud-ux/versions/2024.10/new-features.md
 mediacentral/cloud-ux/versions/2024.10/upgrade-guide-from-ltm2.md
+mediacentral/cloud-ux/versions/2024.2.0/install-guide.md
+mediacentral/cloud-ux/versions/2024.2.0/mobile-guide.md
+mediacentral/cloud-ux/versions/2024.2.0/readme.md
+mediacentral/cloud-ux/versions/2024.2.0/users-guide.md
+mediacentral/cloud-ux/versions/2024.2.1/readme.md
+mediacentral/cloud-ux/versions/2024.2.2/readme.md
+mediacentral/cloud-ux/versions/2024.2.3/readme.md
+mediacentral/cloud-ux/versions/2024.2.4/readme.md
+mediacentral/cloud-ux/versions/2024.2.5/readme.md
 mediacentral/cloud-ux/versions/2024.2/new-features.md
+mediacentral/cloud-ux/versions/2025.10.0/apm-readme.md
+mediacentral/cloud-ux/versions/2025.10.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2025.10.0/install-guide.md
+mediacentral/cloud-ux/versions/2025.10.0/readme.md
+mediacentral/cloud-ux/versions/2025.10.0/users-guide.md
+mediacentral/cloud-ux/versions/2025.10.1/readme.md
+mediacentral/cloud-ux/versions/2025.10.2/readme.md
+mediacentral/cloud-ux/versions/2025.10.3/readme.md
+mediacentral/cloud-ux/versions/2025.10.4/readme.md
 mediacentral/cloud-ux/versions/2025.10/new-features.md
 mediacentral/cloud-ux/versions/2025.10/readme.md
+mediacentral/cloud-ux/versions/2025.6.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/install-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/readme.md
+mediacentral/cloud-ux/versions/2025.6.0/third-party-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/users-guide.md
+mediacentral/cloud-ux/versions/2025.6.1/readme.md
+mediacentral/cloud-ux/versions/2025.6.2/readme.md
+mediacentral/cloud-ux/versions/2025.6.3/readme.md
 mediacentral/cloud-ux/versions/2025.6/hardware-guide.md
 mediacentral/cloud-ux/versions/2025.6/new-features.md
+mediacentral/cloud-ux/versions/current/readme.md
+mediacentral/cloud-ux/versions/current/users-guide.md
+
+## mediacentral/command
 mediacentral/command/versions/2022.3/readme.md
+
+## mediacentral/newsroom-management
 mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2022.3/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2023.3/new-features.md
@@ -97,24 +177,66 @@ mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2024.10/new-features.md
+
+## mediacentral/production-management
 mediacentral/production-management/versions/2022.3/new-features.md
 mediacentral/production-management/versions/2023.7/new-features.md
 mediacentral/production-management/versions/2024.10/new-features.md
 
 ## nexis
+nexis/versions/2021.12.0/readme.md
+nexis/versions/2021.12.1/readme.md
+nexis/versions/2021.3.0/readme.md
+nexis/versions/2021.3.1/readme.md
+nexis/versions/2021.5.0/readme.md
+nexis/versions/2021.5.1/readme.md
+nexis/versions/2021.8.1/readme.md
+nexis/versions/2021.8.2/readme.md
+nexis/versions/22.5.0/readme.md
+nexis/versions/22.9.0/readme.md
+nexis/versions/2022.12.0/readme.md
 nexis/versions/2022.12/new-features.md
 nexis/versions/2022.5/new-features.md
 nexis/versions/2022.9/new-features.md
 nexis/versions/2023.0/new-features.md
+nexis/versions/2023.12.0/readme.md
 nexis/versions/2023.12/new-features.md
+nexis/versions/2023.3.0/readme.md
+nexis/versions/2023.7.0/readme.md
+nexis/versions/2023.8.0/readme.md
+nexis/versions/2023.8.1/readme.md
+nexis/versions/2023.8.2/readme.md
+nexis/versions/2023.8.3/readme.md
 nexis/versions/2023.8/new-features.md
+nexis/versions/2024.10.0/readme.md
+nexis/versions/2024.10.0/vfs-guide.md
 nexis/versions/2024.10/new-features.md
+nexis/versions/2024.11.0/readme.md
 nexis/versions/2024.11/new-features.md
+nexis/versions/2024.2.0/readme.md
 nexis/versions/2024.2/new-features.md
+nexis/versions/2024.5.0/readme.md
 nexis/versions/2024.5/new-features.md
+nexis/versions/2024.6.0/readme.md
+nexis/versions/2024.6.1/readme.md
+nexis/versions/2024.6.2/readme.md
 nexis/versions/2024.6/new-features.md
+nexis/versions/2025.10.0/admin-guide.md
+nexis/versions/2025.10.0/client-guide.md
+nexis/versions/2025.10.0/integration-guide.md
+nexis/versions/2025.10.0/readme.md
+nexis/versions/2025.10.0/setup-guide.md
+nexis/versions/2025.2.2/readme.md
 nexis/versions/2025.2/new-features.md
+nexis/versions/2025.3.0/readme.md
 nexis/versions/2025.3/new-features.md
+nexis/versions/2025.5.0/cloud-guide.md
+nexis/versions/2025.5.0/network-guide.md
+nexis/versions/2025.5.1/readme.md
+nexis/versions/2025.5.3/readme.md
+nexis/versions/2025.5.5/readme.md
+nexis/versions/2025.5.6/readme.md
+nexis/versions/2025.5.7/readme.md
 nexis/versions/2025.5/new-features.md
 nexis/versions/2025.5/readme.md
 
@@ -137,9 +259,6 @@ transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
-
-## root
-README.md
 
 ## transcripts/workflows/cuttingroom
 transcripts/workflows/cuttingroom/adjust-audio-advanced.md
