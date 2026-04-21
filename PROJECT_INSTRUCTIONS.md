@@ -1,23 +1,29 @@
-# project-kb MANIFEST
-# Generated: 17/04/2026
-# Git-tracked .md files: 293
-# Structure: product/versions/{ver}/ for versioned content
-# Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
+# PROJECT INSTRUCTIONS – SOURCE & REASONING PRIORITY
 
-## root
+## 1. Primary Source of Truth
+
+This project uses the **Avid Knowledge Base repository** `Tamaniu/project-kb` as the **sole primary and authoritative source of truth**.
+
+### Mandatory Rules
+
+1. **Repository-first** — Always search and reason over `Tamaniu/project-kb` before using any external source.
+2. **MANIFEST authority** — The MANIFEST in Section 2 is the complete and authoritative index of available documentation. Do not assume the existence of files, products, versions, or features not listed.
+3. **No general knowledge inference** — Do not infer, extrapolate, or fill gaps using experience, marketing material, or assumptions.
+4. **Explicit absence** — If **no relevant document exists in the MANIFEST** for the queried product/version, state exactly: **"Not present in project-kb."** Do not use this phrase if a document exists but requires reading — in that case, read it and extract the answer. Do not speculate.
+5. **Active synthesis required** — When a document is confirmed present in the MANIFEST, you must read and extract content from it directly — do not rely solely on keyword search. If a document exists but is not yielding structured output via search, switch to full-document reading and synthesise the answer manually.
+
+---
+
+## 2. Repository MANIFEST (Authoritative Scope)
+
+Only the following 293 documents are in scope unless the MANIFEST is updated:
+
+```
 README.md
-
-## _meta
 _meta/compatibility-matrix.md
-
-## explainers
 explainers/ltm-releases.md
-
-## fastserve
 fastserve/ingest/versions/2022.9/new-features-2022.9-to-2024.3.md
 fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
-
-## media-composer
 media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
 media-composer/distributed-processing/versions/2024.10.0/readme.md
 media-composer/distributed-processing/versions/2024.10.1/readme.md
@@ -50,12 +56,8 @@ media-composer/versions/2025.6/new-features-standalone.md
 media-composer/versions/2025.6/new-features.md
 media-composer/versions/2025.6/readme.md
 media-composer/versions/2025/release-notes.md
-
-## mediacentral/analytics
 mediacentral/analytics/versions/2023.7/new-features.md
 mediacentral/analytics/versions/2024.10/new-features.md
-
-## mediacentral/cloud-ux
 mediacentral/cloud-ux/limitations/2024.10.md
 mediacentral/cloud-ux/limitations/2025.10.md
 mediacentral/cloud-ux/limitations/2025.6.md
@@ -131,11 +133,7 @@ mediacentral/cloud-ux/versions/2025.6/hardware-guide.md
 mediacentral/cloud-ux/versions/2025.6/new-features.md
 mediacentral/cloud-ux/versions/current/readme.md
 mediacentral/cloud-ux/versions/current/users-guide.md
-
-## mediacentral/command
 mediacentral/command/versions/2022.3/readme.md
-
-## mediacentral/newsroom-management
 mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2022.3/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2023.3/new-features.md
@@ -177,13 +175,9 @@ mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2024.10/new-features.md
-
-## mediacentral/production-management
 mediacentral/production-management/versions/2022.3/new-features.md
 mediacentral/production-management/versions/2023.7/new-features.md
 mediacentral/production-management/versions/2024.10/new-features.md
-
-## nexis
 nexis/versions/2021.12.0/readme.md
 nexis/versions/2021.12.1/readme.md
 nexis/versions/2021.3.0/readme.md
@@ -239,13 +233,9 @@ nexis/versions/2025.5.6/readme.md
 nexis/versions/2025.5.7/readme.md
 nexis/versions/2025.5/new-features.md
 nexis/versions/2025.5/readme.md
-
-## stream-io
 stream-io/versions/2025.10/readme.md
 stream-io/versions/2025.2/new-features.md
 stream-io/versions/2025.6/new-features.md
-
-## transcripts
 transcripts/mediacentral/transcripts/mediacentral-2025.10-ibc-demo.md
 transcripts/nab/2025/nab2025-avid-advantage-postproduction.md
 transcripts/nab/2025/nab2025-future-of-newsrooms.md
@@ -259,70 +249,142 @@ transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
+transcripts/workflows/cuttingroom/adjust-audio-advanced.md
+transcripts/workflows/cuttingroom/adjust-audio-basic.md
+transcripts/workflows/cuttingroom/backblaze.md
+transcripts/workflows/cuttingroom/cloud-based-video-editing-with-cuttingroom.md
+transcripts/workflows/cuttingroom/cuttingrooms-seamless-solution.md
+transcripts/workflows/cuttingroom/dealing-with-missing-media.md
+transcripts/workflows/cuttingroom/deleting-media.md
+transcripts/workflows/cuttingroom/dropbox.md
+transcripts/workflows/cuttingroom/edit-the-story-adding-videos-to-the-timeline.md
+transcripts/workflows/cuttingroom/edit-the-story-edit-in-different-aspect-ratios.md
+transcripts/workflows/cuttingroom/edit-the-story-frame-rates.md
+transcripts/workflows/cuttingroom/edit-the-story-publishing.md
+transcripts/workflows/cuttingroom/edit-the-story-selecting-the-thumbnail.md
+transcripts/workflows/cuttingroom/edit-the-story-transitions.md
+transcripts/workflows/cuttingroom/edit-the-story-what-collaborative-editing-looks-like.md
+transcripts/workflows/cuttingroom/editing-transcript-captions.md
+transcripts/workflows/cuttingroom/editing-transform-mask-color-correction.md
+transcripts/workflows/cuttingroom/google-drive.md
+transcripts/workflows/cuttingroom/graphics-adding-images.md
+transcripts/workflows/cuttingroom/graphics-adding-your-own-font.md
+transcripts/workflows/cuttingroom/graphics-creating-your-first-template.md
+transcripts/workflows/cuttingroom/graphics-keyframes.md
+transcripts/workflows/cuttingroom/graphics-overview.md
+transcripts/workflows/cuttingroom/graphics-pin-to-graphic.md
+transcripts/workflows/cuttingroom/graphics-saving-and-deleting.md
+transcripts/workflows/cuttingroom/graphics-scale-function.md
+transcripts/workflows/cuttingroom/graphics-sharing-a-graphic-with-other-cuttingrooms.md
+transcripts/workflows/cuttingroom/guided-aspect-awareness.md
+transcripts/workflows/cuttingroom/integration-iconik.md
+transcripts/workflows/cuttingroom/integration-zype.md
+transcripts/workflows/cuttingroom/integrations-brightcove.md
+transcripts/workflows/cuttingroom/integrations-frameio.md
+transcripts/workflows/cuttingroom/integrations-mediebank.md
+transcripts/workflows/cuttingroom/integrations-storyteller.md
+transcripts/workflows/cuttingroom/integrations-zype.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-audio.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-managing-clips.md
+transcripts/workflows/cuttingroom/keyboard-shortcuts-navigating-the-timeline.md
+transcripts/workflows/cuttingroom/live-rtmp.md
+transcripts/workflows/cuttingroom/live-srt.md
+transcripts/workflows/cuttingroom/live-zixi.md
+transcripts/workflows/cuttingroom/mark-a-segment-in-the-timeline.md
+transcripts/workflows/cuttingroom/previewing-uploaded-content.md
+transcripts/workflows/cuttingroom/quick-intro.md
+transcripts/workflows/cuttingroom/reporter-app-camera-anti-shake-zoom-audio-teleprompter.md
+transcripts/workflows/cuttingroom/reporter-app-deleting-the-app.md
+transcripts/workflows/cuttingroom/reporter-app-sending-videos-to-cuttingroom.md
+transcripts/workflows/cuttingroom/reporter-app-subclipping-transcript.md
+transcripts/workflows/cuttingroom/reporter-app-using-different-microphones.md
+transcripts/workflows/cuttingroom/reporter-settings.md
+transcripts/workflows/cuttingroom/searching-for-media.md
+transcripts/workflows/cuttingroom/settings-distribution.md
+transcripts/workflows/cuttingroom/settings-output.md
+transcripts/workflows/cuttingroom/settings-reporter.md
+transcripts/workflows/cuttingroom/settings-user-rolles.md
+transcripts/workflows/cuttingroom/storage-s3-compatible.md
+transcripts/workflows/cuttingroom/storj.md
+transcripts/workflows/cuttingroom/the-concept-of-stories.md
+transcripts/workflows/cuttingroom/uploading-content-from-cuttingroom-reporter-iphone-app.md
+transcripts/workflows/cuttingroom/uploading-content-from-integrations.md
+transcripts/workflows/cuttingroom/uploading-content-from-laptop.md
+transcripts/workflows/cuttingroom/user-roles.md
+transcripts/workflows/cuttingroom/wasabi.md
+```
 
-## acc
-# Source: YouTube (public) — CuttingRoom workflow transcripts used as ACC workaround pre-GA
-# Raw VTTs: acc/cuttingroom-transcripts/ (63 files, not tracked as .md)
-acc/transcripts/workflows/cuttingroom/adjust-audio-advanced.md
-acc/transcripts/workflows/cuttingroom/adjust-audio-basic.md
-acc/transcripts/workflows/cuttingroom/backblaze.md
-acc/transcripts/workflows/cuttingroom/cloud-based-video-editing-with-cuttingroom.md
-acc/transcripts/workflows/cuttingroom/cuttingrooms-seamless-solution.md
-acc/transcripts/workflows/cuttingroom/dealing-with-missing-media.md
-acc/transcripts/workflows/cuttingroom/deleting-media.md
-acc/transcripts/workflows/cuttingroom/dropbox.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-adding-videos-to-the-timeline.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-edit-in-different-aspect-ratios.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-frame-rates.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-publishing.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-selecting-the-thumbnail.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-transitions.md
-acc/transcripts/workflows/cuttingroom/edit-the-story-what-collaborative-editing-looks-like.md
-acc/transcripts/workflows/cuttingroom/editing-transcript-captions.md
-acc/transcripts/workflows/cuttingroom/editing-transform-mask-color-correction.md
-acc/transcripts/workflows/cuttingroom/google-drive.md
-acc/transcripts/workflows/cuttingroom/graphics-adding-images.md
-acc/transcripts/workflows/cuttingroom/graphics-adding-your-own-font.md
-acc/transcripts/workflows/cuttingroom/graphics-creating-your-first-template.md
-acc/transcripts/workflows/cuttingroom/graphics-keyframes.md
-acc/transcripts/workflows/cuttingroom/graphics-overview.md
-acc/transcripts/workflows/cuttingroom/graphics-pin-to-graphic.md
-acc/transcripts/workflows/cuttingroom/graphics-saving-and-deleting.md
-acc/transcripts/workflows/cuttingroom/graphics-scale-function.md
-acc/transcripts/workflows/cuttingroom/graphics-sharing-a-graphic-with-other-cuttingrooms.md
-acc/transcripts/workflows/cuttingroom/guided-aspect-awareness.md
-acc/transcripts/workflows/cuttingroom/integration-iconik.md
-acc/transcripts/workflows/cuttingroom/integration-zype.md
-acc/transcripts/workflows/cuttingroom/integrations-brightcove.md
-acc/transcripts/workflows/cuttingroom/integrations-frameio.md
-acc/transcripts/workflows/cuttingroom/integrations-mediebank.md
-acc/transcripts/workflows/cuttingroom/integrations-storyteller.md
-acc/transcripts/workflows/cuttingroom/integrations-zype.md
-acc/transcripts/workflows/cuttingroom/keyboard-shortcuts-audio.md
-acc/transcripts/workflows/cuttingroom/keyboard-shortcuts-managing-clips.md
-acc/transcripts/workflows/cuttingroom/keyboard-shortcuts-navigating-the-timeline.md
-acc/transcripts/workflows/cuttingroom/live-rtmp.md
-acc/transcripts/workflows/cuttingroom/live-srt.md
-acc/transcripts/workflows/cuttingroom/live-zixi.md
-acc/transcripts/workflows/cuttingroom/mark-a-segment-in-the-timeline.md
-acc/transcripts/workflows/cuttingroom/previewing-uploaded-content.md
-acc/transcripts/workflows/cuttingroom/quick-intro.md
-acc/transcripts/workflows/cuttingroom/reporter-app-camera-anti-shake-zoom-audio-teleprompter.md
-acc/transcripts/workflows/cuttingroom/reporter-app-deleting-the-app.md
-acc/transcripts/workflows/cuttingroom/reporter-app-sending-videos-to-cuttingroom.md
-acc/transcripts/workflows/cuttingroom/reporter-app-subclipping-transcript.md
-acc/transcripts/workflows/cuttingroom/reporter-app-using-different-microphones.md
-acc/transcripts/workflows/cuttingroom/reporter-settings.md
-acc/transcripts/workflows/cuttingroom/searching-for-media.md
-acc/transcripts/workflows/cuttingroom/settings-distribution.md
-acc/transcripts/workflows/cuttingroom/settings-output.md
-acc/transcripts/workflows/cuttingroom/settings-reporter.md
-acc/transcripts/workflows/cuttingroom/settings-user-rolles.md
-acc/transcripts/workflows/cuttingroom/storage-s3-compatible.md
-acc/transcripts/workflows/cuttingroom/storj.md
-acc/transcripts/workflows/cuttingroom/the-concept-of-stories.md
-acc/transcripts/workflows/cuttingroom/uploading-content-from-cuttingroom-reporter-iphone-app.md
-acc/transcripts/workflows/cuttingroom/uploading-content-from-integrations.md
-acc/transcripts/workflows/cuttingroom/uploading-content-from-laptop.md
-acc/transcripts/workflows/cuttingroom/user-roles.md
-acc/transcripts/workflows/cuttingroom/wasabi.md
+---
+
+## 3. Secondary Source Priority (Avid-Controlled Only)
+
+If — and only if — required information is **not present in project-kb** (i.e. no relevant document exists in the MANIFEST after a full read of all relevant entries), consult official Avid-controlled sources:
+
+- https://www.avid.com/
+- https://kb.avid.com/
+- https://www.avid.com/products
+- https://www.avid.com/resource-center
+- https://www.avid.com/products/mediacentral/learn-and-support/documents
+- https://resources.avid.com/SupportFiles/attach/Avid_Endpoint-Security_Guidelines.pdf
+- https://www.youtube.com/@theavidassistant
+- https://www.freddylinks.com/
+- https://alwaysediting.com/avid-mc-versions
+
+**Constraints:** These sources never override repository facts. All use must be explicitly cited, version-bounded, and consistent with project-kb.
+
+---
+
+## 4. Versioning & Release Logic
+
+Avid versions follow YEAR.MONTH.PATCH (e.g. 2025.10.2). Release states: Current, LTM (Long-Term Maintenance — bug fixes only, ~18–24 months), End of Development (EoD), End of Support (EoS), Previously Supported.
+
+### Response format when documents are present
+
+1. State which documents you are drawing from (file path + version).
+2. Extract and present content directly — do not paraphrase as "active development" unless no feature detail exists after a full read.
+3. Clearly separate confirmed features (from document) from inferred context (ecosystem knowledge) — label each explicitly.
+4. Only invoke secondary sources (Section 3) after a full read of all relevant MANIFEST entries has returned genuinely empty results.
+
+---
+
+## 5. Version-Bounded Reasoning (Non-Negotiable)
+
+When a version or range is specified, you may use **only** the explicitly stated version(s), or earlier versions within the same major release line.
+
+**Absolute prohibitions:** No forward inference. No roadmap or "likely" behaviour. No marketing/blog assumptions. No cross-product feature mixing.
+
+**Patch rule:** If 2023.12.x is specified, only examine 2023.12 patch material. Never reference later releases.
+
+---
+
+## 6. Workflow Integrity Rules
+
+When describing newsroom, production, or post-production workflows: align all components to the highest version specified; do not introduce steps dependent on later releases; explicitly state when a capability does not exist; maintain strict subsystem separation (Media Composer, MediaCentral/Cloud UX, Production Management, Newsroom Management, NEXIS, Stream IO, FastServe, Pro Tools) unless explicitly instructed otherwise.
+
+---
+
+## 7. Citation Rules
+
+Cite only from the permitted version scope using: official ReadMe files, User Guides, Compatibility Guides, Troubleshooting docs, Avid KB articles, official Avid product pages. Never cite documentation newer than the allowed versions.
+
+---
+
+## 8. Alliance Partners (Conditional)
+
+When explicitly prompted about integrations, consult:
+- https://www.avid.com/alliance-partner-program/products
+- https://flawlessai.com/
+- https://www.quickture.com/
+- https://www.nltek.com/
+
+Strategic partners:
+- CuttingRoom – https://docs.qibb.com/platform/cuttingroom
+- Wolftech – https://docs.qibb.com/platform/wolftech
+
+These are secondary to Avid sources.
+
+---
+
+## 9. Tertiary Sources (Context Only)
+
+Industry background only — not authoritative: digitalmediaworld.tv, nab.org/news, broadcastnow.co.uk, advanced-television.com, productionhub.com, tvnewscheck.com, televisual.com, ibc.org
