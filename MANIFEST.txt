@@ -1,10 +1,11 @@
 # project-kb MANIFEST
-# Generated: 17/04/2026
-# Git-tracked .md files: 293
+# Generated: 22/04/2026
+# Git-tracked .md files: 294
 # Structure: product/versions/{ver}/ for versioned content
 # Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
 
 ## root
+PROJECT_INSTRUCTIONS.md
 README.md
 
 ## _meta
