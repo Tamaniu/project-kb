@@ -9,13 +9,14 @@ confidentiality: public
 date-added: 16/04/2026
 date-updated: 24/04/2026
 status: current
-feature-tags: [production-management, mcpm, new-features, media-indexer, search, dynamic-range, apple-silicon]
+feature-tags: [production-management, mcpm, new-features, media-indexer, search, dynamic-range, apple-silicon, search-connector, transfer-engine, transcode, delivery-profile, released-features]
 ---
 
 # New Features — MediaCentral | Production Management
 
 > **Source note:** Content for v2024.10 and patch releases is sourced from the respective ReadMe PDFs:
-> `MCPM_2024_10_0_ReadMe.pdf`, `MCPM_2024_10_1_ReadMe.pdf`, `MCPM_2024_10_2_ReadMe.pdf`.
+> `MCPM_2024_10_0_ReadMe.pdf`, `MCPM_2024_10_1_ReadMe.pdf`, `MCPM_2024_10_2_ReadMe.pdf`,
+> `MCPM_2024_10_3_ReadMe.pdf`, `MCPM_2024_10_4_ReadMe.pdf`, `MCPM_2024_10_5_ReadMe.pdf`.
 > The full What's New guide is not currently present in project-kb.
 
 ---
@@ -109,3 +110,107 @@ A new security toggle — **"Enable Network Sharing"** — has been added for th
 | IPI-3829 | EVS MIXDOWN produces artefacts (requires MC Transcode v2024.10.2 + Media Composer v2023.12.6 or v2024.12.2 or later) |
 | IPI-3875 | Media Indexer high memory usage causes Media Composer to go offline |
 | IPI-3880 | Media Indexer high CPU usage causes MI process crashes |
+
+---
+
+## New for Production Management v2024.10.3
+
+*Source: MCPM_2024_10_3_ReadMe.pdf — released 26/06/2025, revised 20/08/2025*
+
+### Additional Properties in MediaCentral Search Connector
+
+New properties have been added to the MediaCentral Search Connector to support two new workflows:
+
+- **Wolftech News** integration with MediaCentral | Cloud UX v2025.6
+- **Avid Ada Transcribe STT** (Speech-to-Text) workflows
+
+**Action required on upgrade:** After upgrading to v2024.10.3, the administrator must open the Production Management Admin Client and launch the **"MediaCentral Search Connector"** configuration window at least once. This registers the new properties in the system. The window may be closed immediately after opening — no further configuration changes are required unless the new workflows are being adopted.
+
+### Bug Fixes — v2024.10.3
+
+All fixes are in the Transfer Engine component.
+
+| Issue ID | Description |
+|---|---|
+| IPI-3854 | MXF transfer: `transfer_characteristics` metadata incorrectly set to zero; a new field `transfer_characteristics_Original` was being created incorrectly |
+| IPI-3858 | Incorrect metadata written for DNxHD media with more than 40 audio tracks |
+| IPI-3859 | Incorrect `DeltaPos` metadata written in the index table for DNxHD media with multiple audio tracks |
+
+---
+
+## New for Production Management v2024.10.4
+
+*Source: MCPM_2024_10_4_ReadMe.pdf — released 16/10/2025, revised 24/10/2025*
+
+> **Note:** MC Transcode fixes originally planned for v2024.10.4 were removed/withdrawn before release. Those fixes were subsequently released in v2024.10.5.
+
+### Transfer Engine Config — DoNotIncludeMarkers
+
+A new **DoNotIncludeMarkers** checkbox has been added to the Transfer Engine configuration:
+
+- Location: Transfer Engine Config > Playback > Edit/Add device > **Create Clip XML**
+- Default: **disabled** (markers are included by default; existing behaviour is preserved)
+- When enabled, markers are excluded from the XML created during playback device clip creation
+
+### Delivery Profile — ServiceTimeout Configuration
+
+A configurable timeout parameter for the Delivery Profile service has been introduced:
+
+- Configuration file: `C:\ProgramData\Avid\DeliveryService\DMSIDService.ini`
+- Parameter: `@6%?DeliveryTimeoutSecs=300` (default value: **300 seconds**)
+- Adjust this value if delivery jobs are timing out before completion in environments with slow or high-latency destinations
+
+### Interplay Admin — HD1080P_50 Video Format
+
+The **HD1080P_50** video format has been added to the Application Database Settings in Interplay Administrator, enabling configuration and use of this format in production workflows.
+
+### Bug Fixes — v2024.10.4
+
+| Issue ID | Description |
+|---|---|
+| IPI-3905 | XAVC Intra 100 1080p29.97 missing from the Transcode Profile Target Video Quality dropdown |
+| IPI-3908 | Send to Playback (STP): 16-bit PCM audio encoded to corrupted MPEG audio in MXF OP1A output |
+| IPI-3860 | STP Encode fails at 49% with Telestream media — see workaround below |
+
+**Workaround for IPI-3860 (Telestream STP encode failure):**
+
+Add the following toggle to `C:\ProgramData\Avid\Support\ReleasedFeatures.ftf`:
+
+```
+XDCAMForceReencode: true
+```
+
+> ⚠️ **Warning:** Enabling `XDCAMForceReencode` forces re-encoding of XDCAM media rather than wrapping it, which may significantly increase encoding time for affected workflows.
+
+### Known Limitation — v2024.10.4
+
+| Issue ID | Description |
+|---|---|
+| IPI-3916 | Restore fails when a Fully Qualified Domain Name (FQDN) is used in the `Destination_Server` field |
+
+---
+
+## New for Production Management v2024.10.5
+
+*Source: MCPM_2024_10_5_ReadMe.pdf — released 17/11/2025*
+
+> **Note:** This patch contains no new features. It delivers the MediaCentral Transcode fixes that were removed from v2024.10.4 prior to release.
+
+### Bug Fixes — v2024.10.5
+
+All fixes are in the MediaCentral Transcode component.
+
+| Issue ID | Description |
+|---|---|
+| IPI-3694 | Data track becomes unreadable after a Dual Mixdown transcode operation |
+| IPI-3832 | RLE alpha channel transcode fails with error `RGBAReader_UNKNOWN_COMPRESSION_TYPE` |
+| IPI-3888 | EVS Neomedia MIXDOWN produces `IndexEntryCount` errors when the sequence contains unrendered quick transitions |
+| IPI-3927 | Colorfront MIXDOWN fails — see workaround below |
+
+**Workaround for IPI-3927 (Colorfront MIXDOWN failure):**
+
+Add the following toggle to `C:\ProgramData\Avid\Support\ReleasedFeatures.ftf`:
+
+```
+TCWithOffsetForTapeMobsRelinkFix: true
+```

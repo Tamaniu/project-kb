@@ -1,6 +1,6 @@
 # project-kb MANIFEST
 # Generated: 24/04/2026
-# Git-tracked .md files: 299
+# Git-tracked .md files: 309
 # Structure: product/versions/{ver}/ for versioned content
 # Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
 
@@ -18,6 +18,10 @@ _meta/compatibility-matrix-distributed-processing.md  # MC|DP worker versions; l
 # Historical/frozen matrices
 _meta/compatibility-matrix-cloud-remote.md       # MC|Cloud Remote — EoL (EoS 31/07/2023)
 _meta/compatibility-matrix-interplay-legacy.md   # Interplay Production, MC Platform Services, Avid ISIS — all EoS
+# Virtualisation and failover infrastructure guides — added 24/04/2026
+_meta/virtualisation-vmware.md       # VMware vSphere best practices — LEGACY (Avid no longer qualifies specific vendors from June 2025)
+_meta/virtualisation-nutanix.md      # Nutanix AHV best practices — min AOS 5.10
+_meta/failover-guide.md              # PM Engine failover cluster (HPE MSA 2060) — v2022.3+; last updated 30/05/2024
 
 ## explainers
 explainers/ltm-releases.md
@@ -189,12 +193,22 @@ mediacentral/newsroom-management/wsapi/versions/2024.10/new-features.md
 
 ## mediacentral/production-management
 mediacentral/production-management/versions/2022.3/new-features.md
+# MCPM v2023.7 LTM guides — Sources: MCPM_2023_7_0_*.pdf — added 24/04/2026
 mediacentral/production-management/versions/2023.7/new-features.md
-# MCPM v2024.10 LTM — Sources: MCPM_2024_10_0/1/2_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
-# Covers patch releases 2024.10, 2024.10.1, 2024.10.2 within same version folder
+mediacentral/production-management/versions/2023.7/hardware-guide.md
+mediacentral/production-management/versions/2023.7/best-practices.md
+mediacentral/production-management/versions/2023.7/admin-guide.md
+mediacentral/production-management/versions/2023.7/install-guide.md
+mediacentral/production-management/versions/2023.7/users-guide.md
+# MCPM v2024.10 LTM — Sources: MCPM_2024_10_0/1/2/3/4/5_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
+# Covers patch releases 2024.10 through 2024.10.5 within same version folder
 mediacentral/production-management/versions/2024.10/new-features.md
 mediacentral/production-management/versions/2024.10/readme.md
 mediacentral/production-management/versions/2024.10/admin-guide.md
+# MCPM_2024_10_0_Production_Services_Setup_Guide.pdf — 230-page guide, structured reference
+mediacentral/production-management/versions/2024.10/pms-guide.md
+# MCPM_2024_10_0_Transfer_Guide.pdf — 120-page guide, structured reference
+mediacentral/production-management/versions/2024.10/transfer-guide.md
 # APM v2025.10 — Source: APM_2025_10_0_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
 # Note: "Avid Production Management" is the Kubernetes-based successor to MediaCentral | Production Management
 mediacentral/production-management/versions/2025.10/new-features.md
