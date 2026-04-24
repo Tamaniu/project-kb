@@ -253,6 +253,31 @@ transcripts/nab/2025/nab2025-future-of-newsrooms.md
 transcripts/nab/2025/nab2025-stream-io.md
 transcripts/nab/2025/nab2025-wolftech-integrations.md
 transcripts/nab/2025/wolftech-integrations.md
+# NAB 2026 — 23 videos from https://www.youtube.com/playlist?list=PLhCR_8aS9jOPhbI9w2WWSG75uNCXC6IwS
+# Source: Avid official YouTube channel (public) — added 24/04/2026
+transcripts/nab/2026/nab2026-anshul-kapoor-discusses-avid-google-clouds-new-partnership.md
+transcripts/nab/2026/nab2026-avid-content-core-provides-a-fast-collaborative-web-video-editor.md
+transcripts/nab/2026/nab2026-avid-media-composer-features-a-new-multimodal-extension-powered-by-googles-gemini.md
+transcripts/nab/2026/nab2026-combine-on-prem-avid-mediacentral-with-content-core-in-the-cloud.md
+transcripts/nab/2026/nab2026-coming-very-soon-to-pro-tools-speech-to-text-enhancements.md
+transcripts/nab/2026/nab2026-coming-very-soon-to-pro-tools-track-pinning.md
+transcripts/nab/2026/nab2026-editor-kevin-tent-showed-ai-performance-preservation-and-visual-dubbing-with-flawless.md
+transcripts/nab/2026/nab2026-find-your-story-and-get-to-a-rough-cut-fast-with-quickture.md
+transcripts/nab/2026/nab2026-jon-roberts-talks-about-reinventing-newsroom-workflows-with-itv-news-itn-and-avid-at-nab-2026.md
+transcripts/nab/2026/nab2026-media-composer-tech-preview-dynamic-media-relinking.md
+transcripts/nab/2026/nab2026-media-composer-tech-preview-media-operations-tool.md
+transcripts/nab/2026/nab2026-modernizing-global-production-scaling-avid-workflows-on-aws.md
+transcripts/nab/2026/nab2026-nathan-schauf-shares-stories-from-the-kpop-demon-hunters-edit-room-at-nab-2026.md
+transcripts/nab/2026/nab2026-new-advanced-web-editor-powered-by-cuttingroom-integrated-directly-in-wolftech-news.md
+transcripts/nab/2026/nab2026-new-in-mediacentral-cloud-ux-ai-driven-transcript-translation-and-summary.md
+transcripts/nab/2026/nab2026-pro-tools-tech-preview-fpost-integration.md
+transcripts/nab/2026/nab2026-pro-tools-tech-preview-mpeg-h-support-and-immersive-panner.md
+transcripts/nab/2026/nab2026-project-hail-mary-sound-designer-erik-aadahl-crafted-rockys-unique-sound.md
+transcripts/nab/2026/nab2026-seen-at-nab-2026-wolftechs-upcoming-inews-integration.md
+transcripts/nab/2026/nab2026-ted-editor-tom-costantino-and-assistant-editor-justin-ulrich-at-nab-2026.md
+transcripts/nab/2026/nab2026-were-joined-on-the-avid-nab-main-stage-by-project-hail-mary-editor-joel-negron-ace.md
+transcripts/nab/2026/nab2026-wolftechs-next-gen-newsroom-scripting-and-rundown-system.md
+transcripts/nab/2026/nab2026-wolftechs-reality-defender-offers-forensic-analysis-of-ai-manipulation.md
 transcripts/product-webinars/mediacentral/mediacentral-2024-2025-whats-new.md
 transcripts/product-webinars/stream-io/stream-io-2024.10-webinar.md
 transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new-2.md
