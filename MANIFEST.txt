@@ -183,6 +183,11 @@ mediacentral/newsroom-management/wsapi/versions/2024.10/new-features.md
 mediacentral/production-management/versions/2022.3/new-features.md
 mediacentral/production-management/versions/2023.7/new-features.md
 mediacentral/production-management/versions/2024.10/new-features.md
+# APM v2025.10 — Source: APM_2025_10_0_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
+# Note: "Avid Production Management" is the Kubernetes-based successor to MediaCentral | Production Management
+mediacentral/production-management/versions/2025.10/new-features.md
+mediacentral/production-management/versions/2025.10/readme.md
+mediacentral/production-management/versions/2025.10/admin-guide.md
 
 ## nexis
 nexis/versions/2021.12.0/readme.md
