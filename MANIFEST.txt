@@ -69,6 +69,10 @@ media-composer/versions/2025.12/readme.md
 media-composer/versions/2025.6/readme.md
 media-composer/versions/2025/release-notes.md
 
+## mediacentral/resource-center
+# Story-centric approach — Wolftech News + MediaCentral + Content Core newsroom transformation — published 25/03/2026 — added 27/04/2026
+mediacentral/resource-center/story-centric-approach.md
+
 ## mediacentral/analytics
 mediacentral/analytics/versions/2023.7/new-features.md
 mediacentral/analytics/versions/2024.10/new-features.md
@@ -170,6 +174,7 @@ mediacentral/newsroom-management/versions/2022.3/new-features.md
 mediacentral/newsroom-management/versions/2023.3/new-features.md
 mediacentral/newsroom-management/versions/2023.7/new-features.md
 mediacentral/newsroom-management/versions/2024.10.6/readme.md
+mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
 mediacentral/newsroom-management/versions/2024.10/new-features.md
 mediacentral/newsroom-management/wolftech/modules/administration/api-automation.md
 mediacentral/newsroom-management/wolftech/modules/administration/user-management.md
@@ -225,6 +230,10 @@ mediacentral/production-management/versions/2024.10/transfer-guide.md
 mediacentral/production-management/versions/2025.10/new-features.md
 mediacentral/production-management/versions/2025.10/readme.md
 mediacentral/production-management/versions/2025.10/admin-guide.md
+
+## pro-tools
+# Pro Tools PDF doc index (2024.6–2025.12.1 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026
+pro-tools/doc-index.md
 
 ## nexis
 nexis/versions/2021.12.0/readme.md
@@ -284,6 +293,8 @@ nexis/versions/2025.5/new-features.md
 nexis/versions/2025.5/readme.md
 
 ## stream-io
+# Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026
+stream-io/doc-index.md
 stream-io/versions/2025.10/readme.md
 stream-io/versions/2025.2/new-features.md
 stream-io/versions/2025.6/new-features.md
@@ -327,6 +338,18 @@ transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
+
+## acc/press-releases
+# Avid + AWS NAB Show 2026 — Content Core debut, NEXIS on AWS, Amazon MGM Studios — 07/04/2026 — added 27/04/2026
+acc/press-releases/2026-04-07-avid-aws-nab2026.md
+# Avid + Google Cloud partnership — Content Core GA, Gemini/Vertex AI in MC and ACC — 16/04/2026 — added 27/04/2026
+acc/press-releases/2026-04-16-avid-google-cloud-partnership.md
+
+## acc/resource-center
+# Avid Content Core resource page (Guillaume Aubuchon / industry context) — source: avid.com/resource-center/avid-content-core — published 17/11/2025 — added 27/04/2026
+acc/resource-center/avid-content-core.md
+# Avid Content Core resource page (Tom Sharma / CTO / multi-cloud / MovieLabs) — source: avid.com/resource-center — published 17/11/2025 — added 27/04/2026
+acc/resource-center/avid-content-core-future-of-media-production.md
 
 ## acc/cuttingroom-transcripts
 # Source: YouTube (public) — CuttingRoom workflow transcripts used as ACC workaround pre-GA
