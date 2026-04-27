@@ -33,6 +33,20 @@ fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
 ## media-composer
 # MC 2025 PDF doc index — source: kb.avid.com MC 2025 Documentation page — added 27/04/2026
 media-composer/doc-index.md
+# MC 2024 PDF doc index — source: kb.avid.com MC 2024 Documentation page — added 27/04/2026
+media-composer/doc-index-2024.md
+# MC 2023 PDF doc index — source: kb.avid.com MC 2023 Documentation page — added 27/04/2026
+media-composer/doc-index-2023.md
+# MC 2022 PDF doc index — source: kb.avid.com MC 2022 Documentation page — added 27/04/2026
+media-composer/doc-index-2022.md
+# MC 2021 PDF doc index — source: kb.avid.com MC 2021 Documentation page — added 27/04/2026
+media-composer/doc-index-2021.md
+# MC 2020 PDF doc index — source: kb.avid.com MC 2020 Documentation page — added 27/04/2026
+media-composer/doc-index-2020.md
+# MC 2019 PDF doc index — source: kb.avid.com MC 2019 Documentation page — added 27/04/2026
+media-composer/doc-index-2019.md
+# MC 2018 PDF doc index — source: kb.avid.com MC 2018 Documentation page — added 27/04/2026
+media-composer/doc-index-2018.md
 media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
 media-composer/distributed-processing/versions/2024.10.0/readme.md
 media-composer/distributed-processing/versions/2024.10.1/readme.md
