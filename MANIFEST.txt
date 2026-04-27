@@ -1,8 +1,8 @@
 # project-kb MANIFEST
 # Generated: 27/04/2026
-# Git-tracked .md files: 321
+# Git-tracked .md files: 295
 # Structure: product/versions/{ver}/ for versioned content
-# Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
+# NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
 
 ## root
 PROJECT_INSTRUCTIONS.md
@@ -190,32 +190,7 @@ mediacentral/newsroom-management/versions/2023.7/new-features.md
 mediacentral/newsroom-management/versions/2024.10.6/readme.md
 mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
 mediacentral/newsroom-management/versions/2024.10/new-features.md
-mediacentral/newsroom-management/wolftech/modules/administration/api-automation.md
-mediacentral/newsroom-management/wolftech/modules/administration/user-management.md
-mediacentral/newsroom-management/wolftech/modules/communication-collaboration/chat-notifications.md
-mediacentral/newsroom-management/wolftech/modules/long-form/long-form-overview.md
-mediacentral/newsroom-management/wolftech/modules/plan/content-categorisation.md
-mediacentral/newsroom-management/wolftech/modules/plan/events-calendars.md
-mediacentral/newsroom-management/wolftech/modules/plan/greenlight.md
-mediacentral/newsroom-management/wolftech/modules/plan/plan-view.md
-mediacentral/newsroom-management/wolftech/modules/plan/read-in-notes.md
-mediacentral/newsroom-management/wolftech/modules/production/ai-assistants.md
-mediacentral/newsroom-management/wolftech/modules/production/content-guidance.md
-mediacentral/newsroom-management/wolftech/modules/production/editing.md
-mediacentral/newsroom-management/wolftech/modules/production/editorial-background-info.md
-mediacentral/newsroom-management/wolftech/modules/production/fact-checking.md
-mediacentral/newsroom-management/wolftech/modules/production/media-management-integrations.md
-mediacentral/newsroom-management/wolftech/modules/publish/publishing.md
-mediacentral/newsroom-management/wolftech/modules/research-feeds/feeds.md
-mediacentral/newsroom-management/wolftech/modules/resourcing/finance-cost-tracking.md
-mediacentral/newsroom-management/wolftech/modules/resourcing/location-map-risk.md
-mediacentral/newsroom-management/wolftech/modules/resourcing/resourcing-booking.md
-mediacentral/newsroom-management/wolftech/modules/ux-navigation/accessibility.md
-mediacentral/newsroom-management/wolftech/modules/ux-navigation/first-time-setup.md
-mediacentral/newsroom-management/wolftech/modules/ux-navigation/language-management.md
-mediacentral/newsroom-management/wolftech/modules/ux-navigation/search.md
-mediacentral/newsroom-management/wolftech/modules/ux-navigation/wall-monitor.md
-mediacentral/newsroom-management/wolftech/modules/wolftech-go/wolftech-go.md
+# Wolftech module docs (26 files) moved to private-kb/wolftech/ — pending external-sharing approval (27/04/2026)
 mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
