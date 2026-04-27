@@ -146,9 +146,15 @@ mediacentral/cloud-ux/versions/current/readme.md
 mediacentral/cloud-ux/versions/current/users-guide.md
 
 ## mediacentral/command
+# MC Command PDF doc index (v2017.2–v2023.7.10) — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/command/doc-index.md
 mediacentral/command/versions/2022.3/readme.md
 
 ## mediacentral/newsroom-management
+# MCNM PDF doc index (v2017.2–v2024.10.7) incl. WSAPI & Data Receiver supplementals — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/newsroom-management/doc-index.md
+# MOS Gateway PDF doc index (v2021.11–v2024.10.5) — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/newsroom-management/mos-gateway/doc-index.md
 mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2022.3/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2023.3/new-features.md
