@@ -31,6 +31,8 @@ fastserve/ingest/versions/2022.9/new-features-2022.9-to-2024.3.md
 fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
 
 ## media-composer
+# MC 2025 PDF doc index — source: kb.avid.com MC 2025 Documentation page — added 27/04/2026
+media-composer/doc-index.md
 media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
 media-composer/distributed-processing/versions/2024.10.0/readme.md
 media-composer/distributed-processing/versions/2024.10.1/readme.md
@@ -41,26 +43,15 @@ media-composer/distributed-processing/versions/2025.12.0/admin-guide.md
 media-composer/distributed-processing/versions/2025.12.0/readme.md
 media-composer/distributed-processing/versions/2025.12.1/readme.md
 media-composer/guides/2022/vdi-guide.md
-media-composer/guides/2024/admin-guide.md
+# guides/2024/admin-guide.md — DELETED 27/04/2026 (empty shell, 12 lines)
 media-composer/guides/2025.x/vdi-guide.md
-media-composer/guides/2025/editing-guide.md
-media-composer/guides/2025/fx-guide.md
-media-composer/guides/2025/install-guide.md
-media-composer/versions/2021.12/new-features.md
-media-composer/versions/2022.10/new-features.md
-media-composer/versions/2022.12/new-features.md
-media-composer/versions/2022.4/new-features.md
-media-composer/versions/2022.7/new-features.md
-media-composer/versions/2023.12/new-features.md
-media-composer/versions/2023.3/new-features.md
-media-composer/versions/2023.8/new-features.md
-media-composer/versions/2024.2/new-features.md
-media-composer/versions/2024.6/new-features.md
+# guides/2025/editing-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# guides/2025/fx-guide.md     — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# guides/2025/install-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# versions/2021.12–2024.6 new-features.md (10 files) — DELETED 27/04/2026 (empty shells, headers only)
+# versions/2025.6 new-features*.md (3 files)          — DELETED 27/04/2026 (empty/near-empty shells)
 media-composer/versions/2025.12/new-features.md
 media-composer/versions/2025.12/readme.md
-media-composer/versions/2025.6/new-features-detail.md
-media-composer/versions/2025.6/new-features-standalone.md
-media-composer/versions/2025.6/new-features.md
 media-composer/versions/2025.6/readme.md
 media-composer/versions/2025/release-notes.md
 
