@@ -1,6 +1,6 @@
 # project-kb MANIFEST
 # Generated: 27/04/2026
-# Git-tracked .md files: 319
+# Git-tracked .md files: 320
 # Structure: product/versions/{ver}/ for versioned content
 # Wolftech: mediacentral/newsroom-management/wolftech/modules/{module}/{topic}.md
 
@@ -174,6 +174,7 @@ mediacentral/newsroom-management/mos-gateway/versions/2023.7/readme.md  | source
 mediacentral/newsroom-management/mos-gateway/versions/2024.10/readme.md | source: MCMOSgwy_2024.10_ReadMe.pdf | standalone 2024.10; IN-180073/IN-180152; source anomaly: template placeholder text in Fixed section; NM dep: 2022.3+; OS: WS2022/2019
 mediacentral/newsroom-management/mos-gateway/versions/2024.10.4/readme.md | source: MCMOSgwy_2024.10.4_ReadMe.pdf | cumulative 2024.10+2024.10.4; IN-180596 mosconfig.xml encoding fix; NM dep: 2022.3+; OS: WS2022/2019
 # MOS Gateway SCG conversions — added 27/04/2026
+mediacentral/newsroom-management/mos-gateway/versions/2023.3/scg.md     | source: MCMOSgwy_v2023.3_SCG.pdf | 103pp full SCG; OS: WS2016/WS2019; NM dep: v3.5+; hardware reqs table (CPU/RAM/HDD/NIC); 16 supported MOS devices; vault credentials INTRODUCED this version (p91 explicit statement); <ReplicationPassword> removed from <ncs> template; indirect activation (web portal .bin); 9-step NM config; 2 source anomalies flagged (mislabelled footer: "Installation and Operations Guide" vs correct SCG title; mosconfig.xml path inconsistency in Ch5 p76)
 mediacentral/newsroom-management/mos-gateway/versions/2023.7/scg.md     | source: MCMOSgwy_2023.7_SCG.pdf | 67pp full SCG; OS: WS2019/WS2022; NM dep: 2021.3/2021.11; VC++ 2015-2019 prereq; vault credentials via MOS Admin Credentials pane (v2023.3+); no Restart Services Procedure; 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
 mediacentral/newsroom-management/mos-gateway/versions/2024.10.5/scg.md   | source: MOSgwy_2024.10.5_SCG.pdf | 67pp full SCG; OS: WS2025/WS2022; NM dep: 2022.3+; VC++ 2015-2019 prereq; vault credentials (v2023.3+); Restart Services Procedure (Nov 2025); 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
 mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
