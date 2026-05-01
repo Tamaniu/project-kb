@@ -7,7 +7,7 @@ source: avid-official
 source-url: https://kb.avid.com/pkb/articles/en_US/user_guide/MediaCentral-Newsroom-Management
 confidentiality: public
 date-added: 27/04/2026
-last-updated: 27/04/2026
+last-updated: 28/04/2026
 status: current
 feature-tags: [inews, newsroom-management, wsapi, data-receiver, fast-text-search, azure]
 ---
@@ -272,12 +272,12 @@ Covers all releases from v2017.2 to v2024.10.7. Documentation for releases prior
 
 | Document | Type | Published | URL |
 |---|---|---|---|
-| MCNM v2021.11.1 ReadMe (Rev B) | ReadMe | February 2022 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM_v2021.11.1_ReadMe_RevB.pdf) |
-| MCNM v2021.11 ReadMe (Rev B) | ReadMe | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM_v2021.11_ReadMe-RevB.pdf) |
+| MCNM v2021.11.1 ReadMe (Rev B) | ReadMe | February 2022 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM_v2021.11.1_ReadMe_RevB.pdf) · [KB](versions/2021.11.1/readme.md) |
+| MCNM v2021.11 ReadMe (Rev B) | ReadMe | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM_v2021.11_ReadMe-RevB.pdf) · [KB](versions/2021.11/readme.md) |
 | MCNM v2021.11 ReadMe | ReadMe | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM_v2021.11_ReadMe.pdf) |
-| MCNM Setup Configuration Guide | Setup Config. Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-SCG-2021.11.pdf) |
-| MCNM Install Quick Guide | Install Quick Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-2021.11-InstallationQuickGuide.pdf) |
-| MCNM Admin Guide | Admin Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-AG-2021-11.pdf) |
+| MCNM Setup Configuration Guide | Setup Config. Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-SCG-2021.11.pdf) · [KB](versions/2021.11/scg.md) |
+| MCNM Install Quick Guide | Install Quick Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-2021.11-InstallationQuickGuide.pdf) · [KB](versions/2021.11/install-quick-guide.md) |
+| MCNM Admin Guide | Admin Guide | December 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-AG-2021-11.pdf) · [KB](versions/2021.11/admin-guide.md) |
 
 ## v2021.7.x
 
@@ -306,8 +306,8 @@ Covers all releases from v2017.2 to v2024.10.7. Documentation for releases prior
 | Document | Type | Published | URL |
 |---|---|---|---|
 | MCNM Server Enterprise Virtualization Reference | Virtualisation Reference | May 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCNM-Enterprise-Virtualization-Ref-2021.pdf) |
-| Data Receiver v2021.3 ReadMe | DR ReadMe | May 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/DR-v2021.3-ReadMe.pdf) |
-| Data Receiver v2021.3 Install Admin Guide | DR Install Admin Guide | May 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCDR-IAG-v2021.3.pdf) |
+| Data Receiver v2021.3 ReadMe | DR ReadMe | May 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/DR-v2021.3-ReadMe.pdf) · [KB](data-receiver/versions/2021.3/readme.md) |
+| Data Receiver v2021.3 Install Admin Guide | DR Install Admin Guide | April 2021 | [PDF](https://resources.avid.com/SupportFiles/attach/MediaCentral_Newsroom/MCDR-IAG-v2021.3.pdf) · [KB](data-receiver/versions/2021.3/install-admin-guide.md) |
 
 ---
 

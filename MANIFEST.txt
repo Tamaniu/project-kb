@@ -1,12 +1,24 @@
 # project-kb MANIFEST
-# Generated: 27/04/2026
-# Git-tracked .md files: 295
+# Last updated: 30/04/2026
+# Git-tracked .md files: approx. 321 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
+# NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
+#       Edit directly and preserve annotation format when adding or removing files.
 
 ## root
 PROJECT_INSTRUCTIONS.md
 README.md
+MANIFEST.txt
+
+## meta (legacy)
+# meta/ contains products.yml only — a product catalogue stub, not actively maintained.
+# All active metadata (compatibility matrices, lifecycle, virtualisation) is in _meta/.
+meta/products.yml
+
+## avid-link
+# Avid Link server connectivity FAQ — 2024.10 and earlier lose server access 12/05/2026 — added 29/04/2026
+avid-link/faq/server-connectivity-2024-10-and-earlier.md | source: kb.avid.com | added: 29/04/2026 | affects: Avid Link ≤2024.10; minimum supported: 2025.5; recommended: 2026.4+; cutoff date: 12/05/2026; OS: Win11, macOS 14+; source anomaly: version conflict (2025.5 vs 2025.6) flagged in doc
 
 ## _meta
 # Index file (superseded by named files below)
@@ -22,6 +34,8 @@ _meta/compatibility-matrix-interplay-legacy.md   # Interplay Production, MC Plat
 _meta/virtualisation-vmware.md       # VMware vSphere best practices — LEGACY (Avid no longer qualifies specific vendors from June 2025)
 _meta/virtualisation-nutanix.md      # Nutanix AHV best practices — min AOS 5.10
 _meta/failover-guide.md              # PM Engine failover cluster (HPE MSA 2060) — v2022.3+; last updated 30/05/2024
+# Product lifecycle and support dates — added 28/04/2026
+_meta/avid-software-lifecycle.md     # Official Avid supported software versions and lifecycle dates — all products; verified 28/04/2026
 
 ## explainers
 explainers/ltm-releases.md
@@ -151,6 +165,8 @@ mediacentral/cloud-ux/versions/2025.6.2/readme.md
 mediacentral/cloud-ux/versions/2025.6.3/readme.md
 mediacentral/cloud-ux/versions/2025.6/hardware-guide.md
 mediacentral/cloud-ux/versions/2025.6/new-features.md
+# versions/current/ — non-version-pinned snapshot of the most recently processed Cloud UX docs.
+# Apply version-bounded reasoning with caution; always prefer an explicitly versioned file when available.
 mediacentral/cloud-ux/versions/current/readme.md
 mediacentral/cloud-ux/versions/current/users-guide.md
 
@@ -178,11 +194,39 @@ mediacentral/newsroom-management/mos-gateway/versions/2024.10.4/readme.md | sour
 mediacentral/newsroom-management/mos-gateway/versions/2023.3/scg.md     | source: MCMOSgwy_v2023.3_SCG.pdf | 103pp full SCG; OS: WS2016/WS2019; NM dep: v3.5+; hardware reqs table (CPU/RAM/HDD/NIC); 16 supported MOS devices; vault credentials INTRODUCED this version (p91 explicit statement); <ReplicationPassword> removed from <ncs> template; indirect activation (web portal .bin); 9-step NM config; 2 source anomalies flagged (mislabelled footer: "Installation and Operations Guide" vs correct SCG title; mosconfig.xml path inconsistency in Ch5 p76)
 mediacentral/newsroom-management/mos-gateway/versions/2023.7/scg.md     | source: MCMOSgwy_2023.7_SCG.pdf | 67pp full SCG; OS: WS2019/WS2022; NM dep: 2021.3/2021.11; VC++ 2015-2019 prereq; vault credentials via MOS Admin Credentials pane (v2023.3+); no Restart Services Procedure; 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
 mediacentral/newsroom-management/mos-gateway/versions/2024.10.5/scg.md   | source: MOSgwy_2024.10.5_SCG.pdf | 67pp full SCG; OS: WS2025/WS2022; NM dep: 2022.3+; VC++ 2015-2019 prereq; vault credentials (v2023.3+); Restart Services Procedure (Nov 2025); 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
+# MCNM versioned readmes and supplementals — 2020.4 through 2021.11.1 — added 28/04/2026
+mediacentral/newsroom-management/versions/2020.4/readme.md               | source: MCNM_v2020.4_ReadMe.pdf
+mediacentral/newsroom-management/versions/2020.4/scg.md                  | source: MCNM-SCG-2020-4.pdf
+mediacentral/newsroom-management/versions/2020.4/install-quick-guide.md  | source: MCNM-2020.4-Installation-Quick-Guide.pdf
+mediacentral/newsroom-management/versions/2020.4/nsml-specs.md           | source: NSML-Specs-v41-2020-4.pdf
+mediacentral/newsroom-management/versions/2020.4/ftp-ftps-protocol-spec.md | source: MCNM-FTP-FTPS-ServerProtocol-2020.4.pdf
+mediacentral/newsroom-management/versions/2020.4.2/readme.md             | source: MCNM_v2020.4.2_ReadMe.pdf
+mediacentral/newsroom-management/versions/2020.9/enterprise-virtualisation-ref.md | source: iNEWS-Enterprise-Virtualization-AG-2020-RevC.pdf
+mediacentral/newsroom-management/versions/2020.9.4/readme.md             | source: MCNM_v2020.9.4_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.3/readme.md               | source: MCNM_v2021.3_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.3/enterprise-virtualisation-ref.md | source: MCNM-Enterprise-Virtualization-Ref-2021.pdf
+mediacentral/newsroom-management/versions/2021.7/readme.md               | source: MCNM_v2021.7_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.7/enterprise-virtualisation-ref.md | source: MCNM-Enterprise-Virtualization-Ref-7-2021.pdf
+mediacentral/newsroom-management/versions/2021.7/nsml-spec.md            | source: NSML-Specs-v42-2021-7.pdf
+mediacentral/newsroom-management/versions/2021.7.1/readme.md             | source: MCNM_v2021.7.1_ReadMe_RevB.pdf
+mediacentral/newsroom-management/versions/2021.7.2/readme.md             | source: MCNM_v2021.7.2_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.11/readme.md              | source: MCNM_v2021.11_ReadMe-RevB.pdf (primary); MCNM_v2021.11_ReadMe.pdf (secondary) | build v8.0; cumulative 2017.1–2021.11; CRITICAL: subscription licensing requires new license string; Kafka compaction (NMS+CloudUX must both be at 2021.11); OS: RHEL 7.7/7.9, CentOS 7.7/7.9; WS10 workstation; superseded by 2021.11.1
+mediacentral/newsroom-management/versions/2021.11.1/readme.md            | source: MCNM_v2021.11.1_ReadMe_RevB.pdf | build v8.0.x; single fix: IN-7304 dbrestore Realname carriage-return crash; full workstation/server compatibility matrix; Updated Security Guidelines note; cumulative 2017.1–2021.11.1; OS: RHEL 7.7/7.9, CentOS 7.7/7.9; superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/scg.md                 | source: MCNM-SCG-2021.11.pdf | ~520pp; Rev A; ToC-based index + key section extracts: Licensing (p.211), Config File (p.212), System Profile (p.216), Enhanced Server Services/systemd (p.349), Rxnet Custom Config (p.353), Kafka Search (p.404), CTMS Integration (p.405); subscription licensing new from v2021.11; superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/install-quick-guide.md | source: MCNM-2021.11-InstallationQuickGuide.pdf | 24pp; OS: RHEL/CentOS 7.7/7.9; updated licence string required for v2021.11+; Standard Partition only (no LVM); subscription licensing section; silent install; Cloud UX connection (CTC + Kafka); superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/admin-guide.md         | source: MCNM-AG-2021-11.pdf | ~258pp; Rev A; ToC-based index + full Ch.2 Licensing extract: iNEWS vs Cloud UX subscription licensing types (new from v2021.11); Important Licensing Facts; status l output for both permanent and CloudUX licence types; superseded by 2022.3
 mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2022.3/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2023.3/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2023.7/new-features.md
 mediacentral/newsroom-management/data-receiver/versions/2024.10/new-features.md
+# Data Receiver v2021.3 — added 28/04/2026
+mediacentral/newsroom-management/data-receiver/versions/2021.3/readme.md         | source: DR-v2021.3-ReadMe.pdf
+mediacentral/newsroom-management/data-receiver/versions/2021.3/install-admin-guide.md | source: MCDR-IAG-v2021.3.pdf
+# Data Receiver patch readmes and install guide — added 28/04/2026
+mediacentral/newsroom-management/data-receiver/versions/2023.7.4/readme.md
+mediacentral/newsroom-management/data-receiver/versions/2024.10.5/readme.md
+mediacentral/newsroom-management/data-receiver/versions/2024.10.5/install-admin-guide.md
 mediacentral/newsroom-management/versions/2022.12/new-features.md
 mediacentral/newsroom-management/versions/2022.3/new-features.md
 mediacentral/newsroom-management/versions/2023.3/new-features.md
