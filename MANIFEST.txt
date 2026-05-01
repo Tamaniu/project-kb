@@ -1,6 +1,6 @@
 # project-kb MANIFEST
-# Last updated: 30/04/2026
-# Git-tracked .md files: approx. 321 (excludes raw .vtt files and non-.md assets)
+# Last updated: 01/05/2026
+# Git-tracked .md files: approx. 332 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
@@ -371,6 +371,21 @@ transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
+
+## acc/help
+# ACC in-product Help documentation — extracted from docs.avid.com/acc — version 0.0.3 — added 01/05/2026
+# 11 files covering: overview, system requirements, sign-in, admin (control panel + settings), user settings, UI, player, search, my collections, review & approval
+acc/help/overview.md                           | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: product overview, SaaS, key features
+acc/help/system-requirements.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: prerequisites, networking, firewall URLs, IAM security principles
+acc/help/signing-in.md                        | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Chrome requirement, sign-in/out, data collection consent
+acc/help/admin/control-panel.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: ACC Control Panel, IDP config (OIDC + SAML), role definitions, seat management
+acc/help/admin/administrator-settings.md      | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Admin Fast Bar, Web Editor settings (frame rates, social media, outputs, render profiles), Search Settings App (Vision Warehouse, Search Engine, DocumentDB)
+acc/help/user-settings.md                     | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: data collection, timezone, date format, notification settings, search query mode
+acc/help/ui-common.md                         | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: docking apps, Open In / default app, notifications
+acc/help/player.md                            | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Player monitor, proxy, JKL playback, Metadata tab, Transcript tab (search/filter/export), Segments tab (markers, restrictions, content description, temporal hits)
+acc/help/search.md                            | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: simple/semantic search, voice search, image search, advanced search (pills, multi-term, boolean), filters, query mode, context menus
+acc/help/my-collections.md                    | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: My Collections window, tabs, add/remove assets, Send to Web Editor, keyboard shortcuts
+acc/help/review-and-approval.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: R&A app, comment workflow, stage/state model, role permissions, Tasks app integration
 
 ## acc/press-releases
 # Avid + AWS NAB Show 2026 — Content Core debut, NEXIS on AWS, Amazon MGM Studios — 07/04/2026 — added 27/04/2026
