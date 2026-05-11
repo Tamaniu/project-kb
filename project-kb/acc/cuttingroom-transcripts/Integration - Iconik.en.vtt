@@ -1,0 +1,672 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.520 --> 00:00:05.030 align:start position:0%
+ 
+[Music]
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+ 
+ 
+
+00:00:05.040 --> 00:00:07.909 align:start position:0%
+ 
+By<00:00:05.359><c> integrating</c><00:00:05.920><c> Iconic</c><00:00:06.400><c> with</c><00:00:06.560><c> Cutting</c><00:00:06.960><c> Room,</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+By integrating Iconic with Cutting Room,
+ 
+
+00:00:07.919 --> 00:00:09.669 align:start position:0%
+By integrating Iconic with Cutting Room,
+you<00:00:08.160><c> can</c><00:00:08.320><c> seamlessly</c><00:00:08.880><c> publish</c><00:00:09.280><c> videos</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+you can seamlessly publish videos
+ 
+
+00:00:09.679 --> 00:00:12.230 align:start position:0%
+you can seamlessly publish videos
+directly<00:00:10.160><c> from</c><00:00:10.400><c> Cutting</c><00:00:10.719><c> Room</c><00:00:10.960><c> to</c><00:00:11.240><c> Iconic</c>
+
+00:00:12.230 --> 00:00:12.240 align:start position:0%
+directly from Cutting Room to Iconic
+ 
+
+00:00:12.240 --> 00:00:14.310 align:start position:0%
+directly from Cutting Room to Iconic
+while<00:00:12.559><c> also</c><00:00:12.960><c> accessing</c><00:00:13.360><c> and</c><00:00:13.679><c> editing</c><00:00:14.080><c> all</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+while also accessing and editing all
+ 
+
+00:00:14.320 --> 00:00:17.670 align:start position:0%
+while also accessing and editing all
+your<00:00:14.480><c> Iconic</c><00:00:15.120><c> content</c><00:00:15.599><c> within</c><00:00:16.000><c> Cutting</c><00:00:16.680><c> Room.</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+your Iconic content within Cutting Room.
+ 
+
+00:00:17.680 --> 00:00:20.070 align:start position:0%
+your Iconic content within Cutting Room.
+Before<00:00:18.080><c> setting</c><00:00:18.320><c> up</c><00:00:18.480><c> the</c><00:00:18.920><c> integration,</c><00:00:19.920><c> you</c>
+
+00:00:20.070 --> 00:00:20.080 align:start position:0%
+Before setting up the integration, you
+ 
+
+00:00:20.080 --> 00:00:21.429 align:start position:0%
+Before setting up the integration, you
+need<00:00:20.240><c> to</c><00:00:20.400><c> ensure</c><00:00:20.720><c> that</c><00:00:20.880><c> you</c><00:00:21.119><c> have</c><00:00:21.199><c> an</c>
+
+00:00:21.429 --> 00:00:21.439 align:start position:0%
+need to ensure that you have an
+ 
+
+00:00:21.439 --> 00:00:23.670 align:start position:0%
+need to ensure that you have an
+application<00:00:21.920><c> token</c><00:00:22.320><c> and</c><00:00:22.560><c> a</c><00:00:22.800><c> storage</c><00:00:23.119><c> ready</c><00:00:23.359><c> in</c>
+
+00:00:23.670 --> 00:00:23.680 align:start position:0%
+application token and a storage ready in
+ 
+
+00:00:23.680 --> 00:00:26.070 align:start position:0%
+application token and a storage ready in
+Iconic.<00:00:24.800><c> To</c><00:00:25.039><c> generate</c><00:00:25.359><c> an</c><00:00:25.600><c> application</c>
+
+00:00:26.070 --> 00:00:26.080 align:start position:0%
+Iconic. To generate an application
+ 
+
+00:00:26.080 --> 00:00:28.870 align:start position:0%
+Iconic. To generate an application
+token,<00:00:26.800><c> log</c><00:00:27.039><c> into</c><00:00:27.359><c> Iconic</c><00:00:27.920><c> and</c><00:00:28.160><c> navigate</c><00:00:28.560><c> to</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+token, log into Iconic and navigate to
+ 
+
+00:00:28.880 --> 00:00:30.870 align:start position:0%
+token, log into Iconic and navigate to
+admin<00:00:29.439><c> settings</c><00:00:29.840><c> and</c><00:00:30.080><c> then</c><00:00:30.320><c> application</c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+admin settings and then application
+ 
+
+00:00:30.880 --> 00:00:33.590 align:start position:0%
+admin settings and then application
+token.<00:00:31.760><c> Here</c><00:00:32.399><c> you</c><00:00:32.640><c> can</c><00:00:32.719><c> either</c><00:00:33.040><c> copy</c><00:00:33.360><c> an</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+token. Here you can either copy an
+ 
+
+00:00:33.600 --> 00:00:35.750 align:start position:0%
+token. Here you can either copy an
+existing<00:00:34.000><c> token</c><00:00:34.399><c> or</c><00:00:34.719><c> create</c><00:00:34.960><c> a</c><00:00:35.200><c> new</c><00:00:35.280><c> one</c><00:00:35.520><c> by</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+existing token or create a new one by
+ 
+
+00:00:35.760 --> 00:00:37.350 align:start position:0%
+existing token or create a new one by
+clicking<00:00:36.079><c> new</c><00:00:36.320><c> application</c><00:00:36.800><c> in</c><00:00:37.040><c> the</c><00:00:37.200><c> top</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+clicking new application in the top
+ 
+
+00:00:37.360 --> 00:00:40.030 align:start position:0%
+clicking new application in the top
+right
+
+00:00:40.030 --> 00:00:40.040 align:start position:0%
+ 
+ 
+
+00:00:40.040 --> 00:00:44.590 align:start position:0%
+ 
+corner,<00:00:41.040><c> naming</c><00:00:41.440><c> the</c>
+
+00:00:44.590 --> 00:00:44.600 align:start position:0%
+ 
+ 
+
+00:00:44.600 --> 00:00:47.270 align:start position:0%
+ 
+application,<00:00:45.600><c> and</c><00:00:45.920><c> optionally</c><00:00:46.559><c> assigning</c><00:00:47.039><c> a</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+application, and optionally assigning a
+ 
+
+00:00:47.280 --> 00:00:52.549 align:start position:0%
+application, and optionally assigning a
+user.
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+ 
+ 
+
+00:00:52.559 --> 00:00:54.990 align:start position:0%
+ 
+Next,<00:00:53.039><c> you</c><00:00:53.280><c> need</c><00:00:53.360><c> to</c><00:00:53.520><c> set</c><00:00:53.680><c> up</c><00:00:53.920><c> storage</c><00:00:54.239><c> in</c>
+
+00:00:54.990 --> 00:00:55.000 align:start position:0%
+Next, you need to set up storage in
+ 
+
+00:00:55.000 --> 00:00:57.430 align:start position:0%
+Next, you need to set up storage in
+iconic.<00:00:56.000><c> Click</c><00:00:56.239><c> on</c><00:00:56.399><c> storage</c><00:00:56.800><c> in</c><00:00:57.039><c> the</c><00:00:57.199><c> lefth</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+iconic. Click on storage in the lefth
+ 
+
+00:00:57.440 --> 00:00:59.990 align:start position:0%
+iconic. Click on storage in the lefth
+hand<00:00:57.680><c> sidebar.</c><00:00:58.559><c> Then</c><00:00:58.800><c> select</c><00:00:59.199><c> new</c><00:00:59.440><c> storage</c><00:00:59.840><c> in</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+hand sidebar. Then select new storage in
+ 
+
+00:01:00.000 --> 00:01:02.470 align:start position:0%
+hand sidebar. Then select new storage in
+the<00:01:00.160><c> top</c><00:01:00.320><c> right</c><00:01:00.760><c> corner.</c><00:01:01.760><c> Several</c><00:01:02.079><c> fields</c>
+
+00:01:02.470 --> 00:01:02.480 align:start position:0%
+the top right corner. Several fields
+ 
+
+00:01:02.480 --> 00:01:04.950 align:start position:0%
+the top right corner. Several fields
+must<00:01:02.719><c> be</c><00:01:02.800><c> filled</c><00:01:03.120><c> in.</c><00:01:03.920><c> First,</c><00:01:04.559><c> give</c><00:01:04.720><c> your</c>
+
+00:01:04.950 --> 00:01:04.960 align:start position:0%
+must be filled in. First, give your
+ 
+
+00:01:04.960 --> 00:01:08.070 align:start position:0%
+must be filled in. First, give your
+storage<00:01:05.280><c> a</c><00:01:05.799><c> name.</c><00:01:06.799><c> Then</c><00:01:07.040><c> select</c><00:01:07.439><c> file</c><00:01:07.760><c> under</c>
+
+00:01:08.070 --> 00:01:08.080 align:start position:0%
+storage a name. Then select file under
+ 
+
+00:01:08.080 --> 00:01:11.429 align:start position:0%
+storage a name. Then select file under
+storage<00:01:08.479><c> purpose.</c><00:01:09.360><c> And</c><00:01:09.520><c> finally,</c><00:01:10.320><c> choose</c><00:01:10.799><c> S3</c>
+
+00:01:11.429 --> 00:01:11.439 align:start position:0%
+storage purpose. And finally, choose S3
+ 
+
+00:01:11.439 --> 00:01:14.390 align:start position:0%
+storage purpose. And finally, choose S3
+as<00:01:11.680><c> the</c><00:01:11.920><c> storage</c><00:01:12.240><c> type.</c><00:01:13.439><c> For</c><00:01:13.680><c> this</c><00:01:13.920><c> guide,</c><00:01:14.240><c> we</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+as the storage type. For this guide, we
+ 
+
+00:01:14.400 --> 00:01:16.630 align:start position:0%
+as the storage type. For this guide, we
+will<00:01:14.560><c> use</c><00:01:14.720><c> Back</c><00:01:14.880><c> Blaze</c><00:01:15.360><c> as</c><00:01:15.520><c> the</c><00:01:15.680><c> S3</c><00:01:16.159><c> connector,</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+will use Back Blaze as the S3 connector,
+ 
+
+00:01:16.640 --> 00:01:19.030 align:start position:0%
+will use Back Blaze as the S3 connector,
+but<00:01:16.880><c> any</c><00:01:17.200><c> S3</c><00:01:17.680><c> compatible</c><00:01:18.240><c> storage</c><00:01:18.560><c> solution</c>
+
+00:01:19.030 --> 00:01:19.040 align:start position:0%
+but any S3 compatible storage solution
+ 
+
+00:01:19.040 --> 00:01:21.830 align:start position:0%
+but any S3 compatible storage solution
+will<00:01:19.280><c> work.</c><00:01:20.159><c> Enter</c><00:01:20.479><c> the</c><00:01:20.640><c> required</c><00:01:21.040><c> details,</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+will work. Enter the required details,
+ 
+
+00:01:21.840 --> 00:01:24.550 align:start position:0%
+will work. Enter the required details,
+including<00:01:22.320><c> access</c><00:01:22.720><c> key,</c><00:01:23.280><c> secret</c><00:01:23.680><c> key,</c><00:01:24.159><c> bucket</c>
+
+00:01:24.550 --> 00:01:24.560 align:start position:0%
+including access key, secret key, bucket
+ 
+
+00:01:24.560 --> 00:01:27.429 align:start position:0%
+including access key, secret key, bucket
+name,<00:01:25.119><c> region,</c><00:01:25.600><c> and</c><00:01:26.040><c> endpoint.</c><00:01:27.040><c> You</c><00:01:27.280><c> must</c>
+
+00:01:27.429 --> 00:01:27.439 align:start position:0%
+name, region, and endpoint. You must
+ 
+
+00:01:27.439 --> 00:01:29.190 align:start position:0%
+name, region, and endpoint. You must
+also<00:01:27.759><c> decide</c><00:01:28.159><c> whether</c><00:01:28.400><c> to</c><00:01:28.560><c> grant</c><00:01:28.880><c> read</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+also decide whether to grant read
+ 
+
+00:01:29.200 --> 00:01:31.510 align:start position:0%
+also decide whether to grant read
+access,<00:01:29.840><c> write</c><00:01:30.159><c> access,</c><00:01:30.640><c> or</c><00:01:30.880><c> both,</c><00:01:31.200><c> and</c>
+
+00:01:31.510 --> 00:01:31.520 align:start position:0%
+access, write access, or both, and
+ 
+
+00:01:31.520 --> 00:01:33.149 align:start position:0%
+access, write access, or both, and
+verify<00:01:31.920><c> the</c>
+
+00:01:33.149 --> 00:01:33.159 align:start position:0%
+verify the
+ 
+
+00:01:33.159 --> 00:01:35.270 align:start position:0%
+verify the
+connection.<00:01:34.159><c> If</c><00:01:34.400><c> you</c><00:01:34.560><c> need</c><00:01:34.720><c> assistance</c>
+
+00:01:35.270 --> 00:01:35.280 align:start position:0%
+connection. If you need assistance
+ 
+
+00:01:35.280 --> 00:01:37.590 align:start position:0%
+connection. If you need assistance
+setting<00:01:35.600><c> up</c><00:01:35.680><c> an</c><00:01:36.000><c> S3</c><00:01:36.479><c> connector,</c><00:01:37.280><c> check</c><00:01:37.439><c> out</c>
+
+00:01:37.590 --> 00:01:37.600 align:start position:0%
+setting up an S3 connector, check out
+ 
+
+00:01:37.600 --> 00:01:39.950 align:start position:0%
+setting up an S3 connector, check out
+our<00:01:37.840><c> YouTube</c><00:01:38.240><c> tutorials</c><00:01:38.799><c> for</c>
+
+00:01:39.950 --> 00:01:39.960 align:start position:0%
+our YouTube tutorials for
+ 
+
+00:01:39.960 --> 00:01:42.230 align:start position:0%
+our YouTube tutorials for
+guidance.<00:01:41.040><c> Before</c><00:01:41.360><c> proceeding</c><00:01:41.759><c> to</c><00:01:41.920><c> cutting</c>
+
+00:01:42.230 --> 00:01:42.240 align:start position:0%
+guidance. Before proceeding to cutting
+ 
+
+00:01:42.240 --> 00:01:43.830 align:start position:0%
+guidance. Before proceeding to cutting
+room,<00:01:42.560><c> you</c><00:01:42.720><c> need</c><00:01:42.799><c> to</c><00:01:42.960><c> edit</c><00:01:43.200><c> the</c><00:01:43.439><c> storage</c>
+
+00:01:43.830 --> 00:01:43.840 align:start position:0%
+room, you need to edit the storage
+ 
+
+00:01:43.840 --> 00:01:46.469 align:start position:0%
+room, you need to edit the storage
+settings<00:01:44.159><c> in</c><00:01:44.759><c> Iconic.</c><00:01:45.759><c> Click</c><00:01:45.920><c> on</c><00:01:46.079><c> the</c><00:01:46.240><c> three</c>
+
+00:01:46.469 --> 00:01:46.479 align:start position:0%
+settings in Iconic. Click on the three
+ 
+
+00:01:46.479 --> 00:01:47.910 align:start position:0%
+settings in Iconic. Click on the three
+dots<00:01:46.799><c> next</c><00:01:46.960><c> to</c><00:01:47.040><c> the</c><00:01:47.280><c> storage</c><00:01:47.520><c> you</c><00:01:47.759><c> just</c>
+
+00:01:47.910 --> 00:01:47.920 align:start position:0%
+dots next to the storage you just
+ 
+
+00:01:47.920 --> 00:01:50.469 align:start position:0%
+dots next to the storage you just
+created.<00:01:48.640><c> Go</c><00:01:48.799><c> to</c><00:01:48.960><c> transcode</c><00:01:49.520><c> settings</c><00:01:50.240><c> and</c>
+
+00:01:50.469 --> 00:01:50.479 align:start position:0%
+created. Go to transcode settings and
+ 
+
+00:01:50.479 --> 00:01:52.389 align:start position:0%
+created. Go to transcode settings and
+grant<00:01:50.880><c> Iconic</c><00:01:51.439><c> permission</c><00:01:51.840><c> to</c><00:01:52.079><c> create</c>
+
+00:01:52.389 --> 00:01:52.399 align:start position:0%
+grant Iconic permission to create
+ 
+
+00:01:52.399 --> 00:01:58.030 align:start position:0%
+grant Iconic permission to create
+proxies<00:01:52.880><c> of</c><00:01:53.040><c> your</c><00:01:53.280><c> video</c><00:01:53.520><c> and</c><00:01:53.840><c> image</c>
+
+00:01:58.030 --> 00:01:58.040 align:start position:0%
+ 
+ 
+
+00:01:58.040 --> 00:02:01.109 align:start position:0%
+ 
+files.<00:01:59.040><c> Now</c><00:02:00.000><c> you're</c><00:02:00.320><c> ready</c><00:02:00.479><c> to</c><00:02:00.640><c> integrate</c>
+
+00:02:01.109 --> 00:02:01.119 align:start position:0%
+files. Now you're ready to integrate
+ 
+
+00:02:01.119 --> 00:02:03.830 align:start position:0%
+files. Now you're ready to integrate
+Iconic<00:02:01.600><c> with</c><00:02:01.759><c> Cutting</c><00:02:02.159><c> Room.</c><00:02:03.119><c> Open</c><00:02:03.520><c> settings</c>
+
+00:02:03.830 --> 00:02:03.840 align:start position:0%
+Iconic with Cutting Room. Open settings
+ 
+
+00:02:03.840 --> 00:02:06.469 align:start position:0%
+Iconic with Cutting Room. Open settings
+in<00:02:04.079><c> Cutting</c><00:02:04.479><c> Room.</c><00:02:05.040><c> Go</c><00:02:05.200><c> to</c><00:02:05.360><c> integrations</c><00:02:06.159><c> and</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+in Cutting Room. Go to integrations and
+ 
+
+00:02:06.479 --> 00:02:09.430 align:start position:0%
+in Cutting Room. Go to integrations and
+select<00:02:07.040><c> Iconic.</c><00:02:08.239><c> Give</c><00:02:08.479><c> your</c><00:02:08.640><c> integration</c><00:02:09.200><c> a</c>
+
+00:02:09.430 --> 00:02:09.440 align:start position:0%
+select Iconic. Give your integration a
+ 
+
+00:02:09.440 --> 00:02:11.589 align:start position:0%
+select Iconic. Give your integration a
+name<00:02:09.599><c> to</c><00:02:09.759><c> help</c><00:02:10.160><c> identify</c><00:02:10.479><c> it.</c><00:02:10.959><c> Then</c><00:02:11.280><c> choose</c>
+
+00:02:11.589 --> 00:02:11.599 align:start position:0%
+name to help identify it. Then choose
+ 
+
+00:02:11.599 --> 00:02:13.270 align:start position:0%
+name to help identify it. Then choose
+whether<00:02:11.920><c> to</c><00:02:12.080><c> share</c><00:02:12.319><c> the</c><00:02:12.560><c> integration</c><00:02:13.040><c> with</c>
+
+00:02:13.270 --> 00:02:13.280 align:start position:0%
+whether to share the integration with
+ 
+
+00:02:13.280 --> 00:02:16.949 align:start position:0%
+whether to share the integration with
+others<00:02:13.920><c> or</c><00:02:14.239><c> keep</c><00:02:14.400><c> it</c><00:02:14.840><c> private.</c><00:02:15.840><c> Next,</c><00:02:16.640><c> return</c>
+
+00:02:16.949 --> 00:02:16.959 align:start position:0%
+others or keep it private. Next, return
+ 
+
+00:02:16.959 --> 00:02:19.990 align:start position:0%
+others or keep it private. Next, return
+to<00:02:17.200><c> Iconic,</c><00:02:18.080><c> copy</c><00:02:18.400><c> the</c><00:02:18.640><c> application</c><00:02:19.200><c> token,</c>
+
+00:02:19.990 --> 00:02:20.000 align:start position:0%
+to Iconic, copy the application token,
+ 
+
+00:02:20.000 --> 00:02:27.550 align:start position:0%
+to Iconic, copy the application token,
+and<00:02:20.239><c> paste</c><00:02:20.480><c> it</c><00:02:20.640><c> into</c><00:02:20.959><c> Cutting</c>
+
+00:02:27.550 --> 00:02:27.560 align:start position:0%
+ 
+ 
+
+00:02:27.560 --> 00:02:29.990 align:start position:0%
+ 
+Room.<00:02:28.560><c> You</c><00:02:28.800><c> will</c><00:02:28.959><c> then</c><00:02:29.120><c> need</c><00:02:29.360><c> to</c><00:02:29.520><c> select</c><00:02:29.760><c> a</c>
+
+00:02:29.990 --> 00:02:30.000 align:start position:0%
+Room. You will then need to select a
+ 
+
+00:02:30.000 --> 00:02:32.470 align:start position:0%
+Room. You will then need to select a
+preferred<00:02:30.480><c> source,</c><00:02:31.280><c> either</c><00:02:31.599><c> proxy</c><00:02:32.160><c> or</c>
+
+00:02:32.470 --> 00:02:32.480 align:start position:0%
+preferred source, either proxy or
+ 
+
+00:02:32.480 --> 00:02:35.270 align:start position:0%
+preferred source, either proxy or
+original.<00:02:33.440><c> If</c><00:02:33.680><c> you</c><00:02:33.840><c> enable</c><00:02:34.280><c> distribution,</c>
+
+00:02:35.270 --> 00:02:35.280 align:start position:0%
+original. If you enable distribution,
+ 
+
+00:02:35.280 --> 00:02:37.270 align:start position:0%
+original. If you enable distribution,
+you<00:02:35.519><c> will</c><00:02:35.680><c> need</c><00:02:35.760><c> to</c><00:02:35.920><c> log</c><00:02:36.160><c> in</c><00:02:36.239><c> to</c><00:02:36.480><c> Iconic</c><00:02:36.959><c> within</c>
+
+00:02:37.270 --> 00:02:37.280 align:start position:0%
+you will need to log in to Iconic within
+ 
+
+00:02:37.280 --> 00:02:39.110 align:start position:0%
+you will need to log in to Iconic within
+Cutting<00:02:37.599><c> Room,</c><00:02:37.920><c> allowing</c><00:02:38.239><c> you</c><00:02:38.400><c> to</c><00:02:38.560><c> render</c><00:02:38.879><c> and</c>
+
+00:02:39.110 --> 00:02:39.120 align:start position:0%
+Cutting Room, allowing you to render and
+ 
+
+00:02:39.120 --> 00:02:41.750 align:start position:0%
+Cutting Room, allowing you to render and
+send<00:02:39.440><c> videos</c><00:02:39.840><c> back</c><00:02:40.080><c> to</c><00:02:40.440><c> Iconic.</c><00:02:41.440><c> If</c>
+
+00:02:41.750 --> 00:02:41.760 align:start position:0%
+send videos back to Iconic. If
+ 
+
+00:02:41.760 --> 00:02:43.830 align:start position:0%
+send videos back to Iconic. If
+distribution<00:02:42.400><c> is</c><00:02:42.560><c> turned</c><00:02:42.879><c> off,</c><00:02:43.200><c> this</c><00:02:43.440><c> option</c>
+
+00:02:43.830 --> 00:02:43.840 align:start position:0%
+distribution is turned off, this option
+ 
+
+00:02:43.840 --> 00:02:45.990 align:start position:0%
+distribution is turned off, this option
+will<00:02:44.000><c> not</c><00:02:44.239><c> be</c><00:02:44.400><c> available.</c><00:02:45.200><c> The</c><00:02:45.440><c> storage</c><00:02:45.760><c> you</c>
+
+00:02:45.990 --> 00:02:46.000 align:start position:0%
+will not be available. The storage you
+ 
+
+00:02:46.000 --> 00:02:47.990 align:start position:0%
+will not be available. The storage you
+created<00:02:46.400><c> earlier</c><00:02:46.800><c> will</c><00:02:47.040><c> now</c><00:02:47.200><c> be</c><00:02:47.360><c> available</c><00:02:47.760><c> in</c>
+
+00:02:47.990 --> 00:02:48.000 align:start position:0%
+created earlier will now be available in
+ 
+
+00:02:48.000 --> 00:02:49.670 align:start position:0%
+created earlier will now be available in
+Cutting<00:02:48.319><c> Room,</c><00:02:48.720><c> and</c><00:02:48.959><c> you</c><00:02:49.120><c> can</c><00:02:49.280><c> save</c><00:02:49.519><c> the</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+Cutting Room, and you can save the
+ 
+
+00:02:49.680 --> 00:02:51.990 align:start position:0%
+Cutting Room, and you can save the
+integration<00:02:50.239><c> to</c><00:02:50.400><c> complete</c><00:02:50.720><c> the</c><00:02:50.879><c> setup.</c><00:02:51.760><c> Once</c>
+
+00:02:51.990 --> 00:02:52.000 align:start position:0%
+integration to complete the setup. Once
+ 
+
+00:02:52.000 --> 00:02:53.990 align:start position:0%
+integration to complete the setup. Once
+the<00:02:52.239><c> integration</c><00:02:52.720><c> is</c><00:02:52.879><c> set</c><00:02:53.040><c> up,</c><00:02:53.360><c> you</c><00:02:53.519><c> will</c><00:02:53.680><c> find</c>
+
+00:02:53.990 --> 00:02:54.000 align:start position:0%
+the integration is set up, you will find
+ 
+
+00:02:54.000 --> 00:02:56.150 align:start position:0%
+the integration is set up, you will find
+Iconic<00:02:54.560><c> listed</c><00:02:54.879><c> in</c><00:02:55.040><c> the</c><00:02:55.120><c> source</c><00:02:55.440><c> panel</c><00:02:55.840><c> inside</c>
+
+00:02:56.150 --> 00:02:56.160 align:start position:0%
+Iconic listed in the source panel inside
+ 
+
+00:02:56.160 --> 00:02:58.949 align:start position:0%
+Iconic listed in the source panel inside
+the<00:02:56.319><c> Cutting</c><00:02:56.640><c> Room</c><00:02:56.879><c> editor.</c><00:02:58.160><c> This</c><00:02:58.480><c> allows</c><00:02:58.800><c> you</c>
+
+00:02:58.949 --> 00:02:58.959 align:start position:0%
+the Cutting Room editor. This allows you
+ 
+
+00:02:58.959 --> 00:03:01.670 align:start position:0%
+the Cutting Room editor. This allows you
+to<00:02:59.200><c> browse,</c><00:02:59.760><c> edit,</c><00:03:00.319><c> and</c><00:03:00.640><c> version</c><00:03:01.040><c> your</c><00:03:01.280><c> videos</c>
+
+00:03:01.670 --> 00:03:01.680 align:start position:0%
+to browse, edit, and version your videos
+ 
+
+00:03:01.680 --> 00:03:04.270 align:start position:0%
+to browse, edit, and version your videos
+directly<00:03:02.080><c> from</c><00:03:02.400><c> iconic</c><00:03:02.959><c> within</c><00:03:03.360><c> cutting</c>
+
+00:03:04.270 --> 00:03:04.280 align:start position:0%
+directly from iconic within cutting
+ 
+
+00:03:04.280 --> 00:03:06.550 align:start position:0%
+directly from iconic within cutting
+room.<00:03:05.280><c> Since</c><00:03:05.599><c> we</c><00:03:05.760><c> have</c><00:03:05.920><c> granted</c><00:03:06.319><c> right</c>
+
+00:03:06.550 --> 00:03:06.560 align:start position:0%
+room. Since we have granted right
+ 
+
+00:03:06.560 --> 00:03:08.390 align:start position:0%
+room. Since we have granted right
+permission,<00:03:07.040><c> you</c><00:03:07.200><c> can</c><00:03:07.360><c> also</c><00:03:07.680><c> send</c><00:03:07.920><c> videos</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+permission, you can also send videos
+ 
+
+00:03:08.400 --> 00:03:11.110 align:start position:0%
+permission, you can also send videos
+back<00:03:08.560><c> to</c><00:03:08.920><c> Iconic.</c><00:03:09.920><c> To</c><00:03:10.159><c> do</c><00:03:10.239><c> this,</c><00:03:10.560><c> first</c><00:03:10.879><c> create</c>
+
+00:03:11.110 --> 00:03:11.120 align:start position:0%
+back to Iconic. To do this, first create
+ 
+
+00:03:11.120 --> 00:03:13.430 align:start position:0%
+back to Iconic. To do this, first create
+your<00:03:11.440><c> video.</c><00:03:12.159><c> Once</c><00:03:12.480><c> you're</c><00:03:12.800><c> satisfied</c><00:03:13.280><c> with</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+your video. Once you're satisfied with
+ 
+
+00:03:13.440 --> 00:03:16.470 align:start position:0%
+your video. Once you're satisfied with
+the<00:03:13.680><c> result,</c><00:03:14.400><c> render</c><00:03:14.840><c> it.</c><00:03:15.840><c> You</c><00:03:16.000><c> will</c><00:03:16.159><c> see</c>
+
+00:03:16.470 --> 00:03:16.480 align:start position:0%
+the result, render it. You will see
+ 
+
+00:03:16.480 --> 00:03:19.509 align:start position:0%
+the result, render it. You will see
+Iconic<00:03:16.959><c> appear</c><00:03:17.280><c> at</c><00:03:17.440><c> the</c><00:03:17.599><c> top.</c><00:03:18.159><c> Click</c><00:03:18.400><c> on</c><00:03:18.560><c> it.</c>
+
+00:03:19.509 --> 00:03:19.519 align:start position:0%
+Iconic appear at the top. Click on it.
+ 
+
+00:03:19.519 --> 00:03:21.990 align:start position:0%
+Iconic appear at the top. Click on it.
+Now,<00:03:20.080><c> if</c><00:03:20.319><c> you're</c><00:03:20.480><c> happy</c><00:03:20.720><c> with</c><00:03:20.879><c> the</c><00:03:21.120><c> title,</c><00:03:21.760><c> you</c>
+
+00:03:21.990 --> 00:03:22.000 align:start position:0%
+Now, if you're happy with the title, you
+ 
+
+00:03:22.000 --> 00:03:23.670 align:start position:0%
+Now, if you're happy with the title, you
+can<00:03:22.159><c> choose</c><00:03:22.400><c> if</c><00:03:22.640><c> you</c><00:03:22.800><c> want</c><00:03:22.879><c> to</c><00:03:23.040><c> export</c><00:03:23.440><c> the</c>
+
+00:03:23.670 --> 00:03:23.680 align:start position:0%
+can choose if you want to export the
+ 
+
+00:03:23.680 --> 00:03:25.750 align:start position:0%
+can choose if you want to export the
+video<00:03:24.080><c> directly</c><00:03:24.560><c> into</c><00:03:24.879><c> a</c><00:03:25.040><c> collection</c><00:03:25.440><c> in</c>
+
+00:03:25.750 --> 00:03:25.760 align:start position:0%
+video directly into a collection in
+ 
+
+00:03:25.760 --> 00:03:28.710 align:start position:0%
+video directly into a collection in
+Iconic<00:03:26.239><c> or</c><00:03:26.480><c> not.</c><00:03:27.360><c> Select</c><00:03:27.680><c> an</c><00:03:27.920><c> output</c><00:03:28.400><c> and</c>
+
+00:03:28.710 --> 00:03:28.720 align:start position:0%
+Iconic or not. Select an output and
+ 
+
+00:03:28.720 --> 00:03:31.670 align:start position:0%
+Iconic or not. Select an output and
+click<00:03:29.120><c> export</c><00:03:29.599><c> to</c><00:03:29.879><c> Iconic.</c><00:03:30.879><c> After</c><00:03:31.200><c> a</c><00:03:31.440><c> short</c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+click export to Iconic. After a short
+ 
+
+00:03:31.680 --> 00:03:34.470 align:start position:0%
+click export to Iconic. After a short
+while,<00:03:32.239><c> your</c><00:03:32.560><c> video</c><00:03:32.879><c> will</c><00:03:33.120><c> appear</c><00:03:33.360><c> in</c><00:03:33.680><c> Iconic,</c>
+
+00:03:34.470 --> 00:03:34.480 align:start position:0%
+while, your video will appear in Iconic,
+ 
+
+00:03:34.480 --> 00:03:37.100 align:start position:0%
+while, your video will appear in Iconic,
+ready<00:03:34.720><c> for</c><00:03:34.959><c> further</c><00:03:35.360><c> use.</c>
+
+00:03:37.100 --> 00:03:37.110 align:start position:0%
+ready for further use.
+ 
+
+00:03:37.110 --> 00:03:50.940 align:start position:0%
+ready for further use.
+[Music]
+

@@ -1,0 +1,37 @@
+products:
+  - code: mediacentral-cloud-ux
+    name: MediaCentral | Cloud UX
+    family: MediaCentral
+    path: mediacentral/cloud-ux
+  - code: mediacentral-production-management
+    name: MediaCentral | Production Management
+    family: MediaCentral
+    path: mediacentral/production-management
+  - code: mediacentral-newsroom-management
+    name: MediaCentral | Newsroom Management
+    family: MediaCentral
+    path: mediacentral/newsroom-management
+  - code: mediacentral-data-receiver
+    name: MediaCentral | Data Receiver
+    family: MediaCentral
+    path: mediacentral/data-receiver
+  - code: mediacentral-wsapi
+    name: MediaCentral | Newsroom Management WSAPI
+    family: MediaCentral
+    path: mediacentral/wsapi
+  - code: mediacentral-media-analytics
+    name: MediaCentral | Media Analytics
+    family: MediaCentral
+    path: mediacentral/media-analytics
+  - code: mediacomposer
+    name: Media Composer
+    family: Editing
+    path: mediacomposer
+  - code: nexis
+    name: Avid NEXIS
+    family: Storage
+    path: nexis
+  - code: stream-io
+    name: Avid | Stream IO
+    family: Ingest/Playout
+    path: stream-io

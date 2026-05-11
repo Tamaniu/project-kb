@@ -1,0 +1,27 @@
+---
+product: mediacentral-production-management
+product-area: post-production
+version: "2023.7"
+release-date: 01/07/2023
+doc-type: new-features
+source: avid-official
+confidentiality: public
+date-added: 16/04/2026
+status: superseded
+---
+
+# New for Production Management version 2023.7
+
+
+
+# New for Production Management version 2023.7.2
+
+
+
+# New for Production Management version 2023.7.2
+
+
+
+# New for Production Management version 2023.7.3
+
+# 
