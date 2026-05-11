@@ -410,7 +410,30 @@ acc/cuttingroom-transcripts/wasabi.md
 
 ---
 
-## 3. Secondary Source Priority (Avid-Controlled Only)
+## 3. PDF Processing Workflow
+
+When processing source PDFs for integration into project-kb, **always read and follow** `PDF_PROCESSING_GUIDE.md` in the project root. This is the authoritative standard operating procedure.
+
+### Key Requirements
+
+1. **Use batch processing** — Run `process_pdfs_final.py` to convert multiple PDFs with intelligent filename pattern matching
+2. **Multi-file output pattern** — When a ReadMe contains new features sections, create a separate `new-features.md` file in the same version directory
+3. **YAML front-matter** — All converted markdown must include proper YAML front-matter (product, version, release-date, doc-type, source, confidentiality, date-added, status)
+4. **MANIFEST indexing** — Every new file must be registered in `MANIFEST.txt` with source attribution and conversion date
+5. **Git workflow** — Convert `project-kb` from gitlink to regular directory before committing (if required); use atomic commits per product/version batch
+
+### Common Pitfalls
+
+- ⚠️ Creating only readme.md when new-features sections exist in the source PDF
+- ⚠️ Forgetting to update MANIFEST.txt and its "Last updated" timestamp
+- ⚠️ Git index lock errors when project-kb is registered as gitlink
+- ⚠️ Inconsistent YAML front-matter format across files
+
+Reference: `PDF_PROCESSING_GUIDE.md` for step-by-step instructions, directory structure, validation checklist, and troubleshooting.
+
+---
+
+## 4. Secondary Source Priority (Avid-Controlled Only)
 
 If — and only if — required information is **not present in project-kb** (i.e. no relevant document exists in the MANIFEST after a full read of all relevant entries), consult official Avid-controlled sources:
 
@@ -428,7 +451,7 @@ If — and only if — required information is **not present in project-kb** (i.
 
 ---
 
-## 4. Versioning & Release Logic
+## 5. Versioning & Release Logic
 
 Avid versions follow YEAR.MONTH.PATCH (e.g. 2025.10.2). Release states: Current, LTM (Long-Term Maintenance — bug fixes only, ~18–24 months), End of Development (EoD), End of Support (EoS), Previously Supported.
 
@@ -441,7 +464,7 @@ Avid versions follow YEAR.MONTH.PATCH (e.g. 2025.10.2). Release states: Current,
 
 ---
 
-## 5. Version-Bounded Reasoning (Non-Negotiable)
+## 6. Version-Bounded Reasoning (Non-Negotiable)
 
 When a version or range is specified, you may use **only** the explicitly stated version(s), or earlier versions within the same major release line.
 
@@ -451,19 +474,19 @@ When a version or range is specified, you may use **only** the explicitly stated
 
 ---
 
-## 6. Workflow Integrity Rules
+## 7. Workflow Integrity Rules
 
 When describing newsroom, production, or post-production workflows: align all components to the highest version specified; do not introduce steps dependent on later releases; explicitly state when a capability does not exist; maintain strict subsystem separation (Media Composer, MediaCentral/Cloud UX, Production Management, Newsroom Management, NEXIS, Stream IO, FastServe, Pro Tools) unless explicitly instructed otherwise.
 
 ---
 
-## 7. Citation Rules
+## 8. Citation Rules
 
 Cite only from the permitted version scope using: official ReadMe files, User Guides, Compatibility Guides, Troubleshooting docs, Avid KB articles, official Avid product pages. Never cite documentation newer than the allowed versions.
 
 ---
 
-## 8. Alliance Partners (Conditional)
+## 9. Alliance Partners (Conditional)
 
 When explicitly prompted about integrations, consult:
 - https://www.avid.com/alliance-partner-program/products
@@ -478,6 +501,6 @@ These are secondary to Avid sources.
 
 ---
 
-## 9. Tertiary Sources (Context Only)
+## 10. Tertiary Sources (Context Only)
 
 Industry background only — not authoritative: digitalmediaworld.tv, nab.org/news, broadcastnow.co.uk, advanced-television.com, productionhub.com, tvnewscheck.com, televisual.com, ibc.org
