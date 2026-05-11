@@ -1,0 +1,514 @@
+# project-kb MANIFEST
+# Last updated: 11/05/2026
+# Git-tracked .md files: approx. 332 (excludes raw .vtt files and non-.md assets)
+# Structure: product/versions/{ver}/ for versioned content
+# NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
+# NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
+#       Edit directly and preserve annotation format when adding or removing files.
+
+## root
+PROJECT_INSTRUCTIONS.md
+README.md
+MANIFEST.txt
+
+## meta (legacy)
+# meta/ contains products.yml only — a product catalogue stub, not actively maintained.
+# All active metadata (compatibility matrices, lifecycle, virtualisation) is in _meta/.
+meta/products.yml
+
+## avid-link
+# Avid Link server connectivity FAQ — 2024.10 and earlier lose server access 12/05/2026 — added 29/04/2026
+avid-link/faq/server-connectivity-2024-10-and-earlier.md | source: kb.avid.com | added: 29/04/2026 | affects: Avid Link ≤2024.10; minimum supported: 2025.5; recommended: 2026.4+; cutoff date: 12/05/2026; OS: Win11, macOS 14+; source anomaly: version conflict (2025.5 vs 2025.6) flagged in doc
+
+## _meta
+# Index file (superseded by named files below)
+_meta/compatibility-matrix.md
+# Active matrices
+_meta/compatibility-matrix-mediacentral.md       # Full MC platform (Cloud UX, APM, MCPM, Stream IO, NEXIS); last revised 01/05/2026
+_meta/compatibility-matrix-editor.md             # MC vs APM/MCPM editor compatibility (S/R logic); last revised 12/01/2026
+_meta/compatibility-matrix-distributed-processing.md  # MC|DP worker versions; last revised 31/03/2026
+# Historical/frozen matrices
+_meta/compatibility-matrix-cloud-remote.md       # MC|Cloud Remote — EoL (EoS 31/07/2023)
+_meta/compatibility-matrix-interplay-legacy.md   # Interplay Production, MC Platform Services, Avid ISIS — all EoS
+# Virtualisation and failover infrastructure guides — added 24/04/2026
+_meta/virtualisation-vmware.md       # VMware vSphere best practices — LEGACY (Avid no longer qualifies specific vendors from June 2025)
+_meta/virtualisation-nutanix.md      # Nutanix AHV best practices — min AOS 5.10
+_meta/failover-guide.md              # PM Engine failover cluster (HPE MSA 2060) — v2022.3+; last updated 30/05/2024
+# Product lifecycle and support dates — added 28/04/2026
+_meta/avid-software-lifecycle.md     # Official Avid supported software versions and lifecycle dates — all products; verified 28/04/2026
+
+## explainers
+explainers/ltm-releases.md
+
+## fastserve
+fastserve/ingest/versions/2022.9/new-features-2022.9-to-2024.3.md
+fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
+
+## media-composer
+# MC 2025 PDF doc index — source: kb.avid.com MC 2025 Documentation page — added 27/04/2026
+media-composer/doc-index.md
+# MC 2024 PDF doc index — source: kb.avid.com MC 2024 Documentation page — added 27/04/2026
+media-composer/doc-index-2024.md
+# MC 2023 PDF doc index — source: kb.avid.com MC 2023 Documentation page — added 27/04/2026
+media-composer/doc-index-2023.md
+# MC 2022 PDF doc index — source: kb.avid.com MC 2022 Documentation page — added 27/04/2026
+media-composer/doc-index-2022.md
+# MC 2021 PDF doc index — source: kb.avid.com MC 2021 Documentation page — added 27/04/2026
+media-composer/doc-index-2021.md
+# MC 2020 PDF doc index — source: kb.avid.com MC 2020 Documentation page — added 27/04/2026
+media-composer/doc-index-2020.md
+# MC 2019 PDF doc index — source: kb.avid.com MC 2019 Documentation page — added 27/04/2026
+media-composer/doc-index-2019.md
+# MC 2018 PDF doc index — source: kb.avid.com MC 2018 Documentation page — added 27/04/2026
+media-composer/doc-index-2018.md
+media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
+media-composer/distributed-processing/versions/2024.10.0/readme.md
+media-composer/distributed-processing/versions/2024.10.1/readme.md
+media-composer/distributed-processing/versions/2024.10.2/readme.md
+media-composer/distributed-processing/versions/2025.10.0/admin-guide.md
+media-composer/distributed-processing/versions/2025.10.0/readme.md
+media-composer/distributed-processing/versions/2025.12.0/admin-guide.md
+media-composer/distributed-processing/versions/2025.12.0/readme.md
+media-composer/distributed-processing/versions/2025.12.1/readme.md
+media-composer/guides/2022/vdi-guide.md
+# guides/2024/admin-guide.md — DELETED 27/04/2026 (empty shell, 12 lines)
+media-composer/guides/2025.x/vdi-guide.md
+# guides/2025/editing-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# guides/2025/fx-guide.md     — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# guides/2025/install-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
+# versions/2021.12–2024.6 new-features.md (10 files) — DELETED 27/04/2026 (empty shells, headers only)
+# versions/2025.6 new-features*.md (3 files)          — DELETED 27/04/2026 (empty/near-empty shells)
+media-composer/versions/2025.12/new-features.md
+media-composer/versions/2025.12/readme.md
+media-composer/versions/2025.6/readme.md
+media-composer/versions/2025/release-notes.md
+
+## mediacentral/resource-center
+# Story-centric approach — Wolftech News + MediaCentral + Content Core newsroom transformation — published 25/03/2026 — added 27/04/2026
+mediacentral/resource-center/story-centric-approach.md
+
+## mediacentral/analytics
+mediacentral/analytics/versions/2023.7/new-features.md
+mediacentral/analytics/versions/2024.10/new-features.md
+
+## mediacentral/cloud-ux
+mediacentral/cloud-ux/limitations/2024.10.md
+mediacentral/cloud-ux/limitations/2025.10.md
+mediacentral/cloud-ux/limitations/2025.6.md
+mediacentral/cloud-ux/plugins/3rd-party-tools/2025.6-readme.md
+mediacentral/cloud-ux/plugins/enps-panel/2024.10.6-readme.md
+mediacentral/cloud-ux/plugins/media-files-plugin/2022.3.1-readme.md
+mediacentral/cloud-ux/plugins/media-files-plugin/2024.10-readme.md
+mediacentral/cloud-ux/plugins/vmware/vmware-best-practices.md
+mediacentral/cloud-ux/versions/2019.9.0/mobile-guide.md
+mediacentral/cloud-ux/versions/2020.4.2/integration-guide.md
+mediacentral/cloud-ux/versions/2022.12/new-features.md
+mediacentral/cloud-ux/versions/2022.3/new-features.md
+mediacentral/cloud-ux/versions/2023.12/hardware-guide.md
+mediacentral/cloud-ux/versions/2023.12/new-features.md
+mediacentral/cloud-ux/versions/2023.3/hardware-guide.md
+mediacentral/cloud-ux/versions/2023.7/hardware-guide.md
+mediacentral/cloud-ux/versions/2023.7/new-features.md
+mediacentral/cloud-ux/versions/2024.10.0/admin-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/install-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/readme.md
+mediacentral/cloud-ux/versions/2024.10.0/third-party-guide.md
+mediacentral/cloud-ux/versions/2024.10.0/users-guide.md
+mediacentral/cloud-ux/versions/2024.10.1/readme.md
+mediacentral/cloud-ux/versions/2024.10.10/readme.md
+mediacentral/cloud-ux/versions/2024.10.11/readme.md
+mediacentral/cloud-ux/versions/2024.10.12/readme.md
+mediacentral/cloud-ux/versions/2024.10.13/readme.md
+mediacentral/cloud-ux/versions/2024.10.14/readme.md
+mediacentral/cloud-ux/versions/2024.10.16/readme.md
+mediacentral/cloud-ux/versions/2024.10.17/readme.md                | source: MCCUX_2024_10_17_ReadMe.pdf | version: 2024.10.17 | doc-type: readme | converted: 11/05/2026
+mediacentral/cloud-ux/versions/2024.10.17/new-features.md          | source: MCCUX_2024_10_17_ReadMe.pdf | version: 2024.10.17 | doc-type: new-features | converted: 11/05/2026
+mediacentral/cloud-ux/versions/2024.10.2/readme.md
+mediacentral/cloud-ux/versions/2024.10.3/integration-guide.md
+mediacentral/cloud-ux/versions/2024.10.3/readme.md
+mediacentral/cloud-ux/versions/2024.10.4/readme.md
+mediacentral/cloud-ux/versions/2024.10.5/readme.md
+mediacentral/cloud-ux/versions/2024.10.6/integration-guide.md
+mediacentral/cloud-ux/versions/2024.10.6/readme.md
+mediacentral/cloud-ux/versions/2024.10.7/readme.md
+mediacentral/cloud-ux/versions/2024.10.8/readme.md
+mediacentral/cloud-ux/versions/2024.10.9/readme.md
+mediacentral/cloud-ux/versions/2024.10/new-features.md
+mediacentral/cloud-ux/versions/2024.10/upgrade-guide-from-ltm2.md
+mediacentral/cloud-ux/versions/2024.2.0/install-guide.md
+mediacentral/cloud-ux/versions/2024.2.0/mobile-guide.md
+mediacentral/cloud-ux/versions/2024.2.0/readme.md
+mediacentral/cloud-ux/versions/2024.2.0/users-guide.md
+mediacentral/cloud-ux/versions/2024.2.1/readme.md
+mediacentral/cloud-ux/versions/2024.2.2/readme.md
+mediacentral/cloud-ux/versions/2024.2.3/readme.md
+mediacentral/cloud-ux/versions/2024.2.4/readme.md
+mediacentral/cloud-ux/versions/2024.2.5/readme.md
+mediacentral/cloud-ux/versions/2024.2/new-features.md
+mediacentral/cloud-ux/versions/2025.10.0/apm-readme.md
+mediacentral/cloud-ux/versions/2025.10.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2025.10.0/install-guide.md
+mediacentral/cloud-ux/versions/2025.10.0/readme.md
+mediacentral/cloud-ux/versions/2025.10.0/users-guide.md
+mediacentral/cloud-ux/versions/2025.10.1/readme.md
+mediacentral/cloud-ux/versions/2025.10.2/readme.md
+mediacentral/cloud-ux/versions/2025.10.3/readme.md
+mediacentral/cloud-ux/versions/2025.10.4/readme.md
+mediacentral/cloud-ux/versions/2025.10/new-features.md
+mediacentral/cloud-ux/versions/2025.10/readme.md
+mediacentral/cloud-ux/versions/2025.6.0/hardware-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/install-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/readme.md
+mediacentral/cloud-ux/versions/2025.6.0/third-party-guide.md
+mediacentral/cloud-ux/versions/2025.6.0/users-guide.md
+mediacentral/cloud-ux/versions/2025.6.1/readme.md
+mediacentral/cloud-ux/versions/2025.6.2/readme.md
+mediacentral/cloud-ux/versions/2025.6.3/readme.md
+mediacentral/cloud-ux/versions/2025.6/hardware-guide.md
+mediacentral/cloud-ux/versions/2025.6/new-features.md
+# versions/current/ — non-version-pinned snapshot of the most recently processed Cloud UX docs.
+# Apply version-bounded reasoning with caution; always prefer an explicitly versioned file when available.
+mediacentral/cloud-ux/versions/current/readme.md
+mediacentral/cloud-ux/versions/current/users-guide.md
+
+## mediacentral/command
+# MC Command PDF doc index (v2017.2–v2023.7.10) — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/command/doc-index.md
+mediacentral/command/versions/2022.3/readme.md
+
+## mediacentral/newsroom-management
+# MCNM PDF doc index (v2017.2–v2024.10.7) incl. WSAPI & Data Receiver supplementals — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/newsroom-management/doc-index.md
+# MOS Gateway PDF doc index (v2021.11–v2024.10.5) — source: kb.avid.com MCNM landing page — added 27/04/2026
+mediacentral/newsroom-management/mos-gateway/doc-index.md
+# MOS Gateway ReadMe conversions — added 27/04/2026
+mediacentral/newsroom-management/mos-gateway/versions/2021.7/readme.md  | source: MCMOSGWv2021.7-ReadMe-RevB.pdf (primary); MCMOSGWv2021.7-ReadMe.pdf (secondary) | RevB adds Port 921 subsection; cumulative 2017.2–2021.7; OS: WS2019/2016; no subscription licensing
+mediacentral/newsroom-management/mos-gateway/versions/2021.7/ops-guide.md | source: MOSGwy-Ops-v2021.7.pdf | 109pp full ops-guide; OS: WS2016/WS2019; NM dep: v3.5+; hardware reqs table (CPU/RAM/HDD/NIC); 16 supported MOS devices; MOS v3.x NOT supported; VC++ 2015-2019 prereq confirmed (p25); <ReplicationPassword> in plain text in <ncs> (pre-vault); Appendix A UNIQUE: Port 921 / mgwcom service introduced v2021.3+v2021.7 (replaces port 21/RXNET from 2020.9.x); systemd unit file modification procedure; direct and indirect activation; 2 source anomalies flagged (mosconfig.xml path 3 variants; services screenshot shows v4.7.0.2 — likely later-version screenshot)
+mediacentral/newsroom-management/mos-gateway/versions/2021.11/readme.md | source: MCMOSGWYv2021.11-ReadMe.pdf | cumulative 2017.2–2021.11; first version with subscription licensing support; OS: WS2019/2016
+mediacentral/newsroom-management/mos-gateway/versions/2022.3/readme.md  | source: MCMOSGWv2022.3_ReadMe.pdf | cumulative 2017.2–2022.3; IN-7373 AB-system B-server fix; OS: WS2019/2016
+mediacentral/newsroom-management/mos-gateway/versions/2022.3.4/readme.md | source: MCMOSGWv2022.3.4-ReadMe.pdf | cumulative 2017.2–2022.3.4; IN-179759/IN-179760 COM session crash fixes; source anomaly: 2020.9 heading mislabelled "2021.9" in PDF
+mediacentral/newsroom-management/mos-gateway/versions/2023.3/readme.md  | source: MCMOSgwy_2023.3_ReadMe.pdf | standalone 2023.3; vault credential security feature; legacy avid.force.com URL; NM dep: 2021.3/2021.11
+mediacentral/newsroom-management/mos-gateway/versions/2023.7/readme.md  | source: MCMOSgwy_2023.7_ReadMe.pdf | cumulative 2023.3+2023.7; TCP keep-alive + socket failure fixes; legacy avid.force.com URL; NM dep: 2021.3/2021.11
+mediacentral/newsroom-management/mos-gateway/versions/2024.10/readme.md | source: MCMOSgwy_2024.10_ReadMe.pdf | standalone 2024.10; IN-180073/IN-180152; source anomaly: template placeholder text in Fixed section; NM dep: 2022.3+; OS: WS2022/2019
+mediacentral/newsroom-management/mos-gateway/versions/2024.10.4/readme.md | source: MCMOSgwy_2024.10.4_ReadMe.pdf | cumulative 2024.10+2024.10.4; IN-180596 mosconfig.xml encoding fix; NM dep: 2022.3+; OS: WS2022/2019
+# MOS Gateway SCG conversions — added 27/04/2026
+mediacentral/newsroom-management/mos-gateway/versions/2023.3/scg.md     | source: MCMOSgwy_v2023.3_SCG.pdf | 103pp full SCG; OS: WS2016/WS2019; NM dep: v3.5+; hardware reqs table (CPU/RAM/HDD/NIC); 16 supported MOS devices; vault credentials INTRODUCED this version (p91 explicit statement); <ReplicationPassword> removed from <ncs> template; indirect activation (web portal .bin); 9-step NM config; 2 source anomalies flagged (mislabelled footer: "Installation and Operations Guide" vs correct SCG title; mosconfig.xml path inconsistency in Ch5 p76)
+mediacentral/newsroom-management/mos-gateway/versions/2023.7/scg.md     | source: MCMOSgwy_2023.7_SCG.pdf | 67pp full SCG; OS: WS2019/WS2022; NM dep: 2021.3/2021.11; VC++ 2015-2019 prereq; vault credentials via MOS Admin Credentials pane (v2023.3+); no Restart Services Procedure; 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
+mediacentral/newsroom-management/mos-gateway/versions/2024.10.5/scg.md   | source: MOSgwy_2024.10.5_SCG.pdf | 67pp full SCG; OS: WS2025/WS2022; NM dep: 2022.3+; VC++ 2015-2019 prereq; vault credentials (v2023.3+); Restart Services Procedure (Nov 2025); 2 source anomalies flagged (malformed KB URL; mosconfig.xml path inconsistency between Ch3 and Ch5)
+# MCNM versioned readmes and supplementals — 2020.4 through 2021.11.1 — added 28/04/2026
+mediacentral/newsroom-management/versions/2020.4/readme.md               | source: MCNM_v2020.4_ReadMe.pdf
+mediacentral/newsroom-management/versions/2020.4/scg.md                  | source: MCNM-SCG-2020-4.pdf
+mediacentral/newsroom-management/versions/2020.4/install-quick-guide.md  | source: MCNM-2020.4-Installation-Quick-Guide.pdf
+mediacentral/newsroom-management/versions/2020.4/nsml-specs.md           | source: NSML-Specs-v41-2020-4.pdf
+mediacentral/newsroom-management/versions/2020.4/ftp-ftps-protocol-spec.md | source: MCNM-FTP-FTPS-ServerProtocol-2020.4.pdf
+mediacentral/newsroom-management/versions/2020.4.2/readme.md             | source: MCNM_v2020.4.2_ReadMe.pdf
+mediacentral/newsroom-management/versions/2020.9/enterprise-virtualisation-ref.md | source: iNEWS-Enterprise-Virtualization-AG-2020-RevC.pdf
+mediacentral/newsroom-management/versions/2020.9.4/readme.md             | source: MCNM_v2020.9.4_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.3/readme.md               | source: MCNM_v2021.3_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.3/enterprise-virtualisation-ref.md | source: MCNM-Enterprise-Virtualization-Ref-2021.pdf
+mediacentral/newsroom-management/versions/2021.7/readme.md               | source: MCNM_v2021.7_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.7/enterprise-virtualisation-ref.md | source: MCNM-Enterprise-Virtualization-Ref-7-2021.pdf
+mediacentral/newsroom-management/versions/2021.7/nsml-spec.md            | source: NSML-Specs-v42-2021-7.pdf
+mediacentral/newsroom-management/versions/2021.7.1/readme.md             | source: MCNM_v2021.7.1_ReadMe_RevB.pdf
+mediacentral/newsroom-management/versions/2021.7.2/readme.md             | source: MCNM_v2021.7.2_ReadMe.pdf
+mediacentral/newsroom-management/versions/2021.11/readme.md              | source: MCNM_v2021.11_ReadMe-RevB.pdf (primary); MCNM_v2021.11_ReadMe.pdf (secondary) | build v8.0; cumulative 2017.1–2021.11; CRITICAL: subscription licensing requires new license string; Kafka compaction (NMS+CloudUX must both be at 2021.11); OS: RHEL 7.7/7.9, CentOS 7.7/7.9; WS10 workstation; superseded by 2021.11.1
+mediacentral/newsroom-management/versions/2021.11.1/readme.md            | source: MCNM_v2021.11.1_ReadMe_RevB.pdf | build v8.0.x; single fix: IN-7304 dbrestore Realname carriage-return crash; full workstation/server compatibility matrix; Updated Security Guidelines note; cumulative 2017.1–2021.11.1; OS: RHEL 7.7/7.9, CentOS 7.7/7.9; superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/scg.md                 | source: MCNM-SCG-2021.11.pdf | ~520pp; Rev A; ToC-based index + key section extracts: Licensing (p.211), Config File (p.212), System Profile (p.216), Enhanced Server Services/systemd (p.349), Rxnet Custom Config (p.353), Kafka Search (p.404), CTMS Integration (p.405); subscription licensing new from v2021.11; superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/install-quick-guide.md | source: MCNM-2021.11-InstallationQuickGuide.pdf | 24pp; OS: RHEL/CentOS 7.7/7.9; updated licence string required for v2021.11+; Standard Partition only (no LVM); subscription licensing section; silent install; Cloud UX connection (CTC + Kafka); superseded by 2022.3
+mediacentral/newsroom-management/versions/2021.11/admin-guide.md         | source: MCNM-AG-2021-11.pdf | ~258pp; Rev A; ToC-based index + full Ch.2 Licensing extract: iNEWS vs Cloud UX subscription licensing types (new from v2021.11); Important Licensing Facts; status l output for both permanent and CloudUX licence types; superseded by 2022.3
+mediacentral/newsroom-management/data-receiver/versions/2022.12/new-features.md
+mediacentral/newsroom-management/data-receiver/versions/2022.3/new-features.md
+mediacentral/newsroom-management/data-receiver/versions/2023.3/new-features.md
+mediacentral/newsroom-management/data-receiver/versions/2023.7/new-features.md
+mediacentral/newsroom-management/data-receiver/versions/2024.10/new-features.md
+# Data Receiver v2021.3 — added 28/04/2026
+mediacentral/newsroom-management/data-receiver/versions/2021.3/readme.md         | source: DR-v2021.3-ReadMe.pdf
+mediacentral/newsroom-management/data-receiver/versions/2021.3/install-admin-guide.md | source: MCDR-IAG-v2021.3.pdf
+# Data Receiver patch readmes and install guide — added 28/04/2026
+mediacentral/newsroom-management/data-receiver/versions/2023.7.4/readme.md
+mediacentral/newsroom-management/data-receiver/versions/2024.10.5/readme.md
+mediacentral/newsroom-management/data-receiver/versions/2024.10.5/install-admin-guide.md
+mediacentral/newsroom-management/versions/2022.12/new-features.md
+mediacentral/newsroom-management/versions/2022.3/new-features.md
+mediacentral/newsroom-management/versions/2023.3/new-features.md
+mediacentral/newsroom-management/versions/2023.7/new-features.md
+mediacentral/newsroom-management/versions/2024.10.6/readme.md
+mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
+mediacentral/newsroom-management/versions/2024.10/new-features.md
+# Wolftech module docs (26 files) moved to private-kb/wolftech/ — pending external-sharing approval (27/04/2026)
+mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
+mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
+mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
+mediacentral/newsroom-management/wsapi/versions/2024.10/new-features.md
+
+## mediacentral/production-management
+mediacentral/production-management/versions/2022.3/new-features.md
+# MCPM v2023.7 LTM guides — Sources: MCPM_2023_7_0_*.pdf — added 24/04/2026
+mediacentral/production-management/versions/2023.7/new-features.md
+mediacentral/production-management/versions/2023.7/hardware-guide.md
+mediacentral/production-management/versions/2023.7/best-practices.md
+mediacentral/production-management/versions/2023.7/admin-guide.md
+mediacentral/production-management/versions/2023.7/install-guide.md
+mediacentral/production-management/versions/2023.7/users-guide.md
+# MCPM v2024.10 LTM — Sources: MCPM_2024_10_0/1/2/3/4/5_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
+# Covers patch releases 2024.10 through 2024.10.5 within same version folder
+mediacentral/production-management/versions/2024.10/new-features.md
+mediacentral/production-management/versions/2024.10/readme.md
+mediacentral/production-management/versions/2024.10/admin-guide.md
+# MCPM_2024_10_0_Production_Services_Setup_Guide.pdf — 230-page guide, structured reference
+mediacentral/production-management/versions/2024.10/pms-guide.md
+# MCPM_2024_10_0_Transfer_Guide.pdf — 120-page guide, structured reference
+mediacentral/production-management/versions/2024.10/transfer-guide.md
+# APM v2025.10 — Source: APM_2025_10_0_ReadMe.pdf (in source-pdfs/) — added 24/04/2026
+# Note: "Avid Production Management" is the Kubernetes-based successor to MediaCentral | Production Management
+mediacentral/production-management/versions/2025.10/new-features.md
+mediacentral/production-management/versions/2025.10/readme.md
+mediacentral/production-management/versions/2025.10/admin-guide.md
+
+## pro-tools
+# Pro Tools PDF doc index (2024.6–2025.12.1 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026
+pro-tools/doc-index.md
+
+## nexis
+nexis/versions/2021.12.0/readme.md
+nexis/versions/2021.12.1/readme.md
+nexis/versions/2021.3.0/readme.md
+nexis/versions/2021.3.1/readme.md
+nexis/versions/2021.5.0/readme.md
+nexis/versions/2021.5.1/readme.md
+nexis/versions/2021.8.1/readme.md
+nexis/versions/2021.8.2/readme.md
+nexis/versions/22.5.0/readme.md
+nexis/versions/22.9.0/readme.md
+nexis/versions/2022.12.0/readme.md
+nexis/versions/2022.12/new-features.md
+nexis/versions/2022.5/new-features.md
+nexis/versions/2022.9/new-features.md
+nexis/versions/2023.0/new-features.md
+nexis/versions/2023.12.0/readme.md
+nexis/versions/2023.12/new-features.md
+nexis/versions/2023.3.0/readme.md
+nexis/versions/2023.7.0/readme.md
+nexis/versions/2023.8.0/readme.md
+nexis/versions/2023.8.1/readme.md
+nexis/versions/2023.8.2/readme.md
+nexis/versions/2023.8.3/readme.md
+nexis/versions/2023.8/new-features.md
+nexis/versions/2024.10.0/readme.md
+nexis/versions/2024.10.0/vfs-guide.md
+nexis/versions/2024.10/new-features.md
+nexis/versions/2024.11.0/readme.md
+nexis/versions/2024.11/new-features.md
+nexis/versions/2024.2.0/readme.md
+nexis/versions/2024.2/new-features.md
+nexis/versions/2024.5.0/readme.md
+nexis/versions/2024.5/new-features.md
+nexis/versions/2024.6.0/readme.md
+nexis/versions/2024.6.1/readme.md
+nexis/versions/2024.6.2/readme.md
+nexis/versions/2024.6/new-features.md
+nexis/versions/2025.10.0/admin-guide.md
+nexis/versions/2025.10.0/client-guide.md
+nexis/versions/2025.10.0/integration-guide.md
+nexis/versions/2025.10.0/readme.md
+nexis/versions/2025.10.0/setup-guide.md
+nexis/versions/2025.2.2/readme.md
+nexis/versions/2025.2/new-features.md
+nexis/versions/2025.3.0/readme.md
+nexis/versions/2025.3/new-features.md
+nexis/versions/2025.5.0/cloud-guide.md
+nexis/versions/2025.5.0/network-guide.md
+nexis/versions/2025.5.1/readme.md
+nexis/versions/2025.5.3/readme.md
+nexis/versions/2025.5.5/readme.md
+nexis/versions/2025.5.6/readme.md
+nexis/versions/2025.5.7/readme.md
+nexis/versions/2025.5/new-features.md
+nexis/versions/2025.5/readme.md
+
+## stream-io
+# Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026
+stream-io/doc-index.md
+stream-io/versions/2025.10/readme.md
+stream-io/versions/2025.2/new-features.md
+stream-io/versions/2025.6/new-features.md
+
+## transcripts
+transcripts/mediacentral/transcripts/mediacentral-2025.10-ibc-demo.md
+transcripts/nab/2025/nab2025-avid-advantage-postproduction.md
+transcripts/nab/2025/nab2025-future-of-newsrooms.md
+transcripts/nab/2025/nab2025-stream-io.md
+transcripts/nab/2025/nab2025-wolftech-integrations.md
+transcripts/nab/2025/wolftech-integrations.md
+# NAB 2026 — 23 videos from https://www.youtube.com/playlist?list=PLhCR_8aS9jOPhbI9w2WWSG75uNCXC6IwS
+# Source: Avid official YouTube channel (public) — added 24/04/2026
+transcripts/nab/2026/nab2026-anshul-kapoor-discusses-avid-google-clouds-new-partnership.md
+transcripts/nab/2026/nab2026-avid-content-core-provides-a-fast-collaborative-web-video-editor.md
+transcripts/nab/2026/nab2026-avid-media-composer-features-a-new-multimodal-extension-powered-by-googles-gemini.md
+transcripts/nab/2026/nab2026-combine-on-prem-avid-mediacentral-with-content-core-in-the-cloud.md
+transcripts/nab/2026/nab2026-coming-very-soon-to-pro-tools-speech-to-text-enhancements.md
+transcripts/nab/2026/nab2026-coming-very-soon-to-pro-tools-track-pinning.md
+transcripts/nab/2026/nab2026-editor-kevin-tent-showed-ai-performance-preservation-and-visual-dubbing-with-flawless.md
+transcripts/nab/2026/nab2026-find-your-story-and-get-to-a-rough-cut-fast-with-quickture.md
+transcripts/nab/2026/nab2026-jon-roberts-talks-about-reinventing-newsroom-workflows-with-itv-news-itn-and-avid-at-nab-2026.md
+transcripts/nab/2026/nab2026-media-composer-tech-preview-dynamic-media-relinking.md
+transcripts/nab/2026/nab2026-media-composer-tech-preview-media-operations-tool.md
+transcripts/nab/2026/nab2026-modernizing-global-production-scaling-avid-workflows-on-aws.md
+transcripts/nab/2026/nab2026-nathan-schauf-shares-stories-from-the-kpop-demon-hunters-edit-room-at-nab-2026.md
+transcripts/nab/2026/nab2026-new-advanced-web-editor-powered-by-cuttingroom-integrated-directly-in-wolftech-news.md
+transcripts/nab/2026/nab2026-new-in-mediacentral-cloud-ux-ai-driven-transcript-translation-and-summary.md
+transcripts/nab/2026/nab2026-pro-tools-tech-preview-fpost-integration.md
+transcripts/nab/2026/nab2026-pro-tools-tech-preview-mpeg-h-support-and-immersive-panner.md
+transcripts/nab/2026/nab2026-project-hail-mary-sound-designer-erik-aadahl-crafted-rockys-unique-sound.md
+transcripts/nab/2026/nab2026-seen-at-nab-2026-wolftechs-upcoming-inews-integration.md
+transcripts/nab/2026/nab2026-ted-editor-tom-costantino-and-assistant-editor-justin-ulrich-at-nab-2026.md
+transcripts/nab/2026/nab2026-were-joined-on-the-avid-nab-main-stage-by-project-hail-mary-editor-joel-negron-ace.md
+transcripts/nab/2026/nab2026-wolftechs-next-gen-newsroom-scripting-and-rundown-system.md
+transcripts/nab/2026/nab2026-wolftechs-reality-defender-offers-forensic-analysis-of-ai-manipulation.md
+transcripts/product-webinars/mediacentral/mediacentral-2024-2025-whats-new.md
+transcripts/product-webinars/stream-io/stream-io-2024.10-webinar.md
+transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new-2.md
+transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
+transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
+transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
+transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
+
+## acc/help
+# ACC in-product Help documentation — extracted from docs.avid.com/acc — version 0.0.3 — added 01/05/2026
+# 11 files covering: overview, system requirements, sign-in, admin (control panel + settings), user settings, UI, player, search, my collections, review & approval
+acc/help/overview.md                           | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: product overview, SaaS, key features
+acc/help/system-requirements.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: prerequisites, networking, firewall URLs, IAM security principles
+acc/help/signing-in.md                        | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Chrome requirement, sign-in/out, data collection consent
+acc/help/admin/control-panel.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: ACC Control Panel, IDP config (OIDC + SAML), role definitions, seat management
+acc/help/admin/administrator-settings.md      | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Admin Fast Bar, Web Editor settings (frame rates, social media, outputs, render profiles), Search Settings App (Vision Warehouse, Search Engine, DocumentDB)
+acc/help/user-settings.md                     | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: data collection, timezone, date format, notification settings, search query mode
+acc/help/ui-common.md                         | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: docking apps, Open In / default app, notifications
+acc/help/player.md                            | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: Player monitor, proxy, JKL playback, Metadata tab, Transcript tab (search/filter/export), Segments tab (markers, restrictions, content description, temporal hits)
+acc/help/search.md                            | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: simple/semantic search, voice search, image search, advanced search (pills, multi-term, boolean), filters, query mode, context menus
+acc/help/my-collections.md                    | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: My Collections window, tabs, add/remove assets, Send to Web Editor, keyboard shortcuts
+acc/help/review-and-approval.md               | source: docs.avid.com/acc | version: 0.0.3 | added: 01/05/2026 | topic: R&A app, comment workflow, stage/state model, role permissions, Tasks app integration
+
+## acc/press-releases
+# Avid + AWS NAB Show 2026 — Content Core debut, NEXIS on AWS, Amazon MGM Studios — 07/04/2026 — added 27/04/2026
+acc/press-releases/2026-04-07-avid-aws-nab2026.md
+# Avid + Google Cloud partnership — Content Core GA, Gemini/Vertex AI in MC and ACC — 16/04/2026 — added 27/04/2026
+acc/press-releases/2026-04-16-avid-google-cloud-partnership.md
+
+## acc/resource-center
+# Avid Content Core resource page (Guillaume Aubuchon / industry context) — source: avid.com/resource-center/avid-content-core — published 17/11/2025 — added 27/04/2026
+acc/resource-center/avid-content-core.md
+# Avid Content Core resource page (Tom Sharma / CTO / multi-cloud / MovieLabs) — source: avid.com/resource-center — published 17/11/2025 — added 27/04/2026
+acc/resource-center/avid-content-core-future-of-media-production.md
+
+## acc/cuttingroom-transcripts
+# Source: YouTube (public) — CuttingRoom workflow transcripts used as ACC workaround pre-GA
+# Contains: 63 raw .vtt files + 63 converted .md files (126 total)
+acc/cuttingroom-transcripts/adjust-audio-advanced.md
+acc/cuttingroom-transcripts/adjust-audio-basic.md
+acc/cuttingroom-transcripts/backblaze.md
+acc/cuttingroom-transcripts/cloud-based-video-editing-with-cuttingroom.md
+acc/cuttingroom-transcripts/cuttingrooms-seamless-solution.md
+acc/cuttingroom-transcripts/dealing-with-missing-media.md
+acc/cuttingroom-transcripts/deleting-media.md
+acc/cuttingroom-transcripts/dropbox.md
+acc/cuttingroom-transcripts/edit-the-story-adding-videos-to-the-timeline.md
+acc/cuttingroom-transcripts/edit-the-story-edit-in-different-aspect-ratios.md
+acc/cuttingroom-transcripts/edit-the-story-frame-rates.md
+acc/cuttingroom-transcripts/edit-the-story-publishing.md
+acc/cuttingroom-transcripts/edit-the-story-selecting-the-thumbnail.md
+acc/cuttingroom-transcripts/edit-the-story-transitions.md
+acc/cuttingroom-transcripts/edit-the-story-what-collaborative-editing-looks-like.md
+acc/cuttingroom-transcripts/editing-transcript-captions.md
+acc/cuttingroom-transcripts/editing-transform-mask-color-correction.md
+acc/cuttingroom-transcripts/google-drive.md
+acc/cuttingroom-transcripts/graphics-adding-images.md
+acc/cuttingroom-transcripts/graphics-adding-your-own-font.md
+acc/cuttingroom-transcripts/graphics-creating-your-first-template.md
+acc/cuttingroom-transcripts/graphics-keyframes.md
+acc/cuttingroom-transcripts/graphics-overview.md
+acc/cuttingroom-transcripts/graphics-pin-to-graphic.md
+acc/cuttingroom-transcripts/graphics-saving-and-deleting.md
+acc/cuttingroom-transcripts/graphics-scale-function.md
+acc/cuttingroom-transcripts/graphics-sharing-a-graphic-with-other-cuttingrooms.md
+acc/cuttingroom-transcripts/guided-aspect-awareness.md
+acc/cuttingroom-transcripts/integration-iconik.md
+acc/cuttingroom-transcripts/integration-zype.md
+acc/cuttingroom-transcripts/integrations-brightcove.md
+acc/cuttingroom-transcripts/integrations-frameio.md
+acc/cuttingroom-transcripts/integrations-mediebank.md
+acc/cuttingroom-transcripts/integrations-storyteller.md
+acc/cuttingroom-transcripts/integrations-zype.md
+acc/cuttingroom-transcripts/keyboard-shortcuts-audio.md
+acc/cuttingroom-transcripts/keyboard-shortcuts-managing-clips.md
+acc/cuttingroom-transcripts/keyboard-shortcuts-navigating-the-timeline.md
+acc/cuttingroom-transcripts/live-rtmp.md
+acc/cuttingroom-transcripts/live-srt.md
+acc/cuttingroom-transcripts/live-zixi.md
+acc/cuttingroom-transcripts/mark-a-segment-in-the-timeline.md
+acc/cuttingroom-transcripts/previewing-uploaded-content.md
+acc/cuttingroom-transcripts/quick-intro.md
+acc/cuttingroom-transcripts/reporter-app-camera-anti-shake-zoom-audio-teleprompter.md
+acc/cuttingroom-transcripts/reporter-app-deleting-the-app.md
+acc/cuttingroom-transcripts/reporter-app-sending-videos-to-cuttingroom.md
+acc/cuttingroom-transcripts/reporter-app-subclipping-transcript.md
+acc/cuttingroom-transcripts/reporter-app-using-different-microphones.md
+acc/cuttingroom-transcripts/reporter-settings.md
+acc/cuttingroom-transcripts/searching-for-media.md
+acc/cuttingroom-transcripts/settings-distribution.md
+acc/cuttingroom-transcripts/settings-output.md
+acc/cuttingroom-transcripts/settings-reporter.md
+acc/cuttingroom-transcripts/settings-user-rolles.md
+acc/cuttingroom-transcripts/storage-s3-compatible.md
+acc/cuttingroom-transcripts/storj.md
+acc/cuttingroom-transcripts/the-concept-of-stories.md
+acc/cuttingroom-transcripts/uploading-content-from-cuttingroom-reporter-iphone-app.md
+acc/cuttingroom-transcripts/uploading-content-from-integrations.md
+acc/cuttingroom-transcripts/uploading-content-from-laptop.md
+acc/cuttingroom-transcripts/user-roles.md
+acc/cuttingroom-transcripts/wasabi.md
+## mediacentral/newsroom-management — PDF conversions batch 08/05/2026
+# 28 PDFs converted from source-pdfs/ (dates, versions, doc-types below)
+# Source: Avid source-pdfs archive | converted to markdown: 08/05/2026
+# Tool: avid_pdf_to_md.py with filename pattern matching
+
+mediacentral/newsroom-management/versions/2020.4/readme.md                      | source: MC-MOSGWv2020.4-ReadMe.pdf | version: 2020.4 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.4/install-quick-guide.md        | source: MCNM-2020.4-Installation-Quick-Guide.pdf | version: 2020.4 | doc-type: install-quick-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.4.2/readme.md                   | source: MC-MOSGWv2020.4.2-ReadMe.pdf | version: 2020.4.2 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.4.2/readme.md                   | source: MCNM_v2020.4.2_ReadMe.pdf | version: 2020.4.2 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.9/readme.md                     | source: MC-MOSGWv2020.9-ReadMe.pdf | version: 2020.9 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.9/setup-config-guide.md         | source: MC-MOSGwy-Ops-v2020.9.pdf | version: 2020.9 | doc-type: setup-config-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.9.3/readme.md                   | source: MC-MOSGWv2020.9.3-ReadMe.pdf | version: 2020.9.3 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020.9.4/readme.md                   | source: MCNM_v2020.9.4_ReadMe.pdf | version: 2020.9.4 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020/setup-config-guide.md           | source: MCNM-SCG-2020-4.pdf | version: 2020 | doc-type: setup-config-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020/readme.md                       | source: NSML-Specs-v41-2020-4.pdf | version: 2020 | doc-type: readme | note: NSML (News Standard Markup Language) specifications | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2020/virtualization-guide.md         | source: iNEWS-Enterprise-Virtualization-AG-2020-RevC.pdf | version: 2020 | doc-type: virtualization-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021/admin-guide.md                  | source: MCNM-AG-2021-11.pdf | version: 2021 | doc-type: admin-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021/virtualization-guide.md         | source: MCNM-Enterprise-Virtualization-Ref-7-2021.pdf | version: 2021 | doc-type: virtualization-guide | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021/readme.md                       | source: NSML-Specs-v42-2021-7.pdf | version: 2021 | doc-type: readme | note: NSML (News Standard Markup Language) specifications | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.3/readme.md                     | source: DR-v2021.3-ReadMe.pdf | version: 2021.3 | doc-type: readme | product: DR (Disaster Recovery) | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.3/readme.md                     | source: MCMOSGWv2021.3-ReadMe.pdf | version: 2021.3 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.3/readme.md                     | source: MCNM_v2021.3_ReadMe.pdf | version: 2021.3 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.3./install-admin-guide.md       | source: MCDR-IAG-v2021.3.pdf | version: 2021.3 | doc-type: install-admin-guide | note: version string has trailing dot from regex | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.3./setup-config-guide.md        | source: MOSGwy-Ops-v2021.3.pdf | version: 2021.3 | doc-type: setup-config-guide | note: version string has trailing dot from regex | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.7/readme.md                     | source: MCNM_v2021.7_ReadMe.pdf | version: 2021.7 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.7.1/readme.md                   | source: MCNM_v2021.7.1_ReadMe.pdf | version: 2021.7.1 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.7.1/readme.md                   | source: MCNM_v2021.7.1_ReadMe_RevB.pdf | version: 2021.7.1 | doc-type: readme | note: Revision B variant | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.7.2/readme.md                   | source: MCNM_v2021.7.2_ReadMe.pdf | version: 2021.7.2 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.11/readme.md                    | source: MCNM-2021.11-InstallationQuickGuide.pdf | version: 2021.11 | doc-type: readme | note: installation quick guide renamed as readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.11/readme.md                    | source: MCNM_v2021.11_ReadMe.pdf | version: 2021.11 | doc-type: readme | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.11/readme.md                    | source: MCNM_v2021.11_ReadMe-RevB.pdf | version: 2021.11 | doc-type: readme | note: Revision B variant | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.11.1/readme.md                  | source: MCNM_v2021.11.1_ReadMe_RevB.pdf | version: 2021.11.1 | doc-type: readme | note: Revision B variant | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2021.11./setup-config-guide.md       | source: MCNM-SCG-2021.11.pdf | version: 2021.11 | doc-type: setup-config-guide | note: version string has trailing dot from regex | converted: 08/05/2026
+mediacentral/newsroom-management/versions/2024.10.5/setup-config-guide.md      | source: MOSgwy_2024.10.5_SCG.pdf | version: 2024.10.5 | doc-type: setup-config-guide | converted: 08/05/2026
+
+## mediacentral/production-management — PDF conversions batch 08/05/2026
+# 8 PDFs converted (MC Command / MCPM releases)
+mediacentral/production-management/versions/2020.4/readme.md                   | source: MC_Command_v2020.4_ReadMe.pdf | version: 2020.4 | doc-type: readme | converted: 08/05/2026
+mediacentral/production-management/versions/2020.9/readme.md                   | source: MC_Command_v2020.9_ReadMe.pdf | version: 2020.9 | doc-type: readme | converted: 08/05/2026
+mediacentral/production-management/versions/2020.9.2/readme.md                 | source: MC_Command_v2020.9.2_ReadMe.pdf | version: 2020.9.2 | doc-type: readme | converted: 08/05/2026
+mediacentral/production-management/versions/2022.3/readme.md                   | source: MC_Command_v2022.3_ReadMe.pdf | version: 2022.3 | doc-type: readme | converted: 08/05/2026
+mediacentral/production-management/versions/2023.7.10/readme.md                | source: MCCommand_2023.7.10_ReadMe.pdf | version: 2023.7.10 | doc-type: readme | converted: 08/05/2026
+mediacentral/production-management/versions/2024.10.3/readme.md                | source: MCPM_2024_10_3_ReadMe.pdf | version: 2024.10.3 | doc-type: readme | converted: 08/05/2026
+
+# End PDF conversions batch 08/05/2026

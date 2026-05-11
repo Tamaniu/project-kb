@@ -1,0 +1,536 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.520 --> 00:00:05.230 align:start position:0%
+ 
+[Music]
+
+00:00:05.230 --> 00:00:05.240 align:start position:0%
+[Music]
+ 
+
+00:00:05.240 --> 00:00:07.269 align:start position:0%
+[Music]
+to<00:00:05.400><c> set</c><00:00:05.600><c> up</c><00:00:05.759><c> zixi</c><00:00:06.319><c> you</c><00:00:06.480><c> start</c><00:00:06.759><c> by</c><00:00:06.919><c> giving</c><00:00:07.120><c> your</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+to set up zixi you start by giving your
+ 
+
+00:00:07.279 --> 00:00:09.990 align:start position:0%
+to set up zixi you start by giving your
+stream<00:00:07.600><c> a</c><00:00:07.960><c> name</c><00:00:08.960><c> this</c><00:00:09.120><c> can</c><00:00:09.280><c> be</c><00:00:09.480><c> anything</c><00:00:09.880><c> that</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+stream a name this can be anything that
+ 
+
+00:00:10.000 --> 00:00:12.629 align:start position:0%
+stream a name this can be anything that
+helps<00:00:10.240><c> you</c><00:00:10.440><c> identify</c><00:00:10.920><c> the</c><00:00:11.200><c> stream</c><00:00:12.200><c> next</c>
+
+00:00:12.629 --> 00:00:12.639 align:start position:0%
+helps you identify the stream next
+ 
+
+00:00:12.639 --> 00:00:14.910 align:start position:0%
+helps you identify the stream next
+decide<00:00:12.960><c> if</c><00:00:13.120><c> this</c><00:00:13.240><c> will</c><00:00:13.360><c> be</c><00:00:13.480><c> a</c><00:00:13.599><c> shared</c><00:00:14.040><c> Source</c>
+
+00:00:14.910 --> 00:00:14.920 align:start position:0%
+decide if this will be a shared Source
+ 
+
+00:00:14.920 --> 00:00:17.310 align:start position:0%
+decide if this will be a shared Source
+meaning<00:00:15.240><c> it's</c><00:00:15.480><c> accessible</c><00:00:15.839><c> to</c><00:00:16.119><c> everyone</c><00:00:16.920><c> or</c><00:00:17.080><c> a</c>
+
+00:00:17.310 --> 00:00:17.320 align:start position:0%
+meaning it's accessible to everyone or a
+ 
+
+00:00:17.320 --> 00:00:20.830 align:start position:0%
+meaning it's accessible to everyone or a
+private<00:00:17.640><c> one</c><00:00:18.039><c> for</c><00:00:18.240><c> your</c><00:00:18.480><c> use</c><00:00:19.080><c> only</c><00:00:20.080><c> now</c><00:00:20.480><c> unlike</c>
+
+00:00:20.830 --> 00:00:20.840 align:start position:0%
+private one for your use only now unlike
+ 
+
+00:00:20.840 --> 00:00:24.470 align:start position:0%
+private one for your use only now unlike
+rtmp<00:00:21.680><c> or</c><00:00:21.960><c> SRT</c><00:00:22.920><c> where</c><00:00:23.080><c> you</c><00:00:23.279><c> provide</c><00:00:23.560><c> a</c><00:00:23.680><c> URL</c><00:00:24.279><c> and</c>
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+rtmp or SRT where you provide a URL and
+ 
+
+00:00:24.480 --> 00:00:27.269 align:start position:0%
+rtmp or SRT where you provide a URL and
+push<00:00:24.760><c> the</c><00:00:24.880><c> signal</c><00:00:25.199><c> to</c><00:00:25.480><c> us</c><00:00:26.359><c> zixi</c><00:00:26.880><c> works</c><00:00:27.160><c> the</c>
+
+00:00:27.269 --> 00:00:27.279 align:start position:0%
+push the signal to us zixi works the
+ 
+
+00:00:27.279 --> 00:00:29.390 align:start position:0%
+push the signal to us zixi works the
+other<00:00:27.480><c> way</c><00:00:27.720><c> around</c><00:00:28.560><c> it's</c><00:00:28.720><c> a</c><00:00:28.920><c> pull-based</c>
+
+00:00:29.390 --> 00:00:29.400 align:start position:0%
+other way around it's a pull-based
+ 
+
+00:00:29.400 --> 00:00:30.630 align:start position:0%
+other way around it's a pull-based
+protocol
+
+00:00:30.630 --> 00:00:30.640 align:start position:0%
+protocol
+ 
+
+00:00:30.640 --> 00:00:33.110 align:start position:0%
+protocol
+you<00:00:30.840><c> input</c><00:00:31.199><c> the</c><00:00:31.359><c> address</c><00:00:31.720><c> of</c><00:00:31.840><c> your</c><00:00:32.079><c> encoder</c><00:00:32.800><c> or</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+you input the address of your encoder or
+ 
+
+00:00:33.120 --> 00:00:35.270 align:start position:0%
+you input the address of your encoder or
+broadcaster<00:00:34.120><c> and</c><00:00:34.320><c> Cutting</c><00:00:34.640><c> Room</c><00:00:34.879><c> will</c><00:00:35.079><c> reach</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+broadcaster and Cutting Room will reach
+ 
+
+00:00:35.280 --> 00:00:36.830 align:start position:0%
+broadcaster and Cutting Room will reach
+out<00:00:35.520><c> to</c><00:00:35.719><c> pull</c><00:00:35.960><c> your</c>
+
+00:00:36.830 --> 00:00:36.840 align:start position:0%
+out to pull your
+ 
+
+00:00:36.840 --> 00:00:39.470 align:start position:0%
+out to pull your
+signal<00:00:37.840><c> the</c><00:00:38.040><c> next</c><00:00:38.399><c> step</c><00:00:38.719><c> is</c><00:00:38.840><c> to</c><00:00:39.040><c> input</c><00:00:39.360><c> the</c>
+
+00:00:39.470 --> 00:00:39.480 align:start position:0%
+signal the next step is to input the
+ 
+
+00:00:39.480 --> 00:00:42.310 align:start position:0%
+signal the next step is to input the
+streaming<00:00:39.879><c> endpoint</c><00:00:40.360><c> from</c><00:00:40.520><c> your</c><00:00:40.640><c> zixi</c><00:00:41.320><c> setup</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+streaming endpoint from your zixi setup
+ 
+
+00:00:42.320 --> 00:00:44.549 align:start position:0%
+streaming endpoint from your zixi setup
+if<00:00:42.480><c> the</c><00:00:42.600><c> stream</c><00:00:43.000><c> is</c><00:00:43.280><c> password</c><00:00:43.760><c> protected</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+if the stream is password protected
+ 
+
+00:00:44.559 --> 00:00:46.189 align:start position:0%
+if the stream is password protected
+you'll<00:00:44.760><c> need</c><00:00:44.879><c> to</c><00:00:45.039><c> enter</c><00:00:45.320><c> the</c><00:00:45.480><c> password</c><00:00:45.960><c> here</c>
+
+00:00:46.189 --> 00:00:46.199 align:start position:0%
+you'll need to enter the password here
+ 
+
+00:00:46.199 --> 00:00:48.590 align:start position:0%
+you'll need to enter the password here
+as<00:00:46.480><c> well</c><00:00:47.480><c> next</c><00:00:47.719><c> you'll</c><00:00:47.920><c> need</c><00:00:48.079><c> to</c><00:00:48.239><c> set</c><00:00:48.480><c> the</c>
+
+00:00:48.590 --> 00:00:48.600 align:start position:0%
+as well next you'll need to set the
+ 
+
+00:00:48.600 --> 00:00:51.389 align:start position:0%
+as well next you'll need to set the
+minimum<00:00:49.320><c> latency</c><00:00:50.320><c> by</c><00:00:50.480><c> default</c><00:00:50.840><c> the</c><00:00:50.960><c> latency</c>
+
+00:00:51.389 --> 00:00:51.399 align:start position:0%
+minimum latency by default the latency
+ 
+
+00:00:51.399 --> 00:00:53.270 align:start position:0%
+minimum latency by default the latency
+is<00:00:51.559><c> set</c><00:00:51.800><c> to</c><00:00:52.000><c> 1,000</c>
+
+00:00:53.270 --> 00:00:53.280 align:start position:0%
+is set to 1,000
+ 
+
+00:00:53.280 --> 00:00:55.150 align:start position:0%
+is set to 1,000
+milliseconds<00:00:54.280><c> however</c><00:00:54.480><c> if</c><00:00:54.600><c> you</c><00:00:54.760><c> notice</c>
+
+00:00:55.150 --> 00:00:55.160 align:start position:0%
+milliseconds however if you notice
+ 
+
+00:00:55.160 --> 00:00:56.869 align:start position:0%
+milliseconds however if you notice
+issues<00:00:55.520><c> with</c><00:00:55.680><c> the</c><00:00:55.800><c> stream</c><00:00:56.280><c> adjusting</c><00:00:56.719><c> this</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+issues with the stream adjusting this
+ 
+
+00:00:56.879 --> 00:00:59.229 align:start position:0%
+issues with the stream adjusting this
+setting<00:00:57.160><c> to</c><00:00:57.320><c> a</c><00:00:57.480><c> slightly</c><00:00:57.920><c> higher</c><00:00:58.320><c> value</c><00:00:59.079><c> can</c>
+
+00:00:59.229 --> 00:00:59.239 align:start position:0%
+setting to a slightly higher value can
+ 
+
+00:00:59.239 --> 00:01:01.830 align:start position:0%
+setting to a slightly higher value can
+help<00:00:59.440><c> ensure</c><00:00:59.760><c> a</c><00:01:00.039><c> smoother</c><00:01:00.680><c> transmission</c><00:01:01.680><c> the</c>
+
+00:01:01.830 --> 00:01:01.840 align:start position:0%
+help ensure a smoother transmission the
+ 
+
+00:01:01.840 --> 00:01:05.109 align:start position:0%
+help ensure a smoother transmission the
+next<00:01:02.160><c> option</c><00:01:02.600><c> is</c><00:01:02.800><c> use</c><00:01:03.239><c> as</c><00:01:03.440><c> growing</c><00:01:04.040><c> live</c><00:01:05.040><c> if</c>
+
+00:01:05.109 --> 00:01:05.119 align:start position:0%
+next option is use as growing live if
+ 
+
+00:01:05.119 --> 00:01:07.070 align:start position:0%
+next option is use as growing live if
+you<00:01:05.320><c> skip</c><00:01:05.680><c> this</c><00:01:05.840><c> your</c><00:01:06.000><c> stream</c><00:01:06.360><c> will</c><00:01:06.560><c> only</c><00:01:06.799><c> work</c>
+
+00:01:07.070 --> 00:01:07.080 align:start position:0%
+you skip this your stream will only work
+ 
+
+00:01:07.080 --> 00:01:08.910 align:start position:0%
+you skip this your stream will only work
+with<00:01:07.200><c> The</c><00:01:07.320><c> Cutting</c><00:01:07.600><c> Room</c><00:01:07.960><c> live</c><00:01:08.200><c> studio</c><00:01:08.680><c> or</c>
+
+00:01:08.910 --> 00:01:08.920 align:start position:0%
+with The Cutting Room live studio or
+ 
+
+00:01:08.920 --> 00:01:11.230 align:start position:0%
+with The Cutting Room live studio or
+module<00:01:09.840><c> and</c><00:01:09.960><c> you</c><00:01:10.080><c> won't</c><00:01:10.320><c> be</c><00:01:10.439><c> able</c><00:01:10.640><c> to</c><00:01:10.799><c> edit</c><00:01:11.040><c> the</c>
+
+00:01:11.230 --> 00:01:11.240 align:start position:0%
+module and you won't be able to edit the
+ 
+
+00:01:11.240 --> 00:01:14.230 align:start position:0%
+module and you won't be able to edit the
+live<00:01:11.479><c> feed</c><00:01:11.960><c> directly</c><00:01:12.360><c> in</c><00:01:12.479><c> the</c><00:01:12.960><c> editor</c><00:01:13.960><c> next</c>
+
+00:01:14.230 --> 00:01:14.240 align:start position:0%
+live feed directly in the editor next
+ 
+
+00:01:14.240 --> 00:01:16.710 align:start position:0%
+live feed directly in the editor next
+you'll<00:01:14.439><c> want</c><00:01:14.600><c> to</c><00:01:14.720><c> set</c><00:01:14.960><c> the</c><00:01:15.159><c> time</c><00:01:15.479><c> zone</c><00:01:16.479><c> this</c>
+
+00:01:16.710 --> 00:01:16.720 align:start position:0%
+you'll want to set the time zone this
+ 
+
+00:01:16.720 --> 00:01:18.710 align:start position:0%
+you'll want to set the time zone this
+ensures<00:01:17.240><c> that</c><00:01:17.400><c> we</c><00:01:17.560><c> display</c><00:01:18.000><c> the</c><00:01:18.119><c> correct</c><00:01:18.520><c> time</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+ensures that we display the correct time
+ 
+
+00:01:18.720 --> 00:01:21.270 align:start position:0%
+ensures that we display the correct time
+for<00:01:18.880><c> the</c><00:01:19.040><c> live</c><00:01:19.280><c> in</c><00:01:19.439><c> the</c><00:01:19.920><c> players</c><00:01:20.920><c> you</c><00:01:21.040><c> can</c>
+
+00:01:21.270 --> 00:01:21.280 align:start position:0%
+for the live in the players you can
+ 
+
+00:01:21.280 --> 00:01:23.350 align:start position:0%
+for the live in the players you can
+either<00:01:21.560><c> use</c><00:01:21.799><c> the</c><00:01:21.960><c> preconfigured</c><00:01:22.680><c> shortcuts</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+either use the preconfigured shortcuts
+ 
+
+00:01:23.360 --> 00:01:25.149 align:start position:0%
+either use the preconfigured shortcuts
+or<00:01:23.520><c> if</c><00:01:23.640><c> the</c><00:01:23.720><c> stream</c><00:01:24.159><c> has</c><00:01:24.280><c> an</c><00:01:24.439><c> embedded</c><00:01:24.920><c> time</c>
+
+00:01:25.149 --> 00:01:25.159 align:start position:0%
+or if the stream has an embedded time
+ 
+
+00:01:25.159 --> 00:01:27.550 align:start position:0%
+or if the stream has an embedded time
+zone<00:01:25.400><c> that</c><00:01:25.560><c> doesn't</c><00:01:25.920><c> match</c><00:01:26.720><c> you</c><00:01:26.840><c> can</c><00:01:27.079><c> override</c>
+
+00:01:27.550 --> 00:01:27.560 align:start position:0%
+zone that doesn't match you can override
+ 
+
+00:01:27.560 --> 00:01:29.630 align:start position:0%
+zone that doesn't match you can override
+it<00:01:27.759><c> by</c><00:01:27.920><c> checking</c><00:01:28.280><c> the</c><00:01:28.479><c> override</c><00:01:29.119><c> time</c><00:01:29.360><c> zone</c>
+
+00:01:29.630 --> 00:01:29.640 align:start position:0%
+it by checking the override time zone
+ 
+
+00:01:29.640 --> 00:01:30.749 align:start position:0%
+it by checking the override time zone
+box
+
+00:01:30.749 --> 00:01:30.759 align:start position:0%
+box
+ 
+
+00:01:30.759 --> 00:01:32.469 align:start position:0%
+box
+if<00:01:30.840><c> you</c><00:01:30.960><c> need</c><00:01:31.119><c> to</c><00:01:31.320><c> integrate</c><00:01:31.720><c> an</c><00:01:31.880><c> electronic</c>
+
+00:01:32.469 --> 00:01:32.479 align:start position:0%
+if you need to integrate an electronic
+ 
+
+00:01:32.479 --> 00:01:35.350 align:start position:0%
+if you need to integrate an electronic
+program<00:01:32.880><c> guide</c><00:01:33.119><c> or</c><00:01:33.399><c> EPG</c><00:01:34.399><c> we</c><00:01:34.600><c> also</c><00:01:34.880><c> support</c>
+
+00:01:35.350 --> 00:01:35.360 align:start position:0%
+program guide or EPG we also support
+ 
+
+00:01:35.360 --> 00:01:38.069 align:start position:0%
+program guide or EPG we also support
+that<00:01:36.280><c> if</c><00:01:36.360><c> you're</c><00:01:36.560><c> using</c><00:01:36.880><c> grace</c><00:01:37.240><c> note</c><00:01:37.680><c> simply</c>
+
+00:01:38.069 --> 00:01:38.079 align:start position:0%
+that if you're using grace note simply
+ 
+
+00:01:38.079 --> 00:01:41.109 align:start position:0%
+that if you're using grace note simply
+enter<00:01:38.360><c> the</c><00:01:38.560><c> API</c><00:01:39.079><c> key</c><00:01:39.799><c> image</c><00:01:40.079><c> endpoint</c><00:01:40.920><c> and</c>
+
+00:01:41.109 --> 00:01:41.119 align:start position:0%
+enter the API key image endpoint and
+ 
+
+00:01:41.119 --> 00:01:44.230 align:start position:0%
+enter the API key image endpoint and
+station<00:01:41.840><c> ID</c><00:01:42.840><c> once</c><00:01:43.079><c> all</c><00:01:43.280><c> this</c><00:01:43.439><c> information</c><00:01:43.880><c> is</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+station ID once all this information is
+ 
+
+00:01:44.240 --> 00:01:48.469 align:start position:0%
+station ID once all this information is
+entered<00:01:45.240><c> click</c><00:01:45.600><c> save</c><00:01:46.079><c> to</c><00:01:46.280><c> complete</c><00:01:46.680><c> the</c><00:01:46.840><c> SRT</c>
+
+00:01:48.469 --> 00:01:48.479 align:start position:0%
+entered click save to complete the SRT
+ 
+
+00:01:48.479 --> 00:01:50.749 align:start position:0%
+entered click save to complete the SRT
+configuration<00:01:49.479><c> after</c><00:01:49.799><c> saving</c><00:01:50.439><c> when</c><00:01:50.560><c> you</c>
+
+00:01:50.749 --> 00:01:50.759 align:start position:0%
+configuration after saving when you
+ 
+
+00:01:50.759 --> 00:01:53.350 align:start position:0%
+configuration after saving when you
+revisit<00:01:51.200><c> the</c><00:01:51.320><c> rtmp</c><00:01:52.079><c> settings</c><00:01:52.920><c> you'll</c><00:01:53.119><c> see</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+revisit the rtmp settings you'll see
+ 
+
+00:01:53.360 --> 00:01:56.190 align:start position:0%
+revisit the rtmp settings you'll see
+some<00:01:53.560><c> additional</c><00:01:54.079><c> technical</c><00:01:55.079><c> options</c><00:01:56.079><c> the</c>
+
+00:01:56.190 --> 00:01:56.200 align:start position:0%
+some additional technical options the
+ 
+
+00:01:56.200 --> 00:01:58.550 align:start position:0%
+some additional technical options the
+first<00:01:56.399><c> thing</c><00:01:56.560><c> you'll</c><00:01:56.759><c> notice</c><00:01:57.159><c> is</c><00:01:57.360><c> the</c><00:01:57.600><c> status</c>
+
+00:01:58.550 --> 00:01:58.560 align:start position:0%
+first thing you'll notice is the status
+ 
+
+00:01:58.560 --> 00:02:01.550 align:start position:0%
+first thing you'll notice is the status
+which<00:01:58.680><c> will</c><00:01:58.880><c> show</c><00:01:59.240><c> as</c><00:01:59.520><c> St</c><00:01:59.960><c> St</c><00:02:00.960><c> this</c><00:02:01.119><c> means</c><00:02:01.439><c> the</c>
+
+00:02:01.550 --> 00:02:01.560 align:start position:0%
+which will show as St St this means the
+ 
+
+00:02:01.560 --> 00:02:04.109 align:start position:0%
+which will show as St St this means the
+ingest<00:02:02.000><c> point</c><00:02:02.360><c> isn't</c><00:02:02.640><c> currently</c><00:02:03.159><c> active</c><00:02:03.960><c> you</c>
+
+00:02:04.109 --> 00:02:04.119 align:start position:0%
+ingest point isn't currently active you
+ 
+
+00:02:04.119 --> 00:02:06.310 align:start position:0%
+ingest point isn't currently active you
+control<00:02:04.520><c> when</c><00:02:04.640><c> it</c><00:02:04.840><c> starts</c><00:02:05.240><c> and</c><00:02:05.479><c> stops</c><00:02:06.200><c> which</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+control when it starts and stops which
+ 
+
+00:02:06.320 --> 00:02:08.830 align:start position:0%
+control when it starts and stops which
+is<00:02:06.520><c> important</c><00:02:07.360><c> because</c><00:02:07.680><c> running</c><00:02:08.039><c> it</c><00:02:08.239><c> incurs</c>
+
+00:02:08.830 --> 00:02:08.840 align:start position:0%
+is important because running it incurs
+ 
+
+00:02:08.840 --> 00:02:11.550 align:start position:0%
+is important because running it incurs
+costs<00:02:09.759><c> when</c><00:02:09.920><c> it's</c><00:02:10.200><c> active</c><00:02:10.920><c> Hardware</c><00:02:11.400><c> is</c>
+
+00:02:11.550 --> 00:02:11.560 align:start position:0%
+costs when it's active Hardware is
+ 
+
+00:02:11.560 --> 00:02:14.390 align:start position:0%
+costs when it's active Hardware is
+engaged<00:02:12.160><c> to</c><00:02:12.360><c> receive</c><00:02:12.800><c> live</c><00:02:13.160><c> signals</c><00:02:14.160><c> before</c>
+
+00:02:14.390 --> 00:02:14.400 align:start position:0%
+engaged to receive live signals before
+ 
+
+00:02:14.400 --> 00:02:16.150 align:start position:0%
+engaged to receive live signals before
+starting<00:02:14.760><c> the</c><00:02:14.920><c> stream</c><00:02:15.239><c> you</c><00:02:15.360><c> can</c><00:02:15.519><c> select</c><00:02:15.959><c> the</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+starting the stream you can select the
+ 
+
+00:02:16.160 --> 00:02:18.750 align:start position:0%
+starting the stream you can select the
+size<00:02:17.000><c> we</c><00:02:17.160><c> offer</c><00:02:17.480><c> four</c><00:02:17.800><c> different</c><00:02:18.120><c> sizes</c><00:02:18.599><c> and</c>
+
+00:02:18.750 --> 00:02:18.760 align:start position:0%
+size we offer four different sizes and
+ 
+
+00:02:18.760 --> 00:02:20.710 align:start position:0%
+size we offer four different sizes and
+the<00:02:18.920><c> price</c><00:02:19.200><c> scales</c><00:02:19.640><c> based</c><00:02:19.920><c> on</c><00:02:20.040><c> the</c><00:02:20.160><c> frame</c><00:02:20.480><c> rate</c>
+
+00:02:20.710 --> 00:02:20.720 align:start position:0%
+the price scales based on the frame rate
+ 
+
+00:02:20.720 --> 00:02:23.670 align:start position:0%
+the price scales based on the frame rate
+and<00:02:21.120><c> resolution</c><00:02:22.120><c> for</c><00:02:22.319><c> most</c><00:02:22.560><c> streams</c><00:02:23.319><c> micro</c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+and resolution for most streams micro
+ 
+
+00:02:23.680 --> 00:02:26.110 align:start position:0%
+and resolution for most streams micro
+size<00:02:24.000><c> is</c><00:02:24.160><c> sufficient</c><00:02:25.000><c> but</c><00:02:25.160><c> larger</c><00:02:25.560><c> sizes</c><00:02:25.879><c> are</c>
+
+00:02:26.110 --> 00:02:26.120 align:start position:0%
+size is sufficient but larger sizes are
+ 
+
+00:02:26.120 --> 00:02:28.949 align:start position:0%
+size is sufficient but larger sizes are
+available<00:02:26.720><c> if</c><00:02:27.120><c> needed</c><00:02:28.120><c> once</c><00:02:28.280><c> you've</c><00:02:28.560><c> selected</c>
+
+00:02:28.949 --> 00:02:28.959 align:start position:0%
+available if needed once you've selected
+ 
+
+00:02:28.959 --> 00:02:32.110 align:start position:0%
+available if needed once you've selected
+your<00:02:29.200><c> size</c><00:02:29.560><c> press</c><00:02:30.080><c> start</c><00:02:31.080><c> then</c><00:02:31.599><c> open</c><00:02:31.840><c> your</c>
+
+00:02:32.110 --> 00:02:32.120 align:start position:0%
+your size press start then open your
+ 
+
+00:02:32.120 --> 00:02:35.509 align:start position:0%
+your size press start then open your
+editor<00:02:33.120><c> you'll</c><00:02:33.360><c> see</c><00:02:33.560><c> a</c><00:02:33.760><c> video</c><00:02:34.160><c> camera</c><00:02:34.680><c> icon</c>
+
+00:02:35.509 --> 00:02:35.519 align:start position:0%
+editor you'll see a video camera icon
+ 
+
+00:02:35.519 --> 00:02:38.589 align:start position:0%
+editor you'll see a video camera icon
+click<00:02:35.760><c> on</c><00:02:35.920><c> it</c><00:02:36.480><c> and</c><00:02:36.720><c> after</c><00:02:37.000><c> about</c><00:02:37.280><c> 40</c><00:02:37.680><c> seconds</c>
+
+00:02:38.589 --> 00:02:38.599 align:start position:0%
+click on it and after about 40 seconds
+ 
+
+00:02:38.599 --> 00:02:40.869 align:start position:0%
+click on it and after about 40 seconds
+your<00:02:38.800><c> inest</c><00:02:39.280><c> point</c><00:02:39.519><c> is</c><00:02:39.720><c> ready</c><00:02:39.920><c> to</c><00:02:40.080><c> receive</c><00:02:40.400><c> a</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+your inest point is ready to receive a
+ 
+
+00:02:40.879 --> 00:02:44.149 align:start position:0%
+your inest point is ready to receive a
+stream<00:02:41.879><c> when</c><00:02:42.040><c> the</c><00:02:42.239><c> status</c><00:02:42.599><c> changes</c><00:02:43.040><c> to</c><00:02:43.319><c> live</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+stream when the status changes to live
+ 
+
+00:02:44.159 --> 00:02:47.820 align:start position:0%
+stream when the status changes to live
+you're<00:02:44.480><c> officially</c><00:02:44.959><c> Broadcasting</c>
+
+00:02:47.820 --> 00:02:47.830 align:start position:0%
+you're officially Broadcasting
+ 
+
+00:02:47.830 --> 00:02:57.430 align:start position:0%
+you're officially Broadcasting
+[Music]
+

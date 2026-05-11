@@ -1,0 +1,264 @@
+# Avid MediaCentral | Newsroom Management  
+## Version 2024.10.6 ReadMe
+
+---
+
+## Important Information
+
+Avid recommends that you read all of the information in this ReadMe thoroughly before installing or using the software described in this document.
+
+> The content herein applies to the aforementioned version, and contains the latest information that might not have been available when product guides were published. However, for previous versions, users should reference older ReadMe documentation for additional information related to those earlier releases.
+
+See the following Avid Knowledge Base link for the most up-to-date Avid MediaCentral Newsroom Management documentation (all releases):
+
+https://kb.avid.com/articles/en_US/user_guide/MediaCentral-Newsroom-Management
+
+---
+
+## Revision History
+
+| Date Revised | Changes Made |
+|--------------|-------------|
+| December 2025 | Added fixed issues for 2024.10.6 |
+| November 2025 | Added compatibility updates, fixed issues, etc. for 2024.10.5 |
+| June 2025 | Added some new features and fixed issues for 2024.10.4 |
+| May 2025 | Added fixed issues & upgrading procedure for 2024.10.3 |
+| March 2025 | Added fixed issues & upgrading procedure for 2024.10.2 |
+| March 2025 | Added fixed issues & upgrading procedure for 2024.10.1 |
+| October 2024 | Initial publication: Updated compatibility content, and added some new features and fixed issues for 2024.10 |
+
+---
+
+## Contents
+
+- Security Guidelines  
+- Compatibility Notes and Issues  
+- Install and Upgrade Notes and Issues  
+- Downgrade Notes and Issues  
+- New Features in MediaCentral | Newsroom Management 2024.10.5  
+- New Features in MediaCentral | Newsroom Management 2024.10.4  
+- New Features in MediaCentral | Newsroom Management 2024.10  
+- Fixed in Version 2024.10.6  
+- Fixed in Version 2024.10.5  
+- Fixed in Version 2024.10.4  
+- Fixed in Version 2024.10.3  
+- Fixed in Version 2024.10.2  
+- Fixed in Version 2024.10.1  
+- Fixed in Version 2024.10  
+- Limitations and Defects for Earlier Versions  
+- NRCS Tool  
+- Configuring Gmail SMTP Relay Server for Sendmail  
+- Doc Errata  
+- Technical Support Information  
+
+---
+
+## Security Guidelines
+
+Avid allows you to install an endpoint detection and response solution on your Newsroom Management system. This applies to both single-server and cluster environments. While Avid does not support any specific solution, you can find general guidelines and information related to CrowdStrike Falcon on the following Avid Knowledge Base page:
+
+https://kb.avid.com/articles/en_US/troubleshooting/en239659
+
+---
+
+## Compatibility Notes and Issues
+
+### Workstation & Server Compatibility Chart
+
+Older client versions may log in to servers of the same or newer versions.  
+Newer client versions cannot log in to servers with older versions.
+
+| Client \ Server | MCNM 2023.7.x | 2024.10.x |
+|-----------------|---------------|-----------|
+| 2023.7.x | A | A |
+| 2024.10.x | NA | A |
+
+**A = Allowed | NA = Not Allowed**
+
+---
+
+### Qualified Operating Systems
+
+**Newsroom Management Server**  
+Ubuntu 22.04 LTS only.
+
+Avid recommends keeping servers updated with the latest patches.
+
+**iNEWS Workstation**  
+Compatible with Windows 10 and Windows 11 only.
+
+Chromium Embedded Framework version 116.
+
+---
+
+## Install and Upgrade Notes and Issues
+
+### Upgrading to 2024.10.6
+
+Client update only.  
+Standard upgrade from 2024.10 or later.
+
+Before upgrade:
+Insert new client version `10.2.1.4` into `SYSTEM.CLIENT.VERSIONS`.
+
+---
+
+### Downgrade Notes and Issues
+
+- Downgrading from 2024.10 requires restoring isam and database from backup.
+- Downgrading to 2023.3 from 2023.7 is standard.
+- Downgrading to 2022.12 or earlier is not supported without full reinstall.
+
+---
+
+## New Features in MediaCentral | Newsroom Management 2024.10.5
+
+### On the Newsroom Management Server
+
+- Configuration files loaded by services no longer require `maketab` or `makemontab`
+- Windows Server 2025 support added
+
+### On the iNEWS Workstation
+
+- Dynamic Theme Change (no restart required)
+- High Resolution Display / Sizing improvements
+- Vector icon support
+- Resizable dialogs
+- Dockable main menu
+
+---
+
+## New Features in MediaCentral | Newsroom Management 2024.10.4
+
+### Server
+
+- Notify Server Kafka integration
+- Improved CTMS data model
+
+### Workstation
+
+- Clear Channel option in MOS-MAP
+- Improved key mapping for macros
+
+---
+
+## New Features in MediaCentral | Newsroom Management 2024.10
+
+- Cloud UX wire notifications
+- Secure Kafka connection
+- Light & Dark themes
+- Updated Chromium framework
+- IDP support (Okta, KeyCloak)
+- New browser shortcuts
+- Enhanced certificate validation
+
+---
+
+## Fixed in Version 2024.10.6
+
+Resolved:
+
+- IN-180861 (macro recursion handling)
+- IN-180872 (Print dialog crash with scaling)
+- IN-180873 / IN-180887 (scroll jump issue)
+- IN-180885 (GDI resource management improvements)
+
+---
+
+## Fixed in Version 2024.10.5
+
+Multiple macro, crash, plugin, mailserver, RXNET, Unicode, UAC and DPI fixes.
+
+---
+
+## Fixed in Version 2024.10.4
+
+Server stability improvements  
+Wire server initialization updates  
+Plugin drag-and-drop parsing fixes  
+Database restore corrections
+
+---
+
+## Fixed in Version 2024.10.3
+
+User preference improvements  
+Macro enhancements  
+Vault and group update fixes  
+
+---
+
+## Fixed in Version 2024.10.2
+
+Spell-check fixes  
+Extended user preference fixes  
+WSAPI boolean field correction  
+
+---
+
+## Fixed in Version 2024.10.1
+
+Unicode handling fixes  
+Queue loading performance fixes  
+Macro execution fixes  
+
+---
+
+## Fixed in Version 2024.10
+
+Large number of MOS, plugin, licensing, printing, HTML5 integration and macro fixes.
+
+---
+
+## Limitations and Defects for Earlier Versions
+
+Includes:
+
+- Grace period delay
+- Incorrect timing with predefined forms
+- Diskcopy reporting
+- Edit lock behaviour
+- IME and localization issues
+- Macro timing issues
+- MAP story limit (20 devices)
+
+---
+
+## NRCS Tool
+
+NRCS Tool supports login up to 20-character usernames only.
+
+---
+
+## Configuring Gmail SMTP Relay Server for Sendmail
+
+Includes steps for:
+
+- Generating Gmail application password
+- Updating `/etc/mail/sendmail.mc`
+- Modifying `/etc/mail/authinfo`
+- Running `makemap`
+- Restarting sendmail
+
+---
+
+## Doc Errata
+
+Correction to `/site/action` → `/site/env/action` path reference.
+
+---
+
+## Technical Support Information
+
+Avid Assurance service options available.  
+Online support: www.support.avid.com  
+
+---
+
+## Legal Notices
+
+Product specifications subject to change without notice.
+
+Copyright © 2025 Avid Technology, Inc.
+
+MediaCentral | Newsroom Management ReadMe • Revised Monday, December 8, 2025
