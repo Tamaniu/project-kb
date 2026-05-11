@@ -269,12 +269,48 @@ mediacentral/production-management/versions/2025.10/admin-guide.md
 ## pro-tools
 # Pro Tools PDF doc index (2024.6–2025.12.1 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026
 pro-tools/doc-index.md
+pro-tools/versions/2025.12/readme-mac.md | source: Pro_Tools_2025.12_Read_Me-Mac.pdf | version: 2025.12 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2025.12/readme-win.md | source: Pro_Tools_2025.12_Read_Me-Win.pdf | version: 2025.12 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2025.12/new-features.md | source: Whats_New_in_Pro_Tools_2025.12.pdf | version: 2025.12 | doc-type: new-features | converted: 11/05/2026
+# pro-tools/versions/2025.12/reference-guide.md | source: Pro_Tools_Reference_Guide_2025.12.pdf | FAILED: 80MB PDF exceeded memory limits during processing | attempted: 11/05/2026
+pro-tools/versions/2025.10/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2025.10.pdf | version: 2025.10 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2025.6.1/readme-mac.md | source: Pro_Tools_2025.6.1_Read_Me-Mac.pdf | version: 2025.6.1 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2025.6.1/readme-win.md | source: Pro_Tools_2025.6.1_Read_Me-Win.pdf | version: 2025.6.1 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2025.6/readme-mac.md | source: Pro_Tools_2025.6_Read_Me-Mac.pdf | version: 2025.6 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2025.6/readme-win.md | source: Pro_Tools_2025.6_Read_Me-Win.pdf | version: 2025.6 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2025.6/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2025.6.pdf | version: 2025.6 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2025.6/new-features.md | source: Whats_New_in_Pro_Tools_2025.6.pdf | version: 2025.6 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2025.6/hardware-guide.md | source: Audio_and_MIDI_Plugins_Guide_2025.6.pdf | version: 2025.6 | doc-type: hardware-guide | converted: 11/05/2026
+pro-tools/versions/2024.10.1/readme-mac.md | source: Pro_Tools_2024.10.1_Read_Me-Mac.pdf | version: 2024.10.1 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2024.10.1/readme-win.md | source: Pro_Tools_2024.10.1_Read_Me-Win.pdf | version: 2024.10.1 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2024.10/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2024.10.pdf | version: 2024.10 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2024.10/new-features.md | source: Whats_New_in_Pro_Tools_2024.10.pdf | version: 2024.10 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2024.10/hardware-guide.md | source: Audio_and_MIDI_Plugins_Guide_2024.10.pdf | version: 2024.10 | doc-type: hardware-guide | converted: 11/05/2026
+pro-tools/versions/2024.3/readme-mac.md | source: Pro_Tools_2024.3_Read_Me-Mac.pdf | version: 2024.3 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2024.3/readme-win.md | source: Pro_Tools_2024.3_Read_Me-Win.pdf | version: 2024.3 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2024.3/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2024.3.pdf | version: 2024.3 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2024.3/new-features.md | source: Whats_New_in_Pro_Tools_2024.3.pdf | version: 2024.3 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2024.3/hardware-guide.md | source: Audio_Plug-Ins_Guide_2024.3.pdf | version: 2024.3 | doc-type: hardware-guide | converted: 11/05/2026
+pro-tools/versions/2023.9/readme-mac.md | source: Pro_Tools_2023.9_Read_Me-Mac.pdf | version: 2023.9 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2023.9/readme-win.md | source: Pro_Tools_2023.9_Read_Me-Win.pdf | version: 2023.9 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2023.9/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2023.9.pdf | version: 2023.9 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2023.9/quick-reference-guide.md | source: Pro_Tools_Quick_Reference_Guide_2023.9.pdf | version: 2023.9 | doc-type: quick-reference-guide | converted: 11/05/2026
+pro-tools/versions/2023.9/new-features.md | source: Whats_New_in_Pro_Tools_2023.9.pdf | version: 2023.9 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2023.3/readme-mac.md | source: Pro_Tools_2023.3_Read_Me-Mac.pdf | version: 2023.3 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2023.3/readme-win.md | source: Pro_Tools_2023.3_Read_Me-Win.pdf | version: 2023.3 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2023.3/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2023.3.pdf | version: 2023.3 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2023.3/new-features.md | source: Whats_New_in_Pro_Tools_2023.3.pdf | version: 2023.3 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2023.3/new-features-jp.md | source: Whats_New_in_Pro_Tools_2023.3_JP.pdf | version: 2023.3 | doc-type: new-features | lang: JP | converted: 11/05/2026
+pro-tools/versions/2022.12/readme-mac.md | source: Pro_Tools_2022.12_Read_Me-Mac.pdf | version: 2022.12 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2022.12/readme-win.md | source: Pro_Tools_2022.12_Read_Me-Win.pdf | version: 2022.12 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2022.12/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2022.12.pdf | version: 2022.12 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/2022.12/new-features.md | source: Whats_New_in_Pro_Tools_2022.12.pdf | version: 2022.12 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/current/quick-reference-guide.md | source: Pro_Tools_Quick_Reference_Guide.pdf | version: current | doc-type: quick-reference-guide | converted: 11/05/2026
+pro-tools/versions/current/sketch-guide.md | source: Using_Pro_Tools_Sketch_Guide.pdf | version: current | doc-type: sketch-guide | converted: 11/05/2026
 pro-tools/versions/2026.4/readme-mac.md | source: Pro_Tools_2026.4_Read_Me-Mac.pdf | version: 2026.4 | doc-type: readme-mac | converted: 11/05/2026
 pro-tools/versions/2026.4/readme-win.md | source: Pro_Tools_2026.4_Read_Me-Win.pdf | version: 2026.4 | doc-type: readme-win | converted: 11/05/2026
 pro-tools/versions/2026.4/new-features.md | source: Whats_New_in_Pro_Tools_2026.4.pdf | version: 2026.4 | doc-type: new-features | converted: 11/05/2026
 pro-tools/versions/2026.4/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2026.4.pdf | version: 2026.4 | doc-type: shortcuts-guide | converted: 11/05/2026
-pro-tools/versions/current/quick-reference-guide.md | source: Pro_Tools_Quick_Reference_Guide.pdf | version: current | doc-type: quick-reference-guide | converted: 11/05/2026
-pro-tools/versions/current/sketch-guide.md | source: Using_Pro_Tools_Sketch_Guide.pdf | version: current | doc-type: sketch-guide | converted: 11/05/2026
 
 ## nexis
 nexis/versions/2021.12.0/readme.md

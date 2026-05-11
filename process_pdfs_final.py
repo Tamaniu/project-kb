@@ -43,8 +43,11 @@ PDF_PATTERNS = [
     (r'Pro_Tools_Reference_Guide_([\d]+\.\d+)', 'pro-tools', 'reference-guide'),
     (r'Pro_Tools_Shortcuts_([\d]+\.\d+)', 'pro-tools', 'shortcuts-guide'),
     (r'Whats_New_in_Pro_Tools_([\d]+\.\d+)', 'pro-tools', 'new-features'),
+    (r'Whats_New_in_Pro_Tools_([\d]+\.\d+)_JP', 'pro-tools', 'new-features-jp'),
     (r'Pro_Tools_Quick_Reference_Guide', 'pro-tools', 'quick-reference-guide'),
     (r'Using_Pro_Tools_Sketch_Guide', 'pro-tools', 'sketch-guide'),
+    (r'Audio_Plug-Ins_Guide_([\d]+\.\d+)', 'pro-tools', 'audio-plugins-guide'),
+    (r'Audio_and_MIDI_Plugins_Guide_([\d]+\.\d+)', 'pro-tools', 'audio-midi-plugins-guide'),
 ]
 
 def extract_metadata(filename):
