@@ -115,6 +115,11 @@ PRODUCT_CONFIG = {
         "area": "analytics",
         "path": "mediacentral/analytics/versions/{version}/{doc_type}.md",
     },
+    "pro-tools": {
+        "name": "pro-tools",
+        "area": "editing",
+        "path": "pro-tools/versions/{version}/{doc_type}.md",
+    },
 }
 
 # Boilerplate prefixes that signal the Legal Notices section
@@ -355,7 +360,9 @@ def main():
                                  "admin-guide","users-guide","install-guide","install-admin-guide",
                                  "install-quick-guide","setup-config-guide","editing-guide",
                                  "fx-guide","vdi-guide","format-guide","virtualization-guide",
-                                 "tomcat-install-guide","network-guide","integration-guide"],
+                                 "tomcat-install-guide","network-guide","integration-guide",
+                                 "readme-mac","readme-win","reference-guide","shortcuts-guide",
+                                 "quick-reference-guide","sketch-guide"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",

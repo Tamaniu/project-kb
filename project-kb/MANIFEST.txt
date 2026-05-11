@@ -269,6 +269,12 @@ mediacentral/production-management/versions/2025.10/admin-guide.md
 ## pro-tools
 # Pro Tools PDF doc index (2024.6–2025.12.1 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026
 pro-tools/doc-index.md
+pro-tools/versions/2026.4/readme-mac.md | source: Pro_Tools_2026.4_Read_Me-Mac.pdf | version: 2026.4 | doc-type: readme-mac | converted: 11/05/2026
+pro-tools/versions/2026.4/readme-win.md | source: Pro_Tools_2026.4_Read_Me-Win.pdf | version: 2026.4 | doc-type: readme-win | converted: 11/05/2026
+pro-tools/versions/2026.4/new-features.md | source: Whats_New_in_Pro_Tools_2026.4.pdf | version: 2026.4 | doc-type: new-features | converted: 11/05/2026
+pro-tools/versions/2026.4/shortcuts-guide.md | source: Pro_Tools_Shortcuts_2026.4.pdf | version: 2026.4 | doc-type: shortcuts-guide | converted: 11/05/2026
+pro-tools/versions/current/quick-reference-guide.md | source: Pro_Tools_Quick_Reference_Guide.pdf | version: current | doc-type: quick-reference-guide | converted: 11/05/2026
+pro-tools/versions/current/sketch-guide.md | source: Using_Pro_Tools_Sketch_Guide.pdf | version: current | doc-type: sketch-guide | converted: 11/05/2026
 
 ## nexis
 nexis/versions/2021.12.0/readme.md
