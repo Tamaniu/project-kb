@@ -6,20 +6,12 @@ release-date: 01/03/2023
 doc-type: new-features
 source: pdf
 confidentiality: public
-date-added: 11/05/2026
+date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2023.3日本語ガイド © 2023 Avid Technology, Inc., (“Avid”), all rights reserved. This guide may not be duplicated in whole or in part without the written consent of Avid.
-For a current and complete list of Avid trademarks visit: www.avid.com/legal/trademarks-and-other-notices This product may be protected by one or more U.S. and non-U.S. patents. Details are available at www.avid.com/patents.
-Product features, specifications, system requirements, and availability are subject to change without notice.
-Pro Tools includes élastique Pro V3 by zplane.development as time stretching engine.
-Bonjour, the Bonjour logo, and the Bonjour symbol are trademarks of Apple Computer, Inc.
-Thunderbolt and the Thunderbolt logo are trademarks of Intel Corporation in the U.S. and/or other countries.
-Confidential unpublished works. Copyright 2022 Dolby Laboratories. All rights reserved.
-Dolby, Dolby Atmos, and the double-D symbol are registered trademarks of Dolby Laboratories Licensing Corporation.
-9329-66467-01 REV A 03/23 Guide Part Number Contents リソース.
-の機能と改善点 Silicon上でPro Toolsネイティブを実現 編集機能の改善 エラスティックオーディオの改善 M4Aにバウンス Sync X MHz What’s New in Pro Tools 2023.3 iii What’s New in Pro Tools 2023.3 新機能と機能拡張 Pro Tools® ソ フ ト ウェア ・ バージ ョ ン 2023.3 では、 以下の新機能と機能拡張が提供されます。 :
+What’s New in Pro Tools Version 2023.3日本語ガイド 9329-66467-01 REV A 03/23 リソース.
+の機能と改善点 Silicon上でPro Toolsネイティブを実現 編集機能の改善 エラスティックオーディオの改善 M4Aにバウンス Sync X MHz What’s New in Pro Tools 2023.3 新機能と機能拡張 Pro Tools® ソ フ ト ウェア ・ バージ ョ ン 2023.3 では、 以下の新機能と機能拡張が提供されます。 :
 • Apple Silicon 完全対応 • 編集機能の改善点 :
 • ルーラーを編集グループに含める • タブでオート メーシ ョ ン ・ ブレークポイン トへ移動 • ［ダブルク リ ッ クでオート メーシ ョ ンブレークポイン ト を選択］ の初期設定 • 編集ウ ィ ン ドウ内ツールバーのクオンタ イズ操作の改善 • エラスティック・オーディオのアップデート :
 • テ ィ ッ クベースのト ラ ッ クにおける Melodyne の改善 • élastique Pro V3 by zplane.development によるエラステ ィ ッ ク ・ オーディ オ処理 • X-Form® が （iZotope の Radius® アルゴリズムに準拠） Apple Silicon にネイテ ィ ブ対応 • M4A へのバウンス（Mac のみ） • Sync X ビデオジェネレーターが 10MHz のクロックに追従 システム要件と互換性情報 Avid が互換性を保証し、 サポー ト を提供でき るのは、 Avid がテス ト して承認したハード ウェアおよびソ フ ト ウェアのみです。 完全なシステム要件、 および適合する コンピューター、 オペレーテ ィ ング ・ システム、 ハード ド ラ イブ、 サードパーテ ィ製デ バイ スの リ ス ト については、 以下をご覧く ださい。 :

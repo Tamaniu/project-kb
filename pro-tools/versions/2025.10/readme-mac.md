@@ -1,8 +1,8 @@
 ---
 product: pro-tools
 product-area: editing
-version: "2025.6.1"
-release-date: 01/06/2025
+version: "2025.10"
+release-date: 01/10/2025
 doc-type: readme-mac
 source: pdf
 confidentiality: public
@@ -10,10 +10,9 @@ date-added: 13/05/2026
 status: current
 ---
 
-Avid Pro Tools Software v2025.6.1 ReadMe for macOS Tools® This Read Me documents important compatibility information and known issues for all tiers of Pro
+Avid Pro Tools Software v2025.10 ReadMe for macOS Tools® This Read Me documents important compatibility information and known issues for all tiers of Pro ("Tahoe").
 > **Note:** For detailed compatibility information, including supported operating systems, visit the Pro Tools
 compatibility pages online.
-Video Window Enhancement Video Window “Always On Top” (Pro Tools Studio and Ultimate 2025.6.1 Only) An Always On Top option has been added to the right-click menu of the Video window. When this option is enabled, the Video window is always displayed on top of other applications regardless of whether Pro Tools is the focused application or not. If you want to share the Video window over a screen sharing application such as Microsoft Teams or Google Meet, be sure to disable this option.
 Compatibility Avid can only assure compatibility and provide support for qualified hardware and software configurations.
 For the latest compatibility information—including qualified computers, operating systems, and third-party products—visit the Avid website (www.avid.com/compatibility).
 Support for macOS 15.1 (“Sequoia”) Pro Tools | Carbon Systems macOS Sequoia 15.1 is supported with Carbon standalone, using Audio MIDI Setup (AMS) for device configuration.
@@ -32,16 +31,14 @@ PT-296248: “Launch using Rosetta” is not enabled by default for secondary us
 Workaround: On Apple silicon computers, Pro Tools opens using Rosetta by default only for the administrator account that performed the installation. To ensure Pro Tools opens using Rosetta for other accounts, log in to the desired user account and navigate in the Finder to the Pro Tools application icon.
 “Get Info” on the Pro Tools application and enable the Open using Rosetta option.
 PT-262226: “Pro Tools Helper must be closed” dialog interrupts Pro Tools installation.
-Workaround: The Pro Tools installation process may be interrupted by a dialog indicating, “The Pro Tools Helper must be closed before the software can be installed.” If you encounter this dialog, launch the macOS Activity Monitor (/Applications/Utilities/), select the Pro Tools Helper process, choose View > Quit Process, Force Quit and then use the option. Once the process quits, Pro Tools installation proceeds until completed.
+Workaround: The Pro Tools installation process may be interrupted by a dialog indicating, “The Pro Tools Helper must be closed before the software can be installed.” If you encounter this dialog, launch the macOS Pro Tools Helper View > Quit Activity Monitor (/Applications/Utilities/), select the process, choose Process, and then use the Force Quit option. Once the process quits, Pro Tools installation proceeds until completed.
 PT-263475: MacBook Pro Headphone jack can interrupt recording.
 Workaround: While recording, avoid disconnecting headphones from the MacBook Pro built-in headphone jack. Disconnecting headphones has been found to interrupt recording (regardless of the current device chosen in the Playback Engine). Avid is working with Apple to address this issue.
 PT-289806: Poor Pro Tools playback performance on macOS Ventura when running Spotlight.
 Workaround: Running Spotlight on macOS Ventura can impact Pro Tools playback performance. The impact on Pro Tools is worse in recent macOS releases because of additional tasks now performed by Spotlight such as parsing images for image recognition. To avoid performance issues, do one of the following:
-Exclude any folder or drives from Spotlight indexing and parsing that may be causing Spotlight to
-- parse files during audio playback. This is particularly relevant when parsing large image or video
-files.
-- In the Terminal, run “sudo mdutil -a -I off” to turn off Spotlight until the next reboot. Consider running
-this command when you know you will be using Pro Tools on startup.
+- Exclude any folder or drives from Spotlight indexing and parsing that may be causing Spotlight to
+parse files during audio playback. This is particularly relevant when parsing large image or video files.
+In the Terminal, run “sudo mdutil -a -I off” to turn off Spotlight until the next reboot. Consider running this command when you know you will be using Pro Tools on startup.
 To permanently disable Spotlight, in the Terminal, run “sudo launchctl unload -w
 - /System/Library/LaunchDaemons/com.apple.metadata.mds.plist”.
 PT-247965: Pro Tools session closes unexpectedly when removing headphones from the headphone jack on newer MacBook Pros.
@@ -53,7 +50,6 @@ UME-1223: Avid Video Engine (AVE) is not supported with drives that are case-sen
 Workaround: The Avid Video Engine (AVE) will not load on macOS if the OS drive/volume is formatted as macOS Extended (Case-sensitive, Journaled). In order for AVE to load, the OS drive/volume must be formatted as macOS Extended (Journaled).
 PT-270744: Cannot import audio-only MOV file using Import Video or drag and drop.
 Workaround: When importing a MOV file which contains only audio, dragging and dropping the file to the timeline or using the Import Video command results in an error. To import an audio-only MOV, use the Import Audio command.
-PT-273021: AAC audio import is unexpectedly slow. (M1 Apple Silicon running Rosetta Only) Workaround: The time it takes to import a video with AAC encoded audio file can be unexpectedly slow with Pro Tools running with Rosetta on MI Apple Silicon computers. To avoid this issue, export audio from QuickTime outside of Pro Tools and import the audio separately from the video. This is not an issue when running Pro Tools natively on Apple Silicon.
 PT-266359: Audio cannot be imported from a video file with an unsupported video codec.
 It is not possible to import audio from a video file if the video codec is unsupported.
 PT-224790: Grid mode shortcut (F4) doesn't select or toggle Grid mode on late 2016 MacBook Pro with Touch Bar if a web browser is launched with a web page loaded.
@@ -75,24 +71,11 @@ PT-228201: Changing Waveform Cache Versions preference blocks certain features w
 Workaround:If Soundminer is installed, keep the “Waveform Cache Versions” preference setting at zero, its default value. Setting this preference to a different value may prevent Soundminer from determining the path to the currently open Pro Tools session, which will block certain features within Soundminer.
 PT-230027: Soundminer “Spot to DAW” does not work if Pro Tools preferences are corrupted.
 Workaround: If you can no longer spot to Pro Tools from Soundminer even though audio files are actually copied to the audio files folder. If this issue occurs, quit Pro Tools, clear the Pro Tools preferences, and relaunch Pro Tools.
-Important EuControl Compatibility Instructions If your system includes any EuControl controllers, do the following to use them with Pro Tools 2024.3 and later:
-Applications
-1. In EuControl Settings, go to the tab.
-Pro Tools 23Mac).
-2. In the Applications list, click to select the older version of Pro Tools (such as
-Last Focused Application
-3. Click the minus sign (“–“) next to the field to remove Pro Tools from
-the list.
-4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the Last Focused
-Application field.
-5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
 Pro Tools | HDX and Pro Tools | HD Native Systems PT-256268: When running the Uninstall HD Driver.command, macOS claims that the command is from an unidentified developer and prevents it from running.
-Open.
-Workaround: If you encounter this issue, right-click the command and choose PT-247759: Installing HDX Firmware reset can result in a Kernel Panic or Blue Screen if more than one card is reset in quick succession.
+Workaround: If you encounter this issue, right-click the command and choose Open.
+PT-247759: Installing HDX Firmware reset can result in a Kernel Panic or Blue Screen if more than one card is reset in quick succession.
 Workaround: If an HDX firmware update fails and you reset your hardware to factory default to try again, you may find that attempting to reset more than one card at a time can result in a kernel panic on macOS or a blue screen error on Windows. If you encounter this issue, reset the firmware on one card at a time.
 Launch Pro Tools to install the latest firmware on one card, then shutdown and repeat the process on each additional card in the system.
-PT-250325: Hang on application quit after firmware upgrade or downgrade.
-Workaround: If the Pro Tools launch screen displays “Waiting for Video Engine to Quit” for an extended period of time upon completion of a firmware upgrade or downgrade you can safely force quit Pro Tools and follow the firmware directions by shutting down the computer and chassis (if present). The firmware upgrade or downgrade will be successful. The act of force quitting will not affect the firmware upgrade or downgrade process.
 PT-245082 HDX firmware downgrade dialog does not appear in the foreground.
 Workaround: If the HDX firmware downgrade dialog does not appear in the foreground, it may be hidden behind another application's Window. Use the macOS keyboard shortcut Command+Tab to bring the Pro Tools application to the foreground and show the HDX firmware downgrade dialog.
 PT-250326: Slow HDX firmware upgrades or downgrades when running in the background.
@@ -113,8 +96,6 @@ A direct Network Interface connection between Pro Tools | Carbon and your comput
 Network equipment such as routers, hubs, and switches are not supported.
 > **Note:** When using Pro Tools | Carbon with EUCON peripherals (such as S1), use a dedicated Network
 Interface to your Mac for Pro Tools | Carbon.
-PT-265560 TrackPunch and DestructivePunch, and PEC Monitoring are Disabled with Pro Tools | Carbon.
-If you are running Pro Tools | Ultimate software with Pro Tools | Carbon, TrackPunch and DestructivePunch, and PEC monitoring are disabled.
 Avid-Qualified AVB-capable Thunderbolt to Ethernet Adapters Required for Pro Tools | Carbon If your computer only has Thunderbolt ports, use an Avid-qualified AVB-capable Thunderbolt to Ethernet adapter.
 - Use an AVB-capable Thunderbolt 2-to-Gigabit Ethernet adapter, such as the Apple Thunderbolt to
 Gigabit Ethernet Adapter.
@@ -124,7 +105,15 @@ Not all Thunderbolt to Ethernet adapters are AVB-capable. For the latest informa
 Third-Party Video Hardware AJA-186 Pro Tools video playback stutters on Apple M1 with AJA hardware.
 Workaround: When using a system with an Apple M1 processor and AJA video hardware with driver version 16.1, video hardware output will occasionally stutter or enter a state where a few seconds of playback loops continuously. There is no workaround at this time.
 Known Issues The following sections document known issues you may encounter when using Pro Tools, along with workarounds if they exist.
-General Pro Tools Issues PT-320541 Clicking outside an open modal dialog while Pro Tools is stopped results in any audio passing through the Pro Tools to cut out momentarily. (PT-336324) Workaround: Clicking outside an open modal dialog while Pro Tools is stopped results in a system alert chime and any audio passing through Pro Tools cuts out momentarily.
+General Pro Tools Issues PT-346242 Pro Tools quits unexpectedly on launch when loading many plugins. (PT-344173) Workaround: In some cases, launching Pro Tools with many hundreds of plugins installed can cause the plugin caching mechanism to stall which can then cause the Pro Tools application to quit unexpectedly.
+This situation can potentially happen multiple times sequentially until all plugins have been successfully cached. To resolve the issue, keep relaunching Pro Tools after each quit on launch until all plugins have been successfully cached and the application launches normally.
+PT-346242 Pro Tools cannot open various application windows after updating Workspace Database file Workaround: When updating your currently installed Pro Tools version to a newer one, the Workspace Database file may need to be updated. After updating this file, Pro Tools might be unable to open various application windows.
+To correct this issue, try the following:
+- Quit and relaunch Pro Tools
+- Click somewhere outside of the Pro Tools application and then switch back to Pro Tools
+PT-336324 Clicking outside an open modal dialog while Pro Tools is stopped results in any audio passing through the Pro Tools to cut out momentarily.
+Workaround: Clicking outside an open modal dialog while Pro Tools is stopped results in a system alert chime and any audio passing through Pro Tools cuts out momentarily.
+PT-336324 Keyboard focus does not move from the Search field of the Learn and SoundFlow tabs to the Pro Tools Edit window when you click on the timeline. (PT-349360) Workaround: If you click on the timeline while in the “Search” field of the Learn and SoundFlow tabs, keyboard focus remains in the "Search" field instead of moving to the Pro Tools Edit window. To avoid this issue, click anywhere in the SoundFlow or Learn Tab outside of the “Search” text field first, then click in the Edit window.
 PT-320541 When launching Pro Tools while logged in with a non-administrator account you are prompted for an administrator password.
 Workaround: Install Pro Tools using an administrator account and launch at least once to prevent non- administrator users from being asked for an administrator password.
 PT-323988 New Pro Tools icons for files not displayed after install of 2024.6.
@@ -132,8 +121,8 @@ Workaround: While macOS finder windows are open, you may not see Pro Tools sessi
 PT-268070 Input signal is briefly audible when starting playback with a record-armed track.
 Workaround: If any record-armed track is receiving input signal, that signal may be briefly audible when starting playback. If you encounter this issue, disable record-arm on that track.
 PT-278731 Changing the Playback Engine with a project open requires that you quit and restart Pro Tools.
-Workaround: Changing the Playback Engine with a project open requires that you quit and restart Pro Tools even if the selected Playback Engine does not normally require this. To avoid this issue, change the Playback engine before opening or creating a project. If you do encounter this issue, quit Pro Tools as (File > Open Recent).
-required, relaunch Pro Tools, and then reopen the project PT-256794 No signal on tracks in a session after switching sample rates in the Playback Engine.
+Workaround: Changing the Playback Engine with a project open requires that you quit and restart Pro Tools even if the selected Playback Engine does not normally require this. To avoid this issue, change the Playback engine before opening or creating a project. If you do encounter this issue, quit Pro Tools as required, relaunch Pro Tools, and then reopen the project (File > Open Recent).
+PT-256794 No signal on tracks in a session after switching sample rates in the Playback Engine.
 Workaround: Audio signal can be lost on tracks in a session if you change the sample rate before creating the session. Opening sessions with different sample rates should fix this issue for the failed session.
 PT-276783 While using the Create Session from VENUE command to create a 64-track session, it is possible that Pro Tools may not be able to create the new session.
 Workaround: If you encounter this issue, use Create Session from VENUE again, but use a new (unique) name for the Session file.
@@ -152,12 +141,15 @@ PT-267227 2048 HW Buffer Size setting not available at higher sample rates.
 Workaround: After switching to a session with a higher sample rate, the highest hardware buffer setting may not be shown in the Playback Engine. Quit and relaunch Pro Tools to resolve this issue.
 PT-267891 Playback does not start after switching from a higher sample rate session.
 Workaround: In certain cases with the HDX Playback Engine, when closing a session with a sample rate of session, you may not be able to play back the session. If this occurs, open the Playback Engine and change the Hardware Buffer Size to a different setting to resolve this issue.
-PT-236416 Track List scroll bar gets stuck at high voice counts.
-(HDX Systems Only) Workaround: If you encounter this issue, use scroll wheel on your mouse or trackpad to scroll through the Track List.
 PT-236038 The Mix Window cannot be expanded past a certain vertical size.
 Workaround: The Pro Tools Mix Window has a vertical size limit. As a result, the window may not be stretched to fill the entire screen on high resolution monitors without scaling. If you encounter this issue, it is recommended that either the display be scaled to more fully fit the screen, or that you scroll through the Mix Window to view areas that might otherwise be out of view.
 PT-30818) Changing width of a track that has Track markers causes the Marker Lane to be removed and can cause assertion errors.
 Workaround: Changing Width of a Track that has Track markers causes the Marker Lane to be removed and can cause assertion errors. To avoid any assertion error, save and re-open session after this issue occurs.
+PT-348832 and PT-350210: Opening a session saved in Pro Tools 2025.6.1 or earlier, tracks with FMP (Follow Main Pan) sends wider than the main output path or if you change a track output path to a wider format, the Front/Rear position will be centered with zero divergence.
+Workaround: When opening a legacy session (such as Pro Tools 2025.6) containing a track with an FMP send wider than the main output path, all pan settings other than front and rear position will be zeroed in PT 2025.10. However, audio does not pass to rear channels until the main L/R panner is moved. Replace the main output with a path of equal or greater width to the send, then adjust pan parameters as desired.
+If after changing the track's output path to a wider format and the main output pan parameters reset to zero, save the session under a new name. Then, use the Global Renderer Management menu to clear the track's pan automation. Import Session Data from the original session, selecting only the main pan and match the track.
+PT-350215: Audio pan indicator "front pos" text obscures the numeric value.
+Audio pan indicator text "front pos" obscures the numeric value when a track is routed to a multichannel path. This may not always be noticeable in the Edit window, depending on the output path format, but is always noticible in the Mix window.
 PT-276702 Short automation lines to –inf attenuate audio too early.
 Workaround: If you are using automation lines that attenuate to or from –inf, and the line is approximately 60ms or less, add additional breakpoints along the line to improve accuracy and avoid this issue. This can help even though the added breakpoints do not change the curve of the line.
 PT-264403 Shifting an Edit Group containing frozen tracks removes clips and effect automation on non- frozen tracks.
@@ -179,22 +171,16 @@ respective tracks.
 - If the Automation was written to any unnecessary tracks in the session, make those tracks
 Inactive.
 - Select the suspect automation and nudge it by a sample or two.
-PT-234486 The OK button is missing in the Preferences window with a small screen setting.
-OK Workaround: If the button is not visible in the Preferences window, press Return to save and close the Preferences window (or press Command+. to cancel).
 PT-235174 OK button in the Tempo Change dialog is grayed out after using manual tempo in a previous session.
 Workaround: If you encounter this issue, toggle the Conductor button off and on. The OK button should then be usable in the Tempo Change dialog.
 PT-237395 Opening and closing windows using the macOS tabs feature can result in UI artifacts.
 Workaround: If System Preferences > Dock > “Prefer tabs when opening documents” is set to “Always,” graphic artifacts may be encountered when opening and closing new windows. To avoid this issue, use any other setting in the System Preferences. If you encounter this issue, resizing the Pro Tools window forces a graphic redraw and any artifacts will disappear.
-PT-234220 Pro Tools quits unexpectedly when importing a track during playback.
-Workaround: Pro Tools may quit unexpectedly when importing an audio track from another session (Import Session Data) during playback where the imported track replaces an audio track in the session that is being played back during the import. If this occurs, restart Pro Tools and reopen the session. To avoid this problem, stop playback before importing audio tracks from another session.
 PT-272392 Importing AAC audio from some QuickTime source files may be slow and produce unwanted artifacts.
 Workaround: AAC audio from certain QuickTime files may not import correctly. When this occurs, the Processing Audio stage moves slower than expected and the resulting audio in Pro Tools contains a small section of the source material repeated many times. This is rare and only occurs with certain files, and in some cases only 10 with certain system configurations. To avoid this issue, try transcoding the source file outside of Pro Tools before import.
 UME-905 Pro Tools does not play back immediately after importing a large and complex AAF sequence.
 Workaround: Importing a complex AAF sequence that contains many video files and edits may cause Pro Tools to be in a Play/Pause state after all files have finished linking. This may also happen when reopening the session. If you encounter this, stop the transport, wait 30 seconds, and then attempt playback again. To avoid this problem completely, you can bounce the video and re-import, or request that the video editor flatten the video upon export.
 PT-257172 Pro Tools 19.10 and later does not automatically link to WAV files upon OMF import.
 Workaround: When importing an OMF that references BWF WAV media into Pro Tools 19.10 and later, the associated WAV files do not link automatically and are identified as missing. This occurs even if the media is placed in the same folder as the OMF, and all file attributes match. To bring the media online, perform a manual relink when prompted. Note this only occurs with OMF; AAF is unaffected.
-PT-231313 Import Session Data with “Match Tracks” and “Main Output Assignments” option disabled adds the source track’s output assignment.
-Workaround: Multiple outputs can be assigned to a track if Import Session Data with “Match Tracks” was used even after toggling the “Main Output Assignment” option of the source track. If you encounter this issue, manually restore the original output assignment of the track.
 PT-236697 and PT-237166 When Saving a Track Preset, the parent folder cannot be selected with mouse click or arrow key in the Add Category menu if there is a selection in nested sub-folder.
 Workaround: If there is a selection in a nested folder in the Add Category menu in the Save Track Preset dialog, you must first navigate to the parent folder and deselected the nested sub-folder in order to be able to select the parent folder.
 PT-210384 Pro Tools reports AAE Error 2.
@@ -244,7 +230,7 @@ Workaround: When the Send Overlapped Clip to New Playlist preference is enabled,
 PT-237313 No indication of designated target playlist in Playlist selector menu.
 Workaround: When a track contains one playlist that is the Target playlist, the blue target icon does not appear next to the playlist name in the Playlist menu. This issue is resolved once another playlist is created.
 PT-219668 Looping clips does not send fully overlapped clips to an available playlist.
-Workaround: With both Layered Editing option (Options > Layered Editing) and the Send Fully Overlapped Clips to Available Playlist While Editing (Setup preference enabled > Preferences > Editing), clips that are fully overlapped by a looped clip (Clip > Loop) are not sent to an available playlist. Manually move clips that will be fully overlapped by the looped clip to another playlist before looping the clip.
+Workaround: With both Layered Editing option (Options > Layered Editing) and the Send Fully Overlapped Clips to Available Playlist While Editing preference enabled (Setup > Preferences > Editing), clips that are fully overlapped by a looped clip (Clip > Loop) are not sent to an available playlist. Manually move clips that will be fully overlapped by the looped clip to another playlist before looping the clip.
 PT-220888 Fully overlapped clip not sent to new playlist if the clip is overlapped by creating a fade.
 Workaround: When a clip is fully overlapped by the creation of a Fade In or Fade Out, the overlapped clip is not sent to a new playlist even though the Send Fully Overlapped Clips to Available Playlist While Editing preference is enabled. To avoid this issue, create a shorter fade and then extend it to fully overlap the clip in question. That clip is sent to a new playlist. Alternatively, manually move the clip to a new playlist.
 PT-220491 With Layered Editing enabled, deleting overlapping clips that were created with Duplicate or Repeat can result in some overlapped clips being unexpectedly edited as well.
@@ -255,7 +241,7 @@ Workaround: Cloud Collaboration Projects are not supported on guest accounts at 
 PT-264649 Cloud Client Services window not show and shared track data fails to upload.
 Workaround: When Pro Tools is installed on a clean macOS system, and you then sign in to your Avid Account, create a project from a template, and share tracks, the Cloud Client Services window is not always shown and shared data is not uploaded. To correct this issue, save and close the project, then click OK when the Cloud Client Services window appears. Restart Pro Tools, and open the project to finish uploading data to cloud.
 MP-5538 Pro Tools doesn't indicate incoming contact requests.
-Workaround: When using Avid Link in Pro Tools, as opposed to using the desktop client, incoming contact Notifications request notifications are visible in the Home screen under the tab. Go to the Avid Link menu and choose Home, then navigate to the Notifications section by clicking Notifications.
+Workaround: When using Avid Link in Pro Tools, as opposed to using the desktop client, incoming contact request notifications are visible in the Home screen under the Notifications tab. Go to the Avid Link menu and choose Home, then navigate to the Notifications section by clicking Notifications.
 MP-5590 “Send Email Invitation” button not present in the Avid Link Find Talent window.
 Workaround: The Send Email Invitation button in the Avid Link Find Talent window might not be visible when it is first opened. Refresh the page by clicking on a profile and then clicking the back button.
 The Send Email Invitation button should now be visible underneath the Search Community field.
@@ -275,12 +261,10 @@ PT-211627 Removing a collaborator from your project may not relinquish ownership
 Workaround: When a collaborator who has ownership over shared tracks is removed from a project that you own, their track ownership may not be automatically relinquished. Should this issue occur, click the Track Ownership button for these tracks and ownership should be returned to you after about five minutes.
 PT-213277 Project uploads may pause while Shuttle Lock is active.
 Workaround: Entering Shuttle Lock mode while project uploads are in progress may temporarily prevent uploads from finishing until the playhead comes to a stop. To avoid this issue, confirm that all uploads have completed in the Task Manager before using Shuttle Lock mode in a project.
-PT-212809 “Expand Alternates To New Playlists” may not trigger track or project uploads.
-Workaround: When a track has loop-recorded alternates that are not on any playlists, choosing to “Expand Alternates To New Playlists” may not trigger an auto-upload or allow manual uploading using the Track or Toolbar upload buttons. If this issue is encountered, making any change or edit to the track or its playlists will enable uploading with the Track upload button.
 PT-220200 Edit selection moved to the wrong playlist on a shared track.
 Workaround: On a shared audio track received from a collaborator who reordered the track's playlist lanes (by click-dragging the lanes up and down), the Move To... commands in the Right-click menu sends the selection to the wrong playlist. The collaborator reordering lanes and sharing can be on a Mac or Windows system, however, only Windows systems will have the issue on the receiving end. To avoid this issue, make sure that collaborators do not manually reorder playlist lanes on shared tracks.
 PT-279522 DestructivePunch Enable does not check available disk space before processing, which leads to Pro Tools becoming unresponsive if all available space is used.
-Workaround: When preparing tracks for DestructivePunch, Pro Tools will attempt to use any necessary disk space to create contiguous files for each record-enabled track. If all available disk space is used before processing completes, Pro Tools becomes unresponsive. To avoid this issue, be sure there is enough disk space before enabling DestructivePunch. To conserve space, adjust the “DestructivePunch File Length setting in the Operation Preferences (Setup > Preferences) to cover only the necessary length.
+Workaround: When preparing tracks for DestructivePunch, Pro Tools will attempt to use any necessary disk space to create contiguous files for each record-enabled track. If all available disk space is used before processing completes, Pro Tools becomes unresponsive. To avoid this issue, be sure there is enough disk space before enabling DestructivePunch. To conserve space, adjust the “DestructivePunch File Length (Setup > Preferences) setting in the Operation Preferences to cover only the necessary length.
 PT-212577 DestructivePunch record passes are not transmitted to collaborators.
 Workaround: Using Destructive Punch to update a shared file does not transmit a track change and the file is not updated on collaborator systems.
 PT-209796 Changed Display Name in Artist Chat is not updated in the Dashboard until signing out and signing back in.
@@ -293,8 +277,6 @@ PT-CLOUD-3285 Pasting a text string inside of the “< >” characters into Arti
 Workaround: Any text in contained by “<” and “>” is disallowed for security reasons. Please do not use these characters in Artist Chat messages.
 PT-212607 When sharing a track with plugins such as Melodyne or Space, only the waveform cache inside the plugin is uploaded and shared, but not the referenced audio file.
 Workaround: Media assets for Plugins (such as Melodyne or Space) that use external media, like a waveform cache or impulse responses, may not always be copied with the shared tracks to the cloud for use by other collaborators.
-PT-290670 Enabling Melodyne on a track is not transferred from System A to System B when collaborating.
-Workaround: In a Pro Tools Cloud Collaboration project, when user “A” enables Melodyne-editing on an already shared audio track, and then send changes. The Melodyne-enabled track state is not transferred to user “B.” To workaround for this issue is that “A” should enabled Melodyne-editing on the audio track before sharing it.
 Ableton Link Count Off is unavailable with Ableton Link.
 Count Off is unavailable with Ableton Link. If Count Off is enabled, enabling Ableton Link disables Count Off.
 PT-263560 Pro Tools goes out of sync with an Ableton Link session after receiving a tempo change.
@@ -312,10 +294,12 @@ PT-252964 2nd port of MTRX DigiLink I/O card does not show inactive in the I/O S
 Workaround: The second DigiLink Mini port on MTRX DigiLink I/O expansion cards is unavailable at sample rates of 176.4 kHz and 192 kHz.
 lower results in incorrectly mapped IO.
 Workaround: For any session saved to .ptf (Pro Tools 7–9) from Pro Tools 12.x or higher requires that IO Settings be manually corrected when opening that session with Pro Tools versions 8.1 and lower. Manually map the correct IO settings in the IO Setup before playing back the session.
-File and Disk Management PT-231812 Auto-backups are not created during playback or recording.
+File and Disk Management PT-349421: Opening a session template stored outside of designated User Media templates location does not apply the template settings if the Create From Template option was previously enabled in the Dashboard.
+Workaround: Opening a session template (using the Open Session command) stored outside of the designated User Media templates location does not apply the template settings if the Create From Template option was previously enabled in the Dashboard. To avoid this issue, disable the Create From Template option in the Dashboard before opening the session template or to store all templates and open them from the User Media templates location.
+PT-231812 Auto-backups are not created during playback or recording.
 Workaround: Auto-backups are not saved while Pro Tools is playing back or recording. To ensure your work is saved during long periods of playback or recording, either manually save during playback or recording, or after stopping playback or recording. Auto-backups continue to function as expected when the transport is stopped.
 PT-251446 Pro Tools quits unexpectedly when indexing Workspace or Field Recorder Search outside of a session.
-Workaround: If Pro Tools consistently quits unexpectedly when indexing a directory with the Workspace, or Select Areas to Search when using the functionality with field recorder workflows, this might be resolved by trashing your Workspace database files. To do this, clear the contents of the following folder:
+Workaround: If Pro Tools consistently quits unexpectedly when indexing a directory with the Workspace, or when using the Select Areas to Search functionality with field recorder workflows, this might be resolved by trashing your Workspace database files. To do this, clear the contents of the following folder:
 <boot drive>/Users/Shared/Pro Tools/.
 PT-267125 OP-1a MXF files appear only as audio files in the Workspace.
 Workaround: OP-1a MXF files may contain both video and audio media. However, OP-1a MXF files only appear as audio files in the Workspace.
@@ -342,8 +326,6 @@ Workaround: Audio files converted from CAF and MP3 with Preview In Context enabl
 Melodyne Editing and ARA Processing PT-288978 “Monitor when editing blobs” (preview) feature does not work on the Record armed or InputMonitor-enabled tracks for HDX, HDX Hybrid, and Carbon Playback Engines since the Melodyne plugin is Native-only.
 Workaround: Melodyne preview is unavailable with Pro Tools | HDX and Pro Tools | Carbon systems for tracks in DSP mode (when Record armed or InputMonitor-enabled) since Melodyne is a Native only plugin.
 Exit DSP mode (disable Record or InputMontoring) to be able to preview Melodyne editing.
-PT-292075 Pro Tools displays “Missing Files” dialogue for the Audio Clips located on tick-based Audio Tracks in the session saved with “Save Copy” in different Sample Rate for tick-based Melodyne tracks.
-Workaround: If you have a session with Melodyne-enabled tick-based audio tracks and has audio clips with Save Copy In Melodyne edits on it, saving this session using the command with a different Sample Rate from the open session, opening saved session results in a “Missing Files” dialog for the audio clips located on the Melodyne-enabled tick-based audio tracks.
 PT-286468 When playback over a Melodyne-analyzed clip starts, sample-accuracy is maintained until reaching any Melodyne-edited note(s). From there on, Melodyne minimizes phase errors of adjacent notes (“blobs”) and thus is no longer sample accurate until reaching the next “hard” note separation.
 Workaround: If you add a hard separation after the edited blobs (rightmost tool in the toolbox, first sub- tool: “separation type tool”), from there after the separation and onward it will again be phase-aligned.
 Note that there actually needs to be a gap where the hard separation is in order to reset note transitions and to play the unmodified audio accurately. In addition to adding a hard separation after the edits as described, shorten either note left or right of the hard separation slightly so that there is a small gap, then audio will be phase-aligned following the edits. Alternatively, you can insert a manual fade with the fade tool to reset note transition tracking.
@@ -365,8 +347,6 @@ PT-266337 Clip Gain and Clip Effects are ignored when converting audio to MIDI b
 Workaround: If an audio clip on the timeline includes Clip Gain and/or Clip Effects, dragging the same clip from the Clip List to a MIDI or Instrument track ignores Clip Gain and/or Clip Effects when the MIDI data is extracted. To include Clip Gain and/or Clip Effects when the MIDI data is extracted, drag and drop the audio clip from the audio track instead of the Clip List.
 PT-250083 Score Editor is illegible with hundreds of MIDI tracks are in a session.
 Workaround: Avoid opening the Score Editor when there are hundreds of MIDI tracks in your session. The Score Editor will be illegible when opened with many tracks in a session and the showing and hiding of tracks may result in Pro Tools freezing.
-PT-201867 When playing an Instrument plugin using a MIDI controller and recording the MIDI performance and while also bus recording the audio output of that plugin, the recorded MIDI plays back earlier than the recorded audio.
-Workaround: When playing an Instrument plugin using a MIDI controller, and both recording the MIDI performance and bus recording the audio output of the plugin, the recorded MIDI performance plays back earlier than the recorded audio. This issue can occur when using Pro Tools | HDX with Delay Compensation enabled. You can avoid this issue by switching the Playback Engine from HDX to CoreAudio. Once you have recorded your MIDI performance and the audio output from the Instrument plugin, you can switch the Playback Engine back to HDX.
 PT-PTSW-30511 and PTSW-34550 When recording MIDI, Wait for Note does not respond to MIDI input from ReWire.
 Workaround: When performing a MIDI record, Wait for Note will not respond to any MIDI received from ReWire. If you are recording MIDI generated from a ReWire application, you will have to start the transport manually or use a countoff instead of Wait for Note.
 PTSW-49297 When using Import Session Data on a MIDI track with Real-Time Properties enabled and set to using Diatonic transposition, transposition is based on the first key signature in the session only.
@@ -378,7 +358,7 @@ Workaround: Sessions opened on Pro Tools 2023.12 (or earlier) lose their MIDI ou
 PT-320241 Online track bounce or commit of a tempo synchronized virtual instrument will be out of sync after an offline bounce or commit, if the track is using MIDI chain in.
 Workaround: Online track bounce or commit of a tempo synchronized virtual instrument will be out of sync after an offline bounce or commit, if the track is using MIDI chain in. To avoid this issue, save and reopen the session before performing an online track process if you know that you’ve done an offline process previously.
 PT-318934 Not all supported Virtual Instrument plugins provide MIDI Out (MIDI Thru) with Pro Tools MIDI Chains. The following plugins do not currently provide MIDI Out (MIDI Thru) with Pro Tools MIDI Chains:
-- Noise Engineering
+Noise Engineering
 - Spitfire all plugins
 - Waves OVox
 - Waves Flow Motion
@@ -386,7 +366,7 @@ PT-318934 Not all supported Virtual Instrument plugins provide MIDI Out (MIDI Th
 - Fabfilter Twin
 - ADSR Sample Manager
 - Baby Audio Atoms
-Minimal Audio Current
+- Minimal Audio Current
 - DiscoDSP Discovery Pro
 - Newfangled Audio Generate
 - UAD Minimoog
@@ -395,9 +375,9 @@ Minimal Audio Current
 - Unfiltered Audio Lion
 - MIDI Live Mode
 PT-342676: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed track may experience latency, causing it to be misaligned with other tracks that are routed to the same bus.
-Workaround: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed or input-monitored track may be delayed on playback and misaligned with other tracks that are routed to the same bus. This issue arises particularly when there is a track in the session that has high latency plug- ins but is not routed to the bus. MIDI recorded on this Instrument track may be placed incorrectly, but sound in sync with other tracks routed to the Auxiliary Input track until the Instrument track is rec-enabled. Disable the delay compensation on the Instrument track or keep all your tracks routed to the same final Auxiliary Input track to avoid this issue.
-PT-342678: MIDI is recorded early with MIDI Live Mode on the Instrument track routed to an Auxiliary Input track if the session has high latency plug-ins on other tracks that are not routed to the Auxiliary Input track.
-Workaround: When MIDI Live Mode is enabled, MIDI may be recorded earlier on the Instrument track routed to an Auxiliary Input track if the session has high latency plug-ins on other tracks that are not routed to that Auxiliary Input track. While it sounds fine and aligns well with other tracks routed to the Auxiliary Input track when the track is record-enabled, it plays early once the track is disarmed, resulting in a sound that reflects its original recording timing. To avoid this issue, disable the MIDI Live Mode when working with this type of session routing or route all tracks to the same Auxiliary Input track.
+Workaround: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed or input-monitored track may be delayed on playback and misaligned with other tracks that are routed to the same bus. This issue arises particularly when there is a track in the session that has high latency plugins but is not routed to the bus. MIDI recorded on this Instrument track may be placed incorrectly, but sound in sync with other tracks routed to the Auxiliary Input track until the Instrument track is rec-enabled. Disable the delay compensation on the Instrument track or keep all your tracks routed to the same final Auxiliary Input track to avoid this issue.
+PT-342678: MIDI is recorded early with MIDI Live Mode on the Instrument track routed to an Auxiliary Input track if the session has high latency plugins on other tracks that are not routed to the Auxiliary Input track.
+Workaround: When MIDI Live Mode is enabled, MIDI may be recorded earlier on the Instrument track routed to an Auxiliary Input track if the session has high latency plugins on other tracks that are not routed to that Auxiliary Input track. While it sounds fine and aligns well with other tracks routed to the Auxiliary Input track when the track is record-enabled, it plays early once the track is disarmed, resulting in a sound that reflects its original recording timing. To avoid this issue, disable the MIDI Live Mode when working with this type of session routing or route all tracks to the same Auxiliary Input track.
 PT-336324: With MIDI Live Mode enabled, MIDI loopback may be late depending on the Hardware Buffer Size.
 Workaround: When MIDI Live Mode is enabled, MIDI notes recorded from one track to another using either virtual or hardware MIDI loopback may appear late on the timeline, depending on the Hardware Buffer Size.
 To avoid this issue, disable MIDI Live Mode before re-recording MIDI.
@@ -410,7 +390,7 @@ PT-313911: When the Plugin menu organization is changed before opening a session
 Workaround: When the plugin menu categorization is changed in the Preferences prior to opening a session, all AudioSuite plugins appear grayed out and cannot be instantiated after loading a session.
 Restart Pro Tools to us AudioSuite plugins.
 PT-331469 New “plugin” spelling breaks compatibility with some SoundFlow scripts.
-Workaround: In Pro Tools 2024.10, throughout the user interface, the old spelling “plug-in” has been updated to “plugin.” This change affects SoundFlow scripts and macros where users have manually specified label names or UI element titles that use the word “plug-in.” You will need to adjust these scripts to the new spelling to keep the scripts and macros working properly with 2024.10.
+Workaround: In Pro Tools 2024.10, throughout the user interface, the old spelling “plugin” has been updated to “plugin.” This change affects SoundFlow scripts and macros where users have manually specified label names or UI element titles that use the word “plugin.” You will need to adjust these scripts to the new spelling to keep the scripts and macros working properly with 2024.10.
 PT-325376 Default EQ and Dynamics plugins are reset when opening sessions of different sample rates.
 Workaround: After setting an EQ or Dynamics plugin as default, opening or creating a session of a different sample rate may cause the defaults to be reset unless you first quit and relaunch Pro Tools.
 PT-318442 Updating existing plugins while Pro Tools is running may result in unexpected behavior.
@@ -421,14 +401,10 @@ PT-314181 Plugin license dialogs appear twice during Pro Tools launch.
 Workaround: Certain third-party plugin license dialogs appear twice when launching Pro Tools. This occurs if the license is not present during the first launch of Pro Tools after installing the plugin. On subsequent launches, the license dialog appears only once. This issue may occur with Plugin Alliance products.
 PT-319086 Pro Tools hangs during initialization of EON-Arp Plugin when Corwdstrike Falcon is installed.
 Workaround: In case when corporate Antivirus software is used, such as Crowdstrike Falcon, inserting EON- Arp Plugin on an Instrument track might cause Pro Tools to become unresponsive for up to one minute.
-PT-284512 Pro Tools quits unexpectedly when using older Waves plugins.
-Workaround: Pro Tools systems using versions of Waves plugins prior to Waves version 14 may experience unexpected failures. If you frequently experiencing this issue when using Waves plugins, please update to the latest version of Waves (14 or later).
 PT-272796 Plugins cannot be inserted once the maximum number of voices are used.
 Workaround: Once the maximum number of voices have been used, plugins can no longer be inserted on tracks. To be able to insert plugins, reduce voice usage (such as by making some tracks inactive). Once voice usage is reduced from the maxim limit, you can once again insert plugins.
 When Pro Tools is running under Rosetta on Apple M1 machines, performance errors (-9171, -9093, -6101) may occur when adding plugins during playback.
 Workaround: You should only encounter this issue when you first insert a plugin, If you encounter this issue, reinsert the plugin.
-PT-269830 Audible “blip” when opening session that contain bypassed native Signal Generator plugin.
-Workaround: When opening session that contain a bypassed native Signal Generator plugin, a momentary audible “blip” occurs. This issue only occurs on Native systems. This issue does not occur with Pro Tools | HDX systems.
 XSTEINBERG-33, AMPT-13074 , XNATIVEINS-24 , XBLEASS-5 Some plugins/products may still appear as Installed in Avid Link after uninstallation.
 Workaround: Most plugins/products do not have uninstallers on Mac. If you manually delete a plugin from Library\Application Support\Avid\Audio\Plug-Ins (where Pro Tools looks for plugins), it may still appear as "Installed" in the Product tab on Avid Link. Delete the product’s xml file from /Library/Application Support/Avid/CustomDataAppMan.
 PT-268663 Signal generator plugin is not bypassed for a moment when duplicating a track.
@@ -452,7 +428,7 @@ PT-272192 Using the DSP version of the Pro Multiband Splitter plugin results in 
 PT-273158 Internally bused tracks from an AOS plugin are missing from offline bounce.
 (HDX Classic Only) Workaround: Internally bussed tracks with outputs from multichannel plugins (such as AOS plugins) assigned to their inputs will be missing when performing an off-line bounce. Use real-time bounce to ensure that these tracks are included in the bounce.
 PT-202826 When replacing one plugin with another, the new plugin inherits previously auto-enabled parameters.
-Workaround: With the Plugin Controls Default to Auto-Enabled preference enabled, all available automation parameters become unexpectedly re-enabled (merged) after replacing one instance of the plugin with another. Disable this preference before replacing one plugin with another to avoid this issue.
+Plugin Controls Default to Auto-Enabled Workaround: With the preference enabled, all available automation parameters become unexpectedly re-enabled (merged) after replacing one instance of the plugin with another. Disable this preference before replacing one plugin with another to avoid this issue.
 PT-262935 Some plugin automation may be delayed on playback.
 Workaround: At some sample rates and hardware buffer size configurations, plugin automation may play back out of time. If you encounter this issue, you may be able to correct this issue by increasing the HW Buffer Size in the Playback Engine.
 PT-236149 It is not possible to recall an insert from a Track preset that contains third-party multichannel plugins on a track of a smaller channel width than that from which the preset was created.
@@ -482,9 +458,8 @@ Workaround: Dragging and dropping an audio clip from a track into a plugin that 
 PT-330262 There is no indication (such as a drop shadow) when dragging and dropping a clip to an AAX plugin.
 Workaround: Pro Tools on the Mac does not show an indicator when dragging a clip to an AAX plugin.
 However, after dragging and dropping a clip, a progress bar is shown indicating that the drop is successful.
-PT-331694 A clip dragged and dropped to an AAX plugin does not link if the session name contains an ellipsis (…) Workaround: A rendered file created when dragging and dropping a clip to an AAX plugin does not link if there is an ellipsis (…) anywhere in the file path. For AAX drag and drop to function correctly, save the session with a different name and into a different folder that does not contain an ellipsis.
-PT- Workaround:
-Drag and Drop to plugin sampler from a muted audio track results in silent audio (no sound). (PT-329978) Dragging a clip from a muted track results in a muted clip in the sampler. Unmute the track before dragging the clip so that all the processing (such as plugin inserts, ARA, EA, automation, and so on) are inherited by the clip after drag and drop.
+PT-329978 Drag and Drop to plugin sampler from a muted audio track results in silent audio (no sound).
+Workaround: Dragging a clip from a muted track results in a muted clip in the sampler. Unmute the track before dragging the clip so that all the processing (such as plugin inserts, ARA, EA, automation, and so on) are inherited by the clip after drag and drop.
 PT-329346 Clip not imported when dragging and dropping from a Pro Tools track to the Waves CR8 sampler plugin.
 Workaround: In Pro Tools 2024.10 we added the ability to drag and drop clips from a track in Pro Tools directly to AAX plugins, such as samplers. Currently this functionality is not available with the Waves CR8 sampler plugin.
 Splice XSPLICE-59: Pro Tools freezes and requires manual restart if import from Splice is canceled immediately after dropping a clip from the Splice panel to the timeline.
@@ -497,16 +472,12 @@ XSPLICE-64: Splice always previews in 4/4 meter.
 Splice always preview in 4/4 meter. If working with other meters this may result in a short silence at the end of a loop, or the preview starting the next loop on any beat other than the first beat of the bar.
 XSPLICE-50: Splice reports “There was an error uploading your audio.” Workaround: This can be caused by uploading a selection that contains a significant tempo change.
 “Search with Sound” requires an audio selection to be exactly 1, 2, 4, or 8 bars in duration to ensure that relevant matches can be identified, and tempo deviation over a certain threshold will be rejected.
-Transcription PT-340115: The Transcript window replaced with Trim & Downmix window when a session is opened in Pro Tools 2024.10.x or earlier.
-Workaround: Sessions saved in Pro Tools 2025.6 with the Transcript window open display the Trim & Downmix window if opened in Pro Tools 2024.10.x or earlier. Conversely, sessions saved in Pro Tools 2024.10.x with the Trim & Downmix window open display the Transcript window instead if opened in Pro Tools 2025.6.
-PT-343559: Transcript view does not show transcription when the clip contains multiple languages.
-Workaround: If a transcribed clip contains a combination of languages, such as Japanese and English, it may not always display the transcription in Transcript view at all zoom levels, particularly if the clip is close to other clips on the timeline. Either zoom in to a level where the transcription comes into view, use the Transcription Lane (which always shows the transcription), or render each section in a different language as separate files and re-transcribe.
-PT-343528: Initializing the Pro Tools Speech to Text Engine takes longer than expected on first launch.
-The first initialization of the Transcription Engine after installation may take considerably longer (typically 1-2 minutes) than subsequent launches due to macOS security validation of the library files.
-PT-331541: Transcribing dialects takes longer than expected.
+Transcription PT-331541: Transcribing dialects takes longer than expected.
 Workaround: The Transcription Settings window (Setup menu) includes a “Language Hint” setting which is set to Multilingual by default. In many cases this is the best option to use, but when working with speech of a dialect in a single language it will likely analyze the file more quickly and accurately if this is set to the target language being spoken. if a file contains a mixture of languages, the best results can be obtained by cutting the different languages into separate clips and rendering them as new files before transcribing.
+PT-331541: Transcribed words in fades cannot be edited on the timeline.
+Workaround: Transcription data within a fade in, fade out, or crossfade region in the Edit window cannot be edited with the Edit Word, Join Words and Clear Word(s) commands. To edit words within a fade region, either use the editing functions for that clip from the Transcript window or temporarily remove the fades from the track you want to edit.
 DSP Mode (HDX Hybrid Engine and Pro Tools | Carbon Only) PT-281621 Inserting Default EQ/DYN plugins on DSP Mode–enabled track results in no plugin processing.
-Default EQ Default Dynamics Workaround: When an AAX-DSP plugin is selected as the or plugin in the Pro Tools Preferences (Setup > Preferences > Mixing), recalling that plugin on a DSP Mode– enabled track results in no plugin processing. Adjusting the plugin controls has no effect the signal and the Plugin DSP indicator displays incorrectly (“Native” on a green background). If you encounter this issue, disable and then enable DSP Mode on the track or re-insert the DSP version of the plugin on the track.
+Workaround: When an AAX-DSP plugin is selected as the Default EQ or Default Dynamics plugin in the Pro Tools Preferences (Setup > Preferences > Mixing), recalling that plugin on a DSP Mode– enabled track results in no plugin processing. Adjusting the plugin controls has no effect the signal and the Plugin DSP indicator displays incorrectly (“Native” on a green background). If you encounter this issue, disable and then enable DSP Mode on the track or re-insert the DSP version of the plugin on the track.
 PT-274120 InputMonitoring incorrectly enabled on some tracks.
 Workaround: In sessions that use all the available Hybrid Output channels, enabling InputMonitoring on a track may incorrectly cause InputMonitoring to be enabled on other tracks as well. To avoid this issue, toggle the InputMonitor button on tracks with InputMonitoring incorrectly enabled.
 PT-273811 Pro Tools does not report a lack of output channels when a Hardware Insert is inserted on any audio track in the session.
@@ -526,9 +497,7 @@ PT-274324 Streaming Errors at Low Buffer Sizes with oversampling enabled in plug
 Workaround: When using lower buffer sizes with plugins that offer Oversampling, you may experience streaming errors. If you encounter this issue, disabling Oversampling in these plugins may improve streaming performance.
 PT-279297 After enabling DSP Mode on a track with Wholegrain Trio DynPEQ and Quartet DynPEQ plugins, Pro Tools quits unexpectedly.
 Workaround: After enabling DSP Mode on a track with Wholegrain Trio DynPEQ and Quartet DynPEQ plugins, Pro Tools quits unexpectedly. To avoid this issue, enable DSP Mode Safe for the track and use the Native versions of these plugins.
-HDX Systems PT-342098: When using the Classic HDX Playback Engine, signal loss may occur at the output of Virtual Instruments when Splice uses the same Audition Path as the Main Monitor path of the session.
-On Classic HDX only, you may experience signal loss at the output of Virtual Instruments if Splice is using the same Audition Path as the session's Main Monitor Path. If you encounter this issue, change the Audition Path, then reopen the I/O Setup and revert the Audition Path to your original path. Alternatively, you can drag the non-sounding Virtual Instrument to an audio track and then return it to the Instrument track.
-PT-325048 HDX card firmware reset seems to be unsuccessful.
+HDX Systems PT-325048 HDX card firmware reset seems to be unsuccessful.
 Workaround:
 Pro Tools does not prompt you to update HDX firmware after a firmware reset is performed on shipping HDX cards. This is because the firmware that the HDX card is reset to is the most up to date version. This is true for any HDX card with Sub Assembly part number of 9150-58905-06. This part number can be found printed on the card itself or from the DigiTest Slot Info tab. This is expected, and does not indicate a failure to update the firmware.
 PTSW-156651 Pro Tools does not play back when an invalid Word Clock or AES/EBU sync source is selected on SYNC HD.
@@ -549,7 +518,8 @@ To revert to the default behavior, reinstall the Avid HD Driver and reboot your 
 To disable and restore the Avid Audio Server without rebooting:
 1. Rename the AvidAudioServer folder to #AvidAudioServer and enter your Administrator password when
 prompted.
-2. Open Terminal and enter sudo killall AvidAudioServer and enter your Administrator
+sudo killall AvidAudioServer
+2. Open Terminal and enter and enter your Administrator
 password when prompted.
 3. To restore the AvidAudioServer rename #AvidAudioServer folder to AvidAudioServer and enter
 password when prompted.
@@ -569,9 +539,7 @@ PTSW-167511 Pro Tools quits unexpectedly when selecting HD Native Thunderbolt in
 Workaround: After disconnecting and reconnecting HD Native Thunderbolt from your computer, Pro Tools quits unexpectedly when selecting HD Native Thunderbolt in the Playback Engine. After disconnecting and reconnecting HD Native Thunderbolt, restart your computer to avoid this problem.
 HDM-13 Using the HD Native Thunderbolt headphone output with surround monitoring.
 and 2 on the first audio interface. To use HD Native Thunderbolt headphone monitoring with sessions that use surround formats (such as 5.1),change the surround monitoring path in I/O Setup so that the Left channel is mapped to Output channel 1 and the Right channel is mapped to Output channel 2.
-Control Surfaces PT-300751 Avid S6 preamp controls are frozen/empty after opening and then closing the I/O setup tab.
-Workaround: When connected to S6 control surface over EUCON and displaying Mic Pre controls for audio tracks, there is a rare chance of “freezing” or of Mic Pre controls completely disappearing after opening and then closing the I/O Setup tab. Possible workaround is to open and then close the I/O setup again. This may fix the issue for tracks that are currently affected.
-PT-248711 Performance issues may occur when using EuControl with the H/W Buffer Size set to 32 in large sessions on macOS.
+Control Surfaces PT-248711 Performance issues may occur when using EuControl with the H/W Buffer Size set to 32 in large sessions on macOS.
 Workaround: Working with large sessions with the H/W Buffer Size set to 32, and with EUCON enabled, may result in CPU spikes and AAE –6101 errors during playback. If your session exceeds 500 audio tracks it is recommended that you use H/W Buffer Size of 64 or larger when EUCON is enabled.
 PT-278737 Improper selection response for Input type and Link controls on S1 surface with Avid PRE or Pro Tools | Carbon Mic Preamp controls.
 Workaround: When running Pro Tools with an S1 control surface connected over EUCON and Pro Tools | Carbon or Avid PRE hardware, and with the Preamp Control settings displayed on S1 surface, the Input Type and Link controls behave improperly. For example, when changing the Input source from Mic to Line, the display should show Line while you are touching the knob, but instead changes from Mic to Inpt Type and then stops responding further until you touch it again. Link control behaves similarly. To work around this issue, re-touch the knob each time you want to change either of these settings.
@@ -596,11 +564,9 @@ Workaround: When doing a Same As Source bounce from MOV files that contain the �
 UME-1587 Video Engine quits unexpectedly when bouncing DNxHD SQ material Same as Source with blank space included in selection.
 Workaround: When bouncing DNxHD SQ material (such as DNxHD 80 at 1080p24) to QuickTime using Same as Source, the Video Engine quits unexpectedly if an area of blank space is included in the bounce selection. To avoid this, do one of the following: do not select any blank space, do not choose Same as Source in Bounce Settings, add black video to the blank space before bouncing, or use a different DNxHD bit rate as source material.
 UME-1582 and UME-1583 Same as Source Bounce to QuickTime is not possible with ProRes, H.264, or PJPEG source media if the timeline selection contains blank space.
-Workaround: If blank space is included in the timeline selection, and the source video codec is Apple ProRes, H.264, or PJPEG, then Same as Source QuickTime export is not be permitted. If it is necessary to bounce Same as Source, either use DNx source material or replace any blank space with black frames before bouncing. Note that bouncing from ProRes to ProRes is possible by adjusting the QuickTime Settings in the QuickTime Bounce dialog.
+Workaround: If blank space is included in the timeline selection, and the source video codec is Apple ProRes, Same as Source H.264, or PJPEG, then QuickTime export is not be permitted. If it is necessary to bounce Same as Source, either use DNx source material or replace any blank space with black frames before bouncing. Note that bouncing from ProRes to ProRes is possible by adjusting the QuickTime Settings in the QuickTime Bounce dialog.
 ETE-6771 Media Composer cannot play files bounced from Pro Tools using Same as Source if there is filler at the beginning or the end of media in the exported selection.
 Workaround: Pro Tools does not currently support Long GOP video files (such as H.264) that contain filler (e.g. blank space) at the end of the file. Importing such a file causes the video engine to crash. When attempting to bounce a H.264 file on the timeline with a selection that extends past the end of the clip/file, the Same as Source option is unavailable. You must transcode the file.
-PT-273601 ProRes files are sometimes re-encoded instead of copied during Same as Source MOV bounce.
-Workaround: When performing a Same as Source bounce to MOV, Pro Tools may re-encode Apple ProRes media instead of copying the essence of the original file. If this occurs, the bounce takes longer than expected but should complete without any other problems.
 PT-260602 Video displays black.
 Workaround: If video is importing successfully without error, but only black picture and blank thumbnails are displayed, make sure that the “Shared LUTs” folder exists on your system. If the folder does not exist, create it and relaunch Pro Tools:
 <boot drive>/Users/Shared/AvidVideoEngine/Shared LUTs UME-1580 Video fails to import with multiple codecs in a single file.
@@ -653,18 +619,15 @@ Transcode these files to one of our primary CODEC such as DNxHD or AppleProRes f
 PT-245451 Video file frame rates may not appear in the Workspace for files with frame rates above 60 fps.
 fps. If you encounter this, delete the Workspace.wksp database file to correct this issue.
 Third-Party Video Peripherals The following issues may occur with third-party video hardware. Please contact your hardware vendor for support.
-- In some cases, video will not stay in sync over time if the video peripheral is not, or cannot, lock to
-video reference. If you experience this, a workaround is to set the Pro Tools clock to internal. This will cause the video peripheral to slew overtime and stay in sync with Pro Tools. (THPV-2) When Pro Tools is running with a Blackmagic DeckLink II Extreme or Intensity video capture and
-- playback PCI-e card installed, launching Blackmagic Design’s Deck Capture utility, Final Cut Studio,
-or any other application which supports Black Magic hardware for video output, can result in system instability. To avoid any potential system instability only use one Blackmagic DeckLink–aware application at a time. (PTSW-19486) With some peripherals video playback will be one frame out of sync with Pro Tools audio. To
+In some cases, video will not stay in sync over time if the video peripheral is not, or cannot, lock to
+- video reference. If you experience this, a workaround is to set the Pro Tools clock to internal. This will
+cause the video peripheral to slew overtime and stay in sync with Pro Tools. (THPV-2)
+- When Pro Tools is running with a Blackmagic DeckLink II Extreme or Intensity video capture and
+playback PCI-e card installed, launching Blackmagic Design’s Deck Capture utility, Final Cut Studio, or any other application which supports Black Magic hardware for video output, can result in system instability. To avoid any potential system instability only use one Blackmagic DeckLink–aware application at a time. (PTSW-19486) With some peripherals video playback will be one frame out of sync with Pro Tools audio. To
 - Setup > Video Sync Offset
 compensate for this, choose and enter a 1 frame offset. (THPV-9)
 - With some video peripherals, the video output will be scrambled when video is not loaded in
-Pro Tools, or when the video peripheral is disabled. (THPV-32) Video Satellite PT-255060 Playback and locate offsets may be seen when working with a Media Composer Video Satellite that has a 119.88 fps timeline.
-Workaround: A timeline offset of about 30 seconds will be seen when working with a Media Composer Video Satellite that has a 119.88 fps timeline. Check the Video Satellite compatibility page at www.avid.com for the latest support information and known issues.
-PT-233603 Mismatched video reference warning with larger than HD rates.
-Workaround: If a Media Composer Video Satellite has a larger than HD Project Type, linking to a Pro Tools Satellite results in an erroneous video reference mismatch dialog. Despite the warning, the systems will play in sync.
-23.976 or 24 fps Sequence Start Time Ending In Digits Other than “:00” Causes Time Code Offset Workaround: Media Composer uses NTSC or PAL time code when setting the sequence start time regardless of the format selected by the user for display. When you are working on a video satellite project at 23.976 or 24 fps, a Media Composer sequence with a start time that ends in a value other than :00 causes an offset between Pro Tools and Media Composer at the session start. For example, the start time 45:02:10:15 workaround, always set your Media Composer sequence start time to a time code value ending in 00.
+Pro Tools, or when the video peripheral is disabled. (THPV-32) Video Satellite 23.976 or 24 fps Sequence Start Time Ending In Digits Other than “:00” Causes Time Code Offset Workaround: Media Composer uses NTSC or PAL time code when setting the sequence start time regardless of the format selected by the user for display. When you are working on a video satellite project at 23.976 :00 or 24 fps, a Media Composer sequence with a start time that ends in a value other than causes an offset between Pro Tools and Media Composer at the session start. For example, the start time 45:02:10:15 workaround, always set your Media Composer sequence start time to a time code value ending in 00.
 98460 Cueing from Media Composer in a 720p Project Causes 1-Frame Offset.
 the project type—while Pro Tools counts at 25 or 29.97 frames per second. When you cue a sequence from the video satellite in a 720p project, the Pro Tools edit cursor can be offset by as much as one frame.
 As a workaround, cue and play back from Pro Tools when working with a 720p project in a video satellite frame boundaries (for example, frame 47) from Pro Tools.
@@ -672,13 +635,12 @@ UME-870 When scrubbing with a Video Satellite, video may be offset by several fr
 Workaround: Audio/video sync is not frame accurate when scrubbing a Video Satellite. An offset of several frames may be seen between the Media Composer system and the Pro Tools system. To monitor frame accurate video when scrubbing, use the Pro Tools Video window. When done scrubbing, you can continue to monitor frame accurate video on the Video Satellite.
 UDevC00090064, UDevC00090078, UDevC00088666, UDevC00089437, UDevC00087542 Audio and video may drift out of sync In Satellite Mode in certain conditions.
 Workaround: When operating in Satellite mode, audio and video output from Media Composer may drift out of sync by as much as one frame in any of the following conditions:
-- When viewing video full screen in 1394 mode. This is due to the difference between the monitor's
-refresh rate and the video reference rate.
+When viewing video full screen in 1394 mode. This is due to the difference between the monitor's
+- refresh rate and the video reference rate.
 When the Edit Play Rate of the video differs from the frame rate of the video reference signal. (For
 - example, this occurs with a 24p NTSC project with 23.976 Edit Play Rate and NTSC reference signal.)
-When looping a selection that is not aligned to video frame boundaries in Pro Tools. As a workaround,
-- make your selection in Pro Tools using Grid mode with the Grid value set to 1-frame increments—
-especially when it is necessary to loop several times without stopping.
+- When looping a selection that is not aligned to video frame boundaries in Pro Tools. As a workaround,
+make your selection in Pro Tools using Grid mode with the Grid value set to 1-frame increments— especially when it is necessary to loop several times without stopping.
 Pro Tools Satellite Systems PT-248378 Saving logs only saves logs for linked satellite systems.
 Workaround: It is possible to gather log files across a set of Satellite Linked systems. This can be done by going to Setup > Preferences > Operation, and clicking Save Logs button. When this is done, it will zip the needed logs on each of the satellite systems, but it will not zip the logs on the system that executed the Save command. To gather logs on that system you need to unlink satellites and save the logs again. Saving logs only needs to be done when instructed to do so by Avid Customer Care.
 Synchronization and Machine Control PT-261032 When updating Sync X or SYNC HD firmware, DigiTest defaults to the wrong card with more than one HDX card installed.
@@ -696,7 +658,9 @@ Workaround: Systems that are locked to video reference above 30 fps may experien
 Recording is not sample accurate when re-triggering play by clicking into the Timecode ruler of a 9-pin Master without issuing a Stop command first. (PT-262678) Do not click in the Timecode ruler of the Master system to re-trigger play. Either use a 9-pin controller or issue Stop and then Play commands from the Master system.
 PTSW-153187 When using Serial Timecode, if Play is triggered at a timecode location before session start, no audio is output when session start is reached.
 Workaround: To avoid this issue, insert time at the session start so that Pre-Roll does not start before session start.
-Dolby Atmos 7.1.2 bed's Lsr/Rsr channels when rendering.
+Dolby Atmos PT-348968: Changing the Atmos monitoring format from the Renderer controls in the Edit Window toolbar does not work if there are soloed and muted tracks in the session after switching from the 360RA WalkMix renderer.
+Workaround: If there are soloed and muted tracks in session after switching from the 360RA WalkMix Render to Dolby Atmos, changing the monitoring format from the Renderer controls in the Edit Window toolbar do not work. To work around this issue, use the Dolby Atmos Renderer window to change the monitoring format or disable the solo/mute tracks and enable again.
+7.1.2 bed's Lsr/Rsr channels when rendering.
 beds can affect each other, with one of the settings overwriting the other. As a workaround, do not use 5.1 PT-315662 Dolby Audio Renderer loses signal when outputting to Core Audio Device after making input connections to Pro Tools Audio Bridge in Pro Tools.
 Workaround: When Dolby Audio Bridge is used as an output Aux device, and Pro Tools Audio Bridge is used as an Aux Input device, the Dolby Atoms Renderer application must use this Pro Tools Audio Bridge as its output, or signal may not pass. If this is not the case, it is recommended that you choose a different type of audio bridge for your input or output device.
 PT-311522 Dolby Atmos Music Panner with Internal Renderer.
@@ -728,8 +692,6 @@ PT-266332 Some Bed assignments are not imported when importing session data from
 Workaround: In a Dolby Atmos workflow, it is possible to map more than one bus to a single bed. This happens automatically if the buses share the same output. However, only one of these buses maintains an explicit assignment to the Renderer. This is indicated on the Bus page of the I/O Setup by the Mapping to Renderer checkbox only being available for the one explicitly assigned/assignable Bed bus. These buses have no functional difference except when importing session data. To ensure all buses are imported, be sure to check both “Main Output Assignments” and “Bed/Object assignment and Toggle Settings” in the Track Data to Import section.
 PT-267073 Multichannel beds are imported in the wrong channel order if a Dolby Atmos ADM BWF file is dragged and dropped to the timeline.
 Workaround: Multichannel beds are imported in the wrong channel order if a Dolby Atmos ADM BWF file is dragged and dropped to the timeline. To avoid this, use Import Session Data.
-PT-267165 Object Control Mode must be set to Master in order for Object metadata to be included in an ADM BWF file.
-Workaround: It is possible to include an object in a Dolby Atmos ADM BWF file as long as the object is active and used in the session. However, the object pan metadata will not be included unless the Object Control Mode is set to Master.
 PT-253887 An audio driver error may be seen in the Dolby Atmos Renderer upon quitting Pro Tools.
 Workaround: When using Pro Tools Ultimate with the Dolby Audio Bridge in conjunction with the Dolby Atmos Renderer and HD Hardware, quitting Pro Tools may cause an “Audio Driver Error” in the Dolby Atmos Renderer. If you encounter this while using the Dolby Atmos Renderer 3.2 and below, you should reclaim the input/output device in the Dolby Atmos Renderer. If you encounter this while using the Dolby Atmos Renderer 3.3 and above, the error is benign and does not require action.
 PT-324528 Dolby Atmos pan automation is rendered slightly later when online-bouncing live renderer outputs with a low HW Buffer Size.
@@ -740,6 +702,34 @@ PT-252814 AAE –6101 errors with virtual Core Audio devices when Minimize Addit
 Workaround: Minimize Additional I/O Latency may result in AAE -6101 errors when used in conjunction with some Core Audio devices, such as the Dolby Audio Bridge or Sound Flower. To avoid this issue, disable Minimize Additional I/O Latency when one of these devices is selected for the Pro Tools Playback Engine.
 PT-255944 AAE –6101 error encountered while using Dolby Audio Bridge with the Dolby Atmos Production Suite.
 Workaround: To avoid AAE –6101 errors, it is recommended to run at the highest possible hardware buffer size when using the Dolby Audio Bridge with the Dolby Atmos Production Suite: 1,024 samples at 48 kHz and 2,048 samples at 96 kHz.
+Workaround: When real-time-bouncing Dolby Atmos ADM and/or Re-Render files, plugin delay is not accurately compensated if Renderer mode is External. To avoid this, bounce offline or enable the Internal Dolby Atmos Renderer. As of Pro Tools 2024.6, online bounce is compensated correctly in Internal Renderer mode.
+360RA Immersive Audio PT-349776 No indication in Pro Tools that Sony 360RA WalkMix Renderer does not support sample rates other than 48kHz and 96kHz.
+Workaround: When running the 360RA WalkMix Renderer at sample rates other than 48kHz and 96kHz, Pro Tools does not indicate that the current sample rate is unsupported. Additionally, the 360RA WalkMix Renderer name is not italicized in the I/O Setup Window and Renderer controls in the Edit Window toolbar (unlike the Dolby Atmos Renderer). You can assign tracks to the 360RA WalkMix Renderer and open the 360RA WalkMix panner, but no signal appears in the renderer. The 360RA WalkMix Renderer plugin window does communicate sample rate support.
+PT-348509 “Select/Show/Show Only assignments” options in the output right-click menu does not affect all 360RA Object tracks.
+Workaround: Unlike regular output assignments, 360RA Object tracks are treated independently. As a result, outputs' right-click menu commands “Select/Show/Show only assignments to 360RA WalkMix Renderer: Object” do not behave as they do with the standard output routing.
+PT-348809 360RA WalkMix Renderer Pan Automation is lost when moving clips between single multichannel and multiple mono tracks.
+Workaround: When moving clips between a single multichannel track and multiple mono tracks (or the other way around), Pan Automation for 360RA WalkMix Renderer on those clips is lost. To avoid this issue, (Track > Split into Mono).
+split the multichannel track into multiple mono tracks This is also workaround for migrating greater-than-stereo tracks assigned to objects in 360RA to Dolby Atmos.
+XS-165 Exporting Master ADM with 360RA WalkMix Renderer takes a long time.
+With 360RA WalkMix Renderer, exporting the Master ADM file may take longer than exporting a Dolby Atmos ADM, depending on the Pro Tools session size. This happens because of the complex calculations minutes with longer times for larger sessions.
+PT-348230 Tracks assigned to 360RA WalkMix Renderer are not audible during the online track bounce.
+Tracks assigned to 360RA WalkMix Renderer are not audible during the online track bounce. There is no workaround.
+PT-347698Converting assignment from immersive renderer to Pro Tools Mix may remove the main output assignment.
+Workaround: When using the Global Renderer Management right-click menu to convert an immersive assignment from WalkMix to Atmos, the existing main output may be unassigned. If the conversion is performed while Atmos is the Active renderer, only bed assignments will be removed. If converted while WalkMix is active, the assignment is removed regardless of type. Instead of using the Global Renderer Management convert function, manually assign an object output to avoid losing the main output.
+PT-349390Duplicate track ignores Object Toggle and LFE automation if WalkMix is the active renderer.
+Workaround: When duplicating a track while WalkMix is the active renderer, LFE and Object toggle automation do not carry over to the duplicate track. Switch to Atmos before duplicating the track to ensure all automation, including LFE and Object toggle, is preserved.
+PT-349391Object toggle automation is deleted if session is reopened while Object output is unassigned.
+Workaround: If a session is saved and reopened while an Object output is unassigned, any existing Object toggle automation is lost. Reassign the Object output before closing the session to preserve automation.
+PT-349380 Object control mode is off after converting assignment from WalkMix to Atmos using the Global Renderer Management menu.
+Workaround: When converting an object assignment from WalkMix to Atmos using the Global Renderer Management right-click menu while Atmos is the active renderer, the Object control mode is unexpectedly turned off. Manually re-enable Object control mode after conversion to correct this.
+PT-348972 ICON and MIDI panners do not control 360RA WalkMix.
+Workaround: ICON surfaces and MIDI devices currently do not control the 360RA WalkMix Panner. While these devices can manipulate panning in Dolby Atmos, switching to 360RA WalkMix disables their control capabilities. Use the mouse or Eucon-based control surfaces to manipulate 360RA WalkMix panning.
+PT-345511 Multiple tracks assigned to same Dolby Atmos object receive individual pan conversion to WalkMix 360RA spherical format.
+Workaround: When switching the renderer from Dolby Atmos to WalkMix 360RA, if multiple mono or stereo tracks are assigned to the same Dolby Atmos object, each will have their own pan setting and automation converted to WalkMix 360RA spherical format and the object control mode master setting is ignored. If you want to maintain the object control mode master behavior, before making the conversion either route all tracks sharing the same object assignment to a single Auxiliary Input track and copy the Object Control master’s automation to the track or copy the Object Control master’s automation to each track individually.
+XS-101 ICON and MIDI panners do not control 360RA WalkMix.360RA Walkmix Panner window reopens with offset graphics after switching from the Dolby Atmos Internal Renderer.
+Workaround: The 360RA Walkmix Panner window may have a graphic offset after switching from the Dolby Atmos Internal Renderer. If this occurs, close and reopen the Panner window (or press Command+Control+Option+W (Mac) or Control+Start+Alt (Windows) twice to hide and then show the floating windows).
+PT-346672 No dialog shown when reopening sessions saved with 360RA WalkMix Renderer on HDX Classic; renderer drop-down appears blank.
+When reopening a session saved with 360RA WalkMix as the active renderer on an HDX Classic system, no compatibility dialog appears, and the renderer drop-down in I/O Setup may be blank. Manually reselect 360RA WalkMix from the Renderer drop-down in I/O Setup to populate the Renderer selector. However, note that 360RA WalkMix Renderer does not function on HDX Classic.
 Ambisonics PT-304740 High-order Ambisonics tracks and buses use excessive amounts of DSP with the HDX Hybrid Playback Engine.
 Workaround: If the Playback Engine is set to HDX Hybrid, high-order Ambisonics tracks (especially 6th and 7th Order) in DSP mode consume more HDX resources than expected. To avoid this issue, keep all Ambisonics tracks in Native mode.
 PT-232689 Do not assign the Audition path to Ambisonics Output paths.
@@ -768,9 +758,7 @@ Workaround: If video hardware is installed after installing drivers for your aud
 PTSW-159325 Pro Tools reports a –6101 error connecting or disconnecting headphones or audio cables from the audio output jack on your computer while using Pro Tools, Workaround: You may encounter a –6101 error when connecting or disconnecting headphones or audio cables from the audio output jack on your computer while using Pro Tools. To avoid this problem, quit Pro Tools before connecting or disconnecting your headphones or audio cables.
 39542 Buffer sizes incompatible with Pro Tools hardware () Workaround: In Cubase, Traktor, Live, and certain other applications, you can select Buffer Sizes that may be incompatible with your Pro Tools hardware. Selecting incompatible buffer sizes results in distorted sound and may cause other problems. Please make sure to select Buffer Sizes listed in the following chart:
 Cubase SX Buffer Sizes Supported by Avid Audio Hardware Avid Audio Hardware Supported Buffer Sizes HDX 128, 256, 512, 1024 HD Native 128, 256, 512, 1024 Known Issues with Audio Interfaces Pro Tools | MTRX Studio PT-259483 Hardware Setup displays “Loop Master: N/A”, Workaround: If two MTRX Studio units are connected to a single Pro Tools system, Hardware Setup displays “Loop Master: N/A.” To avoid this issue, use only one unit per Pro Tools system (select the unit you want to use in the DADman Device List and deselect all other units).
-HD OMNI PT-304674 HD I/O or HD OMNI appears to be locked to the wrong external clock even though it is not.
-Workaround: When using an external word clock master to clock HD I/O or HD OMNI, the EXT indicator on the front panel that shows that it is “Locked” to an external source is illuminated (though it is not actually locked) even if the sample rate of the external clock does not match. Use a Sync HD or Sync X as clock to avoid this issue.
-PT-303824 Pro Tools quits unexpectedly after activating or deactivating the Main and ALT monitors in the Hardware Setup when one of the formats is higher than another.
+HD OMNI PT-303824 Pro Tools quits unexpectedly after activating or deactivating the Main and ALT monitors in the Hardware Setup when one of the formats is higher than another.
 Workaround: Pro Tools may quit unexpectedly after activating or deactivating the Main and ALT monitors in the Hardware Setup when using HDX with HD OMNI as the Playback Engine if one of the two formats is higher by the channel count than the other monitor format. Restart Pro Tools to correct this issue.
 PTSW-1614 Noise in the output signal from HD OMNI with digital input.
 Workaround: If HD OMNI is connected to a digital source with a mismatched clock and Sample Rate Conversion (SRC) is not enabled, you will hear noise (including loud “pops”) in the output signal. To correct this problem, either enable SRC or ensure that the clock of the digital source and HD OMNI are matched correctly.
@@ -796,14 +784,6 @@ Pro Tools | Carbon systems are only supported on macOS 10.15.7 (“Catalina”) 
 g If you encounter issues with Pro Tools | Carbon, visit the Troubleshooting Pro Tools | Carbon article on the Avid Knowledge Base. If you are unable to resolve the issue, please open up a Support Case.
 PT-335724 On macOS “Sequoia, Pro Tools requires that Carbon Expanded be re-selected as the Playback Engine after Carbon Central is launched or refreshed.
 Workaround: On MacOS 15.x (Sequoia), any time Carbon Central is launched or refreshed, Pro Tools requires that Carbon Expanded be reselected as the Playback Engine.
-PT-331633 On macOS “Sequoia,” Pro Tools | Carbon is not available in the Playback Engine dialog.
-Workaround: On MacOS 15.x (Sequoia), if a connected Pro Tools | Carbon is grayed out and cannott be selected in Playback Engine dialog, try the following to correct the issue:
-Go to macOS System settings > Privacy & Security > Local Network.
-- Under the text “Allow the application below to find and communicate with devices on your local
-- network,” toggle Pro Tools Off and On again.
-- Relaunch Pro Tools, Pro Tools | Carbon should become available.
-PT-330274 Clocking Carbon on macOS "Sequoia".
-Workaround: Clock Source can only be changed in Carbon Central on Sequoia. However, when changed, the new Clock Source is not properly displayed in Carbon Central or Audio Midi Setup.
 PT-330028 macOS "Sequoia" Voice Isolation and Carbon.
 Workaround: Pro Tools quits unexpectedly when Voice isolation mode is selected with Carbon as the Playback Engine. Do not engage Voice Isolation while running Pro Tools.
 PT-289973 Security software may flag Avid Carbon Central as an unsafe application.
@@ -818,12 +798,8 @@ PT-269384 Unnecessary dialog “Native plugins have been bypassed because the DS
 Workaround: A warning dialog reporting that “Native plugins have been bypassed because the DSP version is not available. Disable DSP Mode to allow Native plugins to remain active.” appears after enabling DSP mode on a track even though the plugin is already inactive. Check the “Don't show again” checkbox to ignore this warning in the future.
 PT-268685 Pro Tools sample rate conflict with Core Audio using Carbon.
 Workaround: If another application is using Core Audio with Carbon before Pro Tools is launched, Pro Tools may have an issue when creating a session at a sample rate that is different from the sample rate set by the other application in Core Audio. To avoid this issue, launch Pro Tools before launching the other application so the Pro Tools can set the Carbon device sample rate for in Core Audio.
-PT-291473 Kernel panic after re-connecting Carbon devices while the device status in Avid Carbon Central is "Unavailable".
-Workaround: If the status of any Carbon device in Avid Carbon Central is “Unavailable,” unplugging and then reconnecting the Ethernate cable that connects your computer may cause Mac Kernel panic. Do not do this. To avoid this issue, be sure to shut down your computer before changing Ethernet cable connections.
 PT-304182 Uninstall script is blocked by macOS security.
 Workaround: The uninstall script presented after mounting the Carbon Central disk image is blocked by macOS security. Running the uninstall script requires user approval in Security & Privacy tab of the macOS settings.
-PT-293568 Avid Carbon Central hangs when clicking OK after one of the units from expanded system has finished a firmware update but other units have not.
-Workaround: After a firmware update has been started on at least two units of an expanded system, OK whichever unit finishes this process first, Avid Carbon Central displays the prompt for the units to reboot. If you click OK the button before the update process is completely finished on the remaining units, Avid Carbon Central hangs and you will have to force quit the App. If a unit was in the process of receiving a firmware update then it may become frozen. If this occurs, power the unit off by holding the power button for a 5 seconds. When the unit is next powered on it will return to its previous firmware and can be updated normally.
 PT-293511 Cannot run UninstallAvidCarbonCentral.command from the installer DMG due to notarization issues.
 Workaround: The UninstallAvidCarbonCentral.command cannot be run because it is not able to be notarized with Apple. To run the uninstall command anyway, Option-right-click UninstallAvidCarbonCentral.command to open and run it.
 PT-293517 Core Audio I/O for third-party applications may not activate for Pro Tools | Carbon Pre devices in Pro Tools | Carbon Expanded systems.
@@ -847,14 +823,9 @@ PT-295314 On macOS Ventura, a long hang followed by an AAE –6001 error may occ
 Workaround: On macOS Ventura, if you change the Carbon device’s AVB entity config setting from Audio MIDI Setup while Pro Tools is using the Carbon device, and are prompted to quit and restart Pro Tools, then sometimes a long hang that ends with an AAE error –6001 will occur during the subsequent relaunch of Pro Tools. To correct this issue, reboot the Carbon device.
 PT-285433 After a firmware update while Carbon Pre is in ADAT mode, input and output signal routing may be lost.
 Workaround: With Carbon Pre operating in ADAT mode, not all device routing paths may be restored after a Firmware update. This can result in the loss of signal routing on all of the device inputs and outputs. To correct this issue, change the device sample rate or reboot the device.
-PT-289378 Audio dropouts may occur at high hardware buffer sizes.
-Workaround: When using Pro Tools | Carbon at 88.2 kHz and higher sample rates, brief signal dropouts can occasionally occur. If you experience brief signal dropouts on Carbon then lower the hardware buffer size to avoid this problem. This issue is fixed in macOS 13.1.
-PT-289835 Pro Tools | Carbon device does not appear in the Network Device Browser after rebooting, updating firmware, or switching Carbon from the Thunderbolt Ethernet to the Direct Ethernet port.
-Workaround: Sometimes the Pro Tools | Carbon device connected via 10 Gb/s direct Ethernet port does not appear in the Network Device Browser after rebooting or updating the firmware of the device. It may also happen after switching the device from the 1 Gb/s Thunderbolt Ethernet port (using Apple Thunderbolt 3 to powering off the Carbon device. Additionally, the device may not disappear immediately after the described actions, but during the subsequent starting Pro Tools or selecting the device in the Playback Engine dialog. To correct this issue restart the computer.
-PT-291453 Pro Tools | Carbon devices may occasionally become de-acquired in Network Device Browser.
-Workaround: The Network Device Browser in AMS may occasionally lose connection with Pro Tools | Carbon after rebooting the device. To reacquire the device it is recommended that you manually change the device sample rate AMS to any other than what is currently selected.
-PT-296040 The second Carbon Pre in an expanded system is incorrectly reconnected after power cycling the first Carbon Pre in the system.
-Workaround: If the audio signal is missing on the Inputs and Outputs of the C | Expander device, and the NET Clock Source light indicator blinks on the front panel of the device after power cycling the B | Expander device. To correct this issue restart Carbon Central PT-282876 No ADAT output with Carbon Pre.
+PT-291453 On macOS Ventura, Pro Tools | Carbon devices may occasionally become de-acquired in Network Device Browser.
+Workaround: On macOS "Ventura" the Network Device Browser in AMS may occasionally lose connection with Pro Tools | Carbon after rebooting the device. To reacquire the device it is recommended that you manually change the device sample rate AMS to any other than what is currently selected.
+PT-282876 No ADAT output with Carbon Pre.
 Workaround: To avoid this issue, ensure that ADAT connections are solid and that the clock is properly configured.
 PT-289378 Brief signal dropouts can occur at high sample rates and Hardware Buffer Sizes.
 Workaround: When using Pro Tools | Carbon at 88.2 kHz and higher sample rates, brief signal dropouts can occasionally occur. If you experience brief signal dropouts with Carbon, lower the Hardware Buffer Size to avoid this issue.
@@ -868,32 +839,29 @@ PT-268736 “Cannot communicate” error when disconnecting Carbon regardless of
 Workaround: “Pro Tools cannot communicate with the selected Playback Engine device.” error may occur if you disconnect Carbon from your Mac while Pro Tools is running with different Playback Engine (such as Built-In). To avoid this, perform all Carbon connectivity changes while Pro Tools is closed.
 PT-264470, PT-266750, and PT-261459 “Pro Tools cannot communicate...” message appears after updating Pro Tools | Carbon firmware or after enabling Carbon in the AMS Network Device Browser while Pro Tools is open.
 Workaround: After updating Pro Tools | Carbon firmware, Pro Tools may display one of the following messages:
-- “Pro Tools cannot communicate with the selected Playback Engine device. Please quit Pro Tools,
-reconnect the unit, and then relaunch Pro Tools.” - or - “Pro Tools cannot communicate with Pro Tools | Carbon. Please quit Pro Tools, reconnect the unit,
+“Pro Tools cannot communicate with the selected Playback Engine device. Please quit Pro Tools,
+- reconnect the unit, and then relaunch Pro Tools.”
+- or - “Pro Tools cannot communicate with Pro Tools | Carbon. Please quit Pro Tools, reconnect the unit,
 - and then relaunch Pro Tools.”
 If this occurs, disconnect from any VPN, verify that Pro Tools | Carbon is connected to the Mac AVB and that the NET light is illuminated on Pro Tools | Carbon, then re-launch Pro Tools. Similarly, if Pro Tools is launched on a system with Pro Tools | Carbon attached but not yet enabled in the AMS Network Device Browser, an initial dialog prompting the you to enable the device appears. When then enabling Pro Tools | Carbon, an error dialog may appear and you must quit and relaunch Pro Tools.
-PT-275230 Mac fails to re-connect to Pro Tools | Carbon over AVB after waking from sleep.
-Workaround: The Pro Tools | Carbon AVB connection may not be automatically re-established when your Mac wakes from sleep. In addition, in some cases the Carbon device does not re-appear in the Network Device Browser window in Audio MIDI Setup. If this occurs, restart your Mac to restore the AVB connection to your Carbon device. This issue does not occur on macOS 12.3 or later.
 PT-277378 Audio problems when moving a Carbon device between different Mac systems.
 Workaround: After moving a Carbon interface between multiple running Mac systems, audio may become distorted or silent with that Carbon device. If this occurs, restart the connected Mac to restore audio with the Carbon device.
-PT-265729 Pro Tools incorrectly reports “Could not create a new document because Pro Tools could not set sample rate to specified value” error.
-Workaround: Under certain circumstances, Pro Tools presents an error when attempting to change the Pro Tools | Carbon sample rate to a different supported sample rate. To resolve this, either quit Pro Tools and select a different device entity configuration or restart the Mac, and then un-select and re-select the Carbon device in the Audio MIDI Setup Network Device Browser. For more information about changing the Carbon device entity configuration, see the “AVB Device Configuration” section in the Pro Tools Carbon Guide.
 PT-264788 VPN may disconnect unexpectedly when connecting Pro Tools | Carbon.
 Workaround: If you are connected to a VPN (Virtual Private Network) when you are connecting to Pro Tools | Carbon, you may lose connection to your VPN intermittently. The computer’s network connection behavior can vary with different VPN configurations and with different VPN client software. VPN connections are not recommended when using Pro Tools | Carbon.
 PT-264712 Internet connection may be lost when connecting Pro Tools | Carbon.
 Workaround: When connecting Pro Tools | Carbon to your system, it is possible to lose the internet connection for that system. If this occurs, change which physical ports you use to connect Pro Tools | Carbon.
-PT-261395 Disconnecting Ethernet to Pro Tools | Carbon requires some time to respond.
-Workaround: If the Ethernet connection to Pro Tools | Carbon is disconnected while in use, Pro Tools can require as much as one minute to either post a warning message instructing you to quit Pro Tools, or to fully quit after clicking Quit when prompted.
 PT-271284 Logic Pro may affect a sample rate in Pro Tools when both DAWs run simultaneously at different sample rates using Carbon on Mac OS 10.15.
 Workaround: Streaming errors may occur or Pro Tools may become unresponsive when running Pro Tools | Carbon with different sample rates for Pro Tools and Logic Pro on Mac OS 10.15. To avoid this issue, create a project in Logic Pro at a sample rate that matches the Pro Tools session and, only then, change the sample rate of that project to a different one.
-Routing Issues PT--307186 The Default Format cannot be changed to a format above stereo when Carbon stereo monitoring controls are enabled.
-Workaround: The Default Format cannot be changed to a format wider than stereo in the Input, Output, and Insert tabs of the I/O Setup when the Main (MON L-R) monitor is enabled in the Monitors section in the Main tab of the Hardware Setup. Disable the Main (MON L-R) monitor in the Hardware Setup to be Default Format able to set the to a format wider than stereo.
+Routing Issues PT--307186 Missing track output or just R channel when flipping DSP mode on/off with all Headphones set to NOT mirror MON L-R. (PT-349383) Workaround: When using Pro Tools Carbon, if all headphones (HP1-4) are set not to mirror MON L-R in hardware setup, it may happen that the track output loses the R channel or both channels after disabling DSP mode on the last DSP-enabled track in session.
+To avoid this issue:
+- Enable DSP mode at least on one track in session.
+- Set at least one Headphone to mirror MON L-R.
+PT--307186 The Default Format cannot be changed to a format above stereo when Carbon stereo monitoring controls are enabled.
+Default Format Workaround: The cannot be changed to a format wider than stereo in the Input, Output, and Insert tabs of the I/O Setup when the Main (MON L-R) monitor is enabled in the Monitors section in the Main tab of the Hardware Setup. Disable the Main (MON L-R) monitor in the Hardware Setup to be able to set the Default Format to a format wider than stereo.
 PT-304915 No signal in MON L-R when 10-ch surround monitoring is enabled and each surround subpath is assigned to 10 mono audio tracks.
 Workaround: If there is a 6 or 8 channel surround monitoring path already enabled in the session and the surround output path is in use, enabling 10 channel surround and assigning its mono subpaths to separate mono audio tracks can result in loss of signal on Carbon Main Outputs. To correct this issue, open and close the Hardware Setup.
 PT-305142 Buses with unavailable output paths are re-mapped to MON L-R (also possible with surround) instead of having output marked as N/A in the Bus tab of the I/O Setup.
 Workaround: When re-opening a session that previously had buses mapped to unavailable outputs, those buses will be mapped to MON L-R by default or to any active surround output. To correct this issue, click Default in the Bus tab of the I/O setup.
-PT-299422 After setting the I/O setup to Default, there may be an additional ADAT 2:8 mono output path created when session is using all available Carbon outputs and main MON outputs are disabled.
-Workaround: When Pro Tools is using Carbon Pre Playback engine, with all available Hardware Outputs assigned to active tracks in session and Main Monitors checkbox unchecked in Hardware Setup, defaulting I/O Setup may create a redundant ADAT 2:8 mono path. You can delete this path manually or not assign it to any track.
 PT-274433 PEC/Direct Style Input Monitoring option is unavailable with Pro Tools | Carbon.
 Workaround: Since PEC/Direct Style Input Monitoring option is not available in the Preferences with Pro Tools | Carbon, it cannot be disabled after opening a session created on another system with this option enabled (such as Pro Tools | Ultimate on HDX). To avoid this issue, disabled the PEC/Direct Style Input Monitoring option on the system of origin before saving the session if you plan to open it on a Pro Tools | Carbon system. Alternately, create a new session and import session data from the session with PEC/Direct Style Input Monitoring (the PEC setting will not be imported).
 PT-266766 Input monitoring can remain in effect after recording in DSP Mode.
@@ -920,7 +888,7 @@ PT-264442 Inactive sends after enabling DSP Mode on Auxiliary Input tracks.
 Workaround: When an Auxiliary Input track has both Native-only and DSP-capable plugins and that track is placed in DSP Mode, sends on that track may become inactive if there are no available Output Channels.
 If this occurs, quit Pro Tools, launch Audio MIDI Setup, and select an AVB Audio Entity Configuration that supports more device Output Channels.
 PT-262209 The “Automatically Enable DSP Mode for Record-Armed and TrackInput-Enabled Tracks” setting is saved with the session.
-Workaround: The Automatically Enable DSP Mode for Record-Armed and TrackInput- Enabled Tracks preference is enabled by default for new sessions, however the setting of this preference is saved with the session. If you find that this preference is not set the way you left it, set it as desired and save the session again.
+Automatically Enable DSP Mode for Record-Armed and TrackInput- Workaround: The Enabled Tracks preference is enabled by default for new sessions, however the setting of this preference is saved with the session. If you find that this preference is not set the way you left it, set it as desired and save the session again.
 PT-260869 Unexpected number of Input and Output Channels shown in System Usage window.
 Workaround: Pro Tools reserves certain channels for internal communication and also applies internal optimizations to minimize the use of Input and Output Channels. As a result, the number of Input and Output Channels in use as shown in the System Usage window can be higher or lower than expected. For more information, see the Pro Tools | Carbon Guide.pdf.
 PT-253813 When enabling a track for record or input monitoring whose input is a sub-path of a wider bus, DSP Mode is automatically enabled if tracks whose output is a sub-path of the same bus are DSP Mode– enabled.
@@ -929,9 +897,7 @@ PT-267190 Pro Tools | Carbon does not show locked to external Word Clock.
 Workaround: Pro Tools | Carbon reverts back to internal clock if it does not detect a valid word clock signal when word clock is selected. Select the desired sample rate for Pro Tools | Carbon in AMS and configure your external word clock generator to deliver a matching sample rate signal before selecting external word clock as your source for Pro Tools | Carbon in Audio MIDI Setup.
 Surround Monitoring PT-301591 Monitor paths can be duplicated when restoring them from session and then enabling them in the Hardware Setup.
 Workaround: If you are running a session that has surround monitoring path saved, re-storing output paths from this session in I/O setup first and then enabling surround monitoring in Hardware Setup results in a duplicate output path being created for surround monitoring instead of using the existing path. To avoid this issue, first enable surround monitoring in Hardware Setup and than restore the Output path from the session in the I/O Setup.
-Playback and Recording Issues PT-308830 On on macOS 14 (“Sonoma”), Carbon/Carbon Expanded AVB audio dropouts occur at 88.2–192 kHz with 1024–2048 HW Buffer Sizes.
-Workaround: When using Pro Tools | Carbon on macOS 14 (“Sonoma”) at 88.2–192 kHz sample rates with 1024–2048 HW Buffer Sizes, you may encounter brief signal dropouts can occasionally occur. To avoid this issue, lower the HW Buffer Size.
-PT-282647 Frequent –6101 errors with Carbon Expanded AVB streaming at 192 kHz an with a low HW Buffer Size.
+Playback and Recording Issues PT-282647 Frequent –6101 errors with Carbon Expanded AVB streaming at 192 kHz an with a low HW Buffer Size.
 Workaround: Frequent AAE –6101 errors occur in 192 kHz sessions with a large number of tracks, using a HW Buffer Size of 128 samples or less, using Carbon Expanded as Playback Engine. If you encounter this issue, increase the HW Buffer Size.
 PT-279359 Audio dropouts can occur when using Pro Tools | Carbon with a Mac Pro (Late 2013) if Wi-Fi is enabled.
 Workaround: If you are using Pro Tools | Carbon with a Mac Pro (Late 2013), audio dropouts can occur while streaming audio when Wi-Fi is enabled. If you encounter this issue, disable Wi-Fi while using Pro Tools | Carbon.
@@ -943,8 +909,6 @@ PT-285508 Changing clock source to ADAT disables HW insert and loopback Automati
 Workaround: Changing the clock source disables Automatic Delay Compensation for Carbon. Changing the clock source to Internal or Word Clock results in an ADC error between 1–3 samples, while changing to ADAT (and switching between different ADAT ports) results in accumulated delay offset. To correct this issue is, quit Pro Tools, change the clock source back to Internal, and then re-launch Pro Tools.
 PT-269195 Out-of-resources tracks leak sound to active tracks, replacing their original audio.
 Workaround: If you enable DSP mode in batch mode for multiple channels and run out of available device channels, some of the tracks become inactive but their input monitoring signal will replace the signal of the consecutive active tracks. Disable DSP mode on the inactive tracks and re-activate them to fix this issue.
-PT-265779 Loud spikes on the ADAT input of an HD OMNI connected to the ADAT output of a Carbon unit while Carbon is booting.
-Workaround: It is possible for loud spikes to occur on the ADAT inputs of an HD OMNI interface (and possibly other devices that support ADAT) while a connected Pro Tools | Carbon is booting up. For this to occur, the ADAT inputs of the receiving device must be connected to the ADAT outputs of the Pro Tools | Carbon. If your Pro Tools | Carbon is connected by ADAT to a receiving device, it is recommended that you disable live input monitoring and/or mute your speakers until Pro Tools | Carbon finishes powering on.
 PT-273527 Non-audio signal present on unused Optical In port channels 3–8 with detected S/PDIF input.
 Workaround: When monitoring all 8 audio inputs for each available optical input port, non-audio signal can appear on channels 3–8 after making a valid optical S/PDIF signal connection. The avoid this issue, change the format on source device’s output from S/PDIF to ADAT and then back to S/PDIF without unplugging the connection from Pro Tools | Carbon. Alternatively, avoid input-monitoring of channels 3-8 for the optical In port in question.
 PT-267046 When using Pro Tools | Carbon, no Input Only Monitor signal will be monitored for an Audio Track that is created during playback until playback is stopped.
@@ -972,26 +936,16 @@ PT-267358 Master Fader automation plays back incorrectly when toggling DSP Mode 
 Workaround: When playing back automation written in a Master Fader track, the automation may play back incorrectly after you enable or disable DSP Mode on the Master Fader track during playback. If you encounter this, save and reopen your session to resolve this issue.
 PT-270638 Signal may be offset by a small amount when cascading bus input to an audio track compared to a track with the same hardware input.
 Workaround: After performing a record pass to tracks with the same hardware input source, but one track is receiving cascaded input via a bus, the recorded audio will be offset. For example, at 48 kHz the recorded audio may be offset by 3 samples for DSP tracks and by 4 samples for non-DSP tracks. To this, set both AFL/PFL and Audition Path to None in the I/O Setup, or disable Headphone Mirroring in Hardware Setup.
-PT-323013 Carbon Expanded systems using more than one Carbon do not compensate for insert delays.
-Workaround: When using Pro Tools | Carbon in Carbon Pre emulation mode (hold down the INPT button on Carbon while powering on), insert delays are not automatically compensated and will need to be measured and accounted for manually in the I/O Setup Inserts tab.
 Front Panel Issues PTHW-161 Certain front panel lights may flicker when metering is active.
 Workaround: When metering is active on the front panel, certain front panel lights may appear to flicker slightly.
-PT-266241 Peak Meters persist when switching Front Panel Meter view.
-Workaround: When changing the Front Panel meter display on Pro Tools | Carbon between Output and Input, Peak Meters may still display for a moment before falling to actual signal levels.
-PT-265571 Footswitch may have inverted behavior after changing footswitches while Pro Tools | Carbon is running.
-Workaround: Pro Tools | Carbon detects the footswitch polarity when it powers on. If you find that the footswitch you have connected is inverted from expected behavior, power cycle Pro Tools | Carbon while the footswitch is connected.
 User Interface Issues PT-288565 On some Intel Mac systems with macOS Ventura, the Clock Source name does not change in Audio MIDI Setup after setting the Clock Source for a Pro Tools | Carbon device.
 Workaround: Sometimes, the Clock Source name that is displayed in Audio MIDI Setup does not change after changing the Clock Source setting for a Pro Tools | Carbon device. The issue can occur on Mac Intel is a graphical issue only. To correct the issue re-open the Audio MIDI Setup window or re-select the Clock Source.
-PT-300157 Audio MIDI Setup clock source always shows the one that was previously set on device after it was changed from Audio MIDI Setup application.
-Workaround: When changing clock source of an Expanded Device in Audio MIDI Setup, the clock source field will always show the clock that was set on device before performing a change. This is an UI issue only, as actual clock source that is set on the device is the one that was chosen and not the one that is displayed in AMS. To workaround this issue, close and reopen AMS window.
 PT-267042 and PT-267042 Some Pro Tools | Carbon tool tip text and Playback Engine menu text does not follow the system language setting.
-Workaround: Certain tool tip text, such as tool tips for the DSP Mode button, for the Pro Tools | Carbon section in the System Usage window, may be displayed in English (US) rather than the selected system language. Also, when a Pro Tools | Carbon device has a network connection to your computer but does not (Setup > Playback have an AVB connection, instructional text is included in the Playback Engine menu Engine) describing how to enable the AVB connection for the device. This text is always displayed in English (US) rather than following the system language setting.
+Workaround: Certain tool tip text, such as tool tips for the DSP Mode button, for the Pro Tools | Carbon section in the System Usage window, may be displayed in English (US) rather than the selected system language. Also, when a Pro Tools | Carbon device has a network connection to your computer but does not have an AVB connection, instructional text is included in the Playback Engine menu (Setup > Playback Engine) describing how to enable the AVB connection for the device. This text is always displayed in English (US) rather than following the system language setting.
 PT-266710 Graphics anomalies in the Hardware Setup.
 Workaround: It is possible for the Hardware Setup to display graphics anomalies such as corrupted text in the Talkback and Dim sections, and Pro Tools Aggregate I/O above Pro Tools | Carbon in the Peripherals list.
 If this occurs re-launch Pro Tools.
-Pro Tools or Carbon Central Becomes Unresponsive or Quits Unexpectedly PT-293707 Carbon Central quits unexpectedly after waking up your Mac from Sleep mode.
-Workaround: After leaving your Mac in Sleep mode for a significant amount of time you may encounter the message that Carbon Central unexpectedly quit after you unlock macOS. Restart the app to continue using Carbon Central.
-PT-266976 After quitting unexpectedly, Pro Tools cannot communicate with Pro Tools | Carbon.
+Pro Tools or Carbon Central Becomes Unresponsive or Quits Unexpectedly PT-266976 After quitting unexpectedly, Pro Tools cannot communicate with Pro Tools | Carbon.
 Workaround: If Pro Tools quits unexpectedly with Pro Tools | Carbon, a dialog may appear when you re- launch Pro Tools indicating that Pro Tools cannot communicate with Pro Tools | Carbon. If you encounter this issue, quit Pro Tools, power-cycle Pro Tools | Carbon, and then re-launch Pro Tools.
 PT-266690 After changing Playback Engine while both Pro Tools | Carbon and HD Native Thunderbolt or HD Native PCIe are connected and powered on, Pro Tools may quit unexpectedly.
 Workaround: Pro Tools may quit unexpectedly if the Playback Engine is changed while both HD Native and Pro Tools | Carbon are connected and powered on. If this occurs, power off any peripherals connected to HD Native (such as MTRX Studio) and re-launch Pro Tools.
@@ -1024,4 +978,5 @@ Error –9128 Workaround: In sessions with high sample rates (96 kHz or higher),
 92747a, 20843 Error –9131 Workaround: GUID partitioned drives will not allow you to record beyond the third partition when running on OS X. A workaround is to partition audio drives using Apple Partition Map instead of GUID, or recording to or playing from a UNIX File System (UFS) formatted drive is not supported in Pro Tools.
 32397 Error –9132 Workaround: If a –9132 error occurs during Bounce To Disk (even with the highest Hardware Buffer setting selected), bus the appropriate tracks to the appropriate number and format of audio tracks, and record to disk. You can then use the resulting audio files as you would have used bounced files.
 Error –9155 Workaround: In sessions with high sample rates of 96 kHz or more, you may need to set the Hardware Buffer Size to 512 or more to avoid –9155 errors during playback with dense automation.
-Errata Pro Tools Reference Guide 2025.6 and Pro Tools Help 2025.6 In the Pro Tools Reference Guide and in PTHelp (v2025.6) the section about the Audition Path in the I/O Setup erroneously excludes mention that the specified Audion Path is also used for previewing audio in the Transcript window and in Splice.
+Errata What's New in Pro Tools 2025.10 Guide (REV A) The What's New in Pro Tools 2025.10 Guide.pdf (REV A) erroneously lists the following as a new feature, but it is not available in this release:
+Transcription data pass thru for renders (commit, AudioSuite, .ptxm render)

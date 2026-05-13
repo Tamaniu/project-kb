@@ -6,19 +6,11 @@ release-date: 01/04/2026
 doc-type: new-features
 source: pdf
 confidentiality: public
-date-added: 11/05/2026
+date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools version 2026.4 ©2026AvidTechnology,Inc.,(“Avid”),allrightsreserved.ThisguidemaynotbeduplicatedinwholeorinpartwithoutthewrittenconsentofAvid.
-ForacurrentandcompletelistofAvidtrademarksvisit:www.avid.com/legal/trademarks-and-other-notices ThisproductmaybeprotectedbyoneormoreU.S.andnon-U.S.patents.Detailsareavailableatwww.avid.com/patents.
-Productfeatures,specifications,systemrequirements,andavailabilityaresubjecttochangewithoutnotice.
-Bonjour,theBonjourlogo,andtheBonjoursymbolaretrademarksofAppleComputer,Inc.
-ThunderboltandtheThunderboltlogoaretrademarksofIntelCorporationintheU.S.and/orothercountries.
-ProToolsincludesélastiqueProV3byzplane.developmentastimestretchingengine.
-Confidentialunpublishedworks.Copyright2026DolbyLaboratories.Allrightsreserved.
-Dolby,DolbyAtmos,andthedouble-DsymbolareregisteredtrademarksofDolbyLaboratoriesLicensingCorporation.
-AvidProToolsWhat'sNewGuide•Created4/7/2026•REVA Contents Pinning Groups 10 Pinned Tracks Preferences 11 3 Transcription Improvements 13 Retain Transcription with Rendered Audio 13 Separate Clip by Word, Sentence, or Speaker on Tracks 13 Show Transcription Lane per Track 14 Transcription Indicator in Workspace 15 Shortcut to Scroll Transcript Window to Selection 15 Transcription Processing Mode (Windows Only) 16 4 Fraunhofer MPEG-H Audio Renderer Support 17 MPEG-H Renderer Features 18 Installing MPEG-H Renderer 19 MPEG-H Renderer Setup 19 Enabling MPEG-H Renderer 19 Rendering Format 20 Reference Layout 20 Setup Assistant 21 Creating MPEG-H Objects and Beds 21 Import 23 iii Export 24 5 Pro Tools Immersive Panner 26 Anchor Point 29 Meta and Macro Controls 30 Expanded View 31 Top Panel Controls 31 Reset All 31 Z 31 Height Modes 31 Walls 32 Room Views 33 Room Guides 36 Anchor Link 38 Manipulate 39 Spin 39 Scale 40 Channel Controls 40 Channels View 41 6 Miscellaneous Features and Enhancements 42 Batch File Renaming 42 Miscellaneous Dialog Updates 43 Duplicate Tracks Dialog Enhancements 43 Track Commit and Extract MIDI to New Track Dialogs 44 Missing Plugins Dialog 45 Set Solo Mode in Solo Status Button Right-click Menu 45 Track Comment Editing Undoable 46 Favorite Elastic Audio and ARA Plugin 46 Grid Lines Brightness and Opacity 47 Sends to AAX Renderer Plugin Beds 48 Bed Path Management 48 Format and Width Constraints 49 iv Mixer and Panning Behavior 49 Format Migration Behavior 49 Renderer Migration Utility 50 Dolby Headphone Personalization 51 iXML Channel Ordering Improvements 52 Massive X Player 53 v 1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 New Features and Enhancements Pro Tools® software version 2026.4 provides the following new features and enhancements:
+What’s New in Pro Tools version 2026.4 1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 New Features and Enhancements Pro Tools® software version 2026.4 provides the following new features and enhancements:
 Track Pinning
 - Transcription Improvements
 - Fraunhofer MPEG-H Audio Renderer Support
@@ -49,25 +41,7 @@ Last Focused
 4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the
 Application field.
 5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab 1 What’s New in Pro Tools 2026.4 Conventions Used in This Guide Pro Tools documentation uses the following conventions to indicate menu choices, keyboard commands, and mouse commands:
-Convention Action File > Save Choose Save from the File menu Control+N Hold down the Control key and press the N key Control-click Hold down the Control key and click the mouse button Right-click Click with the right mouse button Commands, Options, Settings The names of and that appear on-screen are in a different font.
-The following symbols are used to highlight important information:
-g User Tips are helpful hints for getting the most from your Pro Tools system.
-Important Notices include information that could affect your Pro Tools project data or the performance of your Pro Tools system.
-b Shortcuts show you useful keyboard or mouse shortcuts.
-> **Note:** Cross References point to related sections in this guide and other Avid documentation.
-How to Use this PDF Guide This PDF provides the following useful features:
-- The Bookmarks on the left serve as a continuously visible table of contents. Click on a subject
-heading to jump to that page.
-Click a + symbol to expand that heading to show subheadings. Click the – symbol to collapse a
-- subheading.
-The Table of Contents provides active links to their pages. Select the hand cursor, allow it to hover
-- over the heading until it turns into a finger. Then click to locate to that subject and page.
-- All cross references in blue are active links. Click to follow the reference.
-- Select Find from the Edit menu to search for a subject.
-- When viewing this PDF on an iPad, it is recommended that you open the file using Apple Books to take
-advantage of active links within the document. When viewing the PDF in Safari, touch the screen, then touch Open in “Books”.
-1 What’s New in Pro Tools 2026.4 Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
+EuControl Settings, Applications tab 1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
 Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
 - www.avid.com/account
 Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
@@ -216,8 +190,7 @@ Choose select from the Renderer selector, and click
 - MPEG-H Renderer
 In the Renderer controls in the Edit Window toolbar, select from the Renderer 4 Fraunhofer MPEG-H Audio Renderer Support selector.
 Rendering Format The list of available rendering formats are MPEG-H Audio rendering formats that fit into the currently used monitor path width.
-Reference Layout When you first enable the MPEG-H Renderer in a Pro Tools session, you are prompted to specify the Reference Layout. The options include: Mono, 2.0, 3.0, 3.0 Surr, Quad, LCRS, 5.0, 5.1, 5.1+Back, 7.1 (60 deg), 7.1 (110 deg), 5.1+2H, 5.1+4H, 7.2+3H, 5.1+6H, 7.1+4H, 7.1+6H, 9.1+4H.
-and
+Reference Layout When you first enable the MPEG-H Renderer in a Pro Tools session, you are prompted to specify the and
 - Without existing channel components, the renderer prompts you to specify the Reference Layout
 when first opening it.
 Creating a bed prior to setting the Reference Layout, automatically determines the appropriate
@@ -354,7 +327,7 @@ Roll:
 This Meta control rolls the anchor left and right, causing the channel positions to follow relatively in the room. This control is not available with a mono source and the anchor point is unlinked.
 Pitch: This Meta control rolls the anchor left and right, causing the channel positions to follow relatively in the room. This control is not available with a mono source and the anchor point is unlinked.
 Spin Spin The controls help automate the movement of fully rotatable parameters. For example, you may want to do live momentary movements that do not necessarily relate to a tempo, or you might want the movement to relate to and adapt with the tempo of a song.
-Spin Mode Selector: Free, Note, and Bar options are exclusive. The dotted and triplet selections are 1/2, 1/4, 1/8 supplementary, and their behavior only applies to the and note options, and they can be selected at any time.
+Spin Mode Selector: Free, Note, and Bar options are exclusive. The dotted and triplet selections are supplementary, and their behavior only applies to the and note options, and they can be selected at any time.
 Spin Rate Knob: For Bars and Notes, the Spin Rate is relative to the selected rhythmic value. For example, 100% of a 1/4 note means that one rotation happens every quarter note. Free modes spin slower or faster depending on the specified percentage, and is based on how many milliseconds it takes for a full rotation.
 Spin Target Selector: Determines which parameter is affected by the spin control.
 Orbit <default>
@@ -452,9 +425,7 @@ Select this option to convert all immersive assignments to a Bed. All tracks cur
 This option is not available for the 360RA WalkMix renderer.
   - Do Not Perform Migration: When this option is select, Pro Tools does not migrate
 Immersive assignments to the new format.
-9.1.4, 7.1.4, 7.1.2, 7.0.2, 7.1, 7.0,
 3. Select the desired Bed Width for the destination renderer:
-6.1, 5.1.4, 5.1.2, 5.0.2, 5.1, 5.0, Quad, LCRS, LCR, Stereo, or Mono.
 4. Click OK.
 6 Miscellaneous Features and Enhancements
 5. In the resultant Migration Results dialog, click Yes to save a text file of the results or No to not.
@@ -482,7 +453,7 @@ Headphone Personalization Delete Current Profile.
 Delete.
 5. When prompted to confirm that you want to delete the file, click
 The deleted profile is moved to the trash.
-iXML Channel Ordering Improvements When importing and exporting certain multichannel files in earlier versions of Pro Tools (mainly specific to immersive stem formats from 5.0.2 up to 9.1.6), there were some issues caused by discrepancies between iXML channel info metadata, WavEXT channel mask metadata, and the physical order of channels within files. These issues have been addressed while maintaining backwards compatibility with earlier versions of Pro Tools. As a result:
+iXML Channel Ordering Improvements When importing and exporting certain multichannel files in earlier versions of Pro Tools (mainly specific to iXML channel info metadata, WavEXT channel mask metadata, and the physical order of channels within files. These issues have been addressed while maintaining backwards compatibility with earlier versions of Pro Tools. As a result:
 6 Miscellaneous Features and Enhancements Files created by third-party applications are imported to the correct track format in Pro Tools and
 - with the correct channel order.
 - Files created by Pro Tools are recognized correctly by other applications.
