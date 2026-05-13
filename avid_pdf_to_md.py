@@ -11,12 +11,13 @@ Usage:
 Options:
     --product       Product key: media-composer | nexis | cloud-ux | newsroom-management |
                                  stream-io | fastserve-ingest | fastserve-playout |
-                                 production-management | analytics
+                                 production-management | analytics | pro-tools
     --version       Version string e.g. 2025.12
     --doc-type      new-features | hardware-guide | readme | release-notes  (default: new-features)
     --output        Output .md path (default: auto-generated from product/version)
     --kb-root       Root of project-kb (default: ~/Desktop/avid-kb/project-kb)
     --dry-run       Print output without writing
+    --x-tolerance   PDF word-boundary tolerance (default 1.8)
 
 Examples:
     python3 avid_pdf_to_md.py "Media_Composer_v2025.12_What's_New.pdf" \\
@@ -122,21 +123,83 @@ PRODUCT_CONFIG = {
     },
 }
 
-# Boilerplate prefixes that signal the Legal Notices section
+# Boilerplate prefixes that signal the Legal Notices section (halt extraction)
 LEGAL_PREFIXES = (
     "Productspecificationsaresubjecttochange",
     "Thisproductissubjecttothetermsandconditions",
     "Copyright©",
 )
 
-# Lines to always skip
+# Lines to always skip (exact match)
 UNIVERSAL_SKIP = {
     "Important Information",
     "Legal Notices",
+    "LegalNotices",
     "c",        # stray copyright symbol in some Avid PDFs
     "Trademarks",
     "Attn. Government User(s). Restricted Rights Legend",
 }
+
+# Pro Tools copyright/trademark boilerplate — skip line, continue extraction
+# Covers both merged (no-space) variants in newer PDFs and spaced variants in older ones
+SKIP_LINE_PREFIXES = (
+    # Merged variants — newer Pro Tools PDFs (2025.x, 2026.x)
+    "©",
+    "Foracurrentandcomplete",
+    "Thisproductmaybeprotected",
+    "Productfeatures,specifications",
+    "Bonjour,theBonjour",
+    "ThunderboltandtheThunderbolt",
+    "Confidentialunpublishedworks",
+    "Dolby,DolbyAtmos",
+    "Dolby,the",
+    "zplane",
+    "GuidePartNumber",
+    "LegalNotices©",
+    "LegalNotices ",
+    "Patentspendingor",
+    # Spaced variants — older Pro Tools PDFs (2022.x–2024.x)
+    "© 20",
+    "For a current and complete",
+    "This product may be protected",
+    "Product features, specifications",
+    "Bonjour, the Bonjour",
+    "Thunderbolt and the Thunderbolt",
+    "Confidential unpublished works",
+    "Guide Part Number",
+    "Dolby Atmos",
+    "Dolby, Dolby",
+    "Dolby, the",
+    "zplane development",
+    "Legal Notices ",
+    # Document metadata line (appears at end of legal notices page, all Avid products)
+    "AvidProTools",
+    "AvidMedia",
+    "AvidNEXIS",
+)
+
+# Page-level section suppression — entire page discarded when any line starts with these
+SKIP_SECTIONS = {
+    "Conventions Used in This Guide",
+    "ConventionsUsedinThisGuide",
+    "How to Use this PDF Guide",
+    "HowtoUsethisPDFGuide",
+    "How to Use this PDF",
+    "HowtoUsethisPDF",
+    # Avid standard resources/contact page
+    "Account Activation and Product Registration",
+    "AccountActivationandProductRegistration",
+}
+
+# Roman numeral page markers (standalone or at end of TOC line)
+_ROMAN_NUMERALS = re.compile(
+    r'^(i{1,3}|iv|vi{0,3}|ix|xi{0,3}|xiv|xvi{0,3}|xix|x{1,3})$',
+    re.IGNORECASE
+)
+
+# Detects lines that have a copyright symbol fused with a title or other text
+# e.g. "Pro Tools Shortcuts Guide ©2025AvidTechnology..."
+_COPYRIGHT_IN_LINE = re.compile(r'©\s*\d{4}', re.IGNORECASE)
 
 
 # ── Core extraction ────────────────────────────────────────────────────────
@@ -162,8 +225,41 @@ def extract_page_lines(page, x_tol=1.8, y_tol=3):
 
 
 def is_toc_line(stripped):
-    """TOC entries end with a single digit after whitespace."""
-    return bool(re.match(r'^.+\s+\d$', stripped))
+    """Detect TOC entries, running page markers, and boilerplate structure lines."""
+    # Single or multi-digit page number at end of line (standard TOC)
+    if re.match(r'^.+\s+\d{1,3}$', stripped):
+        return True
+    # Dotted leaders ("Contents . . . 4" style)
+    if re.search(r'\. \. \.', stripped):
+        return True
+    # Standalone Roman numeral page markers (ii, iii, iv, vi, vii, viii, ix...)
+    if _ROMAN_NUMERALS.match(stripped):
+        return True
+    # Line ending with a Roman numeral (running footer: "Recording 22 Transport Mode iii")
+    if re.search(r'\s+(i{1,4}|iv|vi{0,3}|ix)\s*$', stripped, re.IGNORECASE):
+        return True
+    # "Contents" or "contents" header line alone
+    if stripped.lower() == "contents":
+        return True
+    # Merged TOC block: 5 or more digit tokens in a single line
+    tokens = stripped.split()
+    digit_count = sum(1 for t in tokens if re.match(r'^\d{1,3}$', t))
+    if digit_count >= 5:
+        return True
+    return False
+
+
+def is_skip_line(stripped):
+    """
+    Lines to skip without halting extraction.
+    Covers Pro Tools copyright/trademark boilerplate in both merged and spaced forms,
+    and lines where a copyright symbol is fused mid-line with a title.
+    """
+    if any(stripped.startswith(p) for p in SKIP_LINE_PREFIXES):
+        return True
+    if _COPYRIGHT_IN_LINE.search(stripped):
+        return True
+    return False
 
 
 def is_legal_boilerplate(stripped):
@@ -173,7 +269,7 @@ def is_legal_boilerplate(stripped):
 def classify_line(stripped, li, heading_registry, pending_type):
     """
     Returns (type, text, new_pending_type).
-    Types: h2 | h3 | bullet | sub | note | numbered | body | skip
+    Types: h2 | h3 | bullet | sub | note | numbered | body | skip | legal_stop
     heading_registry: set of already-emitted headings (to skip running heads)
     li: line index within its page (running heads appear at li <= 1)
     """
@@ -184,6 +280,8 @@ def classify_line(stripped, li, heading_registry, pending_type):
     if stripped in UNIVERSAL_SKIP:
         return 'skip', '', None
     if is_toc_line(stripped):
+        return 'skip', '', None
+    if is_skip_line(stripped):
         return 'skip', '', None
     if is_legal_boilerplate(stripped):
         return 'legal_stop', '', None
@@ -215,11 +313,12 @@ def classify_line(stripped, li, heading_registry, pending_type):
     return 'body', stripped, None
 
 
-def extract_sections(pdf_path, known_h2=None, known_h3=None):
+def extract_sections(pdf_path, known_h2=None, known_h3=None, x_tol=1.8):
     """
     Extract all text from a PDF, returning a list of (type, text) tuples.
     known_h2 / known_h3: sets of known section heading strings for this document.
     If None, headings are inferred from font size (best-effort).
+    x_tol: pdfplumber x_tolerance for word boundary detection (default 1.8).
     """
     if known_h2 is None:
         known_h2 = set()
@@ -229,8 +328,19 @@ def extract_sections(pdf_path, known_h2=None, known_h3=None):
     flat = []
     with pdfplumber.open(pdf_path) as pdf:
         for pi, page in enumerate(pdf.pages):
-            for li, line in enumerate(extract_page_lines(page)):
-                flat.append((pi, li, line.strip()))
+            page_lines = [l.strip() for l in extract_page_lines(page, x_tol=x_tol)]
+            non_empty = [l for l in page_lines if l]
+            # Cover-page skip: very few short lines, no sentence punctuation — likely a title page
+            if (len(non_empty) <= 3
+                    and all(len(l.split()) <= 5 for l in non_empty)
+                    and not any(c in ' '.join(non_empty) for c in '.!?,;:')):
+                continue
+            # Page-level section suppression: skip entire page if it contains
+            # a known boilerplate section header (Conventions, How to Use, etc.)
+            if any(any(ln.startswith(s) for s in SKIP_SECTIONS) for ln in page_lines):
+                continue
+            for li, stripped in enumerate(page_lines):
+                flat.append((pi, li, stripped))
 
     classified = []
     heading_seen = set()
@@ -362,7 +472,7 @@ def main():
                                  "fx-guide","vdi-guide","format-guide","virtualization-guide",
                                  "tomcat-install-guide","network-guide","integration-guide",
                                  "readme-mac","readme-win","reference-guide","shortcuts-guide",
-                                 "quick-reference-guide","sketch-guide"],
+                                 "quick-reference-guide","sketch-guide","audio-plugins-guide"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",
@@ -370,6 +480,9 @@ def main():
                         help="Root of project-kb")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print output without writing")
+    parser.add_argument("--x-tolerance", type=float, default=1.8,
+                        help="PDF word-boundary tolerance (default 1.8; use 3.5 for "
+                             "Pro Tools 2025.10+)")
     parser.add_argument("--headings", nargs="*",
                         help="Known H2 section headings (space-separated, quoted)")
     parser.add_argument("--subheadings", nargs="*",
@@ -385,7 +498,7 @@ def main():
     known_h3 = set(args.subheadings) if args.subheadings else set()
 
     print(f"Extracting: {args.pdf}", file=sys.stderr)
-    classified = extract_sections(args.pdf, known_h2, known_h3)
+    classified = extract_sections(args.pdf, known_h2, known_h3, x_tol=args.x_tolerance)
     print(f"Classified {len(classified)} content items", file=sys.stderr)
 
     front_matter = build_front_matter(args.product, args.version, args.doc_type)
@@ -409,7 +522,7 @@ def main():
 # ── Importable API ─────────────────────────────────────────────────────────
 
 def convert_pdf(pdf_path, product_key, version, doc_type="new-features",
-                known_h2=None, known_h3=None, kb_root=None):
+                known_h2=None, known_h3=None, kb_root=None, x_tol=1.8):
     """
     Programmatic entry point for use in batch scripts.
 
@@ -425,7 +538,8 @@ def convert_pdf(pdf_path, product_key, version, doc_type="new-features",
     """
     if kb_root is None:
         kb_root = os.path.expanduser("~/Desktop/avid-kb/project-kb")
-    classified = extract_sections(pdf_path, known_h2 or set(), known_h3 or set())
+    classified = extract_sections(pdf_path, known_h2 or set(), known_h3 or set(),
+                                  x_tol=x_tol)
     front_matter = build_front_matter(product_key, version, doc_type)
     content = render_markdown(classified, front_matter)
     out_path = resolve_output_path(product_key, version, doc_type, kb_root)
