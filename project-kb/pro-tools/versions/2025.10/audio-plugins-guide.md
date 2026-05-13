@@ -10,7 +10,7 @@ date-added: 13/05/2026
 status: current
 ---
 
-Audio and MIDI Plugins Guide 1 Introduction to Audio Plugins Plugins are special-purpose software components that provide additional signal processing and other functionality to Pro Tools® software. These include plugins that come with your Pro Tools system, as well as many other plugins that can be purchased or rented from Avid® separately. This guide documents all 64-bit AAX audio plugins available from Avid for Pro Tools, VENUE®, and Media Composer®.
+1 Introduction to Audio Plugins Plugins are special-purpose software components that provide additional signal processing and other functionality to Pro Tools® software. These include plugins that come with your Pro Tools system, as well as many other plugins that can be purchased or rented from Avid® separately. This guide documents all 64-bit AAX audio plugins available from Avid for Pro Tools, VENUE®, and Media Composer®.
 Additional plugins are available from third-party developers. For more information, visit www.avid.com/plugins.
 Plugin Formats AAX (Avid Audio Extension) plugins provide real-time plugin processing using host-based (“Native”) or DSP- based (Pro Tools | Carbon and HDX systems only) processing. The AAX plugin format also supports AudioSuite non-real-time, file-based rendered processing. AAX plugin files use the “.aaxplugin” file suffix.
 There are three plugin formats used in Pro Tools:
@@ -128,20 +128,6 @@ An Avid-qualified system running Pro Tools software.
 - An iLok USB key (iLok) for plugins that can be purchased or rented that do not support computer-
 - based authorization or iLok Cloud.
 Avid can only assure compatibility and provide support for hardware and software it has tested and approved.
-For complete system requirements and a list of Avid-qualified computers, operating systems, hard drives, and third-party devices, visit: www.avid.com/compatibility Third-Party Plugin Support For information on third-party plugins for Pro Tools systems, refer to the documentation that came with your plugin.
-Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
-- www.avid.com/account
-Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
-- www.avid.com/support
-Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
-- www.avid.com/learning
-Videos and Tutorials Visit the Avid YouTube channel to find playlists and videos that show how to use and learn Pro Tools.
-- Avid YouTube Channel (all playlists and videos)
-- Pro Tools Tech Tips (playlist)
-- Pro Tools Quick Tips (playlist for the Pro Tools Quick Reference Guide, available from the Dashboard)
-Products and Developers Learn about Avid products, download demo software, or learn about our Development Partners and their plugins, applications, and hardware.
-- www.avid.com/products
-Avid Link Use Avid Link™ to manage your Avid account, licensing and subscriptions, as well as access a number of other services. Avid Link will help you keep all of your plugins up to date. Login with your Avid Master Account username and password. For more information, visit www.avid.com/avid-link.
 Installing Avid Plugins A core set of audio plugins is installed automatically with your version of Pro Tools. No additional steps are required to authorize these plugins for use on your Pro Tools system. You may also be entitled to additional non-core plugins included with your Pro Tools subscription. For any such additional plugins, use the Avid Link application to install and authorize these plugins (for more information, visit www.avid.com/avid-link).
 Installers for additional plugins can be purchased or rented from the Avid store (visit shop.avid.com) or the Marketplace Avid Link > Avid Marketplace (in Avid Link, choose or in Pro Tools, choose Marketplace) can also be downloaded, installed, and authorized using Avid Link or from your online Avid account.
 This topic includes information about the following:
@@ -262,6 +248,7 @@ This topic includes information about the following:
 - "304E Equalizer" below
 - "EQ III" on the next page
 304E Equalizer 304E equalizer is an EQ plugin that is available in DSP, Native, and AudioSuite formats.
+304E supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 304E operates as a mono, multi-mono, or stereo plugin.
 304E offers simple controls with incredibly warm, musical results.
 304E Equalizer Controls Operation of 304E equalizer is simple and to the point.
@@ -271,6 +258,7 @@ Treble Adjusts high frequencies ±11.
 Gain The Gain control allows you to adjust the output level ±11.
 The EQ III plugin provides high-quality 1-Band and 7-Band EQ for adjusting the frequency spectrum of audio material.
 EQ III is available in DSP, Native, and AudioSuite formats.
+EQ III supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 EQ III operates as a mono, multi-mono, or stereo plugin.
 EQ III has a Frequency Graph display that shows the response curve for the current EQ settings on a two- dimensional graph of frequency and gain. The frequency graph display also lets you modify frequency, gain and Q settings for individual EQ bands by dragging their corresponding points in the graph.
 EQ III Configurations The EQ III plugin appears as two separate choices in the plugin insert selector and in the AudioSuite menu:
@@ -362,6 +350,7 @@ The 100 Hz and 3.25 kHz bands can be boosted by up to 12 dB and attenuated down 
 Output Gain The Output gain control lets you boost the plugin output by as much as +6 dB or attenuate the output by as much as – 20 dB.
 Focusrite D2 Focusrite D2 is a high-quality digital equalizer plugin for Pro Tools. Developed in cooperation with Focusrite, the D2 is based on the acclaimed Red Range 2™ dual EQ, designed by Rupert Neve. It provides up to six simultaneous bands of EQ, including: high-pass, low-shelf, low-mid peak, high-mid peak, high-shelf, and low-pass filters. D2 includes a highly accurate Cartesian graph that displays EQ curves in real-time as EQ controls are adjusted.
 D2 is available in DSP, Native, and AudioSuite formats.
+D2 supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 D2 operates as a mono, multi-mono, or stereo plugin.
 D2 Configurations There are three configurations of the Focusrite D2 plugin.
 1–2 Band EQ D2 1-2 Band can use up to two filters simultaneously, depending on which you enable. The high-pass, low- shelf, and low-pass filters each utilize the entire module and cannot be used in combination with another filter. The low-mid peak, high-mid peak, or high-shelf filters can be used in combination with each other (up to two bands total).
@@ -416,6 +405,7 @@ Pultec Plugins The Pultec plugins are a set of EQ plugins that are available in 
 - Pultec EQP-1A
 - Pultec EQH-2
 - Pultec MEQ-5
+The Pultec plugins support 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 The Pultec plugins operate as mono, multi-mono, or stereo plugins.
 g Pultec plugins support EQ Curve in Pro Tools 2018.1 and later.
 Pultec EQP-1A The Pultec EQP-1A provides smooth, sweet EQ and an extremely high quality tube audio signal path. Use it on individual tracks, critical vocals, or even across a stereo mix for mastering applications.
@@ -433,7 +423,8 @@ High Frequency Attenuate Section Cut high frequencies using the 10k Atten knob l
 Pultec MEQ-5 The Pultec MEQ-5 is the most unique equalizer in the Pultec family. It is particularly useful on individual tracks during mixdown.
 Pultec MEQ-5 Controls The Pultec MEQ-5 offers three equalization sections: low frequency boost, mid frequency boost, and wide- range attenuation. Like all Pultecs, it features quality transformers and a tube gain stage.
 Low Frequency Peak Boost low frequencies (200, 300, 500, 700, 1000 Hz) using the upper left controls.
-Mid Frequency Peak Wide-Range Dip Cut frequencies using Dip controls on the bottom row.
+Mid Frequency Peak Boost mid-frequencies (1.5k, 2k, 3k, 4k, 5k) using the controls at the upper right.
+Wide-Range Dip Cut frequencies using Dip controls on the bottom row.
 Pultec Tips and Tricks “Q” and A You may wonder why the Pultec EQP-1A has separate knobs for boost and cut. The short answer is that they connect to different circuitry in the unit.
 You can use the “extra” knob to your advantage. Because the filters are not phase perfect, a Boost setting of 3 and an Atten setting of 3 can make a huge difference, even though a frequency plot wouldn’t show much difference in tone. You’re hearing the phase shift, not the tone shift.
 Our ears are very sensitive to phase, and using the two knobs together, you can adjust phase at the low end while also making tonal adjustments.
@@ -445,6 +436,7 @@ Guitars Have multiple guitars that sound like mush in the mix? The Pultec MEQ-5 
 This topic includes information about the following:
 - "304C Compressor" below
 304C Compressor 304C compressor is a dynamics processing plugin that is available in DSP, Native, and AudioSuite formats.
+304C supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 304C operates as a mono, multi-mono, or stereo plugin.
 304C compressor is designed purely as an effects compressor. Its purpose is to change the way the ear perceives sound; its action changes the clarity, balance, and even rhythmic feel of music.
 304C Compressor Controls 304C compressor provides the following controls:
@@ -465,6 +457,7 @@ Attack and Release Times It may be difficult to understand the interactions betw
 304C compressor uses a compound release circuit that reacts quickly to short bursts of volume, and less quickly to sustained volume. While the unit was being prototyped and designed, the values and ranges of these timings were chosen by experimentation using wide ranges of program material.
 Because of these intentional effects produced by the compressor, 304C makes a perfect tool for general enhancement of tracks to “brighten,” “tighten,” “clarify,” and catch the attention of the listener, functions that are difficult or impossible to achieve with conventional compressor designs.
 BF-2A BF-2A is a vintage-style compressor plugin that is available in DSP, Native, and AudioSuite formats.
+BF-2A supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 BF-2A operates as a mono, multi-mono, or stereo plugin.
 Designed and manufactured in the early 1960s, the LA-2A achieved wide acclaim for its smooth compression action and extremely high quality audio signal path. The BF-2A has been meticulously crafted to capture every nuance of the legendary LA-2A tube studio compressor, providing the most authentic vintage compression sound available.
 Originally designed as a limiter for broadcast audio, a Comp/Limit switch was added to LA-2A compressors after serial number 572. The subsequent addition of a Comp (Compress) setting made the LA-2A even more popular for use in audio production. However, the switch was inconveniently located on the back of the unit next to the terminal strips and tube sockets in the original version. In the BF-2A plugin, the switch has been placed on the front panel, where you can make better use of it.
@@ -503,6 +496,7 @@ g For more information on plugin automation, see the Pro Tools Reference Guide B
 Line Amp Turn the Peak Reduction knob full counterclockwise (off) and use the Gain control to increase the signal level. Although the BF-2A does not compress the sound with these settings, it still adds its unique character to the tone.
 Feed the BF-2A into the BF76 Or vice versa. Glynn Johns (who has worked with the Stones, the Who, and others) popularized the early ‘70s British trick of combining a slower compressor with a faster one. The effect can produce very interesting sounds! Try applying Peak Reduction using the BF-2A, then squash the missed attacks using the faster BF76.
 BF-3A BF-3A is a vintage-style compressor plugin that is available in DSP, Native, and AudioSuite formats.
+BF-3A supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 BF-3A operates as a mono, multi-mono, or stereo plugin.
 BF-3A is based on the classic LA-3A that adds a smoothness and sonic texture that makes sounds jump right out of the mix. Designed and manufactured in the late 1960s, the original LA-3A shares many components in common with the LA-2A compressor. Just like the LA-2A, the heart of the LA-3A is the T4B Electro-Optical Attenuator. This is a device that converts audio to light and back and is largely responsible for the compression character of the unit.
 While the LA-2A’s gain comes from a tube amplifier, the LA-3A's gain comes from a solid-state (transistor) amplifier. This gives the LA-3A a solid midrange and more aggressive tone. Other subtle modifications change the behavior of the T4B, causing it to respond differently—particularly in response to percussive material.
@@ -519,6 +513,7 @@ compression being applied to the signal in dB.
 BF-3A Tips and Tricks AudioSuite Processing When using the AudioSuite version of the BF-3A, be sure to select an auxillary side-chain input (normally the track you are processing). The default is “None” and if you leave it set like this, there is nothing feeding the detector and you will not hear any compression action.
 Line Amp Turn the Peak Reduction knob full counterclockwise (off) and use the Gain control to increase the signal level. Although the BF-3A does not compress the sound with these settings, it still adds its unique character to the tone.
 BF76 BF76 is a vintage-style compressor plugin that is available in DSP, Native, and AudioSuite formats.
+BF76 supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 BF76 operates as a mono, multi-mono, or stereo plugin.
 Modeled after the solid-state 1176 studio compressor, BF76 preserves every sonic subtlety of this classic piece of studio gear.
 The 1176 Compressor, originally introduced in the late 1970s, uses a FET (field-effect transistor). The 1176 also uses solid state amplification. The 1176 still provides an extremely high quality audio signal path, but because of these internal differences, offers a much different compression sound than other compressors.
@@ -531,6 +526,7 @@ Release times vary between 60 and 1,100 milliseconds.
 Ratio The Ratio Push switches select the compression ratio from 4:1 to 20:1.
 Meter The Meter Push switches affect the metering.
 GR shows the amount of gain reduction.
+- –18 and –24 show the output level (calibrated so that 0VU indicates –18dB FS and –24dB FS
 - respectively).
 The “Off” switch turns off the meter.
 BF76 Tips and Tricks AudioSuite Processing When using the AudioSuite version of BF76, be sure to select a side-chain input (normally the track you are processing). The default is “None” and if you leave it set like this, there’s nothing feeding the detector and you won’t hear any compression action.
@@ -542,7 +538,8 @@ When limiting, use the fastest attack time you can before you start to hear sign
 With BF76, the attack time ranges from “incredibly fast” to “really damn fast” by modern standards. It can be hard to hear the difference.
 Release times are more critical with BF76. To set release times, listen for loud attacks and what happens immediately after the peaks. Set the release time fast enough that you don’t hear unnatural dynamic changes, but slow enough that you don’t hear unnecessary pumping between two loud passages in rapid succession.
 Channel Strip Avid Channel Strip is available in DSP, Native, and AudioSuite formats. Channel Strip provides EQ, Dynamics, Filter, and Gain effects. Channel Strip processing algorithms are based on the Euphonix System 5 console channel strip effects.
-Channel Strip, Compressor / Limiter tab shown Channel Strip supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
+Channel Strip, Compressor / Limiter tab shown Channel Strip supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
+Channel Strip supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 In addition to standard knob and fader controls, Channel Strip also provides a graph to track the gain transfer curve for the Expander / Gate, Compressor / Limiter, and Side Chain effects, and a Frequency Graph display that shows the response curve for the current EQ setting on a two-dimensional graph of frequency and gain. The frequency graph display also lets you modify frequency, gain, and Q settings for individual EQ bands by dragging their corresponding points in the graph.
 Channel Strip provides different sections for signal metering and gain adjustment, signal path ordering, dynamics processing, and equalization and filtering.
@@ -622,7 +619,8 @@ Channel Strip Dynamics Section The Dynamics section of Channel Strip provides Ex
 Dynamics section, All tab shown Dynamics Graph Dynamics graph display The Dynamics Graph display—used with Expander / Gate and Compressor / Limiter processing—shows a curve that represents the level of the input signal (on the horizontal x–axis) and the amount of gain reduction applied (on the vertical y–axis). The display shows two vertical lines representing the Threshold setting for the Expander / Gate and Compressor / Limiter, respectively.
 The Dynamics Graph display also features an animated red ball in the gain transfer curve display. This ball shows the amount of input gain (x-axis) and gain reduction (y-axis) being applied to the incoming signal at any given moment. To indicate overshoots (when an incoming signal peak is too fast for the current compression setting), the cursor temporarily leaves the gain transfer curve.
 Use this graph as a visual guideline to see how much dynamics processing you are applying to the incoming audio signal.
-Dynamics Graph Gain Reduction Resolution Channel Strip lets you view the gain reduction scale on the Dynamics Graph display either in 3 dB To change the Dynamics Graph Gain Reduction resolution:
+Dynamics Graph Gain Reduction Resolution Channel Strip lets you view the gain reduction scale on the Dynamics Graph display either in 3 dB increments from 0 dB to 18 dB or in 6 dB increments from 0 dB to –36 dB.
+To change the Dynamics Graph Gain Reduction resolution:
 - Click the Graph Resolution toggle.
 Using the Dynamics Graph to Adjust Controls You can drag in the Dynamics Graph display to adjust the corresponding Expander / Gate and Compressor / Limiter controls. The cursor updates to show which control is being adjusted:
 Expander / Gate Ratio
@@ -650,9 +648,11 @@ Compressor / Limiter Controls Dynamics section, Compressor / Limiter tab Thresho
 Signals that exceed this level will be compressed. Signals that are below it will be unaffected.
 Attack The Attack control sets the attack time, or the rate at which gain is reduced after the input signal crosses the threshold.
 The smaller the value, the faster the attack. The faster the attack, the more rapidly the Compressor / Limiter applies attenuation to the signal. If you use fast attack times, you should generally use a proportionally longer release time, particularly with material that contains many peaks in close proximity.
-Ratio The Ratio control sets the compression ratio, or the amount of compression applied as the input signal exceeds the threshold. For example, a 2:1 compression ratio means that a 2 dB increase of level above the Once the Ratio control passes 20.0:1 the Compressor / Limiter effect functions as a limiter rather than a compressor.
+Ratio The Ratio control sets the compression ratio, or the amount of compression applied as the input signal exceeds the threshold. For example, a 2:1 compression ratio means that a 2 dB increase of level above the threshold produces a 1 db increase in output. The compression ratio ranges from 1.0:1 to 20.0:1.
+Once the Ratio control passes 20.0:1 the Compressor / Limiter effect functions as a limiter rather than a compressor.
 At the limiter setting (LMTR), for every decibel that the incoming signal goes over the set Threshold, 1 dB of gain reduction is applied.
-Compressor / Limiter Ratio set to LMTR Compressor / Limiter Ratio set to a negative value With these settings, for every decibel that the incoming signal goes over the set Threshold, more than 1 dB Ratio of gain reduction is applied according to the negative setting. For example, at the setting of –1.0:1, for each decibel over the set threshold, 2 db of gain reduction is allied. Consequently, the output signal is both compressed and made softer. You can use this as an creative effect, or as a kind of ducking effect when used with an external key input.
+Compressor / Limiter Ratio set to LMTR Once the Ratio control passes the LMTR setting, it provides negative ratio settings from –20.0:1 to 0:1.
+Compressor / Limiter Ratio set to a negative value With these settings, for every decibel that the incoming signal goes over the set Threshold, more than 1 dB Ratio of gain reduction is applied according to the negative setting. For example, at the setting of –1.0:1, for each decibel over the set threshold, 2 db of gain reduction is allied. Consequently, the output signal is both compressed and made softer. You can use this as an creative effect, or as a kind of ducking effect when used with an external key input.
 Depth The Depth control sets the amount of gain reduction that is applied regardless of the input signal. For example, if the Limiter is set at a Threshold of –20 dB and Depth is set at 0 dB, up to 20 dB of gain reduction is applied to the incoming signal (at 0 dB). If you set Depth to –10 dB, no more than 10 dB of gain reduction is applied to the incoming signal.
 Release The Release control sets the length of time it takes for the Compressor / Limiter to be fully deactivated after the input signal drops below the threshold.
 Release times should be set long enough that if signal levels repeatedly rise above the threshold, the gain reduction “recovers” smoothly. If the release time is too short, the gain can rapidly fluctuate as the compressor repeatedly tries to recover from the gain reduction. If the release time is too long, a loud section of the audio material could cause gain reduction that continues through soft sections of program material without recovering.
@@ -696,7 +696,8 @@ Select the Band Pass option to apply a band pass filter to the side-chain proces
 Side Chain Processing Graph Filter Type The Side Chain Processing Graph display shows the frequency curve for the selected at the selected Filter Frequency.
 Channel Strip EQ / Filters Section The EQ / Filters section of Channel Strip provides a high-quality 4-band parametric equalizer for adjusting the frequency spectrum of audio material.
 EQ / Filters Graph The EQ / Filters section provides an interactive Frequency Graph display that shows the response curve for the current EQ settings on a two-dimensional graph of frequency and gain. The Frequency Graph display also lets you modify frequency, gain, and Q settings for individual EQ bands by dragging their corresponding points in the graph. The Frequency Graph display also plots the frequency, Q, and filter shape of the two filters (when either or both are enabled).
-Frequency Graph Gain Resolution Channel Strip lets you view the gain scale on the Frequency Graph display either in 3 dB increments from – To change the Frequency Graph Gain resolution:
+Frequency Graph Gain Resolution Channel Strip lets you view the gain scale on the Frequency Graph display either in 3 dB increments from – 12 dB to +12 dB or in 6 dB increments from –24 dB to +24 dB.
+To change the Frequency Graph Gain resolution:
 - Click the Graph Resolution toggle.
 Clicking and Dragging in the Frequency Graph to Adjust Controls You can adjust the following EQ controls by dragging the control points directly in the Frequency Graph display:
 g Control-Shift-click (Mac) or Start-Shift-click (Windows) the control point for any frequency band to solo that frequency band. Drag left or right to change the frequency value.
@@ -744,6 +745,7 @@ Dynamics III is a suite of three dynamics plugins available in DSP, Native, and 
 - Compressor / Limiter (see "Compressor / Limiter III" on page 71)
 - Expander / Gate (see "Expander / Gate III" on page 75)
 - De-Esser (see "De-Esser III" on page 77)
+Dynamics III supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 The Compressor / Limiter and Expander / Gate modules support mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 The De-Esser module supports mono and stereo formats only.
@@ -770,7 +772,7 @@ Dark Orange
 - Indicates that gain reduction is being applied at the full ratio (for example, 2:1).
 Threshold Arrow The orange Threshold arrow next to the Input meter indicates the current threshold, and can be dragged up or down to adjust the threshold. When a multichannel instance of the plugin has been configured to show only the Output meter, the Threshold arrow is not displayed.
 Phase Invert The Phase Invert button at the top of the Levels section inverts the phase (polarity) of the input signal, to help compensate for phase anomalies that can occur either in multi-microphone environments or because of mis-wired balanced connections.
-Dynamics III LFE Enable (Pro Tools Ultimate and Studio Only) The LFE Enable button (located in the Options section) is on by default, and enables plugin processing of formats. To disable LFE processing, deselect this button.
+Dynamics III LFE Enable (Pro Tools Ultimate and Studio Only) The LFE Enable button (located in the Options section) is on by default, and enables plugin processing of the LFE (low frequency effects) channel on a multichannel track formatted for 5.1, 6.1, or 7.1 surround formats. To disable LFE processing, deselect this button.
 LFE Enable button (Compressor / Limiter III shown) g The LFE Enable button is not available if the plugin is not inserted on an applicable track.
 Dynamics III Graph Display The Dynamics Graph display—used with the Compressor / Limiter and Expander / Gate plugins—shows a curve that represents the level of the input signal (on the horizontal x–axis) and the level of the output signal (on the vertical y–axis). The orange vertical line represents the threshold.
 Use this graph as a visual guideline to see how much dynamics processing your are applying.
@@ -922,6 +924,7 @@ Gray Compressor is available as a Mono (or Multi-Mono) plugin only.
 Sustain Sustain The control lets you adjust the threshold, and thus, the amount of compression, in the Compressor effect.
 Level The Level control sets the overall output volume of the effect.
 Fairchild Plugins The Fairchild plugins are a pair of vintage compressor plugins that are available in DSP, Native, and AudioSuite formats.
+The Fairchild plugins support 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 The Fairchild plugins operate as mono, multi-mono, or stereo plugins.
 Re-introducing the undisputed champion in price, weight, and performance: the $35,000, one-hundred pound, Fairchild 660. Avid’s no-compromise replica captures every detail of this studio classic.
 Designed in the early 1950s, the Fairchild 660 is a variable-mu tube limiter. Variable-mu designs use an unusual form of vacuum tube that is capable of changing its gain dynamically.
@@ -950,6 +953,7 @@ AGC Lets you select Left/Right processing or Lat/Vert processing of the two chan
 Fairchild 670 Tips and Tricks To exactly match the settings between channels, hold down the Shift key while adjusting a control. This is useful when trying to preserve the existing Left/Right balance on stereo material.
 Focusrite D3 Focusrite D3 is a high-quality dynamics processor plugin. Developed in cooperation with Focusrite, the D3 is based on the highly acclaimed Red Range 3™ dual mono/stereo compressor & limiter designed by Rupert Neve.
 D3 is available in DSP, Native, and AudioSuite formats.
+D3 supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 D3 operates as a mono, multi-mono, or stereo plugin.
 D3 features include:
 Compressor+Limiter. This configuration allows you to use both the compressor and the limiter at the
@@ -998,7 +1002,7 @@ To re-enable the compressor:
 To bypass the compressor:
 - Click the icon a second time. When the compressor is bypassed, the icon is gray.
 If you are using the Compressor / Limiter plugin, which allows you to use either the compressor or the limiter (but not both simultaneously), you must disable one module by Control-clicking (Mac) or Start-clicking (Windows) the icon before you can enable the other.
-Ratio Ratio sets the compression ratio. If the ratio is set to 2:1 for example, it will compress changes in signals (heavy compression, bordering on limiting).
+Ratio Ratio sets the compression ratio. If the ratio is set to 2:1 for example, it will compress changes in signals above the threshold by one half. The range of this control is from 1.5:1 (very little compression), to 10:1 (heavy compression, bordering on limiting).
 Threshold Threshold sets the threshold level. Signals that exceed this level will be compressed. Signals that are below it will be unaffected. The range of this control is from 0 dB to –48 dB. A setting of 0 dB is equivalent to no compression.
 Attack Attack sets the compressor attack time. To use compression most effectively, the attack time should be set so that signals exceed the threshold level long enough to cause an increase in the average level. This helps ensure that gain reduction doesn’t decrease the overall volume. The range of this control is from 1.0 ms to 150.0 ms.
 Release Release controls how long it takes for the compressor to be fully deactivated after the input signal drops below the threshold level. In general, this setting should be longer than the attack time and long enough that if signal levels repeatedly rise above the threshold, they cause gain reduction only once. If the release time is too long, a loud section of the audio material could cause gain reduction that persists through a soft section. The range of this control is from 25 milliseconds to 2.5 seconds.
@@ -1035,9 +1039,11 @@ enable it.
 effect.
 5. Adjust the plugin Threshold control to fine-tune external key input triggering.
 Impact Impact is available in DSP, Native, and AudioSuite formats. Impact plugin provides critical control over the dynamic range of audio signals, with the look and sound of a mixing console’s stereo-bus compressor.
+Impact supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Impact supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio. Note that the LFE channel is not processed in multichannel versions of Impact.
-Impact Controls Impact Ratio Control Ratio sets the compression ratio. If the ratio is set to 2:1 for example, it will compress changes in signals Selecting 2:1 applies very light compression; selecting 20:1 applies heavy compression, bordering on limiting.
+Impact Controls Impact Ratio Control Ratio sets the compression ratio. If the ratio is set to 2:1 for example, it will compress changes in signals above the threshold by one half. This control provides four fixed compression ratios, 2:1, 4:1, 10:1, and 20:1.
+Selecting 2:1 applies very light compression; selecting 20:1 applies heavy compression, bordering on limiting.
 Impact Attack Control Attack sets the compressor attack time. To use compression most effectively, the attack time should be set so that signals exceed the threshold level long enough to cause an increase in the average level. This helps ensure that gain reduction does not decrease the overall volume. The range of this control is from 0.1 ms to 30.0 ms.
 Impact Threshold Control Threshold sets the decibel level that a signal must exceed for Impact to begin applying compression. Signals that exceed the Threshold will be compressed by the amount of gain reduction set with the Ratio control.
 Signals that are below the Threshold will be unaffected. The range of the Threshold control is from –70 dB to –0 dB. A setting of –0 dB is equivalent to no compression.
@@ -1070,6 +1076,7 @@ g Remember to disable Listen to resume normal plugin monitoring.
 6. Adjust Impact’s Threshold control to fine-tune Key Input triggering.
 Maxim Maxim is a unique and powerful peak-limiting and sound maximizing plugin that is available in DSP, Native, and AudioSuite formats. Maxim is ideal for critical mastering applications, as well as standard peak-limiting tasks.
 Maxim offers several critical advantages over traditional hardware-based limiters. Maxim takes full advantage of the random-access nature of disk-based recording to anticipate peaks in audio material and preserve their attack transients when performing reduction. This makes Maxim more transparent than conventional limiters, since it preserves the character of the original audio signal without clipping peaks or introducing distortion.
+Maxim supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Maxim operates as a mono, multi-mono, or stereo plugin.
 Maxim features include:
 “Perfect attack-limiting” and look-ahead analysis accurately preserve transient attacks and the
@@ -1141,6 +1148,7 @@ Maxim and Mastering If you intend to deliver audio material as a 32-bit floating
 Mastering engineers typically want to receive audio material as undisturbed as possible in order to have leeway to adjust the level of the material relative to other material on a CD. In such cases, it is advisable to apply only the limiting that you find creatively appropriate—adding a little punch to certain instruments in the mix, for example.
 However, if you intend to produce 16-bit output from a source with a higher bit depth, use appropriate limiting and add dither. Doing so will optimize the dynamic range and preserve the activity of the lower, or least-significant bits in the audio signal, smoothly dithering them into the 16-bit output.
 Pro Compressor Avid Pro Compressor is available in DSP, Native, and AudioSuite formats. Pro Compressor provides dynamic compression processing. The Avid Pro Compressor processing algorithms are based on the award-winning Euphonix System 5 console channel strip effects.
+Pro Compressor supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Pro Compressor supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 In addition to standard knob and fader controls, Pro Compressor also provides a dynamics graph to track the gain transfer curve for compression, as well as a frequency graph for side-chain filtering. Additionally, the dynamics graph can be used to graphically edit the Threshold, Ratio, Knee, and Depth settings.
@@ -1214,8 +1222,11 @@ To enable (or disable) Attenuation Listen mode:
 - Click the Attenuation Listen button (the speaker icon at the top right of the dynamics graph) so that
 it is highlighted. The button flashes while Attenuation Listen mode is enabled. To disable it, click the button again so that it is not highlighted.
 Attenuation Listen mode enabled Pro Compressor Controls Threshold The Threshold control sets the level that an input signal must exceed to trigger compression. A signal will be compressed if its level exceeds this setting. If the signal level falls below this value, no compression will occur.
-Ratio The Ratio control sets the compression ratio—the amount of compression applied as the input signal exceeds the threshold. For example, a 2:1 compression ratio means an input level that is 2 dB above the threshold will be attenuated, resulting in an output level that is 1 dB over the threshold. The compression Once the Ratio control hits 21.0:1, it displays LMTR. The LMTR setting marks the highest “normal” At the LMTR setting, for every decibel that the incoming signal goes over the set Threshold, 1 dB of gain reduction is applied.
-Compressor Ratio set to LMTR Compressor Ratio set to a negative value With these settings, for every decibel that the incoming signal goes over the set Threshold, more than 1 dB Ratio of gain reduction is applied according to the negative setting. For example, at the setting of –1.0:1, for each decibel over the set threshold, 2 dB of gain reduction is applied. Consequently, the output signal is both compressed and made softer. You can use this as a creative effect, or as a kind of ducking effect when used with an external key input.
+Ratio The Ratio control sets the compression ratio—the amount of compression applied as the input signal exceeds the threshold. For example, a 2:1 compression ratio means an input level that is 2 dB above the threshold will be attenuated, resulting in an output level that is 1 dB over the threshold. The compression ratio ranges from 1.0:1 to 20.0:1.
+Once the Ratio control hits 21.0:1, it displays LMTR. The LMTR setting marks the highest “normal” compression mode before the onset of negative compression values (from –20.0:1 to 0:1).
+At the LMTR setting, for every decibel that the incoming signal goes over the set Threshold, 1 dB of gain reduction is applied.
+Compressor Ratio set to LMTR Once the Ratio control passes the LMTR setting, it provides negative ratio settings from –20.0:1 to 0:1.
+Compressor Ratio set to a negative value With these settings, for every decibel that the incoming signal goes over the set Threshold, more than 1 dB Ratio of gain reduction is applied according to the negative setting. For example, at the setting of –1.0:1, for each decibel over the set threshold, 2 dB of gain reduction is applied. Consequently, the output signal is both compressed and made softer. You can use this as a creative effect, or as a kind of ducking effect when used with an external key input.
 Knee The Knee control sets the rate at which the compressor reaches full compression once the threshold has been exceeded.
 As you increase this control, it goes from applying “hard-knee” compression to “soft-knee” compression:
 - With hard-knee compression, compression begins when the input signal exceeds the threshold. This
@@ -1227,7 +1238,7 @@ The smaller the value, the faster the attack. The faster the attack, the more ra
 g The actual compression attack time is also dependent on the selected Detection mode. Each mode has its own attack and release times that are calculated in advance of compression processing. If a slower Detection mode is selected (such as AVG), the fastest possible actual attack time for compression can only be about 20 ms. The selected Detection mode similarly affects the compressor release time.
 Release The Release control sets the length of time it takes for compression to be fully deactivated after the input signal drops below the threshold.
 Release times should be set long enough that if signal levels repeatedly rise above the threshold, the gain reduction “recovers” smoothly. If the release time is too short, the gain can rapidly fluctuate as the compressor repeatedly tries to recover from the gain reduction. If the release time is too long, a loud section of the audio material could cause gain reduction that continues through soft sections of program material without recovering.
-Depth Depth The control sets the maximum amount of gain reduction applied regardless of the input signal. For reduction is applied to the incoming signal (at 0 dB). If you set Depth to –10 dB, no more than 10 dB of gain reduction is applied to the incoming signal.
+Depth Depth The control sets the maximum amount of gain reduction applied regardless of the input signal. For example, if Ratio is set to LMTR (between 20.0:1 and –20.0:1) and Depth is set to Off, up to 20 dB of gain reduction is applied to the incoming signal (at 0 dB). If you set Depth to –10 dB, no more than 10 dB of gain reduction is applied to the incoming signal.
 Dry Mix The Dry Mix control sets the balance between the compressed signal (wet) and the original signal (dry).
 The Dry Mix setting determines how much of the original signal is sent to the output rather than the processed signal. For example, at 30%, the output will be 30% dry and 70% wet. Turn the Dry Mix knob Dry Mix counterclockwise to 0% to pass only the processed signal (100% wet). Turn the knob clockwise to 100% to pass only the input signal (100% dry).
 Makeup The Makeup control lets you boost overall output gain to compensate for heavily compressed or limited signals.
@@ -1267,6 +1278,7 @@ Band Pass
 frequency.
 Side-Chain Processing Graph The Side-Chain Processing Graph display shows the frequency curve for the selected Filter Type at the selected Filter Frequency.
 Pro Expander Avid Pro Expander is available in DSP, Native, and AudioSuite formats. Pro Expander provides dynamic expansion and gating processing. The Avid Pro Expander processing algorithms are based on the award- winning Euphonix System 5 console channel strip effects.
+Pro Expander supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Pro Expander supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 In addition to standard knob and fader controls, Pro Expander also provides a dynamics graph to track the gain transfer curve for dynamic expansion and gating, as well as a frequency graph for side-chain filtering.
@@ -1397,6 +1409,7 @@ Side-Chain Processing Graph The Side-Chain Processing Graph display shows the fr
 Pro Limiter Avid Pro Limiter is available in DSP, Native, and AudioSuite formats. Pro Limiter is a “brickwall” limiter that provides true peak limiting. Pro Limiter limits incoming audio to the True Peak of the signal, to prevent inter- sample peaks that could introduce distortion during encoding or analog conversion.
 Pro Limiter complies with the ITU-R BS.1770-3 loudness metering standard, including True Peak, Integrated Loudness, and Loudness Range measurements, and is suitable for both EBU R128 and ATSC A/85 (CALM Act) broadcast workflows. Pro Limiter also provides a unique Character knob that lets you add soft saturation for more loudness and greater gain reduction, without the unwanted digital artifacts of standard brick wall limiters.
 Use Pro Limiter to ensure that your mix output never exceeds digital 0 dB when hitting the digital-to-analog converters on your audio interface.
+Pro Limiter supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Pro Limiter supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 Pro Limiter Metering Pro Limiter uses sample peak meters for Input and Output signals.
@@ -1486,6 +1499,7 @@ The Loudness numerical displays update to show the analyzed values (for informat
 Pro Limiter Loudness Analyzer AudioSuite plugin g With the Pro Limiter Loudness Analyzer, the Preview and Render buttons do not do anything useful.
 They are simply present as part of the AudioSuite plugin framework.
 Pro Multiband Dynamics Avid Pro Multiband Dynamics is an AAX plugin (DSP, Native, and AudioSuite) that provides 4-band dynamics processing for Pro Tools systems, along with monitoring across all frequencies in the FFT (Fast Fourier Transform) display. You can control Pro Multiband Dynamics parameters using graphic controls laid over the FFT display for immediate visual feedback. You can also edit parameters using knobs, sliders, and numeric entry fields in each Frequency Band pane.
+Pro Multiband Dynamics supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Pro Multiband Dynamics also supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Pro Tools Studio software.
 FFT Display and Controls Pro Multiband Dynamics splits the incoming audio signal into up to four separate Frequency Bands: Low, Low Mid, High Mid, and High. Each Frequency Band can be processed independently. Additionally, each Frequency Band can be routed to the channel inputs of other tracks (see "Pro Multiband Dynamics and Multiband Splitter Plugin Sends" on page 147). Pro Multiband Dynamics uses an 8th-order Linkwitz-Riley crossover network in order to split the audio signal into up to four separate Frequency Bands, ensuring that the output signal can be perfectly reconstructed.
@@ -1580,7 +1594,7 @@ Gain Gain The control lets you boost or attenuate the output gain of the frequen
 Slope The Slope control lets you adjust the dynamic curve for compression and expansion (from 0% to 100%).
 Slope is effectively a combined control for adjusting the Ratio and the Knee of the dynamics processor.
 Lower settings offer a lower ratio and a softer knee. Higher settings increase the ratio and provide a sharper knee.
-1:20.
+When Slope is set to 0%, the effective Ratio is approximately 1:1.5. When Slope is set to 100%, the Ratio is 1:20.
 At the same time, the knee ranges from about 1/2 of Depth in dB (min slope) to 0 dB (max slope).
 Attack The Attack control sets the attack time, or the rate at which gain is reduced after the input signal level crosses the threshold (from 100.0 microseconds to 1.0 second).
 The smaller the value, the faster the attack. The faster the attack, the more rapidly gain change is applied to the signal. If you use fast attack times, you should generally use a proportionally longer release time, particularly with material that contains many peaks in close proximity.
@@ -1631,11 +1645,13 @@ To route the audio signal output of individual frequency bands from Pro Multiban
 3. Create an Auxiliary Input (or audio) track.
 4. From the Auxiliary Input (or audio) track input selector, select a plugin band.
 Selecting the Low Band output from an instance of the Pro Multiband Dynamics plugin as the input on an Auxiliary Input track Purple Audio MC77 Purple MC77 is a dynamics processing plugin that is available in DSP, Native, and AudioSuite formats.
+Purple MC77 supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Purple MC77 operates as a mono, multi-mono, or stereo plugin.
 The Purple Audio MC77 is a spot-on digital replica of Andrew Roberts’ acclaimed MC77 Limiting amplifier, which in turn is an update of his classic MC76 hardware unit. Representing a different take on the 1176-style FET limiter, the Purple Audio MC77 preserves every audio nuance and sonic subtlety of the classic originals.
 Purple Audio MC77 Controls Purple Audio MC77 has controls identical in name to those of the BF76, and which function similarly. For more information, see "BF76" on page 48.
 Smack!
 Smack! is a dynamics processing plugin that is available in DSP, Native, and AudioSuite formats.
+Smack! supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Smack! supports mono, stereo, and greater-than-stereo multichannel formats up to 7.1.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio. Note also that the LFE channel is not processed in multichannel versions of Smack!
 g Smack! has no control to directly adjust the threshold level (the level that an input signal must exceed to trigger compression). The amount of compression will vary with the input signal, which is adjustable by the Input control.
@@ -1731,7 +1747,7 @@ g When you are using a Key Input to trigger compression, the Input control has n
 This topic includes information about the following:
 - "Pitch II" below
 Pitch II is a pitch-shifting plugin that is available in DSP, Native, and AudioSuite formats. Pitch II is designed for a variety of audio production applications, ranging from pitch correction of musical material to sound design.
-supports 176.4 kHz, and 192 kHz sample rates for Native and AudioSuite plugin formats.
+Pitch II supports 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz sample rates for all plugin formats. Pitch II also supports 176.4 kHz, and 192 kHz sample rates for Native and AudioSuite plugin formats.
 Pitch II is available in mono, mono-to-stereo, and stereo channel formats.
 Pitch processing typically uses the technique of varying sample playback rate to achieve pitch transposition. Changing audio sample playback rate results in the digital equivalent of vari-speeding with tape. This is usually unsatisfactory since it changes the overall duration of the material.
 Pitch transposition with Pitch II involves a much more complex technique. Pitch II digitally re-aligns portions of the re-sampled audio waveform itself, while using de-glitching crossfades to minimize undesirable artifacts. The result is a processed signal that is transposed in pitch, but still retains the same overall duration of the original, unprocessed signal.
@@ -1820,7 +1836,8 @@ Time Shift, Time section Original Displays the Start and End times, and Length o
 Processed Displays the target End time and Length of the processed signal. Times are displayed in units of the timebase selected in the Units pop-up menu. You can click the Processed End and Length fields and type values. These values update automatically when adjusting the Time control.
 Tempo Displays the Original Tempo and Processed Tempo in beats per minute (bpm). You can click the Original Tempo and Processed Tempo fields and type values. The Processed Tempo value updates automatically when adjusting the Time control.
 Unit Select a timebase for the Original and Processed time fields: Bars|Beats, Min:Sec, Timecode, Feet+Frames, or Samples.
-Speed Displays the target time compression or expansion as a percentage of the original. Adjust the Time control or click the Speed field and type a value. Time can be changed from 25.00% to 400.00% of the original The Speed field only displays up to 2 decimal places, but lets you type in as many decimal places as you want (up to the IEEE standard). While the display rounds to 2 decimal places, the actual time shift is applied based on the number you typed. This is especially useful for typing post production pull up and pull down factors (see "Post Production Pull Up and Pull Down Tasks with Time Shift" on page 168).
+Speed Displays the target time compression or expansion as a percentage of the original. Adjust the Time control or click the Speed field and type a value. Time can be changed from 25.00% to 400.00% of the original speed (or 4 to 1/4 times the original duration). The default setting is 100.00%, or no change. 25.00% results in 4 times the original duration and 400.00% results in 1/4 of the original duration.
+The Speed field only displays up to 2 decimal places, but lets you type in as many decimal places as you want (up to the IEEE standard). While the display rounds to 2 decimal places, the actual time shift is applied based on the number you typed. This is especially useful for typing post production pull up and pull down factors (see "Post Production Pull Up and Pull Down Tasks with Time Shift" on page 168).
 Time Shift Formant Controls The Formant section of Time Shift lets you shift the formant shape of the selected audio independently of the fundamental frequency. This is useful for achieving formant correct pitch shifting. It can also be used as an effect. For example, you can formant shift a male vocal up by five semitones and it will take on the characteristics of a female voice.
 The Formant section is only available when Monophonic is selected as the Audio Type. The Formant section provides a single control for transposing the formants of the selected audio by –24.00 semitones (–2 octaves) to +24.00 semitones (+2 octaves), with fine resolution in cents. Adjust the Formant Shift control or click the Shift field and type a value.
 Time Shift Formant section About Formants Audio with a fundamental pitch has an overtone series, or set of higher harmonics. The strength of these higher harmonics creates a formant shape, which is apparent if viewed using a spectrum analyzer. The overtone series, or harmonics, have the same spacing related to the pitch and have the same general shape regardless of what the fundamental pitch is. It is this formant shape that gives the audio its overall characteristic sound or timbre. When pitch shifting audio, the formant shape is shifted with the rest of the material, which can result in an unnatural sound. Keeping this shape constant is critical to formant-correct pitch shifting and achieving a natural sounding result.
@@ -1834,9 +1851,9 @@ Window The Window control sets the analysis window length for processing audio. 
 The Window control is only available when Polyphonic is selected as the Audio Type.
 The default for Window size is 18.0 milliseconds and works well for many applications, but you may want to try different Window settings to get the best results. Try larger window sizes for low frequency sounds or sounds that do not have many transients. Try smaller window sizes for drums and percussion. 37.0 milliseconds tends to work well for polyphonic instruments such as piano or guitar. A setting as large as 71.0 milliseconds works well for bass guitar. Settings in the 12 millisecond range work well on drums or percussion.
 Decay Rate The Decay Rate control determines how much of the decay from a transient is heard in the processed audio when time stretching. When time stretching using the Rhythmic setting, the resulting gaps between the transients are filled in with audio, and Decay Rate determines how much of this audio is heard by applying a fade out rate. Decay Rate is only available when Rhythmic is selected as the Audio Type. Adjust the Decay Rate up to 100% to hear the audio that is filling the gaps created by the time stretching with only a slight fade, or adjust down to 1.0% to completely fade out between the original transients.
-Time Shift Pitch Controls The Pitch section of Time Shift provides controls for pitch shifting the selected audio. Use the Pitch control to resolution in cents.
+Time Shift Pitch Controls The Pitch section of Time Shift provides controls for pitch shifting the selected audio. Use the Pitch control to transpose the pitch from –24.00 semitones (–2 octaves) to +24.00 semitones (+2 octaves), with fine resolution in cents.
 Time Shift, Pitch section Transpose Displays the transposition amount in semitones. You can transpose pitch from –24.00 semitones (–2 octaves) to +24.00 semitones (+2 octaves), with fine resolution in cents. Adjust the Pitch control or click the Transpose field and type a value.
-Shift (+2 octaves). Adjust the Pitch control or click the Shift field and type a value. The default value is 100% (no pitch shift).
+Shift Displays the pitch shift amount as a percentage. You can pitch shift from 25.00% (–2 octaves) to +400.00% (+2 octaves). Adjust the Pitch control or click the Shift field and type a value. The default value is 100% (no pitch shift).
 AudioSuite Input Modes and Time Shift Time Shift supports the Pro Tools AudioSuite Input Mode selector for use on mono or multi-input processing.
 Mono Mode Processes each audio clip as a mono file with no phase coherency maintained with any other simultaneously selected clips.
 Multi-Input Mode Processes up to 48 input channels and maintains phase coherency within those selected channels.
@@ -1891,7 +1908,7 @@ Render.
 4. Click
 g Using the Monophonic, Polyphonic, or Rhythmic modes, you can adjust both the Time Shift and Pitch Shift controls independently before processing.
 Post Production Pull Up and Pull Down Tasks with Time Shift The table below provides information on TCE settings for common post production tasks. Type the corresponding TCE% (represented to 10 decimal places in the table) in the Time Shift field for the corresponding post production task and the process the selected audio.
-Pull Up or Pull Down TCE% (to 10 Decimal Places) Frames Vari-Fi Vari-Fi is an AudioSuite plugin that provides a pitch-change effect similar to a tape deck or record turntable speeding up from or slowing down to a complete stop. Vari-Fi preserves the original duration of the audio selection.
+Pull Up or Pull Down TCE% (to 10 Decimal Places) Frames Pal to Film –4%.tfx 96.0% 25 to 24/30 PAL to NTSC –4.1%.tfx 95.9040959041% 25 to 23.976/29.97 Film to NTSC –0.1%.tfx 99.9000999001% 24/30 to 23.976/29.97 NTSC to Film +0.1%.tfx +100.10% 23.976/29.97 to 24/30 Vari-Fi Vari-Fi is an AudioSuite plugin that provides a pitch-change effect similar to a tape deck or record turntable speeding up from or slowing down to a complete stop. Vari-Fi preserves the original duration of the audio selection.
 Features include:
 Speed up from a complete stop to normal speed
 - Slow down to a complete stop from normal speed
@@ -1930,7 +1947,7 @@ Original The Original column displays the Start and End times, and Length of the
 Processed The Processed column displays the target End time and Length of the processed signal. Times are displayed in units of the timebase selected in the Units pop-up menu. You can click the Processed End and Length fields and type values. These values update automatically when adjusting the Time control.
 Tempo The Tempo row displays the Original Tempo and Processed Tempo in beats per minute (bpm). You can click the Original Tempo and Processed Tempo fields and type values. The Processed Tempo value updates automatically when adjusting the Time control.
 Unit Select a timebase for the Original and Processed time fields: Bars|Beats, Min:Sec, Timecode, Feet+Frames, or Samples.
-Shift The Shift setting displays the target time compression or expansion as a percentage of the original. Adjust the Time control or click the Shift field and type a value. Time can be shifted by as much as 12.50% to is enabled (2x, 4x, or 8x).
+Shift The Shift setting displays the target time compression or expansion as a percentage of the original. Adjust the Time control or click the Shift field and type a value. Time can be shifted by as much as 12.50% to 800.00% of the original speed (or 8 times to 1/8 of the original duration) depending on which Range button is enabled (2x, 4x, or 8x).
 The Shift field only displays up to 2 decimal places, but lets you type in as many decimal places as you want (up to the IEEE standard). While the display rounds to 2 decimal places, the actual time shift is applied based on the number you typed. This is especially useful for post-production pull up and pull down factors (see "Using X-Form for Post Production Pull Up and Pull Down Tasks" on page 176).
 2x, 4x, and 8x Range Buttons The 2x, 4x, and 8x Range buttons set the possible range for the Time Shift, Pitch Shift, and Formant Shift controls.
 2x times the original duration and 200.00% is 1/2 of the original duration).
@@ -1945,9 +1962,10 @@ Part of X-Form’s processing relies upon separating “transient” parts of th
 For highly percussive material, lower the Sensitivity for better transient detection, especially with the Rhythmic audio setting. For less percussive material, a higher setting can yield better results. Experiment with this control, especially when shifting drums and percussive tracks, to achieve the best results.
 Window The Window setting determines the analysis window size. You can adjust the Window from 10.0 milliseconds to 100.0 milliseconds. Adjust the Window control or click the Window field and type a value. Window is only available when Monophonic is selected as the Audio Type.
 Try larger window sizes for low frequency sounds or sounds that do not have many transients. Try smaller window sizes for tuned drums and percussion. However, the default of 25 milliseconds should work well for most material.
-X-Form Pitch Section Controls The Pitch section provides controls for pitch shifting the selected audio. Use the Pitch control to transpose resolution in cents, depending on which Range button is enabled (2x, 4x, or 8x). X-Form also lets you transpose the formant shape independently of the fundamental frequency.
-Transpose The Transpose setting displays the transposition amount in semitones. You can transpose pitch by as much on which Range button is enabled. Adjust the Pitch control or click the Transpose field and type a value.
-Shift The Shift setting displays the pitch shift amount as a percentage. Pitch can be shifted by as much as Adjust the Pitch control or click the Shift field and type a value.
+X-Form Pitch Section Controls The Pitch section provides controls for pitch shifting the selected audio. Use the Pitch control to transpose the pitch from as much as –36.00 semitones (–3 octaves) to +36.00 semitones (+3 octaves), with fine resolution in cents, depending on which Range button is enabled (2x, 4x, or 8x). X-Form also lets you transpose the formant shape independently of the fundamental frequency.
+Transpose The Transpose setting displays the transposition amount in semitones. You can transpose pitch by as much as –36.00 semitones (–3 octaves) to +36.00 semitones (+3 octaves), with fine resolution in cents, depending on which Range button is enabled. Adjust the Pitch control or click the Transpose field and type a value.
+Shift The Shift setting displays the pitch shift amount as a percentage. Pitch can be shifted by as much as 12.50% (–3 octaves) to 800.00% (+3 octaves) depending on which Range button is enabled (2x, 4x, or 8x).
+Adjust the Pitch control or click the Shift field and type a value.
 Formant Audio with a fundamental pitch has an overtone series, or set of higher harmonics. The strength of these higher harmonics creates a formant shape, which is apparent if viewed using a spectrum analyzer. The overtone series, or harmonics, have the same spacing related to the pitch and have the same general shape regardless of what the fundamental pitch is. It is this formant shape that gives the audio its overall characteristic sound or timbre. When pitch shifting audio, the formant shape is shifted with the rest of the material, which can result in an unnatural sound. Keeping this shape constant is critical to formant correct pitch shifting and achieving a natural sounding result.
 The Pitch section of X-Form lets you pitch shift the formants of the selected audio independently of the fundamental frequency. This is useful for achieving formant correct pitch shifting. It can also be used as an effect. For example, you can formant shift a male vocal up by five semitones and it will take on the characteristics of a female voice.
 To enable or disable formant shifting:
@@ -1993,11 +2011,12 @@ Formant control.
 8. Click Render.
 Using X-Form for Post Production Pull Up and Pull Down Tasks The table below provides information on TCE settings for common post-production tasks. Type the corresponding TCE% (represented to 10 decimal places in the following table) in the X-Form Time Shift field for the corresponding post-production task and the process the selected audio.
 g Use the X-Form Plugin Settings for the corresponding post-production task.
-Pull up or Pull Down TCE% (to 10 Decimal Places) Frames 5 Reverb Plugins Reverb provides a sense of room acoustics. Reverb can make one track, groups of tracks, or your whole mix sound like it is in a big concert hall, an intimate room, a narrow hallway, or other acoustic spaces.
+Pull up or Pull Down TCE% (to 10 Decimal Places) Frames Pal to Film –4%.tfx 96.0% 25 to 24/30 PAL to NTSC –4.1%.tfx 95.9040959041% 25 to 23.976/29.97 Film to NTSC –0.1%.tfx 99.9000999001% 24/30 to 23.976/29.97 NTSC to Film +0.1%.tfx +100.10% 23.976/29.97 to 24/30 5 Reverb Plugins Reverb provides a sense of room acoustics. Reverb can make one track, groups of tracks, or your whole mix sound like it is in a big concert hall, an intimate room, a narrow hallway, or other acoustic spaces.
 This topic includes information about the following:
 "D-Verb" below
 - D-Verb
 D-Verb is a studio-quality reverb plugin that is available in DSP, Native, and AudioSuite formats.
+D-Verb supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 D-Verb operates as a mono, multi-mono, mono-to-stereo, or stereo plugin.
 D-Verb Controls D-Verb provides a variety of controls for adjusting plugin parameters.
 Input Level Meters Input meters indicate the input levels of the dry audio source signal.
@@ -2040,6 +2059,7 @@ Tone The Tone knob applies a high-cut EQ, making the reverb tone darker.
 Mix The Mix knob controls the blend between dry and reverbed signal.
 Reverb One Reverb One is a world-class reverb processing plugin that provides the highest level of professional sonic quality and reverb-shaping control. A set of unique, easy-to-use audio shaping tools lets you customize reverb character and ambience to create natural-sounding halls, vintage plates, or virtually any type of reverberant space you can imagine.
 Reverb One is available in DSP, Native, and AudioSuite formats.
+Reverb One supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Reverb One operates as a mono, multi-mono, mono-to-stereo, or stereo plugin.
 Reverb One features include:
 - Editable Reverb EQ graph
@@ -2099,7 +2119,7 @@ high initial buildup of echo density. Low Diffusion settings cause low initial b
 After the initial echo buildup, Diffusion continues to change by interacting with the Size control and affecting the overall reverb density. Use high Diffusion settings to enhance percussion. Use low or moderate settings for clearer, more natural-sounding vocals and mixes.
 - Pre-Delay
 Determines the amount of time that elapses between the original audio event and the onset of reverberation. Under natural conditions, the amount of Pre-delay depends on the size and construction of the acoustic space, and the relative position of the sound source and the listener. Pre- delay attempts to duplicate this phenomenon and is used to create a sense of distance and volume within an acoustic space. Long Pre-Delay settings place the reverberant field behind rather than on top of the original audio signal.
-g notes.
+g For an interesting musical effect, set the Pre-Delay time to a beat interval such as 1/8, 1/16, or 1/32 notes.
 Reverb One Early Reflection Controls The Early Reflections section has controls for the various early reflection elements, including ER setting, level, spread, and delay.
 Calculating Early Reflections A particular reflection within a reverberant field is usually categorized as an early reflection. Early reflections are usually calculated by measuring the reflection paths from source to listener. Early reflections typically reach the listener within 80 milliseconds of the initial audio event, depending on the proximity of reflecting surfaces.
 Simulating Early Reflections Different physical environments have different early reflection signatures that our ears and brain use to pinpoint location information. These reflections influence our perception of the size of a space and where an audio source sits within it. Changing early reflection characteristics changes the perceived location of the reflecting surfaces surrounding the audio source.
@@ -2171,6 +2191,7 @@ Input Level Meters Input meters indicate the input levels of the dry audio sourc
 An internal clipping LED will light if the reverb is overloaded. This can occur even when the input levels are relatively low if there is excessive feedback in the delay portion of the reverb. To clear the Clip LED, click it.
 ReVibe II is a studio-quality reverb and acoustic environment modeling plugin available in DSP, Native, and AudioSuite formats.
 ReVibe II makes it possible to model extremely realistic acoustic spaces and place audio elements within a mix.
+ReVibe II supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 ReVibe II works with mono and stereo formats, and LCR, LCRS, quad, 5.0, and 5.1 greater-than-stereo multichannel formats.
 g Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio.
 In general, when working with stereo and greater-than-stereo tracks, use the multichannel version of ReVibe II.
@@ -2280,8 +2301,10 @@ ReVibe II Decay Color Graph The Color display lets you adjust the Decay Color se
 Color display You can use the controls in the Decay Color graph to shape the tonal spectrum of the reverb by adjusting the decay times of the low and high frequency ranges. Low and high crossover points define the cut and boost points of three frequency ranges.
 For best results, set crossover points at least one octave higher than the frequency you want to boost or cut. To boost a signal at 200 Hz, for example, set the crossover to 400 Hz.
 Low Frequency Crossover Control The Lo Crossover control sets the crossover frequency at which transitions from low frequencies to mid frequencies take place in the reverberation filter. The range of this control is from 50.0 Hz to 1.5 kHz.
-Low Frequency Ratio Control The Lo Ratio control sets cut or boost ratios for the decay times of the low and mid frequency bands of High Frequency Crossover Control Hi Crossover The control sets the crossover frequency at which transitions from mid frequencies to high frequencies take place in the reverberation filter. The range of this control is from 1.5 kHz to 20.0 kHz.
-High Frequency Ratio Control The Hi Ratio control sets cut or boost ratios for the decay times of the mid and high frequency bands of ReVibe II Contour Display The Contour display shows the current reverb shape and early reflections graphically. Both front and rear reverb tail shapes and early reflections can be viewed at the same time. Buttons below the display allow you to select the type of data being displayed.
+Low Frequency Ratio Control The Lo Ratio control sets cut or boost ratios for the decay times of the low and mid frequency bands of the reverberation filter. The range of this control is between 1:16.0 and 4.0:1.
+High Frequency Crossover Control Hi Crossover The control sets the crossover frequency at which transitions from mid frequencies to high frequencies take place in the reverberation filter. The range of this control is from 1.5 kHz to 20.0 kHz.
+High Frequency Ratio Control The Hi Ratio control sets cut or boost ratios for the decay times of the mid and high frequency bands of the reverberation filter. The range of this control is between 1:16.0 and 4.0:1.
+ReVibe II Contour Display The Contour display shows the current reverb shape and early reflections graphically. Both front and rear reverb tail shapes and early reflections can be viewed at the same time. Buttons below the display allow you to select the type of data being displayed.
 Contour display Early Reflections Button The Early Reflections button toggles display of early reflections on or off within the Contour display.
 When the Early Reflections button is illuminated, early reflections data is displayed. When the Early Reflections button is not illuminated, early reflections data is not displayed. Both early reflections and reverb contour data can be displayed simultaneously.
 Reverb Contour Button The Reverb Contour button toggles display of the reverb contours for both the front and rear channels Reverb Contour on or off within the Contour display. When the button is illuminated, the reverberation envelopes are displayed. When the Reverb Contour button is not illuminated, the reverberation envelopes are not displayed. Both early reflections and reverb contour data can be displayed simultaneously.
@@ -2346,7 +2369,8 @@ Effects
 - Inverse Short
 Space Space is an AAX format convolution reverb plugin that is available in DSP, Native, and AudioSuite formats.
 Space was designed to be the ultimate reverb for music and post-production applications. By combining the sampled acoustics of real reverb spaces with advanced DSP algorithms, Space offers stunning realism with full control of reverb parameters in mono, stereo, and surround formats.
-Space works with mono, stereo, and mono-to-stereo formats. With Pro Tools Ultimate and Studio, Space formats.
+Space supports 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz sample rates.
+Space works with mono, stereo, and mono-to-stereo formats. With Pro Tools Ultimate and Studio, Space also supports Quad, 5.0, mono-to-Quad, stereo-to-Quad, mono-to-5.0, and stereo-to-5.0 multichannel formats.
 Space Feature Highlights Space features let you create the best reverb effect in the shortest possible time.
 Reverb Features Mono, Stereo, Quad, and 5.0–channel output support
 - Multiband EQ
@@ -2568,7 +2592,7 @@ Level controls (5.0 shown) Input Cuts or boosts the input signal level from –i
 Output Cuts or boosts the output signal level from –inf dB to +12 dB.
 Early Cuts or boosts the levels of the early reflections from –inf dB to +12 dB.
 Late Cuts or boosts the levels of the late reflections from –inf dB to +12 dB.
-Front/Rear/Center In quad and 5.0 channel output modes, Space provides additional controls to attenuate or boost the Front mode, the level of the center channel is affected by both the Front and Center controls.
+Front/Rear/Center In quad and 5.0 channel output modes, Space provides additional controls to attenuate or boost the Front (left and right), Rear (left and right), and Center (5.0 only) signal levels from –inf dB to +12 dB. In 5.0 output mode, the level of the center channel is affected by both the Front and Center controls.
 Space Delay Controls The Delays group provides controls for the delay timings of the reverb. When changes are made to any control in the Delays group, the IR waveform is recalculated and displayed in the Waveform display.
 Delay controls (5.0 shown) Pre Delay Adjusts length of the Pre Delay from –200 to +200 ms. The Pre Delay is the time between the direct sound and the first reflection. Increasing the Pre Delay often changes the perceived clarity of audio such as vocals. Pre Delay adjusts the delay of the overall impulse and affects both the Early and Late portions of the IR equally.
 Pre Delay can be set to negative values to allow for subtle or radical changes to the reverb. For example, a small negative Pre Delay setting can be used to eliminate the early portion of an IR. A large negative Pre Delay setting lets you use the very end of a reverb tail for creative sounds not possible with standard reverbs.
@@ -2622,6 +2646,7 @@ Category Description Halls Halls and auditoriums Churches Churches and chapels R
 This topic includes information about the following:
 "Mod Delay III" below Mod Delay III provides mono, multi-mono, mono-to-stereo, and stereo modulating delay effects.
 Mod Delay III is available in DSP, Native, and AudioSuite plugin formats.
+Mod Delay III supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Mod Delay III Controls Mod Delay III provides separate sections in the plugin window for Input and Output metering, Delay and Modulation controls, and for the Wet/Dry Mix control. Stereo and mono-to-stereo versions provide meters and controls for each channel. Delay, Modulation, and Mix controls for stereo and mono-to-stereo instances of Mod Delay III can be linked, or can be operated independently.
 Input Input Meters The Input meters show peak signal levels before processing:
 - Dark Blue
@@ -2661,7 +2686,7 @@ Indicates full scale levels (clipping) Output Gain The Output Gain control sets 
 Selections for Mod Delay III AudioSuite Processing Because AudioSuite Delay adds additional material (the delayed audio) to the end of selected audio, make a selection that is longer than the original source material to allow the additional delayed audio to be written to the end of the audio file.
 If you select only the original material without leaving additional space at the end, delayed audio that occurs after the end of the selection will be cut off.
 Moogerfooger Analog Delay Moogerfooger Analog Delay is a delay plugin that is available in DSP, Native, and AudioSuite formats.
-rates.
+Moogerfooger Analog Delay supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Moogerfooger Analog Delay operates as a mono, multi-mono, or stereo plugin.
 Moogerfooger Analog Delay provides a warm sounding delay in the digital domain. A delay circuit produces a replica of an audio signal a short time after the original signal. Mixed together, the delayed signal sounds like an echo of the original. If this mixture is fed back to the input of the delay circuit, the delayed output provides a string of echoes that repeat and die out gradually—a classic musical effect.
 The Moogerfooger Analog Delay uses Bucket Brigade Analog Delay Chips to achieve its delay. These analog integrated circuits function by passing the audio waveform down a chain of thousands of circuit cells, just like water being passed by a bucket brigade to put out a fire. Each cell in the chip introduces a tiny time delay. The total time delay depends on the number of cells and on how fast the waveform is “clocked,” or moved from one cell to the next.
@@ -2670,7 +2695,8 @@ Compared to digital delays, the frequency and overload contours of well-designed
 Avid’s digital replica re-creates all the warm, natural sounds of its analog counterpart. The Moogerfooger Analog Delay plugin was enhanced to be even more useful for digital recording. An integrated Highpass Filter allows you to remove unwanted bass buildup from the feedback loop, allowing you to have warmer, more controllable echo swarms while minimizing the potential for digital clipping.
 Moogerfooger Analog Delay Controls The Moogerfooger Analog Delay provides the following controls:
 Delay Time Delay Time allows you to select the length of delay between the original and the delayed signal. Used with Feedback, it also affects how long apart the echoes are.
-Short/Long The Short/Long switch sets the range of the Delay Time control. Set to Short, the Delay Time ranges from Feedback Feedback determines how much signal is fed back to the delay input, affecting how fast the echoes die out.
+Short/Long The Short/Long switch sets the range of the Delay Time control. Set to Short, the Delay Time ranges from 0.04 to 0.4 seconds. Set to Long, it ranges from 0.08 to 0.8 seconds.
+Feedback Feedback determines how much signal is fed back to the delay input, affecting how fast the echoes die out.
 Highpass The Highpass knob removes low frequencies from the feedback loop. It removes undesirable low frequency “mud” common when mixing with delays and also allows the creation of amazing echo swarms that won’t clip the output. Dial in a highpass frequency from 50 Hz to 500 Hz. Frequencies below the setting are filtered from the feedback loop.
 HPF On/Off The HPF Off/HPF On enables or disables the highpass filter (HPF).
 Drive The Drive control sets the input gain.
@@ -2683,6 +2709,7 @@ Moogerfooger Analog Delay Tips and Tricks Infidelity Because analog delay chips 
 Echo Swarms By carefully adjusting the Feedback, Drive, and Highpass controls, you can use the Moogerfooger Analog Delay as a sound generator. Simply pulse the delay unit with a short piece of audio (even a second will do), and adjust the Delay Time knob. Set correctly, the unit will generate cool timbres for hours all by itself.
 Reel Tape Delay Reel Tape Delay is part of the Reel Tape suite of tape-simulation effects plugins. Reel Tape Delay simulates an analog tape echo effect, modeling the frequency response, noise, wow and flutter, and distortion characteristics of analog tape. It also reproduces the varispeed effect you get when the tape speed control is adjusted.
 Reel Tape Delay is available in DSP, Native, and AudioSuite formats.
+Reel Tape Delay supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Reel Tape Delay operates as a mono, multi-mono, or stereo plugin.
 For years, engineers have relied on analog tape to add a smooth, warm sound to their recordings. When driven hard, tape responds with gentle distortion rather than abrupt clipping as in the digital domain.
 Magnetic tape also has a frequency-dependent saturation characteristic that can lend punch to the low end, and sweetness to the highs.
@@ -2707,7 +2734,7 @@ Hi Output Emulates the characteristics of Quantegy GP9, exhibiting a more subtle
 Reel Tape Delay Controls In addition to the Drive, Output, Tape Machine, and Tape Formula controls, Reel Tape Delay has the following controls:
 Speed The Speed control adjusts the delay time, calibrated to tape speed. A slower tape speed results in a longer delay. A faster tape speed results in a shorter delay.
 The displayed tape Speed value corresponds to the delay time resulting from the distance between the record and play heads on an Ampex 440-series tape transport.
-delay), with a default value of approximately 15 ips (172 ms delay).
+Tape speed is adjustable from approximately 1 7/8 ips (1486 ms delay) to approximately 30 ips (93 ms delay), with a default value of approximately 15 ips (172 ms delay).
 You can synchronize the delay time to the current tempo of the Pro Tools session. "Synchronizing Reel Tape Delay to Session Tempo" on the next page Feedback The Feedback control adjusts the amount of delayed output fed back into the input, allowing generation of multiple echoes. A higher feedback amount results in more echo regeneration. A lower feedback amount results in less echo regeneration. Feedback amount is adjustable from 0 to 100 percent, with a default value of 30 percent.
 Wow/Flutter The Wow/Flutter control adjusts the amplitude of the tape machine’s wow and flutter, or the amount of fluctuation in tape speed. A higher setting results in wider fluctuations in speed. A lower setting results in narrower fluctuations in speed. Wow/Flutter is adjustable from 0 to 1 percent, with a default value of 0.20 percent.
 Wow Speed (Plugin Automation Playlist or Control Surface Access Only) The Wow Speed parameter adjusts the frequency of the tape machine’s wow effect, or the rate of fluctuation in tape speed. A higher value results in faster fluctuations in speed. A lower value results in slower fluctuations in speed. Wow Speed is adjustable from 0 to 100 percent, with a default value of 50 percent.
@@ -2742,6 +2769,7 @@ Reel Tape Delay Presets The Reel Tape Delay presets coordinate Speed, Wow/Flutte
 Rockabilly A common tape slap effect, useful on vocals or electric guitar. Sets the delay time to 130 ms, which corresponds to the delay time resulting from the distance between the record and play heads on an Ampex 300-series or Ampex 350-series tape transport.
 Rockabilly Plus Includes the Rockabilly setting plus Feedback, Wow/Flutter, Bass and Treble adjustments on feedback.
 Tel-Ray Variable Delay Tel-Ray Variable Delay is a delay/echo plugin that is available in DSP, Native, and AudioSuite formats.
+Tel-Ray Variable Delay supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Tel-Ray Variable Delay operates as a mono, multi-mono, or stereo plugin.
 Add delay or echo to any voice or instrument using the Tel-Ray Variable Delay. It provides lush delay, amazing echo, and warms up your tracks and mixes.
 In the early 1960s, a small company experimented with electronics and technology. When they came up with something great, they would Tell Ray (the boss).
@@ -2756,6 +2784,7 @@ Sustain Sustain determines how long the delay takes to die out. It is actually a
 Echo/Doubler Echo/Doubler determines whether or not a second record head is engaged, resulting in a double echo.
 Tel-Ray Tips and Tricks Each and every Tel-Ray varies drastically in motor and flywheel stability, resulting in different pitch and variation effects. Even the same unit may sound different day to day, depending on temperature, warm-up time, and other factors. Since the original units are basically thirty year-old tuna cans bolted to plywood with springs and motors flopping around inside, the virtual Tel Ray Delay provides a Variation knob so that you can dial in a Tel-Ray in whatever state of disrepair you desire.
 TimeAdjuster TimeAdjuster is a time-processing plugin that is available in DSP and Native formats.
+TimeAdjuster supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 TimeAdjuster operates as a mono, multi-mono, or stereo plugin.
 Use the TimeAdjuster plugin for any of the following:
 Delay compensation
@@ -2848,7 +2877,7 @@ Depth The Depth knob setting determines the amount of the effect.
 Power The Power button for Vibe Phaser functions exactly the same as the On/Bypass toggle.
 Moogerfooger Lowpass Filter Moogerfooger Lowpass Filter features a 2-pole/4-pole variable resonance filter with envelope follower. Use it to achieve classic 60s and 70s sounds on bass and electric guitar, or just dial in some warm, fat virtual analog resonance when you need it.
 Moogerfooger Lowpass Filter is available in DSP, Native, and AudioSuite formats.
-rates.
+Moogerfooger Lowpass Filter supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Moogerfooger Lowpass Filter operates as a mono, multi-mono, or stereo plugin.
 With the invention of the MOOG® synthesizer in the 1960s, Bob Moog started the electronic music revolution. A direct descendant of the original MOOG Modular synthesizers, the Moogerfooger Lowpass Filter provides two classic MOOG modules: a Lowpass Filter and an Envelope Follower.
 A low pass Filter allows all frequencies up to a certain frequency to pass, and cuts frequencies above the cutoff frequency. It removes the high frequencies from a tone, making it sound more mellow or muted. The Moogerfooger Lowpass Filter contains a genuine four-pole lowpass filter. We say “genuine” because the four-pole filter—a major part of the “MOOG Sound” of the 60s and 70s—was first patented by Bob Moog in 1968! The digital version preserves all the character, nuances, and personality of his original classic analog design.
@@ -2869,7 +2898,7 @@ Bypass Bypass glows either red (bypassed) or green (not bypassed) to show whethe
 Moogerfooger Lowpass Filter Tips and Tricks Try inserting an LFO ahead of the Moogerfooger Lowpass Filter to produce a cool “auto wah” effect. Use this in conjunction with Voce Spin’s rotating speaker for a swirling auto-wah effect.
 Moogerfooger 12-Stage Phaser Moogerfooger 12-Stage Phaser combines a 6- or 12-stage phaser with a wide-ranging variable LFO. Start with subtle tremolo or radical modulation effects, then crank the distortion and resonant filters for unbelievable new tones—all featuring classic MOOG sound.
 Moogerfooger 12-Stage Phaser is available in DSP, Native, and AudioSuite formats.
-rates.
+Moogerfooger 12-Stage Phaser supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Moogerfooger 12-Stage Phaser operates as a mono, multi-mono, or stereo plugin.
 Moogerfooger 12-Stage Phaser offers 6 or 12 stages of MOOG resonant analog filters. Unlike the Lowpass Filter, however, the filters are arranged in an allpass configuration.
 Different types of filters A phaser works by sweeping the mid-shift frequency of the filters back and forth. As this happens, the entire frequency response of the output moves back and forth as well. The result is the classic phaser “whooshing” sound as different frequency bands of the signal are alternately emphasized and then attenuated.
@@ -2877,7 +2906,8 @@ A sweep control allows you to adjust the range of the frequency shift. And, keep
 Moogerfooger 12-Stage Phaser Controls LFO Section Control the LFO using the Amount and Rate knobs and the Lo/Hi selector switch.
 Amount Amount varies the depth of phaser modulation, from barely perceptible at the full counterclockwise position, to the full sweep range of the phaser (full clockwise or “Kill” setting).
 Rate Rate determines how fast the LFO oscillates. The LFO light blinks to give a visual indication of the LFO rate.
-Lo/Hi The Lo/Hi switch selects the range of the Rate control. When the switch is Lo, the Rate control varies from With such a wide range of rates available, obviously you’ll need to adjust Rate after you flick the Lo/Hi switch to get the sound you desire.
+Lo/Hi The Lo/Hi switch selects the range of the Rate control. When the switch is Lo, the Rate control varies from 0.01 Hz (one cycle every hundred seconds) to 2.5 Hz (2.5 cycles every second). When the switch is Hi, the Rate control varies from 2.5 Hz (2.5 cycles every second) to 250 Hz (two hundred fifty cycles per second).
+With such a wide range of rates available, obviously you’ll need to adjust Rate after you flick the Lo/Hi switch to get the sound you desire.
 Phaser Section Control the Phaser with the Sweep and Resonance knobs and the 6-Stage/12-Stage switch.
 Resonance Resonance adjusts the feedback of the analog filters. As you add more resonance, the peaks caused by the filters get sharper and more noticeable.
 Responses of a phaser with high resonance Sweep Sweep adjusts the center frequency point of the filters. Use it in conjunction with Amount to control the frequencies affected by the phaser.
@@ -2893,12 +2923,13 @@ All the controls on the Moogerfooger 12-Stage Phaser are fully independent of on
 Moogerfooger Ring Modulator Moogerfooger Ring Modulator provides a wide-range carrier oscillator and dual sine/square waveform LFO.
 Add motion to rhythm tracks and achieve radical lo-fidelity textures—you set the limits!
 Moogerfooger Ring Modulator is available in DSP, Native, and AudioSuite formats.
-rates.
+Moogerfooger Ring Modulator supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 The Moogerfooger Ring Modulator operates as a mono, multi-mono, or stereo plugin.
 Like the Lowpass Filter, the Moogerfooger Ring Modulator has its roots in the original MOOG Modular synthesizers. It provides three classic MOOG modules: a Low Frequency Oscillator, a Carrier Oscillator, and a Ring Modulator.
 Low Frequency Oscillators (or LFOs) create slow modulations like vibrato and tremolo. The LFO in the Moogerfooger Ring Modulator is a wide-range, dual-waveform (sine/square) oscillator.
 The Carrier Oscillator is a wide-range sinusoidal oscillator. It’s called the Carrier Oscillator because, like the carrier of an AM radio signal, it’s always there, ready to be modulated by the input.
-A Ring Modulator takes two inputs, and outputs the sum and difference frequencies of the two inputs. For example, if the first input contains a 500 Hz sine wave, and the second input contains a 100 Hz sine wave, Moogerfooger Ring Modulator Controls LFO Section Control the LFO using the Amount and Rate knobs and the Square/Sine waveform selector switch.
+A Ring Modulator takes two inputs, and outputs the sum and difference frequencies of the two inputs. For example, if the first input contains a 500 Hz sine wave, and the second input contains a 100 Hz sine wave, then the output contains a 600 Hz sine wave (500 plus 100) and a 400 Hz (500 minus 100) sine wave.
+Moogerfooger Ring Modulator Controls LFO Section Control the LFO using the Amount and Rate knobs and the Square/Sine waveform selector switch.
 Amount Amount determines the amount of LFO waveform that modulates the frequency of the carrier oscillator.
 When the knob is full counterclockwise, the carrier is unmodulated. Fully clockwise, the carrier oscillator is modulated over a range of three octaves.
 Rate Rate determines how fast the LFO oscillates, from 0.1 Hz (one cycle every ten seconds) to 25 Hz (twenty-five cycles per second). The LFO light blinks to give a visual indication of the LFO rate.
@@ -2916,6 +2947,7 @@ Bypass Bypass glows either red (bypassed) or green (not bypassed) to show whethe
 Moogerfooger Ring Modulator Tips and Tricks You’ll discover tons of great uses for the Moogerfooger Ring Modulator through experimentation. But don’t forget to try using it in subtle ways, adding “just a hint” to harshen up or add a metallic quality to individual tracks buried in the mix. Almost all the great MOOG sounds feature subtle, clever uses of Ring Modulation.
 Reel Tape Flanger Reel Tape Flanger is part of the Reel Tape suite of tape-simulation effects plugins. Reel Tape Flanger simulates a tape machine flanging effect, modeling the frequency sweep and “crossover” comb-filtering effects that can result when the flanger variable delay is adjusted. It also reproduces the frequency response, noise, wow and flutter, and distortion characteristics of analog tape recording.
 Reel Tape Flanger is available in DSP, Native, and AudioSuite formats.
+Reel Tape Flanger supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Reel Tape Flanger operates as a mono, multi-mono, or stereo plugin.
 For years, engineers have relied on analog tape to add a smooth, warm sound to their recordings. When driven hard, tape responds with gentle distortion rather than abrupt clipping as in the digital domain.
 Magnetic tape also has a frequency-dependent saturation characteristic that can lend punch to the low end, and sweetness to the highs.
@@ -2944,7 +2976,8 @@ Flange Range settings within the narrow center band around “zero” simulate t
 Operation with “Flange” Range setting (no offset) ADT (Artificial Double Tracking) Range settings outside the narrow center band simulate artificial double tracking, in which the variable delay does not cross the “zero” point. This varying delay creates a unique doubling effect, essentially an analog precursor to chorusing. (You can hear ADT-type effects on many classic analog recordings, such as those of the Beatles or Led Zeppelin.) Operation with “ADT” Range setting (positive offset) g When the LFO Depth control is set to zero, you can still achieve a “manual” flanging or ADT effect by varying the Range control.
 Feedback The Feedback control adds a short delay to the flanged signal. Feedback amount is adjustable from 0 to 100 percent, with a default value of 0 percent. (This is not the same feedback effect as on an electronic flanger or delay.
 Wow/Flutter The Wow/Flutter control adjusts the amplitude of the variable delay tape machine’s wow and flutter, or the amount of fluctuation in tape speed. A higher setting results in wider fluctuations in speed. A lower setting results in narrower fluctuations in speed. Wow/Flutter is adjustable from 0 to 1 percent, with a default value of 0.03 percent.
-Rate The LFO Rate control adjusts the rate of change in the variable delay. A higher setting results in faster fluctuations in speed. A lower setting results in slower fluctuations in speed. LFO Rate is adjustable from You can set the LFO Rate control to synchronize to the current tempo of the Pro Tools session.
+Rate The LFO Rate control adjusts the rate of change in the variable delay. A higher setting results in faster fluctuations in speed. A lower setting results in slower fluctuations in speed. LFO Rate is adjustable from 0.05 Hz to 5 Hz, with a default setting of 0.14 Hz.
+You can set the LFO Rate control to synchronize to the current tempo of the Pro Tools session.
 "Synchronizing Reel Tape Flanger to Session Tempo" on the next page Depth The LFO Depth control adjusts the amplitude of the change in variable delay. A higher setting results in wider fluctuations in speed. A lower setting results in narrower fluctuations in speed. LFO Depth is adjustable from 0 to 100 percent, with a default value of 65 percent.
 Mix The Mix control adjusts the amount of fixed delay signal mixed with the variable delay signal in the final output of the plugin. The default Mix value is adjustable from –100 (all fixed delay signal) to +100 (all variable delay signal) percent, with a default value of 0 (50% fixed delay, 50% variable delay signals).
 Invert (Plugin Automation Playlist or Control Surface Access Only) The Invert parameter inverts the polarity of the signal coming from the variable delay tape machine, so that complete audio cancellation occurs when the flanger effect crosses the zero point. The default setting for the Invert parameter is Off.
@@ -2983,6 +3016,7 @@ Sci-Fi Sci-Fi features analog synthesizer-type effects that include:
 - Variable-frequency, positive and negative resonator
 - Modulation control by LFO, envelope follower, sample-and-hold, or trigger-and-hold
 Sci-Fi is available in DSP, Native, and AudioSuite formats.
+Sci-Fi supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Sci-Fi operates as a mono, multi-mono, or stereo plugin.
 Sci-Fi is designed to mock-synthesize audio by adding effects such as ring modulation, resonation, and sample & hold, which are typically found on older, modular analog synthesizers. Sci-Fi is ideal for adding a synth edge to a track.
 Sci-Fi Controls Sci-Fi Input Level Input Level attenuates signal input level to the Sci-Fi processor. Since some Sci-Fi controls (such as Resonator) can cause extreme changes in signal level, adjusting the Input Level is particularly useful for achieving unity gain with the original signal level. The range of this control is from –12 dB to 0 dB.
@@ -2991,7 +3025,8 @@ Ring Mod Is a ring modulator—which modulates the signal amplitude with a carri
 Freak Mod Is a frequency modulation processor that modulates the signal frequency with a carrier frequency, producing harmonic sidebands that are the sum and difference of the input signal frequency and whole number multiples of the carrier frequency. Frequency modulation produces many more sideband frequencies than ring modulation and an even wilder metallic characteristic. The Effect Frequency control determines the modulation frequency of the Freak Mod effect.
 Resonator+ and Resonator– Add a resonant frequency tone to the audio signal. This frequency is determined by the Effect Frequency control. The difference between these two modules is that Resonator– reverses the phase (polarity) of the effect, producing a hollower sound than Resonator+. The Resonator can be used to produce metallic and flanging effects that emulate the sound of classic analog flangers.
 Sci-Fi Effect Amount Effect Amount controls the mix of the processed sound with the original signal. The range of this control is from 0–100%.
-Sci-Fi Effect Frequency Effect Frequency controls the modulation frequency of the ring modulator and resonators. The frequency range is dependent on the effect type. For Ring Mod, the frequency range of this control is from 0 Hz to You can also enter a frequency value using keyboard note entry.
+Sci-Fi Effect Frequency Effect Frequency controls the modulation frequency of the ring modulator and resonators. The frequency range is dependent on the effect type. For Ring Mod, the frequency range of this control is from 0 Hz to 22.05 kHz. For Freak Mod, the frequency range is from 0 Hz to 22.05 kHz. For Resonator+, the frequency range is from 344 to 11.025 kHz. For Resonator–, the frequency range is from 172 Hz to 5.5 kHz.
+You can also enter a frequency value using keyboard note entry.
 Sci-Fi Mod Type Controls The four Mod Type buttons determine the type of modulation applied to the frequency of the selected effect. Depending on the type of modulation you select here, the sliders below it will change to provide the appropriate type of modulation controls. If the Mod Amount is set to 0%, no dynamic modulation is applied to the audio signal. The Effect Frequency slider then becomes the primary control for modifying the sound.
 LFO Produces a low-frequency triangle wave as a modulation source. The rate and amplitude of the triangle wave are determined by the Mod Rate and Mod Amount controls, respectively.
 Envelope Follower Causes the selected effect to dynamically track the input signal by varying with the amplitude envelope of the audio signal. As the signal gets louder, more modulation occurs. This can be used to produce a very good automatic wah-wah-type effect. When you select the Envelope Follower, the Mod Amount slider changes to a Mod Slewing control. Slewing provides you with the ability to smooth out extreme dynamic changes in your modulation source. This provides a smoother, more continuous modulation effect. The more slewing you add, the more gradual the changes in modulation will be.
@@ -3003,6 +3038,7 @@ If you select Envelope Follower as a modulation type, the Mod Rate slider change
 Sci-Fi Output Meter The Output Meter indicates the output level of the processed signal. Note that this meter indicates the output level of the signal—not the input level. If this meter clips, the signal may have clipped on input before it reached Sci-Fi. Monitor your send or insert signal levels closely to prevent this from happening.
 Voce Plugins The Voce plugins provide a pair of vintage modulation effect plugins: Voce Chorus Vibrato and Voce Spin.
 The Voce plugins are available in DSP, Native, and AudioSuite formats.
+The Voce plugins support 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 The Voce plugins support mono, mono-to-stereo (Voce Spin only), multi-mono, and stereo operation.
 Voce Chorus/Vibrato Voce Chorus/Vibrato recreates the mechanical scanner vibrato found in the B-3 Organ. Three settings of chorus and three settings of vibrato presented on one cool knob! Fun and easy to use, it’s a classic effect used for over sixty years.
 In a large pipe organ, “ranks” of pipes (multiple pipes designed to emit the same frequency) aren’t perfectly in tune. The effect goes by the name “multirank” or, more commonly, “chorus.” Inside every B3 organ, on the end of the driveshaft that spins the tonewheels, you’ll find a mechanical contraption that delays the sound of the organ. Originally added to make the B3 sound more like a pipe organ, it imparts frequency variation to the sound.
@@ -3115,6 +3151,7 @@ When used at nominal settings, Aural Exciter does not add significant average le
 Even though the added information is low level, the perception is a dramatic increase in mid and high frequencies.
 The Aural Exciter is patented in the United States, Japan and most of Europe. Others may claim they are doing the same thing, but they can only resort to some form of EQ (amplitude correction or expansion), phase scrambling and/or filtering. They can only increase peak levels causing clipping, feedback, tape distortion and listener fatigue.
 Aural Exciter is available in DSP, Native, and AudioSuite formats.
+Aural Exciter supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Aural Exciter operates as a mono, multi-mono, or stereo plugin.
 Meters Drive Meter The Drive meter monitors the peak level to the harmonic generator. It works in conjunction with the Drive switch.
 For optimal performance keep the peak hold meter of the Drive meter inside the yellow area. The harder you drive the Exciter, the more Exciter enhancement you generate. If you cannot get the Drive meter to register in the yellow area, try setting the Drive switch to High (Drive switch enabled).
@@ -3192,6 +3229,7 @@ Aphex Big Bottom Pro Aphex Big Bottom Pro is an AAX plugin that retains the look
 Big Bottom Pro provides more energy to the bass (increasing its sustain and density). It dynamically contours the bass response of a complex range of shapes in the 40 to 400 Hz range, isolating and enhancing the lowest frequencies to provide a deeper, more resonant bass. Big Bottom increases the perception of low frequencies without significantly increasing the maximum peak output.
 Big Bottom Pro is a single-ended process which can be inserted at any point within the audio chain. The input signal is split into two parts. One part goes to the output unmodified, while the other part, known as a side-chain, goes through Big Bottom Pro. The side-chain consists of a tunable low pass filter followed by a dynamic processor.
 Big Bottom is available in DSP, Native, and AudioSuite formats.
+Big Bottom supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Big Bottom Pro operates as a mono, multi-mono, or stereo plugin.
 Meters Drive Meter The input Drive peak meter indicates the actual peak level to the Big Bottom Pro side-chain.
 Compression Meter The Compression (Comp) meter indicates the actual amount of compression taking place in the Big Bottom Pro side-chain. If the Comp meter is not showing any activity the input level is too low. Adjust the Level and Drive controls accordingly.
@@ -3256,6 +3294,7 @@ Eleven Lite Plugin Features Two custom amp models from Avid
 - Settings files (presets) to store and recall factory and custom tones
 - Support of any compatible work surface or MIDI controller. MIDI Learn provides effortless mapping to
 - any continuous controller (CC)–capable MIDI device
+- Support for sample rates of 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz
 - Support for mono or multi-mono operation, in up to 8 channel (7.1) format
 g Eleven can share preset data with the Eleven Rack guitar processor/audio interface from Avid. For more information, see the Eleven Rack User Guide.
 Eleven Plugin Features Classic amp models that faithfully recreate the sound and dynamic response of the original amps
@@ -3268,6 +3307,7 @@ Eleven Plugin Features Classic amp models that faithfully recreate the sound and
 - Settings files (presets) to store and recall factory and custom tones
 Support of any compatible Ethernet or MIDI controller. MIDI Learn provides effortless mapping to any
 - continuous controller (CC)–capable MIDI device
+- Support for sample rates of 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz
 - Support for mono or multi-mono operation, in up to 8 channel (7.1) format
 Eleven Input Calibration and QuickStart This section shows you how to get connected, calibrated, and cranking through Eleven as quickly as possible.
 Before You Begin with Eleven Eleven was designed to model the essential aspects of each amplifier including characteristics of the input stage. Providing an appropriate level of signal delivers the most accurate response from the plugin.
@@ -3357,7 +3397,8 @@ Inserting Eleven on Tracks Eleven can be inserted on Pro Tools audio, Auxiliary 
 To insert Eleven on a track:
 - Click an Insert selector on the track and choose Eleven or Eleven LE.
 Channel Formats Eleven is available as a mono or multi-mono plugin only. For use in stereo or greater formats choose the multi-mono version.
-Sample Rates Category and Manufacturer When Pro Tools plugins are organized by Category or Manufacturer, Eleven is listed as follows:
+Sample Rates Eleven supports 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz sample rates.
+Category and Manufacturer When Pro Tools plugins are organized by Category or Manufacturer, Eleven is listed as follows:
 Category (Harmonic)
 - Manufacturer (Avid)
 - Adjusting Eleven Controls
@@ -3451,8 +3492,9 @@ g Eleven is not affiliated with, or sponsored or endorsed by, the makers of the 
 Eleven Amp Controls Each Eleven amp provides a set of controls similar to (and in some cases identical to) those on the actual amp it models. The following sections give a general overview of amp controls.
 Amp controls in the default Amp Type Amp Bypass The Amp Bypass switch (or lamp) lets you bypass just the amp model, leaving the cab and mic settings in effect. The default setting is On. When set to Bypass, only the amp is bypassed; Master section, cabinet and microphone settings remain active.
 Bright The Bright switch provides extra high frequency response to the input signal, and alters the timbre of the distortion. On some amp models, the effect is most apparent at lower volume settings.
-Gain 1 determines the overall gain amount and sensitivity of the amp. When Gain 1 is low it allows for cleaner, brighter sounds with enhanced dynamic response. When set high, the entire personality of the amp changes, becoming fatter and overdriven. Gain 1 responds differently with each amp model and is designed to have a musical response that closely matches that of its original amp, at all settings. The default setting g All Eleven controls provide identical ranges as the original amps, but some numbers have been adjusted for consistency.
-Gain 2 is a second Gain knob used with some amp models that determines the amount of overdrive in the pre-amp stage. Gain 2 (also known as “Presence” on some amps) allows for more harmonic subtleties in
+Gain 1 determines the overall gain amount and sensitivity of the amp. When Gain 1 is low it allows for cleaner, brighter sounds with enhanced dynamic response. When set high, the entire personality of the amp changes, becoming fatter and overdriven. Gain 1 responds differently with each amp model and is designed to have a musical response that closely matches that of its original amp, at all settings. The default setting is 5.0. Gain 1 range is from 0 to 10.
+g All Eleven controls provide identical ranges as the original amps, but some numbers have been adjusted for consistency.
+Gain 2 is a second Gain knob used with some amp models that determines the amount of overdrive in the pre-amp stage. Gain 2 (also known as “Presence” on some amps) allows for more harmonic subtleties in character of the amp tone. The default is 5.0. Gain 2 range is from 0 to 10.
 - Parallel or Series
 The Gain 2 control on the Tweed Lux, AC Hi Boost and Plexiglass is in parallel (“jumped”) with the Gain 1 control. The M-2 Lead is in series, meaning the signal goes in and out of Gain 1, then into Gain 2.
 Tone
@@ -3750,6 +3792,7 @@ Eleven MK II Plugin Features Classic amp models that faithfully recreate the sou
 - Settings files (presets) to store and recall factory and custom tones
 - Support of any compatible Ethernet or MIDI controller. MIDI Learn provides effortless mapping to any
 - continuous controller (CC)–capable MIDI device
+Support for sample rates of 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz
 - Support for mono or multi-mono operation, in up to 8 channel (7.1) format
 - For general information on using plugins with Pro Tools, see the Pro Tools Reference Guide.
 - Eleven MK II Cab Plugin Features
@@ -3759,6 +3802,7 @@ All controls can be automated
 - Settings files (presets) to store and recall factory and custom tones
 - Support of any compatible Ethernet or MIDI controller. MIDI Learn provides effortless mapping to any
 - continuous controller (CC)–capable MIDI device
+- Support for sample rates of 44.1 kHz, 48 kHz, 88.2 kHz, and 96 kHz
 - Support for mono or multi-mono operation, in up to 8 channel (7.1) format
 Eleven MK II Cab Plugin The Eleven MK II Cab plugin provides all of the features of the Cabinet section of the Eleven MK II plugin. Use the Eleven MK II Cab plugin on mono Auxiliary Input (or audio) tracks fed by the Auxiliary Output Send of an instance of the Eleven MK II plugin on a mono audio (or Auxiliary Input) track for blending different speaker cabinets from a single amp source.
 Eleven MK II Input Calibration and QuickStart This section shows you how to get connected, calibrated, and cranking through Eleven MK II as quickly as possible.
@@ -3847,7 +3891,8 @@ Inserting Eleven MK II on Tracks Eleven MK II can be inserted on Pro Tools audio
 To insert Eleven MK II on a track:
 - Click an Insert selector on the track and choose Eleven MK II.
 Channel Formats Eleven MK II is available as a mono or multi-mono plugin only. For use in stereo or greater formats choose the multi-mono version.
-Sample Rates Category and Manufacturer When Pro Tools plugins are organized by Category or Manufacturer, Eleven MK II is listed as follows:
+Sample Rates Eleven MK II supports 44.1 kHz, 48 kHz, 88.2 kHz and 96 kHz sample rates.
+Category and Manufacturer When Pro Tools plugins are organized by Category or Manufacturer, Eleven MK II is listed as follows:
 Category (Harmonic)
 - Manufacturer (Avid)
 - Adjusting Eleven MK II Controls
@@ -3961,8 +4006,9 @@ Eleven MK II is not affiliated with, or sponsored or endorsed by, the makers of 
 Eleven MK II Amp Controls Each Eleven MK II amp provides a set of controls similar to (and in some cases identical to) those on the actual amp it models. The following sections give a general overview of amp controls.
 Amp controls in the default Amp Type Amp Bypass The Amp Bypass switch (or lamp) lets you bypass just the amp model, leaving the cab and mic settings in effect. The default setting is On. When set to Bypass, only the amp is bypassed; Master section, cabinet and microphone settings remain active.
 Bright The Bright switch provides extra high frequency response to the input signal, and alters the timbre of the distortion. On some amp models, the effect is most apparent at lower volume settings.
-Gain 1 determines the overall gain amount and sensitivity of the amp. When Gain 1 is low it allows for cleaner, brighter sounds with enhanced dynamic response. When set high, the entire personality of the amp changes, becoming fatter and overdriven. Gain 1 responds differently with each amp model and is designed to have a musical response that closely matches that of its original amp, at all settings. The default setting g All Eleven MK II controls provide identical ranges as the original amps, but some numbers have been adjusted for consistency.
-Gain 2 is a second Gain knob used with some amp models that determines the amount of overdrive in the pre-amp stage. Gain 2 (also known as “Presence” on some amps) allows for more harmonic subtleties in
+Gain 1 determines the overall gain amount and sensitivity of the amp. When Gain 1 is low it allows for cleaner, brighter sounds with enhanced dynamic response. When set high, the entire personality of the amp changes, becoming fatter and overdriven. Gain 1 responds differently with each amp model and is designed to have a musical response that closely matches that of its original amp, at all settings. The default setting is 5.0. Gain 1 range is from 0 to 10.
+g All Eleven MK II controls provide identical ranges as the original amps, but some numbers have been adjusted for consistency.
+Gain 2 is a second Gain knob used with some amp models that determines the amount of overdrive in the pre-amp stage. Gain 2 (also known as “Presence” on some amps) allows for more harmonic subtleties in character of the amp tone. The default is 5.0. Gain 2 range is from 0 to 10.
 - Parallel or Series
 The Gain 2 control on the Tweed Lux, AC Hi Boost and Plexiglass is in parallel (“jumped”) with the Gain 1 control. The M-2 Lead is in series, meaning the signal goes in and out of Gain 1, then into Gain 2.
 Tone
@@ -3990,10 +4036,15 @@ Cabinet Type selector in the Master section Available cabinets include the follo
 - 1x8 Custom
 - 1x12 Black Panel Lux
 - 1x12 Tweed Lux
+- 1x15 Open Back (based on an Ampeg Reverberocket 1x15 with Jensen C15Nspeaker)
 - 2x12 AC Blue
 - 2x12 Black Panel Duo
+- 2x12 B30 (based on a Bogner 2x12 with Celestion Vintage 30 speakers)
+- 2x12 Silver Cone (based on a Roland JC-120 2x12)
 - 4x10 Tweed Bass
 - 4x10 Black SR (based on a Fender Super Reverb 4x10 with CTS Alnico speakers)
+- 4x12 65W (based on a Marshall 4x12 with original issue Celestion G12-65 speakers)
+- 4x12 Green 20W (based on a Marshall 4x12 with Celestion Heritage G12M speakers)
 - 4x12 Green 25W
 - 8x10 Blue Line (based on an Ampeg SVT 8x10 with “towel bar”)
 Cabinets are listed by their number and diameter of their speakers. For example, “1x12” means a cabinet has a single 12-inch speaker.
@@ -4269,9 +4320,10 @@ Lo-Fi features include:
 - Anti-aliasing filter
 - Variable amplitude noise generator
 Lo-Fi is available in DSP, Native, and AudioSuite formats.
+Lo-Fi supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Lo-Fi operates as a mono, multi-mono, or stereo plugin.
 Lo-Fi down-processes audio by reducing its sample rate and bit resolution. It is ideal for emulating the grungy quality of 8-bit samplers.
-Lo-Fi Controls Sample Rate The Sample Rate slider adjusts an audio file’s playback sample rate in fixed intervals from 700 Hz to 33 kHz sample rates of 48 kHz, 96 kHz, or 192 kHz. Reducing the sample rate of an audio file has the effect of degrading its audio quality. The lower the sample rate, the grungier the audio quality.
+Lo-Fi Controls Sample Rate The Sample Rate slider adjusts an audio file’s playback sample rate in fixed intervals from 700 Hz to 33 kHz in sessions with sample rates of 44.1 kHz, 88.2 kHz, or 176.4 kHz; and from 731 Hz to 36 kHz in sessions with sample rates of 48 kHz, 96 kHz, or 192 kHz. Reducing the sample rate of an audio file has the effect of degrading its audio quality. The lower the sample rate, the grungier the audio quality.
 The maximum value of the Sample Rate control is Off (which effectively means bypass).
 g The range of the Sample Rate control is slightly different at different session sample rates because Lo- Fi’s subsampling is calculated by integer ratios of the session sample rate.
 Anti-Alias Filter The Anti-Alias control works in conjunction with the Sample Rate control. As you reduce the sample rate, aliasing artifacts are produced in the audio. These produce a characteristically dirty sound. Lo-Fi’s anti- alias filter has a default setting of 100%, automatically removing all aliasing artifacts as the sample rate is lowered.
@@ -4286,9 +4338,11 @@ The Distortion slider determines the amount of gain applied and lets clipping oc
 The Saturation slider determines the amount of saturation added to the signal. This simulates the effect of tube saturation with a roll-off of high frequencies.
 Output Meter The Output Meter indicates the output level of the processed signal. Note that this meter indicates the output level of the signal—not the input level. If this meter clips, the signal may have clipped on input before it reached Lo-Fi. Monitor your send or insert signal levels closely to prevent this from happening.
 Pro Subharmonic Avid Pro Subharmonic is an AAX plugin (DSP, Native, and AudioSuite) that synthesizes low-frequencies based on the harmonic content of the source audio signal.
-The multichannel version of Pro Subharmonic supports stereo audio, and can also add a channel of LFE (.1) The mono/multi-mono version should be used for all other channel formats.
+Pro Subharmonic supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
+The multichannel version of Pro Subharmonic supports stereo audio, and can also add a channel of LFE (.1) content to any 5.0, 6.0, or 7.0 track. Subharmonic material may also be added to the existing LFE channel of a 5.1, 6.1, or 7.1 track.
+The mono/multi-mono version should be used for all other channel formats.
 Greater-than-stereo formats are only available with Pro Tools Ultimate and Studio software only.
-other channel formats are supported on both Native and DSP.
+7.0 SDDS to 7.1 SDDS and 7.1 SDDS to 7.1 SDDS instances of Pro Subharmonic are Native-only. All other channel formats are supported on both Native and DSP.
 In addition to standard knob, button, and fader controls, Pro Subharmonic also provides a graphic display of the synthesized frequencies and of the dynamic curves of the low pass and high pass filters applied to the low frequencies.
 Metering Pro Subharmonic provides channel-maximum sample peak meters for Input and Output signals.
 The Peak Hold indicator appears as a thin line in the meter. This provides highly accurate visual metering correlation with the audio signal.
@@ -4399,6 +4453,7 @@ Recti-Fi Recti-Fi provides additive harmonic processing effects through waveform
 - Pre-filter for adjusting effect frequency
 - Post-filter for smoothing generated waveforms
 Recti-Fi is available in DSP, Native, and AudioSuite formats.
+Recti-Fi supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Recti-Fi operates as a mono, multi-mono, or stereo plugin.
 Recti-Fi provides additive synthesis effects through waveform rectification. Recti-Fi multiplies the harmonic content of an audio track and adds subharmonic or superharmonic tones, Recti-Fi Controls Recti-Fi Pre-Filter Control The Pre-Filter control filters out high frequencies in an audio signal prior to rectification. This is desirable because the rectification process can cause instability in waveform output—particularly in the case of high- frequency audio signals. Filtering out these higher frequencies prior to rectification can improve waveform stability and the quality of the rectification effect. If you wish to create classic subharmonic synthesis effects, set the Pre-Filter and Post-Filter controls to a relatively low frequency, such as 250 Hz.
 The range of the Pre-Filter is from 43 Hz to 22 kHz, with a maximum value of Thru (which effectively means bypass).
@@ -4413,6 +4468,7 @@ Recti-Fi Mix Control Mix adjusts the mix of the rectified waveform with the orig
 Recti-Fi Output Meter The Output Meter indicates the output level of the processed signal. Note that this meter indicates the output level of the signal—not the input level. If this meter clips, the signal may have clipped on input before it reached Recti-Fi. Monitor your send or insert signal levels closely to prevent this from happening.
 Reel Tape Saturation Reel Tape Saturation is part of the Reel Tape suite of tape-simulation effects plugins. Reel Tape Saturation simulates the saturation effect of an analog tape machine, modeling its frequency response, noise and distortion characteristics, but without any delay or wow and flutter effects.
 Reel Tape Saturation is available in DSP, Native, and AudioSuite formats.
+Reel Tape Saturation supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Reel Tape Saturation operates as a mono, multi-mono, or stereo plugin.
 For years, engineers have relied on analog tape to add a smooth, warm sound to their recordings. When driven hard, tape responds with gentle distortion rather than abrupt clipping as in the digital domain.
 Magnetic tape also has a frequency-dependent saturation characteristic that can lend punch to the low end, and sweetness to the highs.
@@ -4433,7 +4489,7 @@ Speed The Speed control adjusts the tape speed in ips (inches per second). Tape 
 Noise Reel Tape Saturation produces noise only during playback and recording, and not when the transport is stopped.
 The Noise control adjusts the level of simulated tape noise that is added to the processed signal. The characteristics of the noise depend on the Speed, Bias, and Tape Machine settings, and the relative level of the noise depends on the Drive, Cal Adjust, and Tape Formula settings.
 Noise is adjustable from Off (–INF) to –24 dB, with the default value being Off.
-Bias The Bias control simulates the effect of under- or over-biasing the modeled tape machine. Bias is adjustable calibration of 3 dB for analog tape machines, so the control acts as a bias offset rather than as an absolute bias control.
+Bias The Bias control simulates the effect of under- or over-biasing the modeled tape machine. Bias is adjustable from –6 dB to +6 dB, with a default value of 0.0 dB. The 0.0 dB value represents a standard overbias calibration of 3 dB for analog tape machines, so the control acts as a bias offset rather than as an absolute bias control.
 Cal Adjust Cal Adjust simulates the effect of three common calibration levels on the modeled tape machine and magnetic tape formulations.
 With the evolution of tape formulations, it was possible to increase the fluxivity level, or magnetic strength, of the signals on tape. Over the years, this resulted in an elevation of recorded levels relative to a standard reference fluxivity (185 nW/m at 700 Hz). The Cal Adjust value expresses the elevated level in dB over this standard reference level.
 The Cal Adjust control does not affect the overall gain, but does affect the amount of saturation effect for a given input signal.
@@ -4452,6 +4508,7 @@ Bass Drum Rounds out and adds consistency to bass drum hits.
 Bass Gtr Adds consistency and warmth to bass guitar sound while avoiding compression artifacts Snare Drum Reduces harsh peaks resulting from EQ-boosted snare drum or rim shots.
 SansAmp PSA-1 SansAmp PSA-1 is a guitar amp simulator plugin. Punch up existing tracks or record great guitar sounds with the SansAmp PSA-1. Capture bass or electric guitar free of muddy sound degradation and dial in the widest range of amplifier, harmonic generation, cabinet simulation and equalization tone shaping options available! Tube sound, speaker simulation, warm equalization and cool lo-fi textures—no wonder thousands of records feature the classic sounds of SansAmp!
 SansAmp PSA-1 is available in DSP, Native, and AudioSuite formats.
+SansAmp PSA-1 supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 SansAmp PSA-1 operates as a mono, multi-mono, or stereo plugin.
 B. Andrew Barta of Tech 21, Inc. introduced the SansAmp Classic in 1989. A guitar player with both a trained ear and electronics expertise, Andrew and Tech 21 pioneered the market for tube amplifier emulation.
 SansAmp’s FET-hybrid circuitry emulation captures the low-order harmonics and sweet overdrive unique to tube amplifiers. And pushed harder, SansAmp also generates cool lo-fi and grainy sound textures that still retain warmth.
@@ -4477,6 +4534,7 @@ This topic includes information about the following:
 - Dither
 Dither is a dither-generation plugin. The Dither plugin minimizes quantization artifacts when reducing the bit depth of an audio signal to 16-, 18-, or 20-bit resolution.
 Dither is available in DSP and Native formats.
+Dither supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Dither operates as a mono, multi-mono, or stereo plugin.
 Whenever you are mixing down or bouncing to disk and your destination bit depth is lower than 24-bit, insert a dither plugin on a Master Fader track that controls the output mix.
 Using a dither plugin on a Master Fader is preferable to an Auxiliary Input because Master Fader inserts are post-fader. As a post-fader insert, the dither plugin can process changes in Master Fader level.
@@ -4493,6 +4551,7 @@ Noise Shaping Button The Noise Shaping button engages or disengages Noise shapin
 Noise shaping can further improve audio performance and reduce perceived noise inherent in dithered audio. Noise shaping uses filtering to shift noise away from frequencies in the middle of the audio spectrum (around 4 kHz), where the human ear is most sensitive.
 POW-r Dither POW-r Dither is a dither-generation plugin. The POW-r Dither plugin is an advanced type of dither that provides optimized bit depth reduction. It is designed for final-stage critical mixdown and mastering tasks where the highest possible fidelity is required when reducing bit depth.
 POW-r Dither is available in DSP and Native formats.
+POW-r Dither supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 POW-r Dither operates as a mono, multi-mono, or stereo plugin.
 POW-r Dither Controls POW-r Dither provides a variety of controls for adjusting plugin parameters.
 Bit Resolution Use this pop-up menu to choose either 16- or 20-bit resolutions for POW-r Dither processing. Set this control to the maximum bit resolution of your destination.
@@ -4585,6 +4644,7 @@ Using the Side-Chain Input The Side-Chain Input option in AutoPan lets you direc
 > **Note:** For more information on using the Side-Chain Input, see the Pro Tools Reference Guide.
 Down Mixer Avid Down Mixer can be used to automatically mix greater-than-stereo multichannel tracks (such as 5.1) down to stereo (Pro Tools Ultimate and Studio only) or stereo tracks down to mono.
 Down Mixer is available in DSP and Native formats.
+Down Mixer supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Down Mixer (5.1 to Stereo) Down Mixer supports the following greater-than-stereo multichannel formats:
 - LCR
 - LCRS
@@ -4610,6 +4670,7 @@ Downmix The Downmix section of the Down Mixer plugin provides output meters and 
 This topic includes information about the following:
 "Click II" below Click II is a metronome plugin. The Click II plugin creates an audible click during session playback that you can use as a tempo reference when performing and recording. The Click II plugin receives its tempo and meter data from the Pro Tools application, letting it follow any changes in tempo and meter in a session.
 The Click II plugin is a Native mono-only plugin. Several click sound presets are included.
+Click II supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 g Click II does not sound if the Click option is disabled (Options > Click) or if the Click track has been muted.
 Click II Controls and Displays Click II provides displays for the session Meter and Tempo settings (which can be set manually in the Transport window or can follow the conductor rulers for Meter and Tempo in the session Timeline).
 Beat Display The Beat display shows the number of beats in a bar as determined by the Meter for the session. If the session contains meter changes, the Beat display shows the number of beats in a bar for the Meter at the current location of the Playback Cursor.
@@ -4689,7 +4750,8 @@ The names for missing samples are displayed in red.
 To remove a loaded sample:
 - Click the X icon to the right of the sample name.
 Sample Mode Sample Mode You can change how samples play back for the selected pad by selecting a different from the pop-up menu:
-Velocity Load 2 or 3 files for individual playback by velocity range. When two files are loaded in a pad, velocities 1– 63 trigger the first loaded sample, and velocities 64–127 trigger the second sample. When three files are Layer Load up to 3 files to a single pad. All samples play back together when the pad is triggered.
+Velocity Load 2 or 3 files for individual playback by velocity range. When two files are loaded in a pad, velocities 1– 63 trigger the first loaded sample, and velocities 64–127 trigger the second sample. When three files are loaded, velocities 1–42 trigger the first sample, 43–84 the second, and 85–127 triggers the third.
+Layer Load up to 3 files to a single pad. All samples play back together when the pad is triggered.
 Round Robin Load up to 3 files to a single pad. Each trigger cycles through the samples in order.
 Waveform Display The Waveform display shows the waveform of the sample for the selected pad. A graphic representation of the AHDSR Volume envelope is superimposed on the Waveform display (see "AHDSR Vol" on page 380). The Waveform display is visible on all tabs.
 If not already shown, click Tab 1 to the right of the Pad Settings pane to show the first page of pad settings.
@@ -4706,7 +4768,9 @@ Output Select the stereo output for the selected pad: the Main Output or any Ind
 The Master effects on the FX page only process audio of pads assigned to the Main Output, and are not applied to any pads routed to Individual Outputs. The same is true for pads sending to the Delay and Reverb effects.
 g When Multi-out is disabled, any pads assigned to Individual outputs are automatically routed to the Main Output (but pad output settings are maintained for when Multi-out is re-enabled). This can be useful for hearing all pads regardless of their output assignments.
 Filter The Filter controls are MIDI assignable.
-High Pass Low Pass Sends The Sends controls are MIDI assignable.
+High Pass Adjust the High Pass filter for the selected pad from 20.00 to 25.000.0 Hz.
+Low Pass Adjust the Low Pass filter for the selected pad from 20.00 to 25.000.0 Hz.
+Sends The Sends controls are MIDI assignable.
 g Click the + Send FX button to enable or disable all effects sends (Reverb and Delay). The button dims when disabled. When disabled, all individual pad Sends to Reverb and Delay effects are muted Delay Adjust the Delay effect send from the selected pad from –INF to +6.0 dB. The Delay effect settings are on the FX page.
 Reverb Adjust the Reverb effect send from the selected pad from –INF to +6.0 dB. The Reverb effect settings are FX on the page.
 If not already shown, click Tab 2 to the right of the Pad Settings pane to show the second page of pad settings. Click to select the pad whose settings you want to change, and then adjust the settings as desired.
@@ -4785,6 +4849,7 @@ Nudge Lets you adjust the timing of the attack of steps in the track from –50%
 Presets Lets you select from 3 basic preset patterns for the track.Simple Pattern 1 selects every 4th step.
 Simple Pattern 2 selects every 8th step. Simple Pattern 3 selects every step.
 Rate Lets you select the rhythmic value for steps in the track (each track can have different rhythmic values):
+1/4, 1/8 D (dotted), 1/4 T (triplet), 1/8, 1/16 D, 1/8 T, 1/16, 1/32 D, 1/16 T, 1/32. 1/16 is selected by default.
 Playback Forward—plays Lets you select the playback order of steps in the track: steps in order from left to right, Backward—plays steps in order from right to left, Ping Pong—plays steps in alternating order first step, last step, second step, second to last step, and so on.
 Control Lanes Velocity, Pitch, Pan, Probability and control lanes for the selected track are shown at the bottom of the sequencer. Only one control lane can be expanded for editing at a time.
 To adjust the Velocity, Pitch, Pan, and Probability settings for active steps on a track:
@@ -4795,7 +4860,9 @@ FX Page The FX page provides controls for the Master effects applied to the Main
 Master Pro Tools | GrooveCell provides EQ, Distortion, and Compression effects on the Main Output of the plugin.
 You can enable or disable an effect with the checkbox in the upper right corner of each effect section. All Master effects controls are MIDI assignable.
 g The Master effects on the FX page only process audio of pads assigned to the Main Output, and are not applied to any pads routed to Individual Outputs. The same is true for pads sending to the Delay and Reverb effects.
-Equalizer Attenuate or boost the gain of Frequency 1 from –20 to 20 dB.
+Equalizer Adjust Frequency 1 of the EQ from 40.00 to 16,000.0 Hz.
+Attenuate or boost the gain of Frequency 1 from –20 to 20 dB.
+Adjust Frequency 2 of the EQ from 40.00 to 16,000.0 Hz.
 Attenuate or boost the gain of Frequency 1 from –20 to 20 dB.
 Distortion Drive Adjust the Drive setting for the distortion from 0 to 60 dB.
 Mix Adjust the Mix setting for the distortion from 0 to 100%.
@@ -4849,7 +4916,8 @@ Open.
 4. Click
 5. If you selected multiple files, choose the desired option for sample mapping.
 Spread Load up to 16 selected files across pads in order starting with the selected pad (1 sample per pad).
-Velocity Load 2 or 3 files for individual playback by velocity range. With 2 files, trigger the first sample by velocities Layer Load up to 3 files to a single pad. All samples play back together when the pad is triggered.
+Velocity Load 2 or 3 files for individual playback by velocity range. With 2 files, trigger the first sample by velocities from 1–63 and the second sample by velocities 64–127. With 3 files, trigger the first sample by velocities from 1–42, the second by velocities 43–84, and the third by velocities 85–127.
+Layer Load up to 3 files to a single pad. All samples play back together when the pad is triggered.
 Round Robin Load up to 3 files to a single pad. Each trigger cycles through the samples in order.
 The selected files are loaded accordingly.
 Managing Loaded Samples Once you have loaded samples to a pad, you can reorder them, individually unload them, and change the Sample Mode for playback. In the Samples Loaded list, the first selected file is loaded first and appears on top. The playback of samples in the list is from top to bottom, which is low to high in Velocity mode or in order, one after the other, when triggered in Round Robin mode.
@@ -5097,7 +5165,8 @@ Saw: Sawtooth wave with a down ramp.
 - S+H: Sample and hold.
 - Drift: Drift is a smoothly rounded random signal, like sample and hold but with the steps rounded off.
 - Rate
-Set the Rate of the LFO. When Sync is disabled, Rate can be set from 0.01–100.0 Hz. When Sync is enabled, the values for the Rate settings are measured as fractions or multiples of a quarter-note: where Sync Enable Sync to synchronize the LFO to the Pro Tools tempo.
+Set the Rate of the LFO. When Sync is disabled, Rate can be set from 0.01–100.0 Hz. When Sync is enabled, the values for the Rate settings are measured as fractions or multiples of a quarter-note: where 1.00 is a quarter-note, 0.50 is an eighth-note, 2.00 is a half-note, and so on.
+Sync Enable Sync to synchronize the LFO to the Pro Tools tempo.
 Retrig Enable Retrig to re-trigger the start of the LFO with every MIDI Note On.
 Mod Env The Mod Env provides a variable ramp generator that can be used to modulate other parameters of the synthesizer.
 Mode Select one of the following ramp shapes for the Modulation Envelope:
@@ -5190,7 +5259,8 @@ L/R Dotted: Left delay time is three-quarters of the right delay time.
 - Flit Down 4: Repeating pattern of three delays with a descending cutoff filter.
 - Mix
 Adjust the Mix control to set the balance of dry versus wet (effected) signal from 0–100%.
-Time The delay time always synchronizes to the Pro Tools session tempo. The following rhythmic values are Feedback Adjust the Feedback of the delay from 0–100%.
+Time The delay time always synchronizes to the Pro Tools session tempo. The following rhythmic values are available: 1/2, 1/4D (dotted), 1/2T (triplet), 1/4, 1/8 D (dotted), 1/4 T (triplet), 1/8, 1/16 D, 1/8 T, 1/16, 1/32 D, 1/16 T, 1/32. 1/8 is selected by default.
+Feedback Adjust the Feedback of the delay from 0–100%.
 Distortion Power Click the Power button in the upper right corner of the Distortion panel to enable or disable the Distortion effect.
 Mode Select any of the following distortion options:
 - Clip: Emulates hard (transistor) clipping.
@@ -5343,7 +5413,9 @@ These notes now display a dark blue color.
 g To unlock notes, click the Back arrow.
 More to Explore You can draw additional notes in the Piano Roll. To make sure they all follow the chosen key and
 - scale, click the Keyboard icon to conform all notes.
-Polyphonic mode lets you use up to four independent riff generators per instance of Riffer. Click a unmute a riff, double-click its Riff button.
+Polyphonic mode lets you use up to four independent riff generators per instance of Riffer. Click a
+- Riff button (R1, R2, R3, or R4) to configure up to 4 independent riffs, or link them together. To mute or
+unmute a riff, double-click its Riff button.
 To vary playback of the generated riffs use the Forward, Backward, or Ping-Pong modes. Click the
 - desired icon to have the riff play forwards (the default), backwards, or alternate between forwards
 and backwards (ping-pong).
@@ -5404,7 +5476,7 @@ To delete a custom scale:
 Keyboard Button
 - By clicking the keyboard button, your current Riff will be transported to the selected scale.
 Scales Included:
-Chromatic, Blues, Major, Minor, Dorian, Mixolydian, Phrygian, Lydian, Locrian, Harmonic Minor, Melodic Minor, Pentatonic Neutral, Pentatonic Minor, Pentatonic Major, Dim Half, Dim Whole, Augmented, Roumanian Minor, Spanish Gypsy, Diatonic,Double Harmonic, Eight Tone Spanish, Enigmatic, Algerian, Arabian A, Arabian B, Balinese, Byzantine, Chinese, Egyptian, Hindu, Hirajoshi, Hungarian Gypsy, H. Gypsy Persion, Japanese A B, Persian, Prometheus, Six Tone Symetrical, Super Locrian, Wholetime, Major triad, Augmented, Minor 6th 9th Add9 Augmented.
+Chromatic, Blues, Major, Minor, Dorian, Mixolydian, Phrygian, Lydian, Locrian, Harmonic Minor, Melodic Minor, Pentatonic Neutral, Pentatonic Minor, Pentatonic Major, Dim Half, Dim Whole, Augmented, Roumanian Minor, Spanish Gypsy, Diatonic,Double Harmonic, Eight Tone Spanish, Enigmatic, Algerian, Arabian A, Arabian B, Balinese, Byzantine, Chinese, Egyptian, Hindu, Hirajoshi, Hungarian Gypsy, H. Gypsy Persion, Japanese A B, Persian, Prometheus, Six Tone Symetrical, Super Locrian, Wholetime, Major triad, Minor triad, Major 7th, Minor 7th, Major Dominant, Minor Major 7th, Diminished, Major 6th 9th Add9 Augmented, Minor 6th 9th Add9 Augmented.
 Randomizing the Pitch Pitch Tab By selecting the Pitch Tab in the piano roll you will be able to see and edit the Pitch of the notes that are included in your Riff. You can click the Randomization (dice) button to generate new riffs, or click on the steps directly in the piano roll, to manually create your own riffs.
 Pitch Range Adjust the Pitch Range of the piano roll. Click on the + or – buttons to increase or decrease the Pitch Range, or use the vertical blue slider to make changes.
 Set the Same Pitch Value to All Steps Alternatively, click a note directly in the piano roll, hold Shift and drag to the left or right, to set the same pitch for more than one step in your riff.
@@ -5575,14 +5647,16 @@ Clear Click Clear to clear the Arp grid.
 Arp Grid The Arp grid provides a piano roll style interface for drawing and editing notes. Incoming MIDI notes trigger When you input MIDI notes into EON-Arp, it triggers playback of the notes in the Arp grid. The notes in the Arp grid playback relative to the pitch of the incoming MIDI note(s). There are 11 pitch positions in the note grid: –5 to +5 degrees of transposition. The spread of these degrees of transposition are determined by the settings in the Chords section.
 For example, if you input the MIDI note 60 (C3) into EON-Arp, the Arp Grid places C3 in the center and spreads the note across all 11 degrees within the octave range dictated in the Chords section. When in full range, the resulting grid play notes C0–C6.
 g The –1 octave is reserved for switching between patterns.
-When playing a chord into EON-Arp, such as a C major triad with the notes C2, E2 and G2, EON-Arp allocates the 3 notes in the chord according to their pitch relative to each other. Their order is determined by how the chord is played with C2 being the lowest note, followed by E2 and G2. The grid starts in the b Create several notes in the Arp grid. Then select the notes and Option-click (Mac) or Alt-click (Windows) and drag to copy the selected notes to another location on the grid. This way you can create repetition and variation in your melodies/sequences.
+When playing a chord into EON-Arp, such as a C major triad with the notes C2, E2 and G2, EON-Arp allocates the 3 notes in the chord according to their pitch relative to each other. Their order is determined by how the chord is played with C2 being the lowest note, followed by E2 and G2. The grid starts in the same order, but 1 octave above (C3, E3, G3). The same goes for the pitches below the center C2.
+b Create several notes in the Arp grid. Then select the notes and Option-click (Mac) or Alt-click (Windows) and drag to copy the selected notes to another location on the grid. This way you can create repetition and variation in your melodies/sequences.
 Chords In the Chords section you can set input settings, pattern triggering settings, play or import midi files, transpose keys and/or set an octave range for the Arp grid.
 Input The input toggle switches between 2 modes of operation:
 EXT: EON responds to MIDI input from Pro Tools.
 - FILE: EON responds to input from the MIDI player module. Select one of the built in files or import a
 - custom MIDI file using the folder icon.
 Retrigger Click Retrigger to toggle On or Off. When enabled (ON), MIDI input re-triggers the current pattern. When disabled (OFF), the current Arp pattern plays continuously regardless of MIDI input.
-Q Value Select the desired rhythmic value for re-triggering the Arp pattern and for switching patterns: 1/32. 1/16, MIDI File Player The MIDI File player comes equipped with more than 100 MIDI files in various styles, you can also load your own MIDI files onto the player.
+Q Value Select the desired rhythmic value for re-triggering the Arp pattern and for switching patterns: 1/32. 1/16, 1/8, 1/4, 2/4, or 4/4.
+MIDI File Player The MIDI File player comes equipped with more than 100 MIDI files in various styles, you can also load your own MIDI files onto the player.
 Transpose Pitch: Controls the overall pitch output from EON in semitones.
 - Oct: Controls the overall pitch output from EON in octaves.
 - Octave
@@ -5631,7 +5705,8 @@ Reset
 Arp Settings Zone Select either or to adjust the Arp Settings for each.
 Mode Chord, Arp, Mods Select or to adjust the settings for each.
 Type Type (Up, Down, Random, Pinkie Up).
-Select the of arpeggio or Speed Select the rhymic value for the arpeggiation or Swing Swing Adjust the amount of as desired (0–100%).
+Select the of arpeggio or Speed (1/16, 1/8, 1/4, 1/2, 1/1).
+Select the rhymic value for the arpeggiation or Swing Swing Adjust the amount of as desired (0–100%).
 Steps Steps Select the number of (1–32) for the arpeggiation.
 Humanize Time
 - — Adjust the timing variations to "humanize" the performance.
@@ -5834,8 +5909,8 @@ Tuner Programming Chromatic Mode When selected, Chromatic Mode overrides any cus
 Single Octave Mode When selected, Single Octave Mode disables the display of octave information with each note on the main InTune screen. When tuning in this mode, InTune ignores the octave of the note being tuned. The octave information entered in the Edit screen is used only for generating test tones.
 Single Octave Mode is typically used for instruments which generate harmonics in multiple octaves, such as bass guitars. Because of the low frequency waveform generated by a bass guitar, it is easier for InTune to tune to a higher harmonic of the note instead.
 Display Flat Semitones InTune will display all semitones entered into note fields as sharp by default. For example, a guitar tuned to E-flat is usually represented by the following.
-By default, if these notes are entered in the Edit screen, InTune will display these same notes in the following way.
-The Display Flat Semitones option overrides the default behavior and displays semitones as flats, not sharps. It is not possible to display both sharp and flat semitones in the same tuning preset.
+Eb2, Ab2, Db3, Gb3, Bb3, Eb4 By default, if these notes are entered in the Edit screen, InTune will display these same notes in the following way.
+D#2, G#2, C#3, F#3, A#3, D#4 The Display Flat Semitones option overrides the default behavior and displays semitones as flats, not sharps. It is not possible to display both sharp and flat semitones in the same tuning preset.
 Note Entry Fields The twelve note entry fields allow entry of individual notes from A0 to G7. Flat semitones are entered with a “b” (for example, Ab2), and sharp semitones are entered with a hash or pound character (for example, A#2).
 To clear an entry, enter “– –.” Note fields are committed by pressing Return (Macintosh) or Enter (Windows). If you do not press Return or Enter, the note field will return to the previous value entered. InTune will automatically justify the note buttons as needed so they fit in the correct area on the main screen.
 The Note Entry fields are not available in Chromatic mode.
@@ -5844,7 +5919,7 @@ Using InTune When InTune detects a signal, the meter lights up and displays the 
 With stringed instruments, this will vary during the attack and decay of the note.
 In Automatic mode, InTune estimates the note to which you are trying to tune. If the correct note is not lit in automatic mode, click on the note to which you are trying to tune for greater accuracy. This will lock InTune to the specified note.
 The meter will display the frequency of the note detected, and the accuracy is displayed on a scale of plus/minus 50 cents. In addition, the information display will display the note and the number of cents from perfect tuning.
-When loading factory presets, stringed instruments are laid out from the highest numbered string (usually the lowest tone) to the highest, from left to right. For example, a six string guitar in standard tuning is shown respectively.
+When loading factory presets, stringed instruments are laid out from the highest numbered string (usually the lowest tone) to the highest, from left to right. For example, a six string guitar in standard tuning is shown as E2, A2, D3, G3, B3, E4, which are the notes and octaves for the sixth string through to the first string respectively.
 For best tuning results with guitars, do the following:
 Use headphones, as loud monitors can modulate the guitar string.
 - Switch your guitar to its rhythm (neck) pickup, if it has one.
@@ -5899,10 +5974,11 @@ MasterMeter Clear Button The Clear button clears all of the historical informati
 MasterMeter Export Button The Export button exports all of the information displayed in the two browsers to the clipboard as tab delimited text. It can then be pasted into any text or spreadsheet application.
 MasterMeter View Time Menu The View Time menu lets you select the way in which timing information is displayed, in either minutes and seconds format, or in samples format. This affects the timecode display in both the data browsers and the Offset field.
 MasterMeter Offset Field The Offset field offsets the values displayed in both the browsers by the value entered. This is useful for historical metering but the session was started from a point other than the beginning. The Enter key must be used after a new offset is typed for it to become active. The information shown in the browsers is updated immediately when the new Offset is entered.
-entered into the Offset to ensure the timecode displayed in both of the browsers matches that of the Pro Tools session.
+For example, if the session was started from the point 1:03.901 (1 minute 3.901 seconds), this value should be entered into the Offset to ensure the timecode displayed in both of the browsers matches that of the Pro Tools session.
 MasterMeter Clip Field The Clip field can be used to set the clip threshold at a lower point. For example, if a session must not exceed –10 dB, the Clip field can be set to –10 dB and MasterMeter will treat that as the clip threshold for both signal and oversampled clip events. When the Clip field is set to a non-zero value, the Min and Max values of the Signal Clip browser are used to indicate the clip range.
 Signal Generator The Signal Generator plugin produces audio test tones in a variety of frequencies, waveforms, and amplitudes. It is particularly useful for generating reference signals with which to calibrate audio interfaces and other elements of your studio.
 Signal Generator is a mono (or multi-mono) plugin that is available in DSP, Native, and AudioSuite formats.
+Signal Generator supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 > **Note:** Refer to the guide for your audio interface for instructions on using Signal Generator to calibrate that
 interface.
 g Signal Generator produces a tone as soon as it is inserted on a track. To mute the Signal Generator, use the Bypass button.
@@ -5987,6 +6063,7 @@ To use SoundReplacer:
 amplitude zone 1.
 4. Locate an audio file and click Open.
 5. Adjust the amplitude zone slider.
+6. Repeat steps 3–5 to load replacement sounds into amplitude zones 2 and 3.
 g If you use only a single replacement sample, you should still set all three amplitude zones for optimum results. This will ensure accurate triggering. For details, "Mapping The Same Sample
 7. To align the amplitude peak in the replacement file(s) to threshold trigger markers in the source
 audio, enable Peak Align.
@@ -6060,6 +6137,7 @@ Set this control higher when processing higher frequency range audio material.
 Accuracy Prioritizes the processing resources allocated to audio quality (Sound) or timing (Rhythm). Moving the slider towards “Sound” generally results in better sonic quality and fewer audio artifacts. Moving the slider towards “Rhythm” puts the emphasis on keeping the tempo consistent.
 When you are working with audio loops, listen carefully and adjust the Accuracy slider until you find a setting that keeps timing solid within the clip. If you don’t, start and end times may be precise, but the beats in rhythmic material may appear to be shuffled if too little priority is given to Rhythm.
 Trim Trim is a mono (or multi-mono) plugin that is available in DSP and Native formats.
+Trim supports 44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, 176.4 kHz, and 192 kHz sample rates.
 Use Trim to attenuate an audio signal from –∞ (Infinity) dB to +6 dB or –∞ (Infinity) dB to +12 dB. For example, using a multi-mono Trim plugin on a multi-channel track provides simple, DSP-efficient muting control over the individual channels of the track.
 This capability is useful, since Track Mute buttons mute all channels of a multi-channel track and do not allow muting of individual channels within the track.
 g Alt-click (Windows) or Option-click (Mac) the Trim selector to open a plugin window for each channel of a multi-channel track.
