@@ -10,7 +10,8 @@ date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2025.10 1 What’s New in Pro Tools 2025.10 New Features and Enhancements Pro Tools® software version 2025.10 provides the following new features and enhancements:
+What’s New in Pro Tools Version 2025.10 ProToolsincludesélastiqueProV3byzplane.developmentastimestretchingengine.
+1 What’s New in Pro Tools 2025.10 New Features and Enhancements Pro Tools® software version 2025.10 provides the following new features and enhancements:
 Sony® 360RA immersive audio integration with 360RA WalkMix Creator® Lite included (Pro Tools
 - Ultimate and Studio only)
 SoundFlow integration
@@ -51,21 +52,7 @@ Last Focused
 4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the
 Application field.
 5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
-Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
-- www.avid.com/account
-Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
-- www.avid.com/learn-and-support
-Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
-- www.avid.com/learning
-Videos and Tutorials Visit the Avid YouTube channel to find playlists and videos that show how to use and learn Pro Tools.
-- Avid YouTube Channel (all playlists and videos)
-- Pro Tools Tech Tips (playlist)
-- Pro Tools Quick Tips (playlist for the Pro Tools Quick Reference Guide, available from the Dashboard)
-- What's New blog post (includes links to videos covering new features in Pro Tools 2025.10)
-Products and Developers Learn about Avid products, download demo software, or learn about our Development Partners and their plugins, applications, and hardware.
-- www.avid.com/products
-2 Immersive Audio with 360RA WalkMix Creator Pro Tools Studio and Ultimate let you use Audio Futures 360RA WalkMix Creator for immersive audio mixing and rendering. 360RA is ideal for creating immersive mixes for headphones, stereo speakers, home audio systems, and virtual and augmented reality systems using 360RA ADM file playback.
+EuControl Settings, Applications tab 2 Immersive Audio with 360RA WalkMix Creator Pro Tools Studio and Ultimate let you use Audio Futures 360RA WalkMix Creator for immersive audio mixing and rendering. 360RA is ideal for creating immersive mixes for headphones, stereo speakers, home audio systems, and virtual and augmented reality systems using 360RA ADM file playback.
 > **Note:** For an online blog including videos introducing 360RA in Pro Tools, visit
 https://www.avid.com/resource-center/sony-360-ra.
 > **Note:** For more information about the 360RA surround format, visit https://electronics.sony.com/360-
@@ -127,7 +114,7 @@ Power: Click to enable or disable the EQ band.
 Dynamically displays 360RA objects as panned in the entire mix during playback (or at the current Edit location on the Timeline). You can choose from several different views of the Spherical Panner. The number of 360RA Objects used out of the number available (up to 128) is displayed below the Spherical Panner.
 Each object appears a ball in the Spherical Panner. Object locations are display only in the Render Settings window. To Write or Edit 360RA Object panning, do so in the Track Output window or in the Track Automation Lanes.
 Perspective Perspective provides a full 360 view of all objects in the mix. You can click and drag on the Spherical Panner to change orientation (in Perspective view only).
-Top Front Left Right Back 360RA WalkMix Object Assignments When 360RA WalkMix renderer is enabled you can assign the output of a track to the active renderer. This automatically instantiates a source plugin mixer to make the connection. 360RA WalkMix only supports Object creation. Object assignments insert a source mixer plugin that is the width of the track. 360RA supports all channel widths (except Ambisonics). However, any LFE channel is ignored, so any X.X.X (such respectively in the renderer.
+Back 360RA WalkMix Object Assignments When 360RA WalkMix renderer is enabled you can assign the output of a track to the active renderer. This automatically instantiates a source plugin mixer to make the connection. 360RA WalkMix only supports Object creation. Object assignments insert a source mixer plugin that is the width of the track. 360RA supports all channel widths (except Ambisonics). However, any LFE channel is ignored, so any X.X.X (such as 7.1.4) or X.X (such as 5.1) surround format is displayed as X.0.X (such as 7.0.4) or X.0 (such as 5.0) respectively in the renderer.
 Unlike with Dolby Atmos®, object assignments using the 360RA WalkMix Renderer are exclusive to each assigned track. They cannot be created or renamed in the I/O Setup, and they cannot be renamed by right- clicking on a track I/O selector. When an output is assigned to an object, it cannot be assigned to any other outputs (multiple outputs).
 Greater than stereo 360RA objects are removed when switching to Dolby Atmos. Mono and stereo objects are migrated and Pan is converted from Spherical to Pro Tools automation. This works the same way when switching from Dolby Atmos to 360RA.
 Object Assignments Pro Tools with 360RA WalkMix Creator Lite supports up to 128 object assignments in a session. Assign tracks as objects in the 360RA WalkMix Render to include that track in the immersive mix.
@@ -141,7 +128,7 @@ To open the Output window:
 The output window shows the 360RA Panner to the right of the fader and meters. 360RA objects for each track channel are shown as colored balls in the spherical panning space.
 Spherical Panner Views The Spherical Panner provides several different views for panning objects. You can click and drag an object in any pan view to record automation.
 The panner window provides the same views as in the 360RA WalkMix settings, but only shows the channel objects for that track.
-Perspective/Top Front/Back Left/Right 360RA WalkMix Pan Automation Pro Tools lets you edit Azimuth and Elevation automation for each channel in track Automation lanes.
+Left/Right 360RA WalkMix Pan Automation Pro Tools lets you edit Azimuth and Elevation automation for each channel in track Automation lanes.
 Renderer Master Track When the 360RA WalkMix Renderer is enabled, you can assign the Output of a Master Fader track to Renderer Out. This lets you:
 - Control of overall level or the 360RA mix.
 - Insert plugins to process the 360RA mix.

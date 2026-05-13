@@ -10,17 +10,16 @@ date-added: 13/05/2026
 status: current
 ---
 
-Lorem ipsum Lorem ipsum Reverb Effects Compressor EQ.
-Reverb Macros.
-OSC 1.
-Env Matrix.
-Avid Master Account.
-Using Pro Tools Sketch Pro Tools Sketch for iPad Sketch™ Avid®.
-Welcome to Pro Tools from Pro Tools Sketch is both a free application for iOS on iPad, and a window Tools® within Pro (all tiers). Pro Tools Sketch is essentially a clip launcher that lets you create and mix audio clips, MIDI clips, virtual instruments, and audio effects in a non-linear environment, and arrange them into Scenes and Arrangements.
+Delay Chorus.
+Delay LoFi Saturation.
+PlayCell Global Controls.
+SynthCell.
+OSC 2.
+Mod.
+Arp Using Pro Tools Sketch Pro Tools Sketch for iPad Sketch™ Avid®.
+Welcome to Pro Tools from Pro Tools Sketch is both a free application for iPadOS, and a window Tools® within Pro (all tiers). Pro Tools Sketch is essentially a clip launcher that lets you create and mix audio clips, MIDI clips, virtual instruments, and audio effects in a non-linear environment, and arrange them into Scenes and Arrangements.
 In Pro Tools, the Sketch window provides the same functionality as the Sketch app, but with the additional func- tionality of being able to drag and drop audio and MIDI clips (and Scenes and Arrangements) between the Sketch window and a Pro Tools session. You can share Sketches between the Pro Tools Sketch app and the Sketch window in Pro Tools (.ptsketch file format). In Pro Tools, a Sketch can be open with or without a session.
-Pro Tools Sketch app Pro Tools Sketch Features • Clip-based music creation • Audio and Instrument (MIDI) tracks • Mixer with real-time track effects • Avid PlayCell and SynthCell virtual instruments • Audio and MIDI clip editors • Share Sketches between the app and Pro Tools • Synchronization using Ableton Link • Stereo 24-bit/48 kHz on iPad System Requirements and Compatibility Information Avid can only assure compatibility and provide support for hardware and software it has tested and approved.
-For complete system requirements and a list of qualified computers, operating systems, hard drives, and third-party devices, visit: www.avid.com/compatibility.
-Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of Pro Tools and Pro Tools Sketch. Visit:
+Pro Tools Sketch app Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of Pro Tools and Pro Tools Sketch. Visit:
 www.avid.com/pro-tools/getting-started Avid Master Account You are required to sign in to your Avid Master Account (you can quickly create an account if you do not already have one) in order to be able to save your work in the Pro Tools Sketch app.
 www.avid.com/account Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the world- wide Avid user community on the User Conference.
 www.avid.com/support Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-cer- tified training center, or view video tutorials and webinars.
@@ -73,13 +72,22 @@ Close Tap Close to save your changes and close the Sketch Settings.
 Transport Settings The Transport Settings let you set the playback start location. You can also access the Ableton Link settings here.
 To open the Transport Settings:
 Tap the Counter.
- Transport Settings Creating a New Sketch Pro Tools Sketch uses the iOS file management system for creating new Sketches.
+ Transport Settings Creating a New Sketch Pro Tools Sketch uses the iPadOS file management system for creating new Sketches.
 To create a new Sketch:
 Launch Pro Tools Sketch. It opens with the last opened Sketch.
 Close the open Sketch.
 Tap Create Document.
 A new Sketch file is created at that location and opens in the Pro Tools Sketch app.
-Clips Media Browser Tap the Media Browser icon to reveal the Media Browser on the left of the screen.
+Auto-backup If you are working on a Sketch and you close the app without saving it, your Sketch is restored when you next launch the app.
+Sketch Help Sketch provides a Quickstart Overlay to orient you to the user interface. You can also access a series of brief video tutorials to familiarize yourself with common music creation workflows using Sketch.
+To access Sketch tutorials:
+Tap the the ? icon in the upper-right corner of the Sketch window.
+Select the desired tutorial topic.
+Sketch Help menu To show the Quickstart Overlay:
+Tap the the ? icon in the upper-right corner of the Sketch window.
+Tap Show Quickstart Overlay.
+Tap Close to hide the Quickstart Overlay.
+Quickstart Overlay shown Clips Media Browser Tap the Media Browser icon to reveal the Media Browser on the left of the screen.
 Media Browser icon Media Browser Sound Library Pro Tools Sketch comes with a full library of sounds and MIDI, including audio loops and one shots, and MIDI pat- terns.
 Loops Loops Sound Library The audio loops included with Pro Tools Sketch are available in the directory of the tab.
 MIDI The MIDI sequences included with Pro Tools Sketch are available in the MIDI directory of the Sound Library tab.
@@ -95,8 +103,7 @@ Tap the Play icon on the clip you want.
 Tap the Stop button beneath the track on which the clip is playing back.
  Tap the Stop button in the clip Editor.
  Clip Play Clip Stop Clip Play and Stop icons on tracks and in the Editor Recording Audio Clips Pro Tools Sketch lets you record audio clips using the built-in microphone on your iPad or you can use a USB audio interface with your iPad.
-Bluetooth audio interfaces are not recommended for audio recording due to the inherently high latency.
-However, Bluetooth speakers and headphones are fine for monitoring audio output.
+Bluetooth audio interfaces are not supported for audio recording due to the inherently high latency. How- ever, Bluetooth speakers and headphones are fine for monitoring audio output.
 To record audio clips:
 Connect and configure your USB audio interface for use with your iPad (refer to the manufacturer’s documen- tation). You can also use the built-in microphone on your iPad.
 For more information about Pro Tools Sketch audio settings, including Input monitor volume control and device settings, see Preferences.
@@ -147,7 +154,7 @@ Source BPM (Audio Clips Only) Displays the BPM for the source clip. Tap Edit to 
 Color Enable (or disable) to show the selected clip color. Tap in the color palette to select the color you want for the clip.
 Loop When enabled (the default setting) the clip repeats during playback. When disabled, the clip plays once only (also known as “one-shot”).
 Scenes and Arrangement Clips on tracks can be played back all together in a Scene. A Scene is a row of clips in the Clip Launcher. Scenes can be ordered in an Arrangement, and each Scene can be set to repeat playback by a specified number of times.
-For example, in an Arrangement you can have Scene 1 play four times and then move to playing back Scene 5 two and so on.
+For example, in an Arrangement you can have Scene 1 play four times and then move to playing back Scene 5 two times, and so on. Scenes can be ordered in an Arrangement however you want: Scene 5 x2, Scene 3 x4, Scene 8 x1, and so on.
 Scenes Scenes are rows of clips that can be played back all together.
 To play back a Scene:
 Tap the Play icon for the Scene.
@@ -185,8 +192,11 @@ Setting the number of repeats of a Scene in the Arrangement Tap + to increase th
 64 is the maximum number of repeats for a Scene in the Arrangement.
 Tap Close.
 You can also add to the number of repetitions by dragging a scene onto the scene multiplier for the same scene in the Arrangement.
-Remove Scene To remove a Scene from the Arrangement:
-Tap the Scene in the Arrangement that you want to remove Tap Remove Scene.
+Play from Scene in Arrangement To start playback from any Scene in the Arrangement:
+Tap the Scene in the Arrangement from where you want to start playback Tap Play.
+Playing back from a Scene from the Arrangement Remove Scene To remove a Scene from the Arrangement:
+1 Tap the Scene in the Arrangement that you want to remove.
+2 Tap Remove Scene.
 Removing a Scene from the Arrangement Export Arrangement To export the current Arrangement from your Sketch as a new audio file:
 1 Tap the Arrangement menu.
 Arrangement menu Arrangement menu Tap Export Arrangement.
@@ -196,8 +206,8 @@ Navigate to where you want to save your Arrangement.
 Tap Move.
 The audio content of the Arrangement is exported to a temporary directory when you tap Export Arrangement, then when you tap Move, it is moved to the specified location.
 Clear All To clear all Scenes from the Arrangement:
-Tap the Arrangement menu.
-Tap Clear All.
+1 Tap the Arrangement menu.
+2 Tap Clear All.
 Tracks Tracks in Sketch consist of columns of MIDI or audio clip cell. Each track provides its own mixer controls and real-time effects processing for all clips on the track. Audio and Instrument tracks both have three effects inserts.
 Instrument tracks provide virtual instruments (PlayCell and SynthCell) for MIDI playback on the first insert on the track.
 Track tab, audio track shown Track tab, Instrument track shown Track Controls To show track controls:
@@ -277,7 +287,7 @@ Tap to select the MIDI clip you want to edit, then tap the Editor tab at the bot
  Tap to select the MIDI clip you want to edit, then tap Open in Editor in the Clip menu.
  Double-tap the MIDI clip you want to edit.
  Editor tab, MIDI clip Transport The Clip Edit transport controls let you start and stop playback of the selected clip.
-Loop Tap Loop so that it is lit to loop the clip. Tap again to disable looping.
+Loop Loop Tap so that it is lit to loop the clip. Tap again to disable looping.
 Quantize The Quantize options let you set the quantization parameters for MIDI notes in the clip.
 Global or Local Tap for the Quantize menu. Tap Global to follow the Global Quantize settings or tap the desired rhythmic value for local quantize (clip only). To view the Global Quantize settings, tap Show Global Quantize Settings (see Sketch Set- tings).
 Strength Adjust the Strength of the quantization applied to MIDI notes in the clip.
@@ -319,8 +329,12 @@ Making a marquee selection in the MIDI Editor Any and all MIDI notes touched by 
 To selecting multiple individual notes:
 Tap and hold with one finger on a note.
 With a second finger, tap all of the notes you want to include into the selection.
-Selecting individual notes in the MIDI Editor Mixer Tap the Mixer tab to show the Mixer pane. The Mixer provides level meters and controls for each track in your Sketch.
-Mixer Controls Mixer tab Track Type A keyboard icon indicates an Instrument track and an audio waveform icon indicates an audio track.
+Selecting individual notes in the MIDI Editor Mixer Tap the Mixer tab to show the Mixer pane. The Mixer provides master controls, and level meters and controls for each track in your Sketch.
+Mixer Controls Mixer tab Master Controls Sketch provides a Master section on the Meters tab.
+Main Volume Controls the overall output volume of the Sketch and displays stereo master meters.
+Output Limiter Toggle Switches the Limiter ON/OFF. The Output Limiter keeps the main output signal from clip- ping.
+Click Volume Lets you adjust the volume of the metronome.
+Track Type A keyboard icon indicates an Instrument track and an audio waveform icon indicates an audio track.
 Track Color The track color can be set in the Track Properties (see Track Properties). Tap the track color bar to select the track.
 Track Record Enable Tap the Record Enable icon in the right of the color bar to record enable the track (see Recording MIDI Clips and Recording Audio Clips).
 Volume Fader Touch and drag up or down to adjust the track volume.
@@ -340,8 +354,8 @@ Global FX tab Power On/Off Lets you turn On or Off the Delay or Reverb global ef
 Type Use the Type selector to choose the basic effect, then use the X/Y controls to fine-tune the effect processing.
 X/Y Control Tap and drag to adjust the parameters labeled on the X and Y axis.
 Delay Delay Type Stereo Feedback is based on the original stereo position.
-Cross Ping-Pong.
-Feedback is on the opposite side of the source and then acting like Left Feedback is based on the left signal only and centered.
+Cross Feedback is on the opposite side of the source and then acting like Ping-Pong.
+Left Feedback is based on the left signal only and centered.
 Right Feedback is based on the right signal only and centered.
 Ping-Pong Feedback is hard panned left and right, in an alternating fashion.
 Feedback Adjust the Delay Feedback from 0 to 100% by tapping and dragging the control up or down.
@@ -395,7 +409,20 @@ Damping Adjust the damping of frequencies from 1.00 to 20.00 Hz.
 Mix Adjust the balance between the dry and wet signal from 0 to 100% (where 50% is an equal mix of the dry and wet signal).
 EQ EQ, Simple view EQ, Advanced view HighCut Freq Adjust the High Cut frequency from 20.00 Hz to 25 kHz.
 LowCut Freq Adjust the Low Cut frequency from 20.00 Hz to 25 kHz.
+Frequency/Gain 1 Adjust the Frequency from 50 Hz to 800.00 Hz, and Gain from –20 dB to +20 dB.
+Frequency/Gain 2 Adjust the Frequency from 40 Hz to 16.00 kHz, and Gain from –20 dB to +20 dB.
+Adjust the Frequency from 40 Hz to 16.00 kHz, and Gain from –20 dB to +20 dB.
+Frequency/Gain 4 Adjust the Frequency from 40 Hz to 16.00 kHz, and Gain from –20 dB to +20 dB.
 Output Adjust the output gain from –20 dB to +20 dB.
+Filter Gate Effect Filter Gate, simple Filter Gate, advanced Filter Type Select from the following available Filter Types: LP24 (low pass, 24 dB per octave), LP12 (low pass, 12 dB per octave), HP12 (high pass, 12 dB per octave), or BP6 (band pass, 6 dB per octave).
+Cutoff Adjust the Cutoff Frequency from 20.00 Hz to 25.00 kHz.
+Resonance Adjust the Resonance of the Cutoff Frequency from 0 to 100%.
+Ramp Smoothes (interpolates) between the steps of the selected gating pattern.
+Gate Range Defines the amount volume reduction and functions like an intensity control.
+Length Lets you set the number of steps (1–16) played in the selected gate pattern. Each gate pattern internally consists of a maximum of 16 steps.
+Filter Intensity Lets you adjust the intensity of the filter modulation using the same pattern as volume gating.
+Gate Pattern Select from the following options: Gating 1, Gating 2, Gating 3, Ramp Up, Ramp Down, Filtertime 1, and Filtertime 2.
+Speed Defines how long each step of the gate pattern is. Each pattern consists of 16 steps (which can be reduced by the Length control), so you if set it 1/16 then a gate pattern would play for one 4/4 bar until it loops back to the beginning of the pattern. You can select rhythmic values from a 64th note to a whole note.
 LoFi LoFi, Simple view LoFi, Advanced view Sample Rate Adjust the Sample Rate of the audio signal from 2.00kHz to 50 kHz. Reducing the Sample Rate has the effect of degrading its audio quality, the lower the Sample Rate, the grungier the sound.
 Jitter Jitter Adjust the amount of in the signal from 0 to 50%.
 Bit Rate Adjust the Bit Rate from 2.0 to 16.0 bits. Reducing the Bit Rate has the effect of degrading the audio qual- ity, the lower the Bit Rate, the grittier the sound.
@@ -406,7 +433,7 @@ Noise Select On to add Noise to the signal pre or post processing (Noise Post), 
 Noise Post (On), With Noise enabled noise is added after the LoFi effect Noise Volume Adjust the level of the noise added to the signal from –INF to 0.0 dB.
 Sharp Boost Adjust to boost the high frequencies of the effects signal.
 Mix Adjust the dry versus wet signal from 0 to 100%. At 50%, equal parts of the dry and the wet signal are output.
-Multimode Filter Multimode Filter, Simple view Multimode Filter, Advanced view (high-pass, 12 dB per octave), or BP6 (band-pass, 6 dB per octave).
+Multimode Filter Multimode Filter, Simple view Multimode Filter, Advanced view Filter Type Select the Filter Type: LP12 (low-pass, 12 dB per octave), LP24 (low-pass, 24 dB per octave), HP12 (high-pass, 12 dB per octave), or BP6 (band-pass, 6 dB per octave).
 Cutoff Adjust the Cutoff frequency for the filter from 20.00 Hz to 25.00 kHz.
 Resonance Adjust the Resonance for the Cutoff frequency from 0 to 100%.
 Mod. Source Select the Modulation Source: LFO, Envelope Follower, or Step Sequencer.
@@ -415,7 +442,7 @@ Mod Intensity Adjust the depth (or intensity) of modulation from –100 to +100%
 Sync Select On to synchronize the LFO Frequency (or rate) to the Sketch tempo. When set to Off, the Frequency control determines the LFO rate.
 LFO Wave When the Modulation Source is set to LFO, you can select any of the following waveforms for the LFO:
 Sine, Saw Down, Saw Up, Triangle, Square, or Random (S&H).
-Seq. Time When the Modulation Source is set to Step Sequencer, you can select the timing for the notes in the pre- 1/8 T, or 1/16 (where “D” indicates a dotted rhythm and “T” indicates a triplet rhythm).
+Seq. Time When the Modulation Source is set to Step Sequencer, you can select the timing for the notes in the pre- set sequence from the following rhythmic values: 1/1, 1/2 D, 1/1 T, 1/2, 1/4 D, 1/2 T, 1/4, 1/8 D, 1/4 T, 1/8, 1/16 D, 1/8 T, or 1/16 (where “D” indicates a dotted rhythm and “T” indicates a triplet rhythm).
 Drive Adjust the Drive to add distortion to the filtered signal.
 Frequency When the Modulation Source is set to LFO, and Sync is enabled, you can set the rate of the LFO in rhythmic values from 1/16 to 1/1 (including dotted and triplet rhythmic values. When the Modulation Source is set to LFO, and Sync is disabled, you can set the rate of the LFO from 0.01 Hz to 100.0 Hz.
 Env Attack When the Modulation Source is set to Envelope Follower, you can set the Envelope Attack time from 0.0 ms to 100.00 s.
@@ -474,14 +501,15 @@ Saw Adjust the level of a Saw wave from 0 to 100%.
 Pulse Adjust the level of a Pulse wave from 0 to 100%.
 PWM Adjust the amount of Pulse Width Modulation (PWM) from 0 to 100%. This affects the width (duty cycle) of the Pulse wave oscillator. At 50% the Pulse wave oscillator produces a square wave.
 Fine Tune Adjust the Fine Tune for Oscillator 2 between –50 to +50 cents. Slightly detuning Oscillator 2 against Oscillator 1 can create a warmer, richer tone when mixing both oscillators together.
-Filter Power Enable (or disable) the Power button to enable (or disable) the selected filter.
+Filter Filter 1 processes the output of both Oscillator 1 and 2. Filter 2 is applied to the signal path after Filter 1.
+Power Enable (or disable) the Power button to enable (or disable) the selected filter.
 SynthCell, Filter 1 controls Power Click the Power button in the upper right corner of the Filter 1 panel to enable or disable the filter.
-Mode Choose one of the following filter types: HP12 (12 dB per octave high pass filter), BP12 (12 dB per octave tave low pass filter), or LP24 (24 dB per octave low pass filter).
+Mode Choose one of the following filter types: HP12 (12 dB per octave high pass filter), BP12 (12 dB per octave band pass filter), LP6 (6 dB per octave low pass filter), LP12 (12 dB per octave low pass filter), LP18 (18 dB per oc- tave low pass filter), or LP24 (24 dB per octave low pass filter).
 Cutoff Adjust the Cutoff frequency of the filter from 20 Hz to 25.00 kHz Reso Adjust the resonance (Reso) of the filter from 0 to 100%.
 Key Adjust how much the keyboard (pitch) affects the Cutoff frequency of the filter from 0 to 100%.
 Env Adjust how much the Filter Envelope affects the Cutoff frequency of the from –100% (inverted envelope) to +100%. The default setting is 0% (no affect).
 Power Click the Power button in the upper right corner of the Filter 2 panel to enable or disable the Filter.
-Mode Choose one of the following filter types: HP12 SVF (12 dB per octave state variable high pass filter), HP12 MS (12 dB per octave high pass filter that emulates the filter of a popular, patchable semi-polyphonic synthesizer variable low pass filter), LP12 MS (12 dB per octave low pass filter that emulates the filter of a popular, patchable semi-polyphonic synthesizer from the late 70s), Notch (notch filter where the Reso setting controls the notch width), Comb + (Positive comb filter that adds a delayed copy of the signal resulting in a series of peaks/notches), or Comb – (negative comb filter that subtracts a delayed copy of the signal resulting in a series of notches/peaks).
+Mode Choose one of the following filter types: HP12 SVF (12 dB per octave state variable high pass filter), HP12 MS (12 dB per octave high pass filter that emulates the filter of a popular, patchable semi-polyphonic synthesizer from the late 70s), BP12 SVF (12 dB per octave state variable band pass filter), LP12 SVF (12 dB per octave state variable low pass filter), LP12 MS (12 dB per octave low pass filter that emulates the filter of a popular, patchable semi-polyphonic synthesizer from the late 70s), Notch (notch filter where the Reso setting controls the notch width), Comb + (Positive comb filter that adds a delayed copy of the signal resulting in a series of peaks/notches), or Comb – (negative comb filter that subtracts a delayed copy of the signal resulting in a series of notches/peaks).
 Cutoff Adjust the Cutoff frequency of the filter from 20 Hz to 25.00 kHz.
 Reso Adjust the resonance of the filter from 0 to 100%.
 Key Adjust how much the keyboard (pitch) affects the Cutoff frequency of the filter from 0 to100%.
@@ -517,14 +545,14 @@ Rate Adjust the Rate of modulation from 0.10 Hz to 10.00 Hz.
 Depth Adjust the Depth of modulation from 0 to 100%.
 Delay SynthCell, Delay Effects controls Mode Select one of the following Delay options: Straight (equally spaced repetition), Spread (slightly different left and right delay times to create a stereo spread), Ping Pong (alternating left and right delays), L/R Straight (left de- lay time is half of the right delay time), L/R Triplet (left delay time is two-thirds of the right delay time), L/R Dotted (left delay time is three-quarters of the right delay time), Thin (delay with a low-cut filter), Dark (delay with a high-cut filter), Tape (delay with both low-cut and high-cut filters, and also “wow” and “flutter”), L/R Tape (like Tape delay, but with a ping pong effect), Rise 3 (repeating pattern of three delays from soft to loud), Rise 4 (re- peating pattern of four delays from soft to loud), L L R R (alternating delays between two left then two right), Cir- cles (quasi-random pattern of left and right delays), Gallop (rhythmic delay pattern with gaps), Offbeat (rhythmic delay pattern on the offbeats relative to the input), Trance 1 (Delay pattern of dotted intervals), Trance 2 (alter- native delay pattern of dotted intervals), Flit Up 3 (repeating pattern of three delays with a rising cutoff filter), Flit Down 3 (repeating pattern of three delays with a descending cutoff filter), Flit Up 4 (repeating pattern of four de- lays with a rising cutoff filter), or Flit Down 4 (repeating pattern of three delays with a descending cutoff filter).
 Mix Adjust the Mix control to set the balance of dry versus wet (effected) signal from 0 to 100%.
-Time The delay time always synchronizes to the Sketch tempo. The following rhythmic values are available: 1/2, “T” indicates a triplet rhythm.
+Time The delay time always synchronizes to the Sketch tempo. The following rhythmic values are available: 1/2, 1/4D, 1/2T, 1/4, 1/8 D, 1/4 T, 1/8, 1/16 D, 1/8 T, 1/16, 1/32 D, 1/16 T, or 1/32 where “D” indicates a dotted rhythm and “T” indicates a triplet rhythm.
 Feedback Adjust the Feedback of the delay from 0 to 100%.
 Dist SynthCell, Distortion Effects controls Mode Select any of the following distortion options: Clip (emulates hard transistor clipping), Tube (emulates soft vacuum tube overdrive), Distort (emulates diode-modeled distortion like in many distortion pedals), Rectify (inverts negative parts of waveform to positive), Lo-Fi (reduces the sample rate and bit depth of the signal for a “low-fidel- ity” distortion effect), or Crush (like Lo-Fi, but more digital sounding—like a “bit-crusher”).
 Mix Adjust the Mix control to set the balance of dry versus wet (effected) signal from 0 to 100%.
 Freq Adjust the distortion frequency from 1.00 kHz to 20.00 kHz. When Mode is set to Lo-Fi or Crush, the Freq set- ting controls the resampling rate (sample rate reduction). For any other Mode settings it controls high frequency tone damping, like a “brightness” control.
 Drive Adjust the Drive (gain) of the distortion from 0 to 100%.
 Matrix The Modulation Matrix lets you modulate any of the available Destination controls by any available Source. You can modulate up to 8 Destination controls.
-SynthCell, Modulation Matrix controls Tap the corresponding button to edit the Modulation Matrix in pairs of sources and destinations.
+SynthCell, Modulation Matrix controls Mod 1–2, 3–4, 5–6, 7—8 Buttons Tap the corresponding button to edit the Modulation Matrix in pairs of sources and destinations.
 Source Select the desired modulation Source:
 Constant Offsets the destination by a constant amount determined by the Depth setting.
 Velocity MIDI velocity.
