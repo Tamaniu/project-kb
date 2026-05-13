@@ -121,6 +121,12 @@ PRODUCT_CONFIG = {
         "area": "editing",
         "path": "pro-tools/versions/{version}/{doc_type}.md",
     },
+    # Avid FlexNet License Server Manager — version-spanning licensing tool
+    "flexnet": {
+        "name": "avid-flexnet",
+        "area": "licensing",
+        "path": "media-composer/flexnet/{doc_type}.md",
+    },
 }
 
 # Boilerplate prefixes that signal the Legal Notices section (halt extraction)
@@ -472,7 +478,9 @@ def main():
                                  "fx-guide","vdi-guide","format-guide","virtualization-guide",
                                  "tomcat-install-guide","network-guide","integration-guide",
                                  "readme-mac","readme-win","reference-guide","shortcuts-guide",
-                                 "quick-reference-guide","sketch-guide","audio-plugins-guide"],
+                                 "quick-reference-guide","sketch-guide","audio-plugins-guide",
+                                 "enterprise-admin-guide","fixes-readme","high-res-workflows",
+                                 "flexnet-readme","flexnet-admin","flexnet-legacy-admin"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",

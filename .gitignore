@@ -16,7 +16,8 @@ __pycache__/
 *.pyo
 
 # Processing scripts and logs
-*.sh
+# Named workflow scripts are tracked — only exclude unnamed/temp scripts
+# *.sh  ← removed: mc_download_pdfs.sh and mc_process_pdfs.sh are tracked tools
 *.log
 pdf_processing_log.txt
 
