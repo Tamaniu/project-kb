@@ -6,19 +6,11 @@ release-date: 01/03/2024
 doc-type: new-features
 source: pdf
 confidentiality: public
-date-added: 11/05/2026
+date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2024.3 © 2024 Avid Technology, Inc., (“Avid”), all rights reserved. This guide may not be duplicated in whole or in part without the written consent of Avid.
-For a current and complete list of Avid trademarks visit: www.avid.com/legal/trademarks-and-other-notices This product may be protected by one or more U.S. and non-U.S. patents. Details are available at www.avid.com/patents.
-Product features, specifications, system requirements, and availability are subject to change without notice.
-Pro Tools includes élastique Pro V3 by zplane.development as time stretching engine.
-Bonjour, the Bonjour logo, and the Bonjour symbol are trademarks of Apple Computer, Inc.
-Thunderbolt and the Thunderbolt logo are trademarks of Intel Corporation in the U.S. and/or other countries.
-Confidential unpublished works. Copyright 2024 Dolby Laboratories. All rights reserved.
-Dolby, Dolby Atmos, and the double-D symbol are registered trademarks of Dolby Laboratories Licensing Corporation.
-Guide Part Number 9329-66542-00 REV A 03/24 Contents MIDI Plug-ins MIDI Signal Flow Improvements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Copy and Paste MIDI between Pro Tools and Sibelius. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Miscellaneous Features and Improvements. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Support for macOS 14.3.1 (“Sonoma”) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Melodyne (ARA) and Clip Effects Floating Windows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Dolby Atmos Improvements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Video Bounce Same as Source Enhancement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Pro Tools Sketch Improvements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Pro Tools Guided Tour. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 What’s New in Pro Tools 2024.3 iii What’s New in Pro Tools 2024.3 New Features and Enhancements Tools® Pro software version 2024.3 provides the following new features and enhancements:
+What’s New in Pro Tools Version 2024.3 MIDI Plug-ins What’s New in Pro Tools 2024.3 New Features and Enhancements Tools® Pro software version 2024.3 provides the following new features and enhancements:
 • MIDI improvements:
 • MIDI effects plug-ins • MIDI signal chaining Sibelius® • Copy and paste MIDI between Pro Tools and • Miscellaneous new features and improvements • Support on macOS 14.3.1 (“Sonoma”) • Detachable Melodyne (ARA) and Clip Effects tabs in Edit window • Dolby Atmos® improvements • Video bounce with Same as Source enhancement • Pro Tools Sketch improvements • Pro Tools “guided tour” for beginners System Requirements and Compatibility Information Avid can only assure compatibility and provide support for hardware and software it has tested and approved.
 For complete system requirements and a list of qualified computers, operating systems, hard drives, and third-party devices, visit:
@@ -28,22 +20,7 @@ In the Applications list, click to select the older version of Pro Tools (such a
 Click the minus sign (“–“) next to the Last Focused Application field to remove Pro Tools from the list.
 If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the Last Focused Application field.
 Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab Conventions Used in This Guide Pro Tools documentation uses the following conventions to indicate menu choices, keyboard commands, and mouse commands:
-:
-Convention Action File > Save Choose Save from the File menu Control+N Hold down the Control key and press the N key Control-click Hold down the Control key and click the mouse button Right-click Click with the right mouse button The names of Commands, Options, and Settings that appear on-screen are in a different font.
-The following symbols are used to highlight important information:
-User Tips are helpful hints for getting the most from your Pro Tools system.
-Important Notices include information that could affect your Pro Tools project data or the performance of your Pro Tools system.
-Shortcuts show you useful keyboard or mouse shortcuts.
-Cross References point to related sections in this guide and other Avid documentation.
-How to Use this PDF Guide This PDF provides the following useful features:
-• The Bookmarks on the left serve as a continuously visible table of contents. Click on a subject heading to jump to that page.
-• Click a + symbol to expand that heading to show subheadings. Click the – symbol to collapse a subheading.
-• The Table of Contents provides active links to their pages. Select the hand cursor, allow it to hover over the heading until it turns into a finger. Then click to locate to that subject and page.
-• All cross references in blue are active links. Click to follow the reference.
-• Select Find from the Edit menu to search for a subject.
-• When viewing this PDF on an iPad, it is recommended that you open the file using iBooks to take advantage of active links within the document. When viewing the PDF in Safari, touch the screen, then touch Open in “iBooks”.
-Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
+EuControl Settings, Applications tab Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
 Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
 www.avid.com/account Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibil- ity documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Con- ference.
 www.avid.com/learn-and-support Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
@@ -102,19 +79,19 @@ From the MIDI Output selector, select <track name> > MIDI Chain > Chain In.
  Note that the moment you insert any MIDI capable plug-in on an Instrument track, Chain In is assigned automatically.
 The MIDI Chain order is displayed below In:
 Chain MIDI Thru indicator, Insert slot (A–E, F–J), <plug-in name>, <plug-in instance #> MIDI Chain In Inserts in MIDI Chain Assigning “ModWave” Instrument track MIDI output to ModWave MIDI Chain In MIDI Chain Flow Visualization MIDI Thru is indicated for each insert in the MIDI Chain by a shaded circle. A top-half shaded circle indicates MIDI In only (no MIDI thru). A bottom-half shaded circle indicates MIDI Out only (such as with a generative MIDI plug-in). No circle is present for inserts that are completely excluded from the MIDI Chain (no MIDI In, Out, or Thru).
-MIDI Thru indicators MIDI Improvements 10 MIDI Chain Out You can select the MIDI Chain Out of any Instrument track in the session as the MIDI input for Instrument and MIDI tracks. MIDI Chain Out includes any MIDI processing on the source Instrument track.
+MIDI Thru indicators MIDI Chain Out You can select the MIDI Chain Out of any Instrument track in the session as the MIDI input for Instrument and MIDI tracks. MIDI Chain Out includes any MIDI processing on the source Instrument track.
 The MIDI Chain order is displayed below Chain Out:
 MIDI Thru indicator, Insert slot (A–E, F–J), <plug-in name>, <plug-in instance #> Selecting an Chain Out from Inst 3 for MIDI track input Individual MIDI Targets Select an individual MIDI target to send MIDI exclusively to that device on the track. This provides the same functionality as MIDI In and Out of tracks in previous versions of Pro Tools.
 To select an individual MIDI target:
 From the MIDI Output selector, select <track name> > Individual Target > <MIDI device>.
- Selecting an individual MIDI target ([C] modwave native 1) MIDI Improvements 11 MIDI Chain versus Individual Targets MIDI Chains use the first MIDI channel of plug-ins inserted on an Instrument track. Chain In and Chain Out cannot be part of a selection of multiple MIDI streams. If anything other than the MIDI Chain is selected (that is, if one or more individual plug-ins are selected), then plug-ins inserted on the track can only be targeted individually. Plug-ins cannot be in both Chain mode and In- dividual Target mode at the same time. If an Instrument track is in MIDI Chain mode (either because the track itself or another track that is routed to the MIDI Chain), then individually targeting plug-ins on that track is not possible, and the plug-ins are grayed out.
+ Selecting an individual MIDI target ([C] modwave native 1) MIDI Chain versus Individual Targets MIDI Chains use the first MIDI channel of plug-ins inserted on an Instrument track. Chain In and Chain Out cannot be part of a selection of multiple MIDI streams. If anything other than the MIDI Chain is selected (that is, if one or more individual plug-ins are selected), then plug-ins inserted on the track can only be targeted individually. Plug-ins cannot be in both Chain mode and In- dividual Target mode at the same time. If an Instrument track is in MIDI Chain mode (either because the track itself or another track that is routed to the MIDI Chain), then individually targeting plug-ins on that track is not possible, and the plug-ins are grayed out.
 Likewise, if one or more plug-ins on an Instrument track are targeted individually, then the MIDI Chain for that track is not avail- able and is grayed out.
 Copy and Paste MIDI between Pro Tools and Sibelius In Sibelius and Pro Tools (versions 2024.3 and later) you can copy and paste MIDI (notation) to the clipboard and then paste it from any Pro Tools session or Sibelius score into any other as long as you do not clear the system clipboard.
 To copy and paste MIDI between Pro Tools and Sibelius:
 1 Make a selection of MIDI in either Sibelius or Pro Tools.
 2 Copy the selection to the Clipboard.
 3 Paste the selection to Pro Tools MIDI or Instrument tracks or to Sibelius Instruments (staves).
-MIDI Improvements 12 Miscellaneous Features and Improvements Support for macOS 14.3.1 (“Sonoma”) Pro Tools 2024.3 provides support for macOS “Sonoma” with certain caveats. Please visit the Avid Knowledge Base for the latest information and a list of known issues as of macOS 14.3.1.
+Miscellaneous Features and Improvements Support for macOS 14.3.1 (“Sonoma”) Pro Tools 2024.3 provides support for macOS “Sonoma” with certain caveats. Please visit the Avid Knowledge Base for the latest information and a list of known issues as of macOS 14.3.1.
 Melodyne (ARA) and Clip Effects Floating Windows In the Edit window, the Melodyne (ARA) tab and the Clip Effects tab can each be detached independently and opened as its own floating window.
 To open the Melodyne or Clip Effects window:
 1 If necessary, enable Melodyne processing on at least one track.
@@ -126,7 +103,7 @@ In the Melodyne Window or Clip Effect Window menu, select Keep Window on Top.
  To close the Melodyne or Clip Effects window, do one of the following:
 Deselect Window > ARA Plug-Ins > Melodyne or Window > Clip Effects.
  In the Melodyne or Clip Effects window, click the Close Window icon.
- Miscellaneous Features and Improvements 13 In the Edit window, click the Close Window icon on the Melodyne or Clip Effects tab.
+ In the Edit window, click the Close Window icon on the Melodyne or Clip Effects tab.
  Dolby Atmos Improvements ADM File Metadata on Import Pro Tools shows the following information in the Import Session Data dialog when importing an ADM file:
 • Name • Type • Start Time • End Time • FFOA (First Frame of Action) • Timecode Format • Bed Configurations • Number of Beds • Number of Objects • Audio Sample Rate • Audio Bit Depth • Application and version that created the ADM Dolby Atmos Page Sub-paths Pro Tools lets you create sub-paths for Dolby Atmos beds (objects are only stereo or mono and do not support custom subpaths).
 To create subpaths for a Dobly Atmos bed:
@@ -137,7 +114,7 @@ Stock and Custom Re-Renders Pro Tools supports two different kinds of re-renders
 Stock Re-Renders Pro Tools offers two stock re-render options: Loudness and Headphones. These are exclusively for routing audio back into the ses- sion for monitoring.
 Loudness Re-Render To be routed to a track with a loudness metering plug-in. The Loudness Re-Render can be configured as 5.1 or 2.0 on the Dolby Atmos tab the I/O Setup.
 Headphones Re-Render To be sent to headphones through an output different from your main monitors. The Headphones Re-Ren- der can be configured as Binaural or 2.0 on the Dolby Atmos tab of the I/O Setup.
-Selecting a Dolby Atmos Re-Render path as a track input for monitoring Miscellaneous Features and Improvements 14 Stock re-renders cannot be accessed in the Bounce Mix window. They follow the mute state in the Dolby Atmos Renderer window.
+Selecting a Dolby Atmos Re-Render path as a track input for monitoring Stock re-renders cannot be accessed in the Bounce Mix window. They follow the mute state in the Dolby Atmos Renderer window.
 They also require very low CPU overhead unless binaural processing is engaged for the headphones re-render. These re-render op- tions follow the H/W Buffer Size, so you can get lower latency monitoring if needed. This means that binaural processing is dis- abled at lower buffer sizes.
 Custom Re-Renders Custom Re-Renders can be used to route audio back into the session or for bouncing to disk (File > Bounce Mix). Custom Re-Ren- ders let you configure a copy of the mix in any format supported for monitoring Dolby Atmos within Pro Tools. You can also filter out elements of the mix by group, bed, or object. Note that while there is no hard limit for the number of custom re-renders you can create, the more “live” re-render streams you have, the more CPU resources will be used.
 To ensure optimal performance, custom re-renders always run at the highest possible H/W Buffer Size supported by the selected Playback Engine regardless of the actual H/W Buffer Size selected in the Playback Engine. If you require lower latency, you can use the stock re-renders at a lower H/W Buffer Size. Since custom re-renders are always running at the highest possible H/W Buf- fer Size, you can keep using binaural processing when the actual H/W Buffer Size selected in the Playback Engine is lower.
@@ -153,15 +130,15 @@ Re-Renders window To create custom re-renders:
 6 For Custom re-renders, select (or deselect) the Types and Groups you want to include in the re-render.
 7 Repeat the previous steps to create additional re-renders.
 If a track had a live re-render assigned as an input, and that re-render is taken offline, the track input remains assigned and is made inactive.
-Miscellaneous Features and Improvements 15 Video Bounce Same as Source Enhancement Pro Tools lets you bounce H.264 using Same as Source if blank space is included in the selection past the end of the clip. Note that the entire file must be included in the timeline selection, and only one file can be selected at a time.
+Video Bounce Same as Source Enhancement Pro Tools lets you bounce H.264 using Same as Source if blank space is included in the selection past the end of the clip. Note that the entire file must be included in the timeline selection, and only one file can be selected at a time.
 Pro Tools Sketch Improvements Embed Sketch Documents in Pro Tools Session Files (Pro Tools Sketch Window Only) Pro Tools now includes a new option in the Dashboard to create and embed a new Sketch document in an open session (Save In Session Folder). This also pins the new Sketch to the open session.
-Dashboard, Save in session folder option enabled Miscellaneous Features and Improvements 16 The Save Copy In dialog (File > Save Copy In), includes an option to save any currently open Sketch with the session copy (Current Sketch). This too pins the Sketch to the session.
+Dashboard, Save in session folder option enabled The Save Copy In dialog (File > Save Copy In), includes an option to save any currently open Sketch with the session copy (Current Sketch). This too pins the Sketch to the session.
 Save session copy in dialog, Current Sketch option enabled Drag and Drop Improvements (Pro Tools Sketch Window Only) When dragging a MIDI clip from the Sketch window to an instrument or MIDI track in the Edit window, the clip remains as MIDI data. Conversely, Pro Tools renders the entire signal chain for MIDI clips being dragged into the Sketch window from the Edit window. When dragging and dropping an audio clip into the Sketch window from the Edit window, it is also rendered to include any Clip Gain, Clip Effects, Elastic Audio, Fades, and Plug-in processing.
 Also, when dragging and dropping a clip from the Sketch window to the Edit window to create a new track, the Sketch Mixer set- tings (volume, pan, mute, and solo) are used for the new track in the session.
 Master Section Sketch provides a Master section on the Meters tab (both for the Sketch window in Pro Tools and the Sketch app on iPad).
-Master controls and displays on the Sketch Meters tab Miscellaneous Features and Improvements 17 Controls the overall output volume of the Sketch and displays stereo master meters.
+Master controls and displays on the Sketch Meters tab Controls the overall output volume of the Sketch and displays stereo master meters.
 Main Volume Output Limiter Toggle Switches the Limiter ON/OFF. The Output Limiter keeps the main output signal from clipping.
 Click Volume Lets you adjust the volume of the metronome.
 Pro Tools Guided Tour The first time you launch Pro Tools you are presented with a Dashboard for creating and opening sessions, projects, and sketches.
 You are also presented with the opportunity to take a guided tour of Pro Tools with the included demo session. This provides a quick and easy overview of how to use Pro Tools that highlights elements of the user interface with information about the “what” and “why” of each. Once you have taken the guided tour, it will not present itself again. However, you can revisit the guided tour at anytime from the Help menu in Pro Tools (Help > Launch Guided Tour).
-Starting your Guide Tour of Pro Tools Miscellaneous Features and Improvements 18 For technical support go to www.avid.com/support
+Starting your Guide Tour of Pro Tools For technical support go to www.avid.com/support

@@ -1,8 +1,8 @@
 ---
 product: pro-tools
 product-area: editing
-version: "2026.4"
-release-date: 01/04/2026
+version: "2025.10"
+release-date: 01/10/2025
 doc-type: readme-win
 source: pdf
 confidentiality: public
@@ -10,7 +10,7 @@ date-added: 13/05/2026
 status: current
 ---
 
-Avid Pro Tools Software v2026.4 ReadMe for Windows Tools® This ReadMe documents important compatibility information and known issues for all tiers of Pro
+Avid Pro Tools Software v2025.10 ReadMe for Windows Tools® This ReadMe documents important compatibility information and known issues for all tiers of Pro software, version 2025.10 on Windows 10 (64-bit) and Windows 11.
 > **Note:** For detailed compatibility information, including supported operating systems, visit the Pro Tools
 compatibility pages online.
 Compatibility Avid can only assure compatibility and provide support for qualified hardware and software configurations.
@@ -55,8 +55,8 @@ Workaround: If you can no longer spot to Pro Tools from Soundminer even though a
 PT-217940: Incompatibility Warning: Eleven Rack and MOTU MIDI Interfaces on Windows 10 and Windows 11.
 Workaround: MOTU MIDI interfaces may not be fully compatible with the Eleven Rack when it is used as a PBE device operating on Windows 10 and Windows 11. We strongly advise against using the Eleven Rack as a PBE device in conjunction with MOTU MIDI interfaces. Doing so could potentially result in disruptions to MIDI signals, leading to errors and Pro Tools becoming unresponsive. We recommend you consider alternative configurations. Specifically, the Eleven Rack and MOTU MIDI interfaces are both compatible with various other PBE devices. Use other PBE devices to avoid potential complications associated with MIDI signal interruptions and software instability. If you encounter issues, check for the latest driver updates for your MOTU MIDI interfaces and Eleven Rack.
 Known Issues The following sections document known issues you may encounter when using Pro Tools, along with workarounds if they exist.
-General Pro Tools Issues PT-357016 Track outputs are cleared after round-trip from Pro Tools 2026.4 to Pro Tools 2025.10.x and back.
-Workaround: A session saved in Pro Tools 2026.4, opened and re-saved in 2025.10.x, and then reopened in 2026.4 will have track outputs reset to “none.” This only affects session interchange between 2026.4 and 2025.10.x (not 2025.12.x). After opening the session in Pro Tools 2025.10.x, save it, and then reopen and save it again in either Pro Tools 2025.10.x or 2025.12.x. Once the session has been opened and saved twice in this manner output assignments will be present when next opened in 2026.4.
+General Pro Tools Issues PT-346242 Pro Tools quits unexpectedly on launch when loading many plugins. (PT-344173) Workaround: In some cases, launching Pro Tools with many hundreds of plugins installed can cause the plugin caching mechanism to stall which can then cause the Pro Tools application to quit unexpectedly.
+This situation can potentially happen multiple times sequentially until all plugins have been successfully cached. To resolve the issue, keep relaunching Pro Tools after each quit on launch until all plugins have been successfully cached and the application launches normally.
 PT-346242 Pro Tools cannot open various application windows after updating Workspace Database file Workaround: When updating your currently installed Pro Tools version to a newer one, the Workspace Database file may need to be updated. After updating this file, Pro Tools might be unable to open various application windows.
 To correct this issue, try the following:
 - Quit and relaunch Pro Tools
@@ -65,6 +65,7 @@ PT-320541: When launching Pro Tools while logged in with a non-administrator acc
 Workaround: Install Pro Tools using an administrator account and launch at least once to prevent non- administrator users from being asked for an administrator password.
 PT-325714: When launching Pro Tools for the first time after installation, clicking Start Tutorial does not open the tutorial.
 Workaround: If you have a username with non-English characters on Windows, clicking Start Tutorial on first Pro Tools launch opens the session but does not open the tutorial. To avoid this issue, log in with username that uses only English characters.
+PT-336324 Keyboard focus does not move from the Search field of the Learn and SoundFlow tabs to the Pro Tools Edit window when you click on the timeline. (PT-349360) Workaround: If you click on the timeline while in the “Search” field of the Learn and SoundFlow tabs, keyboard focus remains in the "Search" field instead of moving to the Pro Tools Edit window. To avoid this issue, click anywhere in the SoundFlow or Learn Tab outside of the “Search” text field first, then click in the Edit window.
 PT-268070: Input signal is briefly audible when starting playback with a record-armed track.
 Workaround: If any record-armed track is receiving input signal, that signal may be briefly audible when starting playback. If you encounter this issue, disable record-arm on that track.
 PT-220001: Pro Tools quits unexpectedly when disabling an internal audio device.
@@ -72,7 +73,7 @@ Workaround: Disabling an internal audio playback device from the Windows Control
 PT-278731: Changing the Playback Engine with a project open requires that you quit and restart Pro Tools.
 Workaround: Changing the Playback Engine with a project open requires that you quit and restart Pro Tools even if the selected Playback Engine does not normally require this. To avoid this issue, change the Playback engine before opening or creating a project. If you do encounter this issue, quit Pro Tools as required, relaunch Pro Tools, and then reopen the project (File > Open Recent).
 PT-276783: While using the Create Session from VENUE command to create a 64-track session, it is possible that Pro Tools may not be able to create the new session.
-Workaround: If you encounter this issue, use Create Session from VENUE again, but use a new (unique) name for the Session file.
+Create Session from VENUE Workaround: If you encounter this issue, use again, but use a new (unique) name for the Session file.
 PT-252207: Playback and recording fails after switching sessions with H/W Buffer Size set to 2048.
 Workaround: Depending on the session Sample Rate, it is possible to use 2048 H/W Buffer Size in Pro Tools (sessions with Sample Rate set to 88.2 kHz or higher). If you then open a session that uses lower Sample Rate setting that does not support a H/W Buffer Size setting of 2048 (such as 48 kHz), Pro Tools does not playback or record. If you encounter this issue, select a supported H/W Buffer Size, such as 1024, in the Playback Engine dialog (Setup > Playback Engine).
 PT-271255: When bus recording cascaded stems in any punch mode on HDX systems, recorded audio is not properly aligned.
@@ -81,7 +82,7 @@ With HDX Classic, enable Input Monitoring on the intermediate tracks to avoid th
 PT-269111: Bus recording from a source track with a hardware insert and No Input results in early offset of recorded audio.
 Workaround: Internal bussing from one audio track to another audio track with a hardware insert and No Input on source track results in audio being recorded 700 to 1024 samples early. To avoid this issue, select any hardware input or bus for input on the source track.
 PT-285001: With both LLM and the Allow sends to persist during LLM preference enabled, Pre-roll and Post- roll are only heard when Pro Tools is in a punch record mode.
-Low Latency Monitoring Allow sends to persist during Workaround: When both and the LLM preference are enabled, Pre-roll and Post-roll are only audible while in QuickPunch, TrackPunch, or DestructivePunch record mode. Prior to Pro Tools 2022.4, Pre-roll and Post-roll were not audible in any record mode while in this state.
+Workaround: When both Low Latency Monitoring and the Allow sends to persist during LLM preference are enabled, Pre-roll and Post-roll are only audible while in QuickPunch, TrackPunch, or DestructivePunch record mode. Prior to Pro Tools 2022.4, Pre-roll and Post-roll were not audible in any record mode while in this state.
 PT-267468: 32 Sample Hardware Buffer Size is not available.
 Workaround: In some cases when creating or opening a 44.1kHz or 48kHz sample rate session after previously quitting Pro Tools from a 176.4kHz or 192kHz sample rate session, the 32 sample Hardware Buffer size may not be available. If you encounter this issue, re-launch Pro Tools and open your 44.1/48 kHz session and the 32 sample Hardware Buffer size will be available.
 PT-267227: 2048 HW Buffer Size setting not available at higher sample rates.
@@ -105,6 +106,8 @@ Workaround: While unzipping the downloaded Pro Tools installer .zip file, errors
 PT-348832 and PT-350210: Opening a session saved in Pro Tools 2025.6.1 or earlier, tracks with FMP (Follow Main Pan) sends wider than the main output path or if you change a track output path to a wider format, the Front/Rear position will be centered with zero divergence.
 Workaround: When opening a legacy session (such as Pro Tools 2025.6) containing a track with an FMP send wider than the main output path, all pan settings other than front and rear position will be zeroed in PT 2025.10. However, audio does not pass to rear channels until the main L/R panner is moved. Replace the main output with a path of equal or greater width to the send, then adjust pan parameters as desired.
 If after changing the track's output path to a wider format and the main output pan parameters reset to zero, save the session under a new name. Then, use the Global Renderer Management menu to clear the track's pan automation. Import Session Data from the original session, selecting only the main pan and match the track.
+PT-350215: Audio pan indicator "front pos" text obscures the numeric value.
+Audio pan indicator text "front pos" obscures the numeric value when a track is routed to a multichannel path. This may not always be noticeable in the Edit window, depending on the output path format, but is always noticible in the Mix window.
 PT-276702: Short automation lines to –inf attenuate audio too early.
 Workaround: If you are using automation lines that attenuate to or from –inf, and the line is approximately 60ms or less, add additional breakpoints along the line to improve accuracy and avoid this issue. This can help even though the added breakpoints do not change the curve of the line.
 PT-264403: Shifting an Edit Group containing frozen tracks removes clips and effect automation on non- frozen tracks.
@@ -113,13 +116,14 @@ PT-273775: Mute/unmute with dense automation causes level drop.
 Workaround: In certain conditions, the Volume level may be lower than the original (~7dB) on the tracks with dense automation while toggling the Mute button, or changing automation mode from “Read” to “Off” and back to “Read” during the playback.
 PT-249098: Dense automation results in –9155 Error.
 Workaround: Due to higher voice counts available on Pro Tools Native systems, you might encounter AAE – 9155 errors when many automation parameters are written to multiple tracks on the same sample. If you regularly encounter “AAE –9155 Automation Too Dense” error messages at the exact same point try the following:
-- Select all automation and choose Edit > Thin All Automation.
+Select all automation and choose Edit > Thin All Automation.
 - If the session contains many parameters written at the exact same spot, try removing some of the
-unnecessary automation by deleting it or changing the Automation mode from Read to Off on respective tracks.
-If the Automation was written to any unnecessary tracks in the session, make those tracks
-- Inactive.
-- Select the suspect automation and nudge it by a sample or two.
-PT-263781: Data lost while shifting automation across multiple tracks with mixed channel widths.
+- Read Off
+unnecessary automation by deleting it or changing the Automation mode from to on respective tracks.
+- If the Automation was written to any unnecessary tracks in the session, make those tracks
+Inactive.
+Select the suspect automation and nudge it by a sample or two.
+- PT-263781: Data lost while shifting automation across multiple tracks with mixed channel widths.
 Workaround: When using the Shift command to move automation data on multiple tracks, if one of the tracks is a wider channel width than mono, automation on one track can be replaced by automation from another. In some cases, automation can be lost. If this occurs, Shift automation on tracks of different channel widths separately.
 PT-316443: Track lane misalignment in the Edit window.
 Workaround: In rare cases, an existing session may open with its track lanes misaligned in the Edit Window.
@@ -155,7 +159,7 @@ PTSW-17100: Start+L launches the Switch Admin User prompt instead of nudging cur
 Workaround: Start+L Key launches the Switch Admin User prompt instead of nudging the cursor to the left.
 As a workaround, enable Keyboard Focus (A...Z) and use the L key.
 PT-219356: Auto Low Latency Monitoring is lost when opening a session created in Pro Tools 12.6 or higher in versions of ProTools lower than 12.6.
-Workaround: If a session is saved with Auto Low Latency Monitoring (“Blue Mode”) enabled in 12.6 or higher, it is disabled when that session is opened in versions of Pro Tools lower than 12.6 (in 12.5 for Auto Low Latency Monitoring example). You will have to re-enable if desired. This issue does not occur when opening sessions in Pro Tools 12.6 and higher that were saved with Auto Low Latency Monitoring enabled in a version of Pro Tools lower than 12.6.
+Workaround: If a session is saved with Auto Low Latency Monitoring (“Blue Mode”) enabled in 12.6 or higher, it is disabled when that session is opened in versions of Pro Tools lower than 12.6 (in 12.5 for example). You will have to re-enable Auto Low Latency Monitoring if desired. This issue does not Auto Low Latency occur when opening sessions in Pro Tools 12.6 and higher that were saved with Monitoring enabled in a version of Pro Tools lower than 12.6.
 PT-229609: No sound when previewing audio files in Workspace if Delay Compensation was enabled during playback.
 Workaround: If you enable Delay Compensation during both session playback and audio file preview in a Workspace browser, Workspace preview is silent until session playback is stopped. To avoid this issue, enable Delay Compensation before starting session playback and preview in a Workspace browser.
 PTSW-34086: Audio clips on tick-based tracks do not play at the correct tempo after opening a Reason song with a different tempo.
@@ -164,10 +168,10 @@ PT-273476: AAE Error –9093 during playback when using Rewire.
 Workaround: When using a Rewire panel application in a Pro Tools session, you may encounter an AAE Error –9093 during playback. If this occurs, close and reopen the session to restore the ability to playback the session.
 PTSW-133070: Cannot run Reason or Record as ReWire clients if they have not first been launched and set up as a standalone application.
 Workaround: Reason and Record need to be launched and setup as a stand-alone applications before running them as a ReWire clients with Pro Tools. Do the following:
-- Launch Reason or Record in stand-alone mode and follow the on-screen instructions.
+Launch Reason or Record in stand-alone mode and follow the on-screen instructions.
 - Quit Reason or Record.
 - Launch Pro Tools and insert Reason or Record as a ReWire plugin on an audio, Auxiliary Input, or
-Instrument track.
+- Instrument track.
 PTSW-149570: When importing audio from a network share, “file is unreadable” or other errors occur.
 Workaround: When importing an audio file from a network share using the Import Audio dialog or a direct shortcut to the share, Pro Tools may display an error such as “The audio file is unreadable by Pro Tools” or “The mp3 cannot be imported because QuickTime is not installed,” even though QuickTime is installed on the system. If this occurs, map a drive letter to the network share and use the drive letter in the Import Audio dialog to navigate to the audio file.
 PT-30818: Changing width of a track that has Track markers causes the Marker Lane to be removed and can cause assertion errors.
@@ -178,10 +182,9 @@ PT-264552: Move and Relink does not work.
 Workaround: When many files are selected, Move and Relink throws assertion and does not work. The first one or two selected files may be moved before the assertion is thrown, but then the rest are not moved. Use Copy and Relink instead. Once Copy and Relink has finished, manually delete the original files.
 50454 and 50457: Error message “Could Not Complete Your Request because the System Cannot Find the File Specified (2)”.
 Workaround: This message can appear while logged into a non-administrative account and doing either of the following:
-Performing destructive AudioSuite processing
+- Performing destructive AudioSuite processing
 - Locking files in the Workspace browser
-- This is possibly because the audio file has read-only permissions. In order to correct this, you must be able
-to log into an administrative account in Windows and change the permissions of the audio file so you have full read and write access to the audio file. If you do not have administrative access of the computer, then you must either contact the administrator of the computer to resolve this problem, or use the File > Save Copy In command to create a copy of the session with all of its audio files.
+This is possibly because the audio file has read-only permissions. In order to correct this, you must be able to log into an administrative account in Windows and change the permissions of the audio file so you have full read and write access to the audio file. If you do not have administrative access of the computer, then you must either contact the administrator of the computer to resolve this problem, or use the File > Save Copy In command to create a copy of the session with all of its audio files.
 43997: Groove Templates.
 Workaround: Pro Tools will be unable to retrieve custom Groove Templates that are saved in an incorrect directory. Groove Templates should be saved only within the “Grooves” folder.
 PTSW-152707: Clip Groups can be dragged to tracks in Playlist view even though Clip Groups are not supported in Playlist view.
@@ -283,7 +286,9 @@ PT-252964: 2nd port of MTRX DigiLink I/O card does not show inactive in the I/O 
 Workaround: The second DigiLink Mini port on MTRX DigiLink I/O expansion cards is unavailable at sample rates of 176.4 kHz and 192 kHz.
 or lower results in incorrectly mapped IO.
 Workaround: For any session saved to .ptf (Pro Tools 7–9) from Pro Tools 12.x or higher requires that IO Settings be manually corrected when opening that session with Pro Tools versions 8.1 and lower. Manually map the correct IO settings in the IO Setup before playing back the session.
-File and Disk Management PT-231812: Auto-backups are not created during playback or recording.
+File and Disk Management PT-349421: Opening a session template stored outside of designated User Media templates location does not apply the template settings if the Create From Template option was previously enabled in the Dashboard.
+Workaround: Opening a session template (using the Open Session command) stored outside of the designated User Media templates location does not apply the template settings if the Create From Template option was previously enabled in the Dashboard. To avoid this issue, disable the Create From Template option in the Dashboard before opening the session template or to store all templates and open them from the User Media templates location.
+PT-231812: Auto-backups are not created during playback or recording.
 Workaround: Auto-backups are not saved while Pro Tools is playing back or recording. To ensure your work is saved during long periods of playback or recording, either manually save during playback or recording, or after stopping playback or recording. Auto-backups continue to function as expected when the transport is stopped.
 PTSW-32639: Auto-saving with external hard drives that have little free space can result in data loss.
 Workaround: When recording to hard drives that do not have much free space available and when the Auto-Save preference is turned on, it is possible to completely fill your record drives, and cause data loss.
@@ -309,15 +314,6 @@ No Number: “Access Violation” on playback of read-only sessions.
 Workaround: Pressing play in a session recently restored from CD-ROM may result in a dialog stating “Access Violation.” This happens if the session (and its audio files) are marked with the Read-Only flag. If you do not know how to remove the Read-Only flag from your files, please consult Windows Help.
 PTSW-189868: When relinking audio files, mismatched channel widths are not found.
 Workaround: When relinking audio files, it is possible to link files with different channel widths. This is not a supported workflow and may have unpredictable results. Ensure that the channel width of linked files match the channel widths of clips in the session to avoid this issue.
-Importing Multichannel Files Pro Tools 2026.4 addresses issues around channel ordering and naming of multichannel files on import and export that were caused by discrepancies between different channel ordering methods (iXML channel info metadata, WavEXT channel mask metadata, and the physical order of channels within files). The solution has been designed to reconcile this information whilst maintaining backwards compatibility with legacy versions of Pro Tools. As a result, files created by third-party applications will now import to the correct track format in Pro Tools and with the correct channel order, and furthermore, files created by Pro Tools will be recognized correctly by other applications.
-PT-346519 Importing certain third-party immersive files (that specifically use WavEXT channel mask metadata rather than iXML) into a session without consolidating or converting, and then opening that session in Pro Tools 2025.12.2 or older, plays back with an improper channel order.
-Workaround: Consolidate the files before opening the session in older Pro Tools versions (this is easiest to do at the import stage).
-PT-346587 Importing or opening a session created by Pro Tools 2025.12.2 or older that links to certain third- party immersive files (that specifically use WavEXT channel mask metadata rather than iXML) and have been manually reordered to address incorrect channel order, will play with improper channel order in the later Pro Tools version.
-Workaround: The easiest solution is to right-click the affected clip, choose "matching alternates" and re- select the same clip. Alternatively, consolidate the affected files in Pro Tools 2025.12.2 or older before opening in the later Pro Tools version.
-PT-347779 Importing or opening a session created by Pro Tools 2025.12.2 or older that contains certain third-party 5.x.x files (that use WavEXT channel mask metadata) that were created by import/convert workflow, will play with improper channel order.
-Workaround: Manually reorder the files into the correct channel order.
-Exporting Multichannel Files PT-320398 5.1 audio bounced as part of a multi-stem (PolyWAV) file always uses Film channel order.
-Workaround: Bounce the stems separately. Alternatively, use a third-party metadata editing utility to manually reorder the channels as desired.
 Elastic Audio PTSW-20602: Maintaining phase coherency with Elastic Audio pitch processing.
 Workaround: When there is Elastic Audio Pitch processing enabled on a track, switching from Polyphonic, Rhythmic, or X-Form to Monophonic or Varispeed can disrupt phase coherency. To preserve phase coherency in this case, be sure to clear all Elastic Audio Pitch processing from the track before switching to the Monophonic or Varispeed algorithm.
 PTSW-33894: Cannot import Elastic Audio tracks with the Consolidate From Source Media option.
@@ -344,11 +340,7 @@ PT-207317: Committing clips on Instrument tracks by dragging them to audio track
 Workaround: Committing MIDI clips on Instrument tracks by dragging them to audio tracks with Downmixer may render an incomplete clip. Using the Grabber tool on these incomplete clips may not function over the incomplete areas of the clip. To avoid this issue, Commit Instrument track clips to new Audio tracks before inserting the Downmixer plugin.
 PT-208300: When committing from two or more Instrument tracks in a session with tempo changes by dragging and dropping to audio tracks, and where the Instrument tracks include a mix of sample-based and tick-based tracks, the tick based committed clip is trimmed to match the source MIDI original duration even though the audio committed from tick-based MIDI follows the tempo changes.
 Workaround: To avoid this issue, use the Trim tool to reveal the rest of the committed audio or commit sample-based MIDI clips and tick-based clips separately.
-MIDI PT-345735: With MIDI Live Mode enabled and plugins on Master Fader track, record-enabled or input- monitored Instrument tracks play out of sync and late (depending on the Master Fader delay).
-Workaround: When MIDI Live Mode is enabled and you have plugins on Master Fader tracks, record- enabled or input-monitored Instrument tracks may play out of sync with the rest of the tracks in the session and be delayed depending on the reported delay of the Master Fader. Disable plugin delay compensation on the Master Fader track in the Mix Window to avoid this issue.
-PT-337234: With MIDI Live mode enabled, MIDI Beat Clock Virtual Instruments do not synchronize the internal sequencer with the disk MIDI data when the Instrument track is record-enabled and routed to an Auxiliary Input track.
-Workaround: With MIDI Live mode enabled, MIDI Beat Clock Virtual Instruments like drum machines do not synchronize their internal sequencer with the MIDI notes on the timeline when the Instrument track is record-enabled and routed to an Auxiliary Input track. Disable MIDI Live mode to avoid this issue.
-PT-341237:When an Individual Target Instrument track is controlled by another Instrument or MIDI track, live-recorded MIDI notes are positioned earlier on the timeline even when MIDI Live Mode is on.
+MIDI PT-341237:When an Individual Target Instrument track is controlled by another Instrument or MIDI track, live-recorded MIDI notes are positioned earlier on the timeline even when MIDI Live Mode is on.
 Workaround: When an Individual Target Instrument track is controlled by another Instrument or MIDI track, live-recorded MIDI notes are positioned earlier on the timeline even when MIDI Live Mode is activated. To avoid this issue, use Chain-in mode instead of Individual Target mode.
 PT-266337: Clip Gain and Clip Effects are ignored when converting audio to MIDI by drag and drop from the Clip List.
 Workaround: If an audio clip on the timeline includes Clip Gain and/or Clip Effects, dragging the same clip from the Clip List to a MIDI or Instrument track ignores Clip Gain and/or Clip Effects when the MIDI data is extracted. To include Clip Gain and/or Clip Effects when the MIDI data is extracted, drag and drop the audio clip from the audio track instead of the Clip List.
@@ -384,8 +376,7 @@ Workaround: The following plugins do not currently provide MIDI Out (MIDI Thru) 
 - UAD Opal
 - UAD PolyMax
 - Unfiltered Audio Lion
-- MIDI Live Mode
-PT-342676: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed track may experience latency, causing it to be misaligned with other tracks that are routed to the same bus.
+MIDI Live Mode PT-342676: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed track may experience latency, causing it to be misaligned with other tracks that are routed to the same bus.
 Workaround: When MIDI Live Mode is enabled, the signal from the Virtual Instrument on the record-armed or input-monitored track may be delayed on playback and misaligned with other tracks that are routed to the same bus. This issue arises particularly when there is a track in the session that has high latency plugins but is not routed to the bus. MIDI recorded on this Instrument track may be placed incorrectly, but sound in sync with other tracks routed to the Auxiliary Input track until the Instrument track is rec-enabled. Disable the delay compensation on the Instrument track or keep all your tracks routed to the same final Auxiliary Input track to avoid this issue.
 PT-342678: MIDI is recorded early with MIDI Live Mode on the Instrument track routed to an Auxiliary Input track if the session has high latency plugins on other tracks that are not routed to the Auxiliary Input track.
 Workaround: When MIDI Live Mode is enabled, MIDI may be recorded earlier on the Instrument track routed to an Auxiliary Input track if the session has high latency plugins on other tracks that are not routed to that Auxiliary Input track. While it sounds fine and aligns well with other tracks routed to the Auxiliary Input track when the track is record-enabled, it plays early once the track is disarmed, resulting in a sound that reflects its original recording timing. To avoid this issue, disable the MIDI Live Mode when working with this type of session routing or route all tracks to the same Auxiliary Input track.
@@ -472,7 +463,7 @@ Workaround: The Transcription Settings window (Setup menu) includes a “Languag
 PT-331541: Transcribed words in fades cannot be edited on the timeline.
 Workaround: Transcription data within a fade in, fade out, or crossfade region in the Edit window cannot be edited with the Edit Word, Join Words and Clear Word(s) commands. To edit words within a fade region, either use the editing functions for that clip from the Transcript window or temporarily remove the fades from the track you want to edit.
 DSP Mode (HDX Hybrid Engine Only) PT-281621: Inserting Default EQ/DYN plugins on DSP Mode–enabled track results in no plugin processing.
-Workaround: When an AAX-DSP plugin is selected as the Default EQ or Default Dynamics plugin in the Pro Tools Preferences (Setup > Preferences > Mixing), recalling that plugin on a DSP Mode– enabled track results in no plugin processing. Adjusting the plugin controls has no effect the signal and the Plugin DSP indicator displays incorrectly (“Native” on a green background). If you encounter this issue, disable and then enable DSP Mode on the track or re-insert the DSP version of the plugin on the track.
+Default EQ Default Dynamics Workaround: When an AAX-DSP plugin is selected as the or plugin in the Pro Tools Preferences (Setup > Preferences > Mixing), recalling that plugin on a DSP Mode– enabled track results in no plugin processing. Adjusting the plugin controls has no effect the signal and the Plugin DSP indicator displays incorrectly (“Native” on a green background). If you encounter this issue, disable and then enable DSP Mode on the track or re-insert the DSP version of the plugin on the track.
 PT-273811: Pro Tools does not report a lack of output channels when a Hardware Insert is inserted on any audio track in the session.
 Workaround: Pro Tools does not report a lack of output channels after enabling DSP Mode on all audio tracks when a Hardware Insert is inserted on any audio track in the session. In this case, the output of out- of-resource tracks appears active. Reassign the output of the track with the Hardware Insert or move the Hardware Insert to the insert above (for example, from slot b to slot a), and the warning dialog appears and the outputs of the out-of-resource tracks to appear inactive. Also, note that if a Hardware Insert is inserted on an out-of-resource track, the track remains unvoiced even after disabling DSP Mode on the track.
 PT-274120: InputMonitoring incorrectly enabled on some tracks.
@@ -516,7 +507,8 @@ Workaround: Printing interleaved files with more than 8 channels per track (such
 PT-293864: HDX is not available as Playback Engine when the UA Connect application is running before launching Pro Tools.
 Workaround: When UA Connect software is running in the background and you then launch Pro Tools, HDX may not be available as Playback Engine. In order to avoid this issue, end the UA Connect process on Windows using Task manager and then launch Pro Tools. Every plugin is going to be available and UA software will start running after instantiating any of them.
 HD Native Systems PT-268965: HD Native cannot be initialized in Device manager after FPGA update.
-Workaround: In some cases HD Native may not be initialized in Device Manager after an FPGA update. For example, when installing Pro Tools on a clean system, and then launching Pro Tools and updating HD Native firmware, HD Native may be shown in Device Manager as Other Device and may not be available in the Pro Tools Playback Engine. To correct this issue, go to Device Manager > Sound, video and game controllers, right-click on HD Native, choose uninstall device (do not choose Delete the driver software for this device), and then click Scan for hardware changes. HD Native should now be properly initialized. If that fails, restart your computer after updating HD Native firmware instead of shutting down.
+Workaround: In some cases HD Native may not be initialized in Device Manager after an FPGA update. For example, when installing Pro Tools on a clean system, and then launching Pro Tools and updating HD Native firmware, HD Native may be shown in Device Manager as Other Device and may not be available in the Pro Tools Playback Engine. To correct this issue, go to Device Manager > Sound, video and game controllers, right-click on HD Native, choose uninstall device (do not choose Delete the driver software for this device), Scan for hardware changes.
+and then click HD Native should now be properly initialized. If that fails, restart your computer after updating HD Native firmware instead of shutting down.
 PT-234613: “Avid HD Native Thunderbolt device is not certified on a qualified HP Z machine.” Workaround: If you encounter this warning, you may safely allow the connection to your HD Z machine.
 PTSW-125715: Audible pops and clicks when changing buffer sizes.
 Workaround: Pops and clicks may occur when changing the Hardware Buffer Size (H/W Buffer Size) in the Playback Engine dialog while monitoring live audio through HD Native hardware. Avid recommends not changing the Hardware Buffer Size while monitoring live audio to avoid this problem. If you must change the Hardware Buffer Size while monitoring live audio, be sure to lower the monitoring volume to avoid any possible damage to your speakers.
@@ -540,9 +532,7 @@ PT-253045: D-Control and D-Command timecode counter does not display first hours
 Workaround: If the session timecode rate is over 100 fps, the first hours digit will be truncated on the ICON timecode counter (though it can still be viewed on the main counter in Pro Tools). This is a hardware limitation because the ICON counter only contains 8 digits whereas 9 digits would be required to display all possible frame values.
 PTSW-133466: The Edit and Mix windows do not follow banking on EUCON control surfaces.
 Workaround: When the Edit Window Follows Bank Selection and/or the Mix Window Follows Bank Selection preferences are enabled in Pro Tools (Setup > Preferences > Mixing), after banking your EUCON controller, neither the Edit nor Mix window scroll to follow. You will have to manually change the view of the Edit or Mix windows to see the tracks that correspond to the EUCON controller if they are off screen.
-Video PT-344751: AVE reports an error at the completion of audio/video export when bouncing some files as Same as Source.
-Workaround: To avoid this error, use the “Transcode” option instead of “Same as Source”.
-UME-1729: DVCProHD video files do not import on Apple silicon.
+Video UME-1729: DVCProHD video files do not import on Apple silicon.
 Workaround: Files encoded as DVCProHD do not import into Pro Tools on an Apple silicon computer and need to be re-encoded into a supported format.
 UME-1693 and PT-302249: Bounced .mov file may result in subtle metadata differences in the resulting file.
 Workaround: When doing a Same As Source bounce from MOV files that contain the “Clean Aperture” metadata attribute, or are “Thin Raster,” the bounce will re-transcode the files using the same codec rather than copying the existing data. This may result in subtle metadata differences in the resulting file.
@@ -604,32 +594,35 @@ fps. If you encounter this, delete the Workspace.wksp database file to correct t
 PTSW-178722: Video may not stay in sync when video hardware is attached and Pro Tools is locked to an external clock.
 Workaround: If both Pro Tools and an attached video peripheral are each resolved to an external clock, but the clock is not derived from the same source, video will not stay in sync. An example of this would be if the video peripheral is locked to black burst, and the audio peripheral is locked to an audio clock not derived from the same video black burst, such as SPDIF. In this scenario, setting the video peripheral to lock to its own internal clock will allow Pro Tools to compensate for video drift over time.
 Third-Party Video Peripherals The following issues may occur with third-party video hardware. Please contact your hardware vendor for support.
-- In some cases, video will not stay in sync over time if the video peripheral is not, or cannot, lock to
-video reference. If you experience this, a workaround is to set the Pro Tools clock to internal. This will cause the video peripheral to slew overtime and stay in sync with Pro Tools. (THPV-2) With some peripherals video playback will be one frame out of sync with Pro Tools audio. To
-- compensate for this, choose Setup > Video Sync Offset and enter a 1 frame offset. (THPV-9)
-With some video peripherals, the video output will be scrambled when video is not loaded in
-- Pro Tools, or when the video peripheral is disabled. (THPV-32)
-Video Satellite PTSW-23142: Pro Tools and Media Composer Video Satellite Quit Unexpectedly when Disconnecting an Additional Pro Tools System During Playback .
+In some cases, video will not stay in sync over time if the video peripheral is not, or cannot, lock to
+- video reference. If you experience this, a workaround is to set the Pro Tools clock to internal. This will
+cause the video peripheral to slew overtime and stay in sync with Pro Tools. (THPV-2)
+- With some peripherals video playback will be one frame out of sync with Pro Tools audio. To
+compensate for this, choose Setup > Video Sync Offset and enter a 1 frame offset. (THPV-9)
+- With some video peripherals, the video output will be scrambled when video is not loaded in
+Pro Tools, or when the video peripheral is disabled. (THPV-32) Video Satellite PTSW-23142: Pro Tools and Media Composer Video Satellite Quit Unexpectedly when Disconnecting an Additional Pro Tools System During Playback .
 Workaround: When multiple Pro Tools systems are connected via Satellite Link in conjunction with a Video Satellite, always stop playback before disconnecting any of the systems.
 UDevC00116083: “Pro Tools Cannot Currently Play” Error.
 Workaround: In a Video Satellite configuration, when the system is sitting idle, Media Composer may post the dialog, “Pro Tools cannot currently play, is online with Machine Control, or is in Transport = Remote Mode. Please resolve the issue with the Pro Tools system and try again.” To avoid this problem, link the Video Satellite from the Pro Tools Administrator system rather than from Media Composer.
 UME-956: Media Composer Video Satellite cannot be enabled when Pro Tools is co-installed on the same computer.
 Workaround: When Media Composer and Pro Tools are co-installed on the same computer, that system cannot be used as a Video Satellite. To use the computer as a Video Satellite, uninstall Pro Tools and re- install Media Composer.
 No Number: 23.976 or 24 fps Sequence Start Time Ending In Digits Other than “:00” Causes Time Code Offset.
-Workaround: Media Composer uses NTSC or PAL time code when setting the sequence start time regardless of the format selected by the user for display. When you are working on a video satellite project at 23.976 :00 or 24 fps, a Media Composer sequence with a start time that ends in a value other than causes an offset between Pro Tools and Media Composer at the session start. For example, the start time 45:02:10:15 As a workaround, always set your Media Composer sequence start time to a time code value ending in 00.
+Workaround: Media Composer uses NTSC or PAL time code when setting the sequence start time regardless of the format selected by the user for display. When you are working on a video satellite project at 23.976 or 24 fps, a Media Composer sequence with a start time that ends in a value other than :00 causes an offset between Pro Tools and Media Composer at the session start. For example, the start time 45:02:10:15 :15) :00) (ending in would cause an offset, but the start time 45:02:10:00 (ending in would not.
+As a workaround, always set your Media Composer sequence start time to a time code value ending in 00.
 98460: Cueing from Media Composer in a 720p Project Causes 1-Frame Offset.
 the project type—while Pro Tools counts at 25 or 29.97 frames per second. When you cue a sequence from the video satellite in a 720p project, the Pro Tools edit cursor can be offset by as much as one frame.
 As a workaround, cue and play back from Pro Tools when working with a 720p project in a video satellite frame boundaries (for example, frame 47) from Pro Tools.
 UDevC00090064, UDevC00090078, UDevC00088666, UDevC00089437, UDevC00087542: Audio and video may drift out of sync In Satellite Mode in certain conditions.
 Workaround: When operating in Satellite mode, audio and video output from Media Composer may drift out of sync by as much as one frame in any of the following conditions:
-When viewing video full screen in 1394 mode. This is due to the difference between the monitor's
-- refresh rate and the video reference rate.
-- When the Edit Play Rate of the video differs from the frame rate of the video reference signal. (For
-example, this occurs with a 24p NTSC project with 23.976 Edit Play Rate and NTSC reference signal.)
-- When looping a selection that is not aligned to video frame boundaries in Pro Tools. As a workaround,
-make your selection in Pro Tools using Grid mode with the Grid value set to 1-frame increments— especially when it is necessary to loop several times without stopping.
+- When viewing video full screen in 1394 mode. This is due to the difference between the monitor's
+refresh rate and the video reference rate.
+When the Edit Play Rate of the video differs from the frame rate of the video reference signal. (For
+- example, this occurs with a 24p NTSC project with 23.976 Edit Play Rate and NTSC reference signal.)
+When looping a selection that is not aligned to video frame boundaries in Pro Tools. As a workaround,
+- make your selection in Pro Tools using Grid mode with the Grid value set to 1-frame increments—
+especially when it is necessary to loop several times without stopping.
 Pro Tools Satellite Systems PT-248378: Saving logs only saves logs for linked satellite systems.
-Workaround: It is possible to gather log files across a set of Satellite Linked systems. This can be done by Setup > Preferences > Operation, Save Logs going to and clicking button. When this is done, it will zip the needed logs on each of the satellite systems, but it will not zip the logs on the system that executed the Save command. To gather logs on that system you need to unlink satellites and save the logs again. Saving logs only needs to be done when instructed to do so by Avid Customer Care.
+Workaround: It is possible to gather log files across a set of Satellite Linked systems. This can be done by going to Setup > Preferences > Operation, and clicking Save Logs button. When this is done, it will zip the needed logs on each of the satellite systems, but it will not zip the logs on the system that executed the Save command. To gather logs on that system you need to unlink satellites and save the logs again. Saving logs only needs to be done when instructed to do so by Avid Customer Care.
 Synchronization and Machine Control PT-261032: When updating Sync X or SYNC HD firmware, DigiTest defaults to the wrong card with more than one HDX card installed.
 Workaround: DigiTest may default to second or third installed HDX card rather than lead. When using DigiTest to update Sync X or SYNC HD firmware, you will need to select the right card before the firmware upgrade can be successfully run.
 PT-267639 and PT-267637: With Sync X or SYNC HD at 176.4 kHz and 192 kHz, higher VSO values are selectable but cannot play.
@@ -649,7 +642,9 @@ Workaround: Pro Tools overshoots and posts an “Error Cueing Machine” dialog 
 PT-262678: Recording is not sample accurate when re-triggering play by clicking into the Timecode ruler of a 9-pin Master without issuing a Stop command first.
 Workaround: Do not click in the Timecode ruler of the Master system to re-trigger play. Either use a 9-pin controller or issue Stop and then Play commands from the Master system.
 PTSW-153187: When using Serial Timecode, if Play is triggered at a timecode location before session start, no audio is output when session start is reached Workaround: To avoid this issue, insert time at the session start so that PreRoll does not start before session start.
-Dolby Atmos 7.1.2 bed's Lsr/Rsr channels when rendering.
+Dolby Atmos PT-348968: Changing the Atmos monitoring format from the Renderer controls in the Edit Window toolbar does not work if there are soloed and muted tracks in the session after switching from the 360RA WalkMix renderer.
+Workaround: If there are soloed and muted tracks in session after switching from the 360RA WalkMix Render to Dolby Atmos, changing the monitoring format from the Renderer controls in the Edit Window toolbar do not work. To work around this issue, use the Dolby Atmos Renderer window to change the monitoring format or disable the solo/mute tracks and enable again.
+7.1.2 bed's Lsr/Rsr channels when rendering.
 beds can affect each other, with one of the settings overwriting the other. As a workaround, do not use 5.1 PT-312441: Importing a .pio file created in Pro Tools 2023.9 or earlier results in Dolby Atmos objects being imported into the Bus page of the I/O Setup.
 Workaround: Importing an I/O Setup (.pio) file, that was created in Pro Tools 2023.9 or earlier, results in any Stereo Dolby Atmos objects being imported into the Bus page of the I/O Setup. It is recommended that you regenerate any previous .pio files that contain Dolby Atmos objects and beds in Pro Tools 2023.12 or later.
 PT-312611: Invalid Object assignments are removed resulting in lost automation when opening a session created in Pro Tools 2023.12 and later in earlier Pro Tools versions.
@@ -671,14 +666,8 @@ dragged and dropped to the timeline. To avoid this, use PT-324528: Dolby Atmos p
 Workaround: Some online bounce/commit operations result in pan data being rendered late by 2x the HW Buffer Size. This occurs if the HW Buffer Size is 128 or less (at 48 kHz) or 256 or less (at 96 kHz), when track- bouncing an Aux with a live custom re-render input or bouncing the physical Monitor Output using Bounce Mix. To avoid this, use the highest HW Buffer Size when online-bouncing, bounce custom re-renders from the Bounce Mix window instead of from a track, or bounce offline (which does not have this issue).
 PT-324327: Automatic Delay Compensation is incorrectly applied to online Dolby Atmos ADM and re- render bounces.
 Workaround: When real-time-bouncing Dolby Atmos ADM and/or Re-Render files, plugin delay is not accurately compensated if Renderer mode is External. To avoid this, bounce offline or enable the Internal Dolby Atmos Renderer. As of Pro Tools 2024.6, online bounce is compensated correctly in Internal Renderer mode.
-PT-347416: Automatic Delay Compensation is incorrectly applied to online Dolby Atmos ADM and re-render bounces. Moving an assignment from a send slot shared with a Dolby Atmos bed will cut and paste automation.
+PT-347416: Automatic Delay Compensation is incorrectly applied to online Dolby Atmos ADM and re-render bounces.Moving an assignment from a send slot shared with a Dolby Atmos bed will cut and paste automation.
 Workaround: If a send slot contains both a Dolby Atmos bed assignment and a bus assignment for another immersive renderer (360RA), moving the send from one slot to another results in automation (pan, volume, mute) to be removed from the original slot and pasted to the new one. This results in loss of automation data from the original bed send when switching back to Dolby Atmos, since only one automation playlist exists per send slot. Copy the send instead of moving it to maintain automation for the slot.
-PT-321811 Custom Live Binaural Re-Render is affected by Personalized Head Related Transfer Function (PHRTF).
-Workaround: Custom binaural re-renders are affected by the active PHRTF profile. This is only true for live re-renders appearing on track inputs. Offline and online binaural re-renders created through the Bounce Mix window always use the default profile.
-AAX Immersive Audio Plugins PT-352254 Pan automation does not automatically convert to the Pro Tools mixer after splitting multichannel AAX object tracks to mono.
-Workaround: After splitting a multichannel AAX object track into mono object tracks, the mono tracks may fail to receive Pro Tools mixer pan data when switching to a Dolby Atmos Renderer. Only the Center channel converts correctlywhile all other channels may default to static positional values. Use the Global Renderer Management menu to convert immediately or to clear Pro Tools mixer pan data first, then change renderers.
-PT-354521 Send assignments are duplicated after moving between send slots and then switching renderers.
-Workaround: Moving a send assignment between slot positions after changing renderers can result in duplicated sends when switching back to the original renderer. Explicitly assign a send slot or set it to “no send” when switching renderers. This prevents the send assignment from cloning when switching back to the original renderer. Note that selecting “no send” also clears all automation for the slot (affecting assignments for that send for all renderers).
 360RA Immersive Audio PT-349776 No indication in Pro Tools that Sony 360RA WalkMix Renderer does not support sample rates other than 48kHz and 96kHz.
 Workaround: When running the 360RA WalkMix Renderer at sample rates other than 48kHz and 96kHz, Pro Tools does not indicate that the current sample rate is unsupported. Additionally, the 360RA WalkMix Renderer name is not italicized in the I/O Setup Window and Renderer controls in the Edit Window toolbar (unlike the Dolby Atmos Renderer). You can assign tracks to the 360RA WalkMix Renderer and open the 360RA WalkMix panner, but no signal appears in the renderer. The 360RA WalkMix Renderer plugin window does communicate sample rate support.
 PT-348509 “Select/Show/Show Only assignments” options in the output right-click menu does not affect all 360RA Object tracks.
@@ -699,56 +688,19 @@ PT-349380 Object control mode is off after converting assignment from WalkMix to
 Workaround: When converting an object assignment from WalkMix to Atmos using the Global Renderer Management right-click menu while Atmos is the active renderer, the Object control mode is unexpectedly turned off. Manually re-enable Object control mode after conversion to correct this.
 PT-348485 Resizing WalkMix panner causes output meter and track color bar to disappear.
 Workaround: On Windows, resizing the WalkMix panner window can cause the output meter section and track color bar to vanish or become misaligned. Slightly move the window to restore the correct display.
+XS-62 Performance slows after opening 360RA WalkMix Panner unless the Renderer window is also open.
+Workaround: On some Windows systems with Nvidia graphics, opening the 360RA WalkMix Panner without also displaying the 360RA WalkMix Renderer window causes significant UI sluggishness in Pro Tools.
+Symptoms include delayed menu response, frozen meters and counters during playback, and long pauses when interacting with UI elements. To avoid this issue, install Nvidia driver v581.42 or later.
 PT-348972 ICON and MIDI panners do not control 360RA WalkMix.
 Workaround: ICON surfaces and MIDI devices currently do not control the 360RA WalkMix Panner. While these devices can manipulate panning in Dolby Atmos, switching to 360RA WalkMix disables their control capabilities. Use the mouse or Eucon-based control surfaces to manipulate 360RA WalkMix panning.
 PT-348972 ICON and MIDI panners do not control 360RA WalkMix.
 Workaround: ICON surfaces and MIDI devices currently do not control the 360RA WalkMix Panner. While these devices can manipulate panning in Dolby Atmos, switching to 360RA WalkMix disables their control capabilities. Use the mouse or Eucon-based control surfaces to manipulate 360RA WalkMix panning.
 PT-345511 Multiple tracks assigned to same Dolby Atmos object receive individual pan conversion to WalkMix 360RA spherical format.
 Workaround: When switching the renderer from Dolby Atmos to WalkMix 360RA, if multiple mono or stereo tracks are assigned to the same Dolby Atmos object, each will have their own pan setting and automation converted to WalkMix 360RA spherical format and the object control mode master setting is ignored. If you want to maintain the object control mode master behavior, before making the conversion either route all tracks sharing the same object assignment to a single Auxiliary Input track and copy the Object Control master’s automation to the track or copy the Object Control master’s automation to each track individually.
+XS-101 ICON and MIDI panners do not control 360RA WalkMix.360RA Walkmix Panner window reopens with offset graphics after switching from the Dolby Atmos Internal Renderer.
+Workaround: The 360RA Walkmix Panner window may have a graphic offset after switching from the Dolby Atmos Internal Renderer. If this occurs, close and reopen the Panner window (or press Command+Control+Option+W (Mac) or Control+Start+Alt (Windows) twice to hide and then show the floating windows).
 PT-346672 No dialog shown when reopening sessions saved with 360RA WalkMix Renderer on HDX Classic; renderer drop-down appears blank.
 When reopening a session saved with 360RA WalkMix as the active renderer on an HDX Classic system, no compatibility dialog appears, and the renderer drop-down in I/O Setup may be blank. Manually reselect 360RA WalkMix from the Renderer drop-down in I/O Setup to populate the Renderer selector. However, note that 360RA WalkMix Renderer does not function on HDX Classic.
-PT-348972 Performance slows after opening 360RA WalkMix Panner unless the Renderer window is also open. (XS-62) Workaround: On some Windows systems with Nvidia graphics, opening the 360RA WalkMix Panner without also displaying the 360RA WalkMix Renderer window causes significant UI sluggishness in Pro Tools.
-Symptoms include delayed menu response, frozen meters and counters during playback, and long pauses when interacting with UI elements. To avoid this issue, install Nvidia driver v581.42 or later.
-PT-348828 Installing an immersive plugin while Pro Tools is running requires closing and reopening session to use the Renderer.
-Workaround: When an immersive plugin is installed while Pro Tools is running, it loads like any other plugin.
-However, the renderer cannot be enabled until you close and reopen the session. You can then select the newly installed Renderer.
-MPEG-H Renderer XFR-101 Recalling an MPEG-H track preset deletes all current presets in the renderer and reassigns all components.
-Recalling a track preset assigned to the MPEG-H renderer clears all current presets, overwrites the MPEG-H scene, and breaks previous connections. If possible, recall MPEG-H track presets before configuring the MPEG-H renderer.
-XFR-58 Pro Tools may not display a dialog when exceeding the number of supported inputs on the MPEG-H renderer.
-Workaround: If the session exceeds the maximum number of supported MPEG-H tracks, a warning dialog may not appear, and track outputs stay active. To avoid this issue, ensure that you do not exceed the MPEG-H renderer's input limit and check for errors in the renderer window.
-XFR-37 Changing the MPEG-H renderer's interactivity controls during playback may cause audio artifacts.
-The Interactivity Settings of the MPEG-H renderer are static scene information and should not be changed dynamically during playback. Modifying these controls while transport runs may cause audio artifacts.
-XFR-39 MPEG-H automation jitters.
-Timing of MPEG-H automation is not sample-accurate. It exceeds typical AAX plugin jitter of 32 samples and can reach up to 1000 samples. There is currently no workaround for this issue.
-XFR-62 MPEG-H renderer Online bounce is muted.
-MPEG-H assigned tracks are not audible and are muted during online mix bounce or track bounce. This does not affect the final bounced file. There is currently no workaround for this issue.
-XFR-97 After importing MPEG-H file, the panning data given to the renderer are the default track positions.
-Workaround: After importing an MPEG-H file, the Immersive Panner may display panning at the default track position instead of the position set in the pan automation lanes. Start the transport or relocate the playhead to update the pan position.
-XFR-64 MPEG-H Master import is blocked if existing beds or objects are present in the session.
-Workaround: When importing an MPEG-H Master file, the import operation is blocked if there is any MPEG-H bed or object assignment in the session, even if the assignment is inactive or the corresponding component has been removed from the renderer UI. This prevents importing multiple MPEG-H Master files with overlapping object or bed names in the same session. Remove all MPEG-H assignments from track output selectors before importing an MPEG-H Master file. Be sure to delete any MPEG-H beds using the output selector on any audio or Auxiliary Input track.
-XFR-79 Pro Tools Immersive Panner movement is limited when the anchor is positioned beyond a room wall.
-Workaround: When using the MPEG-H renderer, renaming a bed component in the renderer UI does not update the corresponding I/O path name in Pro Tools. Rename the bed or I/O path directly in Pro Tools if a name change is required there.
-XFR-119 Freezing or committing an MPEG-H assigned track removes it from selected components in the preset.
-Currently, freezing or committing an MPEG-H Renderer assigned track results in its removal from the selected components list of the MPEG-H renderer preset. There is not workaround at this moment.
-XFR-122 LFE from x.1 / x.1.x source renders to Center channel when assigned to MPEG-H object.
-the LFE signal is incorrectly rendered to the Center channel instead of being discarded or mapped appropriately. LFE automation lanes (X/Y/Z) are available and active, allowing positional control, but anchor and channel-linking settings have no effect on the LFE signal.
-Use one of the following before routing to an MPEG-H object:
-- Insert a multi-mono plug-in on the source track to attenuate or mute the LFE channel.
-- Route the source x.1 track to an x.0 aux, then route the aux to the object.
-- If the source is an audio track, split the track to mono, then move the non-LFE channels to an x.0
-track, and route that track to the object.
-Pro Tools Immersive Panner PT-351575 Pro Tools Immersive Panner movement is limited when the anchor is positioned beyond a room wall.
-Workaround: When using the Pro Tools Immersive Panner, if the anchor coordinates exist beyond a wall boundary, the panner abject cannot be moved across the full room. This behavior is by design and reflects internal automation range limits. Position the anchor at or within the wall boundary (for example, X ≤ 100) to ensure that the panner ball can reach the opposite wall.
-XFR-95 Some default click-to-pan positions do not map precisely to MPEG-H speaker locations.
-Workaround: In some cases, when using the Pro Tools Immersive Panner, using the click-to-pan feature results in signal being distributed between multiple speakers. For example, when using the MPEG-H Lw renderer with a 9.1 monitoring format, clicking sends some audio to the L channel, rather than placing it entirely in Lw. This is due to differences between the default 9.x.6 speaker locations in the panner, and positioning within specific renderers. If necessary, you can manually adjust the panner position to place the signal fully into the desired speaker. For example, set Y to 50 for Lw/Rw positions.
-PT-355255 Coalesce Pan Guide does not affect Pro Tools Immersive Panner height automation.
-Workaround: The Coalesce Pan Guide command does not apply height automation data when tracks are using the Pro Tools Immersive Panner Height and Shape modes (such as Sphere). The command remains available for mono and stereo object tracks, but is currently only supported with the legacy Pro Tools 3D panner. Migrate the object track to a Dolby Atmos renderer (internal or external) to automatically coalesce the data, if needed. The session can then be converted back to MPEG-H or Audio Vivid.
-PT-355504 Pro Tools Immersive Panner Size controls do not affect MPEG-H objects.
-Workaround: When using the MPEG-H renderer, adjusting the Size or Size All controls in the Pro Tools Immersive Panner has no effect on object rendering. MPEG-H does not currently respond to these size parameters, and changes are ignored.
-PT-355420 In Immersive Panner, with Allow Latch Prime on Stop enabled and the anchor unlinked, changing Manipulate controls rewrites and flattens individual channels automation.
-Workaround: When writing pan automation in Immersive Panner with Allow Latch Prime on Stop enabled and the anchor unlinked, changing controls in the Manipulate section rewrites and flattens Allow Latch Prime on Stop individual channel automation. To avoid losing pan data when using with an unlinked anchor, do not change meta controls when transport is stopped.
-PT-354023 The position of objects in the Pro Tools Immersive Panner is altered by position of the unlinked anchor and the objects may not restore their positions when the anchor is placed to its original position.
-Workaround: When changing the position of the unlinked anchor of the Pro Tools Immersive Panner, the unlinked anchor still affects object positions due to the Immersive Panner's room scaling logic. Object positions may differ and may not be restore when the anchor returns to its original spot.
 Ambisonics PT-304740: High-order Ambisonics tracks and buses use excessive amounts of DSP with the HDX Hybrid Playback Engine.
 Workaround: If the Playback Engine is set to HDX Hybrid, high-order Ambisonics tracks (especially 6th and 7th Order) in DSP mode consume more HDX resources than expected. To avoid this issue, keep all Ambisonics tracks in Native mode.
 PT-232689: Do not assign the Audition path to Ambisonics Output paths.
@@ -833,6 +785,5 @@ Workaround: If you encounter a –9073 error, refer to the Answerbase for possib
 Error –9128 Workaround: In sessions with high sample rates (96 kHz or higher), you may need to set the Hardware Buffer Size to 512 or more to avoid –9128 errors during playback with Native plugins or dense automation.
 Error –9155 Workaround: In sessions with high sample rates of 96 kHz or more, you may need to set the Hardware Buffer Size to 512 or more to avoid –9155 errors during playback with dense automation.
 Error –9735 Workaround: When Pro Tools reaches the end of its time limit in the Timeline, or if Pro Tools has been in continuous play for longer than the maximum time limit, you will encounter a DAE error –9735. The maximum time limit for Pro Tools depends on the session sample rate. For more information, see the Pro Tools Reference Guide.
-Errata What's New in Pro Tools 2026.4 Guide and Pro Tools Reference Guide (2026.4) The Enable all GPIOs option in the Synchronization page of the Peripherals dialog (Settings > Peripherals > Synchronization) completely disables (default state) or enables the GPIO for Sync HD and Sync X.
-If you are using the GPIO to trigger or as a trigger, ensure that the Enable all GPIOs and Enable Relay-Based GPOs options are enabled.
-g In previous versions of Pro Tools, the GPIO was always enabled. Disabling the Enable All GPIOs option alleviates –22003 errors that can occur when time sensitive Synchronization/GPIO packets are sent (regardless of whether or not you are using Relay Based GPIO).
+Errata What's New in Pro Tools 2025.10 Guide (REV A) The What's New in Pro Tools 2025.10 Guide.pdf (REV A) erroneously lists the following as a new feature, but it is not available in this release:
+- Transcription data pass thru for renders (commit, AudioSuite, .ptxm render)

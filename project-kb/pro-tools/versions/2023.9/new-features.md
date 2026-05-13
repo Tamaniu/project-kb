@@ -6,43 +6,14 @@ release-date: 01/09/2023
 doc-type: new-features
 source: pdf
 confidentiality: public
-date-added: 11/05/2026
+date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2023.9 © 2023 Avid Technology, Inc., (“Avid”), all rights reserved. This guide may not be duplicated in whole or in part without the written consent of Avid.
-For a current and complete list of Avid trademarks visit: www.avid.com/legal/trademarks-and-other-notices This product may be protected by one or more U.S. and non-U.S. patents. Details are available at www.avid.com/patents.
-Product features, specifications, system requirements, and availability are subject to change without notice.
-Pro Tools includes élastique Pro V3 by zplane.development as time stretching engine.
-Bonjour, the Bonjour logo, and the Bonjour symbol are trademarks of Apple Computer, Inc.
-Thunderbolt and the Thunderbolt logo are trademarks of Intel Corporation in the U.S. and/or other countries.
-Confidential unpublished works. Copyright 2023 Dolby Laboratories. All rights reserved.
-Dolby, Dolby Atmos, and the double-D symbol are registered trademarks of Dolby Laboratories Licensing Corporation.
-Guide Part Number 9329-66480-00 REV A 09/23 Contents Pro Tools Sketch App Scenes and Arrangement. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Tracks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Editor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Mixer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Global FX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Preferences. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 Miscellaneous Features and Improvements. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Export Session Range . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Plug-in Insert Reordering by Drag and Drop. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 Width-Changing Plug-ins Organized in Sub-menu. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 Track Marker and Memory Location Improvements. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 Streamlined Default Path Format Listings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 New Path Order Listings Added to I/O Setup Input Page. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 New Video Slewing Option. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 Activate Pro Tools Power Scheme Option . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 What’s New in Pro Tools 2023.6 iii What’s New in Pro Tools 2023.9 New Features and Enhancements Tools® Pro software version 2023.9 provides the following new features and enhancements:
+What’s New in Pro Tools Version 2023.9 Pro Tools Sketch App What’s New in Pro Tools 2023.9 New Features and Enhancements Tools® Pro software version 2023.9 provides the following new features and enhancements:
 Sketch™ • Pro Tools • App for iOS on iPad • Sketch window in Pro Tools • Miscellaneous new features and improvements • Save Copy In with Selected Timeline Range option • Reordering plug-ins by drag and drop • Width-changing plug-ins organized in sub-menu • Track Marker improvements • New immersive surround format path orders in I/O Setup • New Path Order listings added to the Input page of the I/O Setup • New Disable Slewing While Looping option • Activate Pro Tools Power Scheme option in the Playback Engine (Windows only) System Requirements and Compatibility Information Avid can only assure compatibility and provide support for hardware and software it has tested and approved.
 For complete system requirements and a list of qualified computers, operating systems, hard drives, and third-party devices, visit:
-www.avid.com/compatibility Conventions Used in This Guide Pro Tools documentation uses the following conventions to indicate menu choices, keyboard commands, and mouse commands:
-:
-Convention Action File > Save Choose Save from the File menu Control+N Hold down the Control key and press the N key Control-click Hold down the Control key and click the mouse button Right-click Click with the right mouse button The names of Commands, Options, and Settings that appear on-screen are in a different font.
-The following symbols are used to highlight important information:
-User Tips are helpful hints for getting the most from your Pro Tools system.
-Important Notices include information that could affect your Pro Tools project data or the performance of your Pro Tools system.
-Shortcuts show you useful keyboard or mouse shortcuts.
-Cross References point to related sections in this guide and other Avid documentation.
-How to Use this PDF Guide This PDF provides the following useful features:
-• The Bookmarks on the left serve as a continuously visible table of contents. Click on a subject heading to jump to that page.
-• Click a + symbol to expand that heading to show subheadings. Click the – symbol to collapse a subheading.
-• The Table of Contents provides active links to their pages. Select the hand cursor, allow it to hover over the heading until it turns into a finger. Then click to locate to that subject and page.
-• All cross references in blue are active links. Click to follow the reference.
-• Select Find from the Edit menu to search for a subject.
-• When viewing this PDF on an iPad, it is recommended that you open the file using iBooks to take advantage of active links within the document. When viewing the PDF in Safari, touch the screen, then touch Open in “iBooks”.
-Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
-Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
-www.avid.com/account Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibil- ity documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Con- ference.
-www.avid.com/learn-and-support Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
-www.avid.com/learning Videos and Tutorials Visit the Avid YouTube channel to find playlists and videos that show how to use and learn Pro Tools.
-Avid YouTube Channel (all playlists and videos) Pro Tools Quick Tips (playlist for the Pro Tools Quick Reference Guide, available from the Dashboard) Products and Developers Learn about Avid products, download demo software, or learn about our Development Partners and their plug-ins, applications, and hardware.
-www.avid.com/products Pro Tools Sketch Pro Tools Sketch App Sketch™ Pro Tools is a free application for iOS on iPad that lets you add, create, edit, arrange, and play back MIDI and audio clips.
+www.avid.com/compatibility Pro Tools Sketch Pro Tools Sketch App Sketch™ Pro Tools is a free application for iOS on iPad that lets you add, create, edit, arrange, and play back MIDI and audio clips.
 Tools® Pro provides the Sketch window (available in all tiers), which provides the same functionality as the Sketch app right in Pro Tools. Sketches can be created in either the app or in Pro Tools and can be shared between them. Audio for Sketches on iPad is always stereo, 24-bit, 48 kHz. In Pro Tools, Sketches conform to the bit depth and sample rate of the Playback Engine.
 Pro Tools Sketch is essentially a clip launching application (both audio and MIDI). The ability to mix Audio and MIDI clips, audio effects, and virtual instruments in a non-linear environment, makes Pro Tools Sketch a flexible centerpiece to your creative process.
 Pro Tools Sketch lets you experiment with different sounds and musical ideas in context with each other without having to focus immediately on the arrangement or linear sequencing.
@@ -141,7 +112,7 @@ Right-click the clip and choose Duplicate.
 Remove Clip To remove a clip:
 Right-click the clip and choose Remove.
  The clip is removed from the track.
-Pro Tools Sketch 10 Open in Editor To open a clip in the Editor:
+Open in Editor To open a clip in the Editor:
 Right-click the clip and choose Open in Editor.
  The audio or MIDI clip opens in the Editor tab. You can also double-click any clip to open it in the Editor tab.
 Clip Properties To edit the properties for a clip:
@@ -153,9 +124,8 @@ Name Type Displays the Clip Type: AUDIO or MIDI.
 Source BPM Displays the BPM for the source clip. Click Edit to change.
 You should only change the Source BPM if you know it should be different than what is displayed.
 Color Enable (or disable) to show the selected clip color. Click in the color palette to select the color you want for the clip.
-Loop Enable (or disable) to loop the clip on playback. Clips with loop disabled act as “one shots.” Scenes and Arrangement Clips on tracks can be played back all together in a Scene. A Scene is a row of clips in the Clip Launcher. Scenes can be ordered in an Arrangement, and each Scene can be set to repeat playback by a specified number of time. Fore example, in an Arrangement you can have Scene 1 play four times and then move to playing back Scene 5 two times, and so on. Scenes do can be ordered in an Arrangement however you want: Scene 5 x2, Scene 3 x4, Scene 8 x1, and so on.
-Scenes Scenes are rows of clips that can be played back all together.
-Play Scene Stop All Scene Play and Stop All icons Pro Tools Sketch 11 To play back a Scene:
+Loop Enable (or disable) to loop the clip on playback. Clips with loop disabled act as “one shots.” Scenes and Arrangement Clips on tracks can be played back all together in a Scene. A Scene is a row of clips in the Clip Launcher. Scenes can be ordered in an Arrangement, and each Scene can be set to repeat playback by a specified number of time. Fore example, in an Arrangement you can have Scene 1 play four times and then move to playing back Scene 5 two times, and so on. Scenes do can be ordered in an Scenes Scenes are rows of clips that can be played back all together.
+Play Scene Stop All Scene Play and Stop All icons To play back a Scene:
 Click the Play icon for the Scene.
  To stop playback of a Scene:
 Click the Stop All icon at the bottom of the Scenes column. This stops playback of the Scene and any other clips that may be  playing back on other tracks (and in other Scenes).
@@ -175,8 +145,8 @@ Right-click the Scene you want in the left-hand column and choose New Scene Belo
  To create a new Scene from clips playing on different tracks:
 Start playback of clips on different tracks and Scenes that you want to duplicate on the same tracks, but into a new Scene.
 1 Right-click any Scene in the left-hand column and choose Create Scene from Playing.
-Pro Tools Sketch 12 Dragging a Scene into a Session You can drag and drop any Scene from the Sketch window to the Timeline in the Edit window of an open session. Doing so results in new tracks matching those in the Sketch being created in the session with media beginning at the Timeline location where you dropped the Scene. Scenes cannot be dropped in the Tracks List.
-Dragging a Scene from the Sketch window onto Timeline in Edit window Scene dropped from Sketch window onto Timeline in Edit window Pro Tools Sketch 13 Arrangement The Pro Tools Sketch window lets you create an Arrangement of different Scenes that you can set up like a song. You can export the Arrangement as a new audio file or drag and drop it into an open Pro Tools session.
+Dragging a Scene into a Session You can drag and drop any Scene from the Sketch window to the Timeline in the Edit window of an open session. Doing so results in new tracks matching those in the Sketch being created in the session with media beginning at the Timeline location where you dropped the Scene. Scenes cannot be dropped in the Tracks List.
+Dragging a Scene from the Sketch window onto Timeline in Edit window Scene dropped from Sketch window onto Timeline in Edit window Arrangement The Pro Tools Sketch window lets you create an Arrangement of different Scenes that you can set up like a song. You can export the Arrangement as a new audio file or drag and drop it into an open Pro Tools session.
 Adding a Scene to the Arrangement To add a Scene to the Arrangement:
 Drag and drop a Scene from the left-most column up into the Arrangement.
  To reorder Scenes in the Arrangement:
@@ -193,11 +163,11 @@ Type a name for the Arrangement.
 Click Export.
 To clear all Scenes from the Arrangement:
 Click the Arrangement menu icon and choose Clear All.
- Pro Tools Sketch 14 Dragging the Arrangement into a Session You can drag and drop an Arrangement from the Sketch window to the Timeline in the Edit window of an open session. Doing so results in new tracks matching those in the Sketch being created in the session with media beginning at the Timeline location where you dropped the Arrangement. The Arrangement cannot be dropped in the Tracks List.
+ Dragging the Arrangement into a Session You can drag and drop an Arrangement from the Sketch window to the Timeline in the Edit window of an open session. Doing so results in new tracks matching those in the Sketch being created in the session with media beginning at the Timeline location where you dropped the Arrangement. The Arrangement cannot be dropped in the Tracks List.
 Arrangement dragged from Sketch window onto Timeline in Edit window.
 Tracks Tracks in the Sketch window consist of columns of MIDI or audio clips. Each track provides its own mixer controls and real-time effects processing for all clips on the track. Audio and MIDI tracks both have three effects inserts. MIDI tracks use virtual instru- ments (PlayCell and SynthCell) for MIDI playback on the first insert on the track.
-Track tab: audio track Pro Tools Sketch 15 Track tab: Instrument track Editor You can edit selected audio and MIDI clips in the Sketch window. You can trim the clip boundaries, enable or disable looping, edit audio or MIDI notes, and so on.
-Editor tab: audio clip Pro Tools Sketch 16 Editor tab: MIDI clip Zooming in the Sketch Window Editor To zoom out or in the Sketch Window Editor, do one of the following:
+Track tab: audio track Track tab: Instrument track Editor You can edit selected audio and MIDI clips in the Sketch window. You can trim the clip boundaries, enable or disable looping, edit audio or MIDI notes, and so on.
+Editor tab: audio clip Editor tab: MIDI clip Zooming in the Sketch Window Editor To zoom out or in the Sketch Window Editor, do one of the following:
 Press Command+[ or Command+] (Mac), or Control+[ or Control+] (Windows).
  With Key Command Focus enabled, press R or T.
  Command-scroll up or down (Mac), or Control-scroll up or down (Windows).
@@ -205,15 +175,15 @@ Press Command+[ or Command+] (Mac), or Control+[ or Control+] (Windows).
 Double-click in blank space in the Clip Editor to add a MIDI note there.
  To delete MIDI notes in the MIDI Editor:
 Double-click MIDI notes in the Clip Editor.
- Pro Tools Sketch 17 Mixer The Mixer tab lets you mix tracks, including plug-in effects, global effects sends, panning, levels, and solo and mute.
+ Mixer The Mixer tab lets you mix tracks, including plug-in effects, global effects sends, panning, levels, and solo and mute.
 Mixer tab Global FX The Global FX tab lets you adjust settings for Delay and Reverb, which are fed by the effects sends on tracks in the Mixer tab.
-Global FX tab Pro Tools Sketch 18 Preferences The Sketch Window Preferences are distinct from the Pro Tools Preferences. They are a limited number of settings just for Sketches and the Sketch window.
+Global FX tab Preferences The Sketch Window Preferences are distinct from the Pro Tools Preferences. They are a limited number of settings just for Sketches and the Sketch window.
 To open the Sketch Window Preferences:
 Click the Preferences icon (the Gear icon) in the upper-right corner of the Sketch window.
  Sketch Window Preferences Documentation Click to access the Using Pro Tools Sketch Guide.pdf online. The functionality of the Sketch window is nearly identical to using the Sketch app on iPad. In most cases, where the guide says to tap in the app, click in the window, and where it says to double tap, right-click.
 About Click to view the version of Pro Tools Sketch that you are running. In the resulting window, click Close to close the About window.
 Close Click to close the Preferences window.
-Pro Tools Sketch 19 Miscellaneous Features and Improvements Export Session Range Pro Tools lets you save a copy of a timeline range of a session. This is useful for splitting a session into smaller pieces.
+Miscellaneous Features and Improvements Export Session Range Pro Tools lets you save a copy of a timeline range of a session. This is useful for splitting a session into smaller pieces.
 When saving a copy of a timeline range, only clips on the timeline within the selection are included in the export. If a clip on a main or alternate playlist spans the edge of the selection, the exported session includes a trimmed version of the clip. The source session is unaffected. Note that files themselves are not truncated. The entire file is still copied, but only the clip is trimmed. Exporting a timeline range can be used in conjunction with both the Main Playlist Only and Selected Tracks Only options to further refine the export and limit what is copied. The session start is not affected.
 Anchor breakpoints are always written at the start and end of the selection for all automation playlists that contain one or more writ- ten breakpoints. This prevents any unwanted automation ramps.
 Optionally, when the Anchor All Automation Playlists option is enabled, anchor breakpoints are added to automation playlists that do not have any additional written breakpoints. This ensures that the values are anchored if the session is imported into another ses- sion, and that only automation within the specific imported range is affected.
@@ -224,7 +194,7 @@ Save Copy In dialog, Selected Timeline Range Only option To save a copy of a tim
 3 Select Selected Timeline Range Only.
 4 Click OK.
 5 Navigate to the location where you want to save the new session.
-Miscellaneous Features and Improvements 18 6 Type a name for the new session.
+6 Type a name for the new session.
 7 Click Save.
 Plug-in Insert Reordering by Drag and Drop Pro Tools lets you drag and drop plug-ins from one insert to between inserts. This results in reordering of plug-in inserts on the tar- get track, moving any plug-ins below it down to the next slot below (assuming one is available). A yellow line indicates where the plug-in will be inserted.
 Dragging and dropping a plug-in between inserts A red line appears if you cannot insert the plug-in between inserts either because there is no free insert or it is not allowed because of routing issues.
@@ -243,7 +213,7 @@ Choose Edit > Selection > Extend Edit Selection to Previous Marker Zone.
  To extend the Edit selection to the next Marker Lane, do one of the following:
 Choose Edit > Selection > Extend Edit Selection to Next Marker Zone.
  Press Command+Option+Control+Shift+; (Mac) or Control+Alt+Start+Shift+; (Windows).
- Miscellaneous Features and Improvements 19 To remove the top-most selected view, including explicitly selected Marker lanes (selected either using mouse or keyboard):
+ To remove the top-most selected view, including explicitly selected Marker lanes (selected either using mouse or keyboard):
 Press Control+Option+P (Mac) or Start+Alt+P (Windows).
  To remove the top-most selected view, including explicitly selected Marker lanes (selected either using mouse or keyboard):
 Press Control+Option+; (Mac) or Start+Alt+; (Windows).
@@ -256,8 +226,8 @@ To use Update Position or Update Selection:
 • For updating selections, make a new edit selection.
 2 In the Memory Locations window, Control-click (Mac) or Start-click (Windows) the Marker Memory Location that you want to redefine. The Edit Memory Location window appears. You can also Command-click (Mac) or Start-click (Windows) a Mem- ory Location in the Markers ruler.
 3 Enable the Update Position (for a Marker) or Update Selection (for a selection) setting, then click OK. When updating a marker, it moves to the current playhead location.
-Miscellaneous Features and Improvements 20 Edit Memory Location: Update Selection option Edit Memory Location: Update Position option Update Position and Update Selection are global settings (their state persists when opening new sessions).
-Miscellaneous Features and Improvements 21 Streamlined Default Path Format Listings All LFE and Non-LFE formats are now combined into a single listing in the I/O Setup that controls both variations of the format as follows:
+Edit Memory Location: Update Selection option Edit Memory Location: Update Position option Update Position and Update Selection are global settings (their state persists when opening new sessions).
+Streamlined Default Path Format Listings All LFE and Non-LFE formats are now combined into a single listing in the I/O Setup that controls both variations of the format as follows:
 • Stereo • LCR • 5.x • 5.x.2 • 5.x.4 • 7.x • 7.x.2 • 7.x.4 • 7.x.6 • 9.x.4 • 9.x.6 New Path Order Listings Added to I/O Setup Input Page New Path Order listings have been added to the Input page of the I/O Setup to make it easier to create paths that align with monitor returns from the Dolby Atmos Renderer.
 New Video Slewing Option Pro Tools 2023.6 introduced the ability to disable slewing with video playback. With Pro Tools 2023.9, a new option has been in- troduced to disable slewing only during looping playback. Slewing helps audio and video to stay in sync when there is no common clock reference between audio and video hardware. However, it can be problematic in certain circumstances, such as with loop playback. This option lets you keep longer playback passes in sync, while maintaining performance during loop playback.
 To set the Video Slewing preference:
@@ -266,6 +236,6 @@ In the Video section, select the desired Slewing option:
 Enabled Slewing is always enabled.
 Slewing is disabled only during looping playback.
 Disabled While Looping Slewing is always disabled.
-Disabled Always Miscellaneous Features and Improvements 22 Operation Preferences, Video settings 3 Click OK.
+Disabled Always Operation Preferences, Video settings 3 Click OK.
 Activate Pro Tools Power Scheme Option (Windows Only) The Playback Engine provides an Activate Pro Tools Power Scheme option (Windows only) that when enabled optimizes Pro Tools performance, but requires more power (Windows System Power Management).
-Playback Engine, Activate Pro Tools Power Scheme option Miscellaneous Features and Improvements 23 For technical support go to www.avid.com/support
+Playback Engine, Activate Pro Tools Power Scheme option For technical support go to www.avid.com/support

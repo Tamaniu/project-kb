@@ -1,0 +1,29 @@
+# Private and confidential content — never commit to public repo
+private-kb/
+
+# Source PDFs — large binaries, tracked in source-pdfs/ locally only
+source-pdfs/
+
+# Working drafts and outputs — not for repo
+working/
+
+# Internal source materials
+Internal source files/
+
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Processing scripts and logs
+*.sh
+*.log
+pdf_processing_log.txt
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Temporary files
+*.tmp
+*.bak

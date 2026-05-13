@@ -6,19 +6,11 @@ release-date: 01/06/2025
 doc-type: new-features
 source: pdf
 confidentiality: public
-date-added: 11/05/2026
+date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2025.6 ©2025AvidTechnology,Inc.,(“Avid”),allrightsreserved.ThisguidemaynotbeduplicatedinwholeorinpartwithoutthewrittenconsentofAvid.
-ForacurrentandcompletelistofAvidtrademarksvisit:www.avid.com/legal/trademarks-and-other-notices ThisproductmaybeprotectedbyoneormoreU.S.andnon-U.S.patents.Detailsareavailableatwww.avid.com/patents.
-Productfeatures,specifications,systemrequirements,andavailabilityaresubjecttochangewithoutnotice.
-Bonjour,theBonjourlogo,andtheBonjoursymbolaretrademarksofAppleComputer,Inc.
-ThunderboltandtheThunderboltlogoaretrademarksofIntelCorporationintheU.S.and/orothercountries.
-ProToolsincludesélastiqueProV3byzplane.developmentastimestretchingengine.
-Confidentialunpublishedworks.Copyright2025DolbyLaboratories.Allrightsreserved.
-Dolby,DolbyAtmos,andthedouble-DsymbolareregisteredtrademarksofDolbyLaboratoriesLicensingCorporation.
-AvidProToolsWhat'sNewGuide•Created6/4/2025•REVA ii Contents Search Splice with Sound 11 Auditioning Search Results in Context 13 Import from Splice to Pro Tools 15 Splice Library 15 Splice Settings 16 3 Transcription 17 Track Transcription 17 Clip Transcription 18 Re-Transcribe Text 18 Transcript Window 19 Selecting Transcribed Text 19 Common Controls 20 Timeline View 21 Files View 23 Transcription Settings 26 Editing with Text 28 4 New Integrated ARA Plugins 30 Acon Digital Acoustica Essentials 30 NoiseWorks DynAssist Lite 31 5 Drag and Drop Multiple Clips to AAX Plugins 32 iii 6 Playlist Improvements 33 Selected Playlist Highlighted 33 Add New Playlists at Bottom or Top Preference 33 Move Playlists to Other Tracks in Playlist View 33 Drag Clips from Instrument Track Playlists to Audio Tracks 33 Matching Alternates for MIDI Playlists 33 Displaying Automation (CC and Velocity) of Audition Playlist Option 34 Playlists and Folder Tracks Shown in MIDI Event List 34 7 MIDI Improvements 35 Custom Note Labels in MIDI Editors 35 Custom Note Label Presets 36 Note Labels View 36 MIDI Operations in MIDI Editors 37 MIDI Live Mode 37 8 New MIDI Plugins 39 TATAT from K-Devices 39 How TATAT Works 39 TATAT Interface 40 9 Miscellaneous Improvements 42 Improved Dashboard Window 42 New Tab 42 Open Tab 44 Cloud Projects Tab 45 Learn Tab 47 Notifications 48 Sign In 49 Dolby Atmos Improvements 50 Host-based Automation Improvements 50 AVE ARM Native Support 50 Allow All-Track Mute Option 50 Integrated Support for Cue Pro Video Plugin and Application 51 iv Integrated Support for The Cargo Cult Matchbox 2.0 51 v 1 What’s New in Pro Tools 2025.6 New Features and Enhancements Pro Tools® software version 2025.6 provides the following new features and enhancements:
+What’s New in Pro Tools Version 2025.6 1 What’s New in Pro Tools 2025.6 New Features and Enhancements Pro Tools® software version 2025.6 provides the following new features and enhancements:
 Splice integration (a cloud-based music creation platform that provides millions of royalty-free one
 - shots, loops, MIDI, and presets)
 Transcription (speech to text) (Pro Tools Studio and Ultimate only) ll Support for new integrated ARA plugins:
@@ -52,25 +44,7 @@ Last Focused
 4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the
 Application field.
 5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab Conventions Used in This Guide Pro Tools documentation uses the following conventions to indicate menu choices, keyboard commands, and mouse commands:
-Convention Action File > Save Choose Save from the File menu Control+N Hold down the Control key and press the N key Control-click Hold down the Control key and click the mouse button Right-click Click with the right mouse button Commands, Options, Settings The names of and that appear on-screen are in a different font.
-The following symbols are used to highlight important information:
-g User Tips are helpful hints for getting the most from your Pro Tools system.
-Important Notices include information that could affect your Pro Tools project data or the performance of your Pro Tools system.
-b Shortcuts show you useful keyboard or mouse shortcuts.
-> **Note:** Cross References point to related sections in this guide and other Avid documentation.
-How to Use this PDF Guide This PDF provides the following useful features:
-- The Bookmarks on the left serve as a continuously visible table of contents. Click on a subject
-heading to jump to that page.
-Click a + symbol to expand that heading to show subheadings. Click the – symbol to collapse a
-- subheading.
-The Table of Contents provides active links to their pages. Select the hand cursor, allow it to hover
-- over the heading until it turns into a finger. Then click to locate to that subject and page.
-- All cross references in blue are active links. Click to follow the reference.
-- Select Find from the Edit menu to search for a subject.
-- When viewing this PDF on an iPad, it is recommended that you open the file using Apple Books to take
-advantage of active links within the document. When viewing the PDF in Safari, touch the screen, then touch Open in “Books”.
-Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
+EuControl Settings, Applications tab Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
 Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
 - www.avid.com/account
 Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
