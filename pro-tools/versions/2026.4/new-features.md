@@ -10,7 +10,8 @@ date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools version 2026.4 1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 New Features and Enhancements Pro Tools® software version 2026.4 provides the following new features and enhancements:
+What’s New in Pro Tools version 2026.4 ProToolsincludesélastiqueProV3byzplane.developmentastimestretchingengine.
+1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 New Features and Enhancements Pro Tools® software version 2026.4 provides the following new features and enhancements:
 Track Pinning
 - Transcription Improvements
 - Fraunhofer MPEG-H Audio Renderer Support
@@ -41,21 +42,7 @@ Last Focused
 4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the
 Application field.
 5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab 1 What’s New in Pro Tools 2026.4 1 What’s New in Pro Tools 2026.4 Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
-Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
-- www.avid.com/account
-Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
-- www.avid.com/learn-and-support
-Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
-- www.avid.com/learning
-Videos and Tutorials Visit the Avid YouTube channel to find playlists and videos that show how to use and learn Pro Tools.
-- Avid YouTube Channel (all playlists and videos)
-- Pro Tools Tech Tips (playlist)
-- Pro Tools Quick Tips (playlist for the Pro Tools Quick Reference Guide, available from the Dashboard)
-- What's New blog post (includes links to videos covering new features in Pro Tools 2025.10)
-Products and Developers Learn about Avid products, download demo software, or learn about our Development Partners and their plugins, applications, and hardware.
-- www.avid.com/products
-2 Track Pinning 2 Track Pinning Pin Tracks in the Edit Window Pro Tools lets you "pin" tracks to the top of the Edit window. Pinned tracks remain in place (in track order), and an alias of a pinned track appears pinned at the top of the Edit window in a special Pinned Tracks pane. Aliased tracks are persistently pinned on top of all tracks in the Edit window, so they never go out of view when scrolling up or down through the rest of the tracks in the Edit window. Pinned tracks share the same data as their source tracks, and any changes performed on either pinned or source tracks are mirrored in the other in real time. Pinned tracks and the source track share the same show/hide state, however, pinned tracks do not share the same view settings as source tracks. This means that you can set the view (clips, notes, playlists, and so on), automation lanes, and the height of pinned tracks independently from source tracks.
+EuControl Settings, Applications tab 2 Track Pinning 2 Track Pinning Pin Tracks in the Edit Window Pro Tools lets you "pin" tracks to the top of the Edit window. Pinned tracks remain in place (in track order), and an alias of a pinned track appears pinned at the top of the Edit window in a special Pinned Tracks pane. Aliased tracks are persistently pinned on top of all tracks in the Edit window, so they never go out of view when scrolling up or down through the rest of the tracks in the Edit window. Pinned tracks share the same data as their source tracks, and any changes performed on either pinned or source tracks are mirrored in the other in real time. Pinned tracks and the source track share the same show/hide state, however, pinned tracks do not share the same view settings as source tracks. This means that you can set the view (clips, notes, playlists, and so on), automation lanes, and the height of pinned tracks independently from source tracks.
 g Pinned Folder tracks appear as a single flat track. You can only view and edit individual contained tracks under the source Folder track.
 "Synth" track pinned to the top of the Edit window 2 Track Pinning To pin a track to the top of the Edit window:
 - Pin.
@@ -190,7 +177,8 @@ Choose select from the Renderer selector, and click
 - MPEG-H Renderer
 In the Renderer controls in the Edit Window toolbar, select from the Renderer 4 Fraunhofer MPEG-H Audio Renderer Support selector.
 Rendering Format The list of available rendering formats are MPEG-H Audio rendering formats that fit into the currently used monitor path width.
-Reference Layout When you first enable the MPEG-H Renderer in a Pro Tools session, you are prompted to specify the and
+Reference Layout When you first enable the MPEG-H Renderer in a Pro Tools session, you are prompted to specify the Reference Layout. The options include: Mono, 2.0, 3.0, 3.0 Surr, Quad, LCRS, 5.0, 5.1, 5.1+Back, 7.1 (60 deg), 7.1 (110 deg), 5.1+2H, 5.1+4H, 7.2+3H, 5.1+6H, 7.1+4H, 7.1+6H, 9.1+4H.
+and
 - Without existing channel components, the renderer prompts you to specify the Reference Layout
 when first opening it.
 Creating a bed prior to setting the Reference Layout, automatically determines the appropriate
@@ -327,7 +315,7 @@ Roll:
 This Meta control rolls the anchor left and right, causing the channel positions to follow relatively in the room. This control is not available with a mono source and the anchor point is unlinked.
 Pitch: This Meta control rolls the anchor left and right, causing the channel positions to follow relatively in the room. This control is not available with a mono source and the anchor point is unlinked.
 Spin Spin The controls help automate the movement of fully rotatable parameters. For example, you may want to do live momentary movements that do not necessarily relate to a tempo, or you might want the movement to relate to and adapt with the tempo of a song.
-Spin Mode Selector: Free, Note, and Bar options are exclusive. The dotted and triplet selections are supplementary, and their behavior only applies to the and note options, and they can be selected at any time.
+Spin Mode Selector: Free, Note, and Bar options are exclusive. The dotted and triplet selections are 1/2, 1/4, 1/8 supplementary, and their behavior only applies to the and note options, and they can be selected at any time.
 Spin Rate Knob: For Bars and Notes, the Spin Rate is relative to the selected rhythmic value. For example, 100% of a 1/4 note means that one rotation happens every quarter note. Free modes spin slower or faster depending on the specified percentage, and is based on how many milliseconds it takes for a full rotation.
 Spin Target Selector: Determines which parameter is affected by the spin control.
 Orbit <default>
@@ -425,7 +413,9 @@ Select this option to convert all immersive assignments to a Bed. All tracks cur
 This option is not available for the 360RA WalkMix renderer.
   - Do Not Perform Migration: When this option is select, Pro Tools does not migrate
 Immersive assignments to the new format.
+9.1.4, 7.1.4, 7.1.2, 7.0.2, 7.1, 7.0,
 3. Select the desired Bed Width for the destination renderer:
+6.1, 5.1.4, 5.1.2, 5.0.2, 5.1, 5.0, Quad, LCRS, LCR, Stereo, or Mono.
 4. Click OK.
 6 Miscellaneous Features and Enhancements
 5. In the resultant Migration Results dialog, click Yes to save a text file of the results or No to not.
@@ -453,7 +443,7 @@ Headphone Personalization Delete Current Profile.
 Delete.
 5. When prompted to confirm that you want to delete the file, click
 The deleted profile is moved to the trash.
-iXML Channel Ordering Improvements When importing and exporting certain multichannel files in earlier versions of Pro Tools (mainly specific to iXML channel info metadata, WavEXT channel mask metadata, and the physical order of channels within files. These issues have been addressed while maintaining backwards compatibility with earlier versions of Pro Tools. As a result:
+iXML Channel Ordering Improvements When importing and exporting certain multichannel files in earlier versions of Pro Tools (mainly specific to immersive stem formats from 5.0.2 up to 9.1.6), there were some issues caused by discrepancies between iXML channel info metadata, WavEXT channel mask metadata, and the physical order of channels within files. These issues have been addressed while maintaining backwards compatibility with earlier versions of Pro Tools. As a result:
 6 Miscellaneous Features and Enhancements Files created by third-party applications are imported to the correct track format in Pro Tools and
 - with the correct channel order.
 - Files created by Pro Tools are recognized correctly by other applications.

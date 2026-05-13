@@ -10,7 +10,8 @@ date-added: 13/05/2026
 status: current
 ---
 
-What’s New in Pro Tools Version 2025.12 1 What’s New in Pro Tools 2025.12 1 What’s New in Pro Tools 2025.12 New Features and Enhancements Pro Tools® software version 2025.12 provides the following new features and enhancements:
+What’s New in Pro Tools Version 2025.12 ProToolsincludesélastiqueProV3byzplane.developmentastimestretchingengine.
+1 What’s New in Pro Tools 2025.12 1 What’s New in Pro Tools 2025.12 New Features and Enhancements Pro Tools® software version 2025.12 provides the following new features and enhancements:
 Support for UWA Audio Vivid
 - Additional Partner Content:
   - Bounce Factory Lite for SoundFlow by Andrew Scheps
@@ -31,32 +32,19 @@ Last Focused
 4. If necessary, launch Pro Tools 2024.3 then click on it to make it appear in the
 Application field.
 5. Click the plus sign (“+”) to add Pro Tools 24.3 to the Applications list.
-EuControl Settings, Applications tab 1 What’s New in Pro Tools 2025.12 1 What’s New in Pro Tools 2025.12 Resources The Avid website (www.avid.com) is your best online source for information to help you get the most out of your Avid system.
-Account Activation and Product Registration Activate your product to access downloads in your Avid account (or quickly create an account if you do not have one). Register your purchase online, download software, updates, documentation, and other resources.
-- www.avid.com/account
-Support and Downloads Contact Avid Customer Success (technical support), download software updates and the latest online manuals, browse the Compatibility documents for system requirements, search the online Knowledge Base or join the worldwide Avid user community on the User Conference.
-- www.avid.com/learn-and-support
-Training and Education Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified training center, or view video tutorials and webinars.
-- www.avid.com/learning
-Videos and Tutorials Visit the Avid YouTube channel to find playlists and videos that show how to use and learn Pro Tools.
-- Avid YouTube Channel (all playlists and videos)
-- Pro Tools Tech Tips (playlist)
-- Pro Tools Quick Tips (playlist for the Pro Tools Quick Reference Guide, available from the Dashboard)
-- What's New blog post (includes links to videos covering new features in Pro Tools 2025.10)
-Products and Developers Learn about Avid products, download demo software, or learn about our Development Partners and their plugins, applications, and hardware.
-- www.avid.com/products
-2 UWA Audio Vivid 2 UWA Audio Vivid Pro Tools Ultimate and Studio on (macOS only) support UWA Audio Vivid. Audio Vivid provides 3D spatial WAV, ADM, and Audio Vivid standard MP4 (AV3A) formats.
+EuControl Settings, Applications tab 2 UWA Audio Vivid 2 UWA Audio Vivid Pro Tools Ultimate and Studio on (macOS only) support UWA Audio Vivid. Audio Vivid provides 3D spatial position audio editing capabilities, supports binaural, 2.0, 5.1 to 7.1.4 spatial rendering, and lets you export WAV, ADM, and Audio Vivid standard MP4 (AV3A) formats.
 Audio Vivid features:
 - Import ADM format files in Pro Tools.
 - The position and trajectory of sound can be defined by using the Panner's audio-visual control
 function, and the audio-visual location can also be controlled using the Audio Vivid panner.
 - Trajectory automation.
+- Spatial audio monitoring and mixing (binaural, stereo, 5.1, 5.1.4, 7.1, 7.1.2, and 7.1.4) using the
 rendering algorithms in Audio Vivid Renderer.
 Bounce Mix of the current Audio Vivid project.
 - Install the Audio Vivid Production Suite
 The Audio Vivid Production Suite includes both the Audio Vivid Panner and the Audio Vivid Renderer.
 Panner：Supports the definition of the position and trajectory of sound, and set the spatial position and sound movement trajectory of mono/stereo.
-and 7.1.4 rendering monitoring. It also supports up-down mixing of sound and channel compression.
+Renderer：Is equipped with multiple rendering algorithms and supports binaural, stereo, 5.1, 5.1.4, 7.1, 7.1.2, and 7.1.4 rendering monitoring. It also supports up-down mixing of sound and channel compression.
 To install the Audio Vivid Production Suite:
 1. Download and run the Audio Vivid Production Suite installation package.
 2. Follow the onscreen instructions and use the default installation path to complete the installation.
@@ -72,6 +60,7 @@ Audio Vivid > Assign as Object.
 2. From the track output selector, select
 Unlike Dolby Atmos, object assignments are exclusive per track and are made from the track output section. They cannot be created or renamed in the I/O Setup, and they cannot be renamed by right- clicking on a track I/O plate. When an output is assigned to an object, it cannot be routed to multiple outputs.
 2 UWA Audio Vivid Bed Assignments Similar to Objects, when the Audio Vivid Renderer is enabled you can assign track outputs to an Audio Vivid Bed. Bed assignments insert a Pro Tools mixer of a specified width in between the track output/send assignment and the Audio Vivid plugin. This lets you pre-pan the signal before the signal reaches the Audio Vivid plugin. Beds can only be created for widths that the destination mixer plugin supports as inputs. Beds always use Pro Tools panning, even if the destination mixer uses another pan format.
+Audio Vivid supports Bed channel widths of Stereo, 5.1, 5.1.2, 5.1.4, 7.1, 7.1.2, and 7.1.4.
 g Audio Vivid Beds do not support subpaths. If a track is assigned to a subpath in a Dolby renderer, a new Bed is created during migration that matches the main Bed path width.
 Audio Vivid does not support Track send assignments to Beds. When migrating a session from Dolby Atmos to Audio Vivid, any Sends assigned to Beds are removed. These assignments will be restored when switching back to the original configuration.
 To create and assign a new Audio Vivid bed:
@@ -101,7 +90,8 @@ Bed and Object Panel The input status section represents all available 128 chann
 Bed Mute Click to mute (or unmute) all Beds.
 Object Mute Click to mute (or unmute) all Objects.
 Monitor Level Meters The monitoring level display area shows the level values of the corresponding speaker or binaural monitoring in the current rendering mode. Binaural monitoring is only enabled in Binaural mode. The level meter shows a dual-level display: the top horizontal line indicates the peak level and the level column shows the RMS level.
-2 UWA Audio Vivid Monitor Selector Meters are ordered from left to right: L/R/C/LFE/LS/Rs/Lrs/Rrs/Ltf/Rtf/Ltr/Rtr.
+2 UWA Audio Vivid Monitor Selector Select the desired monitor format: 7.1.4, 7.1.2, 7.1, 5.1.4, 5.1.2, 5.1, or 2.0.
+Meters are ordered from left to right: L/R/C/LFE/LS/Rs/Lrs/Rrs/Ltf/Rtf/Ltr/Rtr.
 Binaural Monitoring Click the lower-right corner of the Binaural Monitoring pane to expand the view.
 Loudness Meters Provides real-time monitoring of signal loudness after rendering. When short-term loudness, instantaneous loudness, comprehensive loudnes,s and true peak exceed the warning value, they turn red. Values can be reset (measured from the current playing content) or paused (the current values are displayed).
 Speakers or Binaural Select whether you want to view the values for Speakers or for Binaural output.
@@ -149,7 +139,7 @@ To export your Audio Vivid mix:
 4. Configure the resulting Audio Vivid Bounce dialog as desired (see "Audio Vivid Bounce Options" on the
 next page).
 5. Click Export.
-2 UWA Audio Vivid Audio Vivid Bounce Options Name Type the Name you want for the exported file. Render Mode Select the desired channel width for or Binaural.
+2 UWA Audio Vivid Audio Vivid Bounce Options Name Type the Name you want for the exported file. Render Mode Render Mode: 7.1.4, 7.1.2, 7.1, 5.1.4, 5.1.2, 5.1, 2.0, Select the desired channel width for or Binaural.
 Output Format Select the desired file format: WAV, ADM BWF, or MP4(AV3A).
 Sampling rate (Hz) Select the desired sample rate: 4100, 48000, 88200, or 96000.
 88.2 kHz is not available with MP4(AV3A).
@@ -159,7 +149,7 @@ Select the desired Bit Depth: or Export Path Click the Select button to specify 
 > **Note:** For more information, visit https://www.avid.com/resource-center/bounce-factory-lite.
 Inner Circle Rewards Inner Circle is a rewards program for annual Pro Tools subscribers and customers with active perpetual upgrade plans that delivers free plugins, sounds, and more. Pro Tools 2025.12 includes four new Inner Circle rewards from Audio Brewers, Axart Labs, Safari Pedals, and Wave Alchemy, giving you new ways to process audio, work with ambisonics content, and create with MIDI.
 g Your Inner Circle rewards are available through your online Avid Master account and through Avid Link.
-Audio Brewers ab Decoder HOA Express ab Decoder HOA Express makes Ambisonics decoding fast and easy, allowing users to translate their automatic and designed to deliver instant, reliable results.
+Audio Brewers ab Decoder HOA Express ab Decoder HOA Express makes Ambisonics decoding fast and easy, allowing users to translate their Ambisonics signals into Stereo, 5.1, or even 7.1.2 beds with no configuration required. The entire process is automatic and designed to deliver instant, reliable results.
 > **Note:** For more information, visit https://www.avid.com/resource-center/audio-brewers.
 Axart Labs AutoBeat Lite AutoBeat Lite is an AI-powered, 12-track generative MIDI beat engine that brings instant rhythmic inspiration to Pro Tools, delivering fresh patterns across a range of modern genres. Utilize intuitive musical controls, detailed step editing, and real-time MIDI pattern triggering to quickly shape grooves and refine ideas with precision. With effortless drag-and-drop MIDI export and smooth integration into your session, AutoBeat streamlines beat creation from first sketch to final arrangement.
 > **Note:** For more information, visit https://www.avid.com/resource-center/autobeat-lite.
