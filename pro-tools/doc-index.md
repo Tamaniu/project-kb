@@ -7,7 +7,7 @@ source: avid-official
 source-url: https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-Documentation
 confidentiality: public
 date-added: 27/04/2026
-last-updated: 27/04/2026
+last-updated: 13/05/2026
 status: current
 products-affected: [pro-tools, pro-tools-hd, pro-tools-first, pro-tools-ultimate]
 feature-tags: [pro-tools, reference-guide, shortcuts, plugins, playcell, groovecell, synthcell, sketch, release-notes]
@@ -18,7 +18,7 @@ feature-tags: [pro-tools, reference-guide, shortcuts, plugins, playcell, groovec
 Official PDF documentation index sourced from the Avid Knowledge Base Pro Tools documentation page:
 <https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-Documentation>
 
-Page last updated: 16/12/2025.
+Source page last verified: 16/12/2025. **2026.4 section added manually 13/05/2026** — post-index release; PDF URLs inferred from Avid naming convention and confirmed against downloaded files.
 
 > **Structural note — OS-split ReadMes:** Unlike Media Composer, Pro Tools ships separate ReadMe
 > PDFs for macOS and Windows. Both are listed for each version where available.
@@ -30,7 +30,7 @@ Page last updated: 16/12/2025.
 > KB articles (HTML, not PDF) rather than to standalone PDFs. These are listed separately.
 
 > **Structural note — Shortcuts Guide:** A dedicated Shortcuts Guide PDF is published per major
-> release. Listed from 2024.6 onwards; absent from 2025.12.
+> release. Listed from 2024.6 onwards; absent from 2025.12 only.
 
 > **Source anomaly — 2025.12.1:** Listed under Current Documentation with a single updated
 > Reference Guide PDF only. No full release package (ZIP, What's New, ReadMes) published for
@@ -62,6 +62,40 @@ Page last updated: 16/12/2025.
 
 ## Current Documentation
 
+### Pro Tools 2026.4
+
+> Added to index manually 13/05/2026. ZIP bundle URL and Release Notes KB URL inferred from
+> Avid naming convention — verify against source page when next updated.
+
+| Document | Type | Updated | URL |
+|---|---|---|---|
+| Pro Tools 2026.4 Release Documents — ALL | ZIP bundle | — | [ZIP](https://resources.avid.com/SupportFiles/PT/Pro_Tools_26.4_Docs_ALL.zip) ⚠️ inferred |
+| Pro Tools Reference Guide 2026.4 | Reference Guide | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_Reference_Guide_2026.4.pdf) |
+| What's New in Pro Tools 2026.4 | What's New | — | [PDF](https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf) |
+| Pro Tools Shortcuts Guide 2026.4 | Shortcuts Guide | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_Shortcuts_2026.4.pdf) |
+| Pro Tools 2026.4 Read Me — Mac | ReadMe (macOS) | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Mac.pdf) |
+| Pro Tools 2026.4 Read Me — Win | ReadMe (Windows) | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Win.pdf) |
+| Pro Tools 2026.4 Release Notes | Release Notes (KB article) | — | [KB](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-2026-4-Release-Notes) ⚠️ inferred |
+
+---
+
+## Plugin Documentation
+
+> Cell instrument guides are dated 2023.7. Audio and MIDI Plugins Guide is now at 2025.10
+> (updated from 2024.10). These are not updated in step with Pro Tools core releases.
+
+| Document | Type | Version | URL |
+|---|---|---|---|
+| PlayCell, GrooveCell, and SynthCell Release Notes | Release Notes (KB article) | Current | [KB](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-Cell-Instrument-and-FX-Family-Release-Notes) |
+| PlayCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/PlayCell_Plug-in_Guide_2023.7.pdf) |
+| GrooveCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/GrooveCell_Plug-in_Guide_2023.7.pdf) |
+| SynthCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/SynthCell_Plug-in_Guide_2023.7.pdf) |
+| Audio and MIDI Plugins Guide | Plugin Guide | 2025.10 | [PDF](https://resources.avid.com/SupportFiles/PT/Audio_and_MIDI_Plugins_Guide_2025.10.pdf) |
+
+---
+
+## Legacy Documentation
+
 ### Pro Tools 2025.12.1
 
 > Patch update — Reference Guide only. No ZIP bundle, What's New, or ReadMes published for
@@ -83,25 +117,6 @@ Page last updated: 16/12/2025.
 | Pro Tools 2025.12 Read Me — Mac | ReadMe (macOS) | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_2025.12_Read_Me-Mac.pdf) |
 | Pro Tools 2025.12 Read Me — Win | ReadMe (Windows) | — | [PDF](https://resources.avid.com/SupportFiles/PT/Pro_Tools_2025.12_Read_Me-Win.pdf) |
 | Pro Tools 2025.12 Release Notes | Release Notes (KB article) | — | [KB](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-2025-12-Release-Notes) |
-
----
-
-## Plugin Documentation
-
-> Cell instrument guides are dated 2023.7. Audio and MIDI Plugins Guide is dated 2024.10.
-> These are not updated in step with Pro Tools core releases.
-
-| Document | Type | Version | URL |
-|---|---|---|---|
-| PlayCell, GrooveCell, and SynthCell Release Notes | Release Notes (KB article) | Current | [KB](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-Cell-Instrument-and-FX-Family-Release-Notes) |
-| PlayCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/PlayCell_Plug-in_Guide_2023.7.pdf) |
-| GrooveCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/GrooveCell_Plug-in_Guide_2023.7.pdf) |
-| SynthCell Plug-In Guide | Plugin Guide | 2023.7 | [PDF](https://resources.avid.com/SupportFiles/PT/SynthCell_Plug-in_Guide_2023.7.pdf) |
-| Audio and MIDI Plugins Guide | Plugin Guide | 2024.10 | [PDF](https://resources.avid.com/SupportFiles/PT/Audio_and_MIDI_Plugins_Guide_2024.10.pdf) |
-
----
-
-## Legacy Documentation
 
 ### Pro Tools 2025.10 / 2025.10.1
 
