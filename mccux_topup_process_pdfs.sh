@@ -114,6 +114,30 @@ run_out "MCCUX_2025_10_0_Users_Guide.pdf" \
     "mediacentral/cloud-ux/versions/2025.10.0/users-guide.md" \
     "cloud-ux" "2025.10.0" "users-guide"
 
+# ─── Optional scope additions ─────────────────────────────────────────────────
+# URLs confirmed from Avid KB page on 14/05/2026.
+# Includes: Sync Admin Guide v2024.10, 3P Tools combined guide v2025.6,
+#   Story Designer App UIG, Distribution Service ReadMe.
+#
+# NOTE: MCCUX_2025_6_0_3P_Tools_Guide.pdf replaces the 12-line stub at
+#   versions/2025.6.0/third-party-guide.md (original stub was misfiled).
+#   After successful conversion, delete the stub:
+#     rm project-kb/mediacentral/cloud-ux/versions/2025.6.0/third-party-guide.md
+echo ""
+echo "── Optional scope additions ─────────────────────────────────────────────"
+run_out "MCCUX_2024_10_0_Sync_Admin_Guide.pdf" \
+    "mediacentral/sync/versions/2024.10/admin-guide.md" \
+    "cloud-ux" "2024.10" "admin-guide"
+run_out "MCCUX_2025_6_0_3P_Tools_Guide.pdf" \
+    "mediacentral/cloud-ux/plugins/3rd-party-tools/2025.6-guide.md" \
+    "cloud-ux" "2025.6" "third-party-guide"
+run_out "MCCUX_StoryDesigner_App_UIG.pdf" \
+    "mediacentral/cloud-ux/plugins/story-designer/guide.md" \
+    "cloud-ux" "current" "users-guide"
+run_out "MCCUX_MCDS_ReadMe.pdf" \
+    "mediacentral/cloud-ux/distribution-service/readme.md" \
+    "cloud-ux" "current" "readme"
+
 # ─── Summary ──────────────────────────────────────────────────────────────────
 echo ""
 echo "══════════════════════════════════════════════════════════════════════"
@@ -130,6 +154,4 @@ fi
 if [[ $FAILED -eq 0 && $MISSING -eq 0 ]]; then
   echo ""
   echo "  ✓ All conversions completed successfully."
-  echo "  Remember to run with --force for the 2025.6.0 readme replacement"
-  echo "  if not already done."
 fi
