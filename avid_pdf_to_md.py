@@ -195,6 +195,12 @@ SKIP_SECTIONS = {
     # Avid standard resources/contact page
     "Account Activation and Product Registration",
     "AccountActivationandProductRegistration",
+    # Third-party legal disclaimer pages (MCDP and other admin guides)
+    # These appear as page 2 after the primary Avid legal notices page
+    "The following disclaimer is required by Paradigm Matrix",
+    "ThefollowingdisclaimerisrequiredbyParadigmMatrix",
+    "Portions of this software licensed from Paradigm Matrix",
+    "PortionsofthissoftwarelicensedfromParadigmMatrix",
 }
 
 # Roman numeral page markers (standalone or at end of TOC line)
@@ -351,8 +357,20 @@ def extract_sections(pdf_path, known_h2=None, known_h3=None, x_tol=1.8):
     classified = []
     heading_seen = set()
     pending_type = None
+    legal_skip_page = None   # page index currently being skipped due to legal boilerplate
 
     for pi, li, stripped in flat:
+        # legal_stop is page-scoped: skip the rest of the triggering page, then
+        # continue with subsequent pages.  This handles admin guides that place
+        # legal notices at the front (pages 1-2) before 50+ pages of content,
+        # while still correctly suppressing end-of-document legal sections in
+        # docs like Pro Tools where there is no content after them.
+        if legal_skip_page is not None:
+            if pi == legal_skip_page:
+                continue          # still on the legal page — skip line
+            else:
+                legal_skip_page = None  # moved to next page — resume normally
+
         # Known section headings
         if stripped in known_h2:
             if li <= 1 and stripped in heading_seen:
@@ -375,7 +393,8 @@ def extract_sections(pdf_path, known_h2=None, known_h3=None, x_tol=1.8):
         pending_type = new_pending
 
         if typ == 'legal_stop':
-            break
+            legal_skip_page = pi   # skip rest of this page; resume on next
+            continue
         if typ == 'skip':
             continue
 

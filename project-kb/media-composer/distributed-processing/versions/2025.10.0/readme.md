@@ -6,14 +6,14 @@ release-date: 01/10/2025
 doc-type: readme
 source: pdf
 confidentiality: public
-date-added: 16/04/2026
+date-added: 14/05/2026
 status: current
 ---
 
 Installation and Prerequisites Avid Media Composer | Distributed Processing ReadMe Version 2025.10 Avid recommends that you read all the information in this ReadMe file thoroughly before installing or using any new software release.
 For the latest information on this release, see the following page on the Avid Knowledge Base:
 https://kb.avid.com/pkb/articles/en_US/user_guide/Media-Composer-2025-Documentation Revision History Date Revised Changes Made January 5, 2026 Limitation numbers SYN-2621 and SYN-2624 moved to the Avid MediaCentral | Cloud UX ReadMe v2025.10.
-November 14, 2025 First publication Contents Installation and Prerequisites This release of Avid Distributed Processing includes updates for:
+November 14, 2025 First publication Installation and Prerequisites This release of Avid Distributed Processing includes updates for:
 - Distributed Processing Server components
 For information on supported operating systems and for a list of product versions qualified for use with Avid Distributed Processing, see the Compatibility Matrix on the Avid Knowledge Base at:
 https://kb.avid.com/articles/en_US/compatibility/Avid-Video-Compatibility-Charts Avid highly recommends that you consult this matrix prior to upgrading any application or system to ensure that you understand the scope of the upgrade. In some cases, you might be required to upgrade additional components or hardware to maintain system compatibility.

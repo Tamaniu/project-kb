@@ -6,13 +6,13 @@ release-date: 01/10/2024
 doc-type: readme
 source: pdf
 confidentiality: public
-date-added: 16/04/2026
+date-added: 14/05/2026
 status: current
 ---
 
 Installation and Prerequisites Avid Media Composer | Distributed Processing ReadMe Version 2024.10 Avid recommends that you read all the information in this ReadMe file thoroughly before installing or using any new software release.
 Additional information and documentation for Avid Media Composer Distributed Processing, can be found on the version respective Media Composer pages of the Avid Knowledge Base at:
-https://kb.avid.com/articles/en_US/User_Guide/Media-Composer-Documentation-Links Revision History Date Revised Changes Made November 14, 2024 First publication Contents Installation and Prerequisites This release of Avid Media Composer Distributed Processing includes updates for:
+https://kb.avid.com/articles/en_US/User_Guide/Media-Composer-Documentation-Links Revision History Date Revised Changes Made November 14, 2024 First publication Installation and Prerequisites This release of Avid Media Composer Distributed Processing includes updates for:
 - Distributed Processing Service Workstation (Windows and macOS)
 - Distributed Processing Server components (requires installation of MediaCentral Cloud
 UX v2024.10) This release of Media Composer Distributed Processing has strict compatibility guidelines. For details, see the Distributed Processing Matrix at https://kb.avid.com/pkb/articles/en_ US/compatibility/Avid-Video-Compatibility-Charts.

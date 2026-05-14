@@ -1,0 +1,51 @@
+---
+product: media-composer
+product-area: editing
+version: "2022.7"
+release-date: 01/07/2022
+doc-type: new-features
+source: pdf
+confidentiality: public
+date-added: 14/05/2026
+status: current
+---
+
+New in Media Composer v2022.7 What’s New for Avid® Media Composer® v2022.7 New in Media Composer v2022.7 The following are new for Media Composer v2022.7:
+• New Match Frame Results for Group and MultiGroup Subclips (cid:129) Custom Workspaces for Multiple Monitor Configurations (cid:129) New Keyboard Mapping Options for Adobe Premiere Pro and DaVinci Resolve (cid:129) Text Justification Relative to Anchor Point in Titler+ (cid:129) Select Filler with Segment Tools Added to the Timeline Menu (cid:129) Timeline Clip Notes Display for Nested Clips (cid:129) New Enablers with Improved Design New Match Frame Results for Group and MultiGroup Subclips Using Match Frame on the subclip of a Group or MultiGroup clip now loads the original subclip of the Group or MultiGroup clip. In previous versions of Media Composer, performing the same Match Frame operation would load the Group or MultiGroup clip.
+> **Note:** This feature will only work with subclips of a Group or MultiGroup clip created in Media Composer
+v2022.7 and later.
+Custom Workspaces for Multiple Monitor Configurations Media Composer is now able to create and save different workspaces for display setups that use multiple monitors. This means Media Composer will remember the position of windows and tools based on the number of displays you have connected.
+New Keyboard Mapping Options for Adobe Premiere Pro and DaVinci Resolve When switching to a workspace that doesn't match your current monitor configuration (for example, switching to a workspace created for three monitors when using only two monitors), you are prompted by the "New monitor configuration" window, which asks, "Your workspaces were set up for a different number of monitors. Now that the number of monitors has changed, would you like to duplicate workspaces for the new configuration?" Selecting "Yes" creates a duplicate of your existing workspace that matches the new monitor configuration (you can further modify and save this new setup if you would like). Selecting "No" preserves the current workspace, even if the monitor configuration is mismatched. In this case, certain windows may not be visible if they were located on a monitor that is now missing.
+New Keyboard Mapping Options for Adobe Premiere Pro and DaVinci Resolve Keyboard mapping options for Adobe Premiere Pro and DaVinci Resolve have been added to the default settings in the latest version of Media Composer. You can access these new options by going to Avid Media Composer > Preferences > User > Keyboard, and selecting the desired setting.
+Text Justification Relative to Anchor Point in Titler+
+> **Note:** If the new keyboard mapping options do not appear in your User Settings, click the User Profile
+menu at the top of the Settings window and choose “Update User Profile” to refresh and load the new options.
+Text Justification Relative to Anchor Point in Titler+ Changing text justification in Titler+ will now shift the text layer relative to the anchor point position.
+For example, when setting text justification to "Horizontal Justify Left", the anchor point will be positioned at the bottom-left corner of the layer (as denoted by the bounding box). When toggling between justifications (left, center, right), the text will shift accordingly around this same anchor point.
+Select Filler with Segment Tools Added to the Timeline Menu “Select Filler with Segment Tools" option is normally accessed via the Timeline Settings window. It is now also accessible through the Timeline menu and can be mapped as a keyboard shortcut.
+Timeline Clip Notes Display for Nested Clips Timeline Clip Notes Display for Nested Clips In the latest version of Media Composer, if the topmost clip does not contain a Timeline Clip Note, but a nested segment below it does (this occurs when nesting effects), that note will be displayed on the topmost segment.
+When adding a Timeline Clip Note to the topmost clip with a nested segment that already contains a Timeline Clip Note, the text box will alert you by saying “Additional Notes may be present in nest below”.
+New Enablers with Improved Design With this release, the “enablers”, which are used to toggle properties on or off for a clip, have been updated with a more consistent size and new overall appearance. This improved design allows for enablers that are easier to grasp, while simultaneously eliminating spacing issues with other user interface elements.
+New enablers have been updated in the following windows:
+New Enablers with Improved Design Enablers in Effect Editor Enablers in Color Correction Enablers in Avid Titler+ New Enablers with Improved Design Product specifications are subject to change without notice and do not represent a commitment on the part of Avid Technology, Inc.
+This product is subject to the terms and conditions of a software license agreement provided with the software. The product may only be used in accordance with the license agreement.
+This document is protected under copyright law. An authorized licensee of Avid Media Composer may reproduce this publication for the licensee’s own use in learning how to use the software. This document may not be reproduced or distributed, in whole or in part, for commercial purposes, such as selling copies of this document or providing support or educational services to others. This document is supplied as a guide for Avid Media Composer. Reasonable care has been taken in preparing the information it contains. However, this document may contain omissions, technical inaccuracies, or typographical errors. Avid Technology, Inc. does not accept responsibility of any kind for customers’ losses due to the use of this document. Product specifications are subject to change without notice.
+The following disclaimer is required by Apple Computer, Inc.:
+APPLE COMPUTER, INC. MAKES NO WARRANTIES WHATSOEVER, EITHER EXPRESS OR IMPLIED, REGARDING THIS PRODUCT, INCLUDING WARRANTIES WITH RESPECT TO ITS MERCHANTABILITY OR ITS FITNESS FOR ANY PARTICULAR PURPOSE. THE EXCLUSION OF IMPLIED WARRANTIES IS NOT PERMITTED BY SOME STATES. THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. THIS WARRANTY PROVIDES YOU WITH SPECIFIC LEGAL RIGHTS. THERE MAY BE OTHER RIGHTS THAT YOU MAY HAVE WHICH VARY FROM STATE TO STATE.
+The following disclaimer is required by Sam Leffler and Silicon Graphics, Inc. for the use of their TIFF library:
+Permission to use, copy, modify, distribute, and sell this software [i.e., the TIFF library] and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.
+THE SOFTWARE IS PROVIDED “AS-IS” AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+The following disclaimer is required by the Independent JPEG Group:
+This software is based in part on the work of the Independent JPEG Group.
+This Software may contain components licensed under the following conditions:
+Copyright (c) 1989 The Regents of the University of California. All rights reserved.
+Redistribution and use in source and binary forms are permitted provided that the above copyright notice and this paragraph are duplicated in all such forms and that any documentation, advertising materials, and other materials related to such distribution and use acknowledge that the software was developed by the University of California, Berkeley. The name of the University may not be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Copyright (C) 1989, 1991 by Jef Poskanzer.
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided "as is" without express or implied warranty.
+Copyright 1995, Trinity College Computing Center. Written by David Chappell.
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided "as is" without express or implied warranty.
+Copyright 1996 Daniel Dardailler.
+Permission to use, copy, modify, distribute, and sell this software for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Daniel Dardailler not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. Daniel Dardailler makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+Modifications Copyright 1999 Matt Koss, under the same license as above.
+Copyright (c) 1991 by AT&T.

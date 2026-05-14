@@ -56,15 +56,20 @@ print(resolve_output_path('$product','$version','$doctype','$KB'))
     return 0
   fi
 
-  local cmd="$PY $SP/$pdf --product $product --version $version --doc-type $doctype --kb-root $KB ${extra[*]:-}"
+  local _extra_str="${extra[*]+${extra[*]}}"
+  local cmd="$PY $SP/$pdf --product $product --version $version --doc-type $doctype --kb-root $KB${_extra_str:+ $_extra_str}"
   if [[ $DRY -eq 1 ]]; then
     echo "  DRY      $cmd"
     return 0
   fi
 
+  # Build args array — omit extra entirely when empty to avoid passing "" to argparse
+  local -a _args=("$SP/$pdf" --product "$product" --version "$version" \
+                  --doc-type "$doctype" --kb-root "$KB")
+  [[ ${#extra[@]} -gt 0 ]] && _args+=("${extra[@]}")
+
   echo "  PROC     $pdf"
-  if $PY "$SP/$pdf" --product "$product" --version "$version" --doc-type "$doctype" \
-       --kb-root "$KB" "${extra[@]:-}" 2>&1 | tail -1; then
+  if $PY "${_args[@]}" 2>&1 | tail -1; then
     PROCESSED=$((PROCESSED + 1))
   else
     echo "  FAIL     $pdf"
@@ -143,6 +148,13 @@ run "Install_Guide_Editor_v2025.x.pdf" \
 run "MC_Enterprise_Admin_Guide_2024.x.pdf" \
     "media-composer-guide" "2025.x" "enterprise-admin-guide"
 
+# 2025.x MCDP
+run "MCDP_2025_12_0_Admin_Guide.pdf" "mcdp" "2025.12.0" "admin-guide"
+run "MCDP_2025_12_0_ReadMe.pdf"      "mcdp" "2025.12.0" "readme"
+run "MCDP_2025_12_1_ReadMe.pdf"      "mcdp" "2025.12.1" "readme"
+run "MCDP_2025_10_0_Admin_Guide.pdf" "mcdp" "2025.10.0" "admin-guide"
+run "MCDP_2025_10_0_ReadMe.pdf"      "mcdp" "2025.10.0" "readme"
+
 # ─────────────────────────────────────────────────────────────────────────────
 echo ""; echo "══ 2024.x ════════════════════════════════════════════"
 
@@ -178,6 +190,12 @@ run "Install_Guide_Editor_v2023.x.pdf" \
     "media-composer-guide" "2024.x" "install-guide"
 run "MC_Enterprise_Admin_Guide_2024.x.pdf" \
     "media-composer-guide" "2024.x" "enterprise-admin-guide"
+
+# 2024.x MCDP
+run "MCDP_2024_10_0_Admin_Guide.pdf" "mcdp" "2024.10.0" "admin-guide"
+run "MCDP_2024_10_0_ReadMe.pdf"      "mcdp" "2024.10.0" "readme"
+run "MCDP_2024_10_1_ReadMe.pdf"      "mcdp" "2024.10.1" "readme"
+run "MCDP_2024_10_2_ReadMe.pdf"      "mcdp" "2024.10.2" "readme"
 
 # ─────────────────────────────────────────────────────────────────────────────
 echo ""; echo "══ 2023.x ════════════════════════════════════════════"

@@ -1,6 +1,6 @@
 # project-kb MANIFEST
-# Last updated: 13/05/2026
-# Git-tracked .md files: approx. 341 (excludes raw .vtt files and non-.md assets)
+# Last updated: 14/05/2026
+# Git-tracked .md files: approx. 603 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
@@ -45,6 +45,7 @@ fastserve/ingest/versions/2022.9/new-features-2022.9-to-2024.3.md
 fastserve/playout/versions/2022.2/new-features-2022.2-to-2023.20.md
 
 ## media-composer
+# MC PDF doc indexes — source: kb.avid.com — added 27/04/2026
 # MC 2025 PDF doc index — source: kb.avid.com MC 2025 Documentation page — added 27/04/2026
 media-composer/doc-index.md
 # MC 2024 PDF doc index — source: kb.avid.com MC 2024 Documentation page — added 27/04/2026
@@ -61,6 +62,18 @@ media-composer/doc-index-2020.md
 media-composer/doc-index-2019.md
 # MC 2018 PDF doc index — source: kb.avid.com MC 2018 Documentation page — added 27/04/2026
 media-composer/doc-index-2018.md
+
+# MC | Distributed Processing — PDF conversions batch 13–14/05/2026
+# Source: resources.avid.com via mc_process_pdfs.sh; product: mcdp
+media-composer/distributed-processing/versions/2019.12/admin-guide.md
+media-composer/distributed-processing/versions/2021.6.0/admin-guide.md
+media-composer/distributed-processing/versions/2021.12.0/admin-guide.md
+media-composer/distributed-processing/versions/2022.10.0/admin-guide.md
+media-composer/distributed-processing/versions/2022.12.0/readme.md
+media-composer/distributed-processing/versions/2022.12.1/readme.md
+media-composer/distributed-processing/versions/2023.12.0/admin-guide.md
+media-composer/distributed-processing/versions/2023.12.0/readme.md
+media-composer/distributed-processing/versions/2023.8.0/readme.md
 media-composer/distributed-processing/versions/2024.10.0/admin-guide.md
 media-composer/distributed-processing/versions/2024.10.0/readme.md
 media-composer/distributed-processing/versions/2024.10.1/readme.md
@@ -70,17 +83,158 @@ media-composer/distributed-processing/versions/2025.10.0/readme.md
 media-composer/distributed-processing/versions/2025.12.0/admin-guide.md
 media-composer/distributed-processing/versions/2025.12.0/readme.md
 media-composer/distributed-processing/versions/2025.12.1/readme.md
-media-composer/guides/2022/vdi-guide.md
+
+# MC FlexNet — same PDFs shared across 2021–2025 doc pages; converted 13–14/05/2026
+media-composer/flexnet/flexnet-admin.md
+media-composer/flexnet/flexnet-legacy-admin.md
+media-composer/flexnet/flexnet-readme.md
+
+# MC guides (rolling, not version-pinned) — PDF conversions batch 13–14/05/2026
 # guides/2024/admin-guide.md — DELETED 27/04/2026 (empty shell, 12 lines)
-media-composer/guides/2025.x/vdi-guide.md
 # guides/2025/editing-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
 # guides/2025/fx-guide.md     — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
 # guides/2025/install-guide.md — DELETED 27/04/2026 (empty shell; PDF link in doc-index)
 # versions/2021.12–2024.6 new-features.md (10 files) — DELETED 27/04/2026 (empty shells, headers only)
 # versions/2025.6 new-features*.md (3 files)          — DELETED 27/04/2026 (empty/near-empty shells)
-media-composer/versions/2025.12/new-features.md
-media-composer/versions/2025.12/readme.md
+# versions/2022.10.0/admin-guide.md — PENDING DELETION (spurious file; wrong product path — should be distributed-processing/; created during early test run; delete from filesystem)
+media-composer/guides/2020.x/editing-guide.md
+media-composer/guides/2020.x/enterprise-admin-guide.md
+media-composer/guides/2020.x/fx-guide.md
+media-composer/guides/2020.x/high-res-workflows.md
+media-composer/guides/2020.x/install-guide.md
+media-composer/guides/2020.x/vdi-guide.md
+media-composer/guides/2021.x/editing-guide.md
+media-composer/guides/2021.x/enterprise-admin-guide.md
+media-composer/guides/2021.x/fx-guide.md
+media-composer/guides/2021.x/high-res-workflows.md
+media-composer/guides/2021.x/install-guide.md
+media-composer/guides/2022/vdi-guide.md
+media-composer/guides/2022.x/editing-guide.md
+media-composer/guides/2022.x/enterprise-admin-guide.md
+media-composer/guides/2022.x/fx-guide.md
+media-composer/guides/2022.x/install-guide.md
+media-composer/guides/2023.x/editing-guide.md
+media-composer/guides/2023.x/enterprise-admin-guide.md
+media-composer/guides/2023.x/fx-guide.md
+media-composer/guides/2023.x/install-guide.md
+media-composer/guides/2024.x/editing-guide.md
+media-composer/guides/2024.x/enterprise-admin-guide.md
+media-composer/guides/2024.x/fx-guide.md
+media-composer/guides/2024.x/install-guide.md
+media-composer/guides/2025.x/editing-guide.md
+media-composer/guides/2025.x/enterprise-admin-guide.md
+media-composer/guides/2025.x/fx-guide.md
+media-composer/guides/2025.x/install-guide.md
+media-composer/guides/2025.x/vdi-guide.md
+media-composer/guides/current/supported-video-formats.md
+media-composer/guides/current/virtualization-guide-vmware.md
+
+# MC versioned ReadMes and What's New — PDF conversions batch 13–14/05/2026
+# 2020.x
+media-composer/versions/2020.4/readme.md
+media-composer/versions/2020.4/new-features.md
+media-composer/versions/2020.5/readme.md
+media-composer/versions/2020.6/readme.md
+media-composer/versions/2020.6/new-features.md
+media-composer/versions/2020.8/readme.md
+media-composer/versions/2020.9/readme.md
+media-composer/versions/2020.9/new-features.md
+media-composer/versions/2020.10/readme.md
+media-composer/versions/2020.10/new-features.md
+media-composer/versions/2020.12/readme.md
+media-composer/versions/2020.12/new-features.md
+media-composer/versions/2020.12/fixes-readme.md
+media-composer/versions/2020.12.1/readme.md
+media-composer/versions/2020.12.2/readme.md
+media-composer/versions/2020.12.3/readme.md
+media-composer/versions/2020.12.5/readme.md
+media-composer/versions/2020.12.6/readme.md
+media-composer/versions/2020.12.7/readme.md
+media-composer/versions/2020.12.8/readme.md
+# 2021.x
+media-composer/versions/2021.2/readme.md
+media-composer/versions/2021.3/readme.md
+media-composer/versions/2021.3/new-features.md
+media-composer/versions/2021.5/readme.md
+media-composer/versions/2021.6/readme.md
+media-composer/versions/2021.6/new-features.md
+media-composer/versions/2021.9/readme.md
+media-composer/versions/2021.12/readme.md
+media-composer/versions/2021.12/new-features.md
+media-composer/versions/2021.12/fixes-readme.md
+media-composer/versions/2021.12.1/readme.md
+media-composer/versions/2021.12.2/readme.md
+media-composer/versions/2021.12.3/readme.md
+media-composer/versions/2021.12.4/readme.md
+media-composer/versions/2021.12.5/readme.md
+media-composer/versions/2021.12.6/readme.md
+media-composer/versions/2021.12.7/readme.md
+media-composer/versions/2021.12.8/readme.md
+media-composer/versions/2021.12.9/readme.md
+media-composer/versions/2021.12.10/readme.md
+# 2022.x
+media-composer/versions/2022.4/readme.md
+media-composer/versions/2022.4/new-features.md
+media-composer/versions/2022.7/readme.md
+media-composer/versions/2022.7/new-features.md
+media-composer/versions/2022.10/readme.md
+media-composer/versions/2022.10/new-features.md
+media-composer/versions/2022.12/readme.md
+media-composer/versions/2022.12/new-features.md
+media-composer/versions/2022.12/fixes-readme.md
+media-composer/versions/2022.12.1/readme.md
+media-composer/versions/2022.12.2/readme.md
+media-composer/versions/2022.12.3/readme.md
+media-composer/versions/2022.12.4/readme.md
+media-composer/versions/2022.12.5/readme.md
+media-composer/versions/2022.12.6/readme.md
+media-composer/versions/2022.12.7/readme.md
+media-composer/versions/2022.12.8/readme.md
+media-composer/versions/2022.12.9/readme.md
+media-composer/versions/2022.12.10/readme.md
+# 2023.x
+media-composer/versions/2023.3/readme.md
+media-composer/versions/2023.3/new-features.md
+media-composer/versions/2023.3.1/readme.md
+media-composer/versions/2023.8/readme.md
+media-composer/versions/2023.8/new-features.md
+media-composer/versions/2023.8.1/readme.md
+media-composer/versions/2023.8.2/readme.md
+media-composer/versions/2023.12/readme.md
+media-composer/versions/2023.12/new-features.md
+media-composer/versions/2023.12/fixes-readme.md
+media-composer/versions/2023.12.1/readme.md
+media-composer/versions/2023.12.2/readme.md
+media-composer/versions/2023.12.3/readme.md
+media-composer/versions/2023.12.4/readme.md
+media-composer/versions/2023.12.5/readme.md
+media-composer/versions/2023.12.6/readme.md
+# 2024.x
+media-composer/versions/2024.2/readme.md
+media-composer/versions/2024.2/new-features.md
+media-composer/versions/2024.6/readme.md
+media-composer/versions/2024.6/new-features.md
+media-composer/versions/2024.10/readme.md
+media-composer/versions/2024.10/new-features.md
+media-composer/versions/2024.12/readme.md
+media-composer/versions/2024.12/new-features.md
+media-composer/versions/2024.12/fixes-readme.md
+media-composer/versions/2024.12.1/readme.md
+media-composer/versions/2024.12.2/readme.md
+media-composer/versions/2024.12.3/readme.md
+media-composer/versions/2024.12.4/readme.md
+media-composer/versions/2024.12.5/readme.md
+media-composer/versions/2024.12.6/readme.md
+# NOTE: 2024.x enterprise-admin-guide.md at versions/2024.x/ — filed here as guides are rolling; also listed under guides/2024.x/
+media-composer/versions/2024.x/enterprise-admin-guide.md
+# 2025.x
 media-composer/versions/2025.6/readme.md
+media-composer/versions/2025.6/new-features.md
+media-composer/versions/2025.12/readme.md
+media-composer/versions/2025.12/new-features.md
+media-composer/versions/2025.12/fixes-readme.md
+media-composer/versions/2025.12.1/readme.md
+# Non-versioned / aggregate
 media-composer/versions/2025/release-notes.md
 
 ## mediacentral/resource-center
