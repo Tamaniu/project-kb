@@ -62,58 +62,58 @@ echo ""
 echo "── 2021.x ───────────────────────────────────────────────────────"
 run_out "ReadMe_Production_Management_v2021.3.pdf" \
     "mediacentral/production-management/versions/2021.3/readme.md" \
-    "mediacentral/production-management" "2021.3" "readme"
+    "production-management" "2021.3" "readme"
 run_out "ReadMe_Production_Management_v2021.11.pdf" \
     "mediacentral/production-management/versions/2021.11/readme.md" \
-    "mediacentral/production-management" "2021.11" "readme"
+    "production-management" "2021.11" "readme"
 
 # ─── 2022.3.x patches ─────────────────────────────────────────────────────────
 echo ""
 echo "── 2022.3.x patches ─────────────────────────────────────────────"
 run_out "Readme_Production_Management_V2022.3.1.pdf" \
     "mediacentral/production-management/versions/2022.3.1/readme.md" \
-    "mediacentral/production-management" "2022.3.1" "readme"
+    "production-management" "2022.3.1" "readme"
 run_out "Readme_Production_Management_V2022.3.2.pdf" \
     "mediacentral/production-management/versions/2022.3.2/readme.md" \
-    "mediacentral/production-management" "2022.3.2" "readme"
+    "production-management" "2022.3.2" "readme"
 run_out "Readme_Production_Management_V2022.3.4.pdf" \
     "mediacentral/production-management/versions/2022.3.4/readme.md" \
-    "mediacentral/production-management" "2022.3.4" "readme"
+    "production-management" "2022.3.4" "readme"
 run_out "Readme_Production_Management_V2022.3.5.pdf" \
     "mediacentral/production-management/versions/2022.3.5/readme.md" \
-    "mediacentral/production-management" "2022.3.5" "readme"
+    "production-management" "2022.3.5" "readme"
 
 # ─── 2023.7.x patches ─────────────────────────────────────────────────────────
 echo ""
 echo "── 2023.7.x patches ─────────────────────────────────────────────"
 run_out "MCPM_2023_7_0_ReadMe.pdf" \
     "mediacentral/production-management/versions/2023.7.0/readme.md" \
-    "mediacentral/production-management" "2023.7.0" "readme"
+    "production-management" "2023.7.0" "readme"
 run_out "MCPM_2023_7_1_ReadMe.pdf" \
     "mediacentral/production-management/versions/2023.7.1/readme.md" \
-    "mediacentral/production-management" "2023.7.1" "readme"
+    "production-management" "2023.7.1" "readme"
 run_out "MCPM_2023_7_2_ReadMe.pdf" \
     "mediacentral/production-management/versions/2023.7.2/readme.md" \
-    "mediacentral/production-management" "2023.7.2" "readme"
+    "production-management" "2023.7.2" "readme"
 run_out "MCPM_2023_7_3_ReadMe.pdf" \
     "mediacentral/production-management/versions/2023.7.3/readme.md" \
-    "mediacentral/production-management" "2023.7.3" "readme"
+    "production-management" "2023.7.3" "readme"
 
 # ─── 2024.10.x patches ────────────────────────────────────────────────────────
 echo ""
 echo "── 2024.10.x patches ────────────────────────────────────────────"
 run_out "MCPM_2024_10_0_ReadMe.pdf" \
     "mediacentral/production-management/versions/2024.10.0/readme.md" \
-    "mediacentral/production-management" "2024.10.0" "readme"
+    "production-management" "2024.10.0" "readme"
 run_out "MCPM_2024_10_1_ReadMe.pdf" \
     "mediacentral/production-management/versions/2024.10.1/readme.md" \
-    "mediacentral/production-management" "2024.10.1" "readme"
+    "production-management" "2024.10.1" "readme"
 run_out "MCPM_2024_10_2_ReadMe.pdf" \
     "mediacentral/production-management/versions/2024.10.2/readme.md" \
-    "mediacentral/production-management" "2024.10.2" "readme"
+    "production-management" "2024.10.2" "readme"
 run_out "MCPM_2024_10_4_ReadMe.pdf" \
     "mediacentral/production-management/versions/2024.10.4/readme.md" \
-    "mediacentral/production-management" "2024.10.4" "readme"
+    "production-management" "2024.10.4" "readme"
 
 # ─── Summary ──────────────────────────────────────────────────────────────────
 echo ""
