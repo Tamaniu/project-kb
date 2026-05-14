@@ -84,7 +84,7 @@ run_out() {
   local result
   if result=$($PY "$SCRIPT_DIR/avid_pdf_to_md.py" "$SP/$pdf" \
       --product "$product" --version "$version" --doc-type "$doctype" \
-      --kb-root "$KB" --output "$outpath" 2>&1 | tail -1); then
+      --kb-root "$KB" --output "$KB/$outpath" 2>&1 | tail -1); then
     echo "$result"
     PROCESSED=$((PROCESSED+1))
   else

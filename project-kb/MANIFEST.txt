@@ -536,12 +536,12 @@ nexis/versions/2025.5/new-features.md
 # NEXIS Guides — PDF-based; reprocessing required (empty stubs from original batch)
 # Source PDFs: resources.avid.com/SupportFiles/attach/AvidNEXIS/
 # Download via working/nexis_pdf_download_helper.html; process via nexis_process_pdfs.sh
-nexis/versions/2024.10.0/vfs-guide.md             | source: AvidNEXIS_2024_10_0_VFS_Gateway_Guide.pdf | status: PENDING reprocess
-nexis/versions/2025.5.0/network-guide.md          | source: AvidNEXIS_2025_5_0_Network_Switch_Guide.pdf | status: PENDING reprocess
-nexis/versions/2025.10.0/admin-guide.md           | source: AvidNEXIS_2025_10_0_Administration_Guide.pdf | status: PENDING reprocess
-nexis/versions/2025.10.0/client-guide.md          | source: AvidNEXIS_2025_10_0_Client_Guide.pdf | status: PENDING reprocess
-nexis/versions/2025.10.0/setup-guide.md           | source: AvidNEXIS_2025_10_0_Setup_and_Maintenance_Guide.pdf | status: PENDING reprocess
-nexis/versions/2025.10.0/integration-guide.md     | source: AvidNEXIS_2025_10_0_Integration_Guide.pdf (URL unconfirmed) | status: PENDING reprocess
+nexis/versions/2024.10.0/vfs-guide.md             | source: AvidNEXIS_2024_10_0_VFS_Gateway_Guide.pdf | converted: 14/05/2026 | 452 lines
+nexis/versions/2025.5.0/network-guide.md          | source: AvidNEXIS_2025_5_0_Network_Switch_Guide.pdf | converted: 14/05/2026 | 216 lines
+nexis/versions/2025.10.0/admin-guide.md           | source: AvidNEXIS_2025_10_0_Administration_Guide.pdf | converted: 14/05/2026 | 3006 lines
+nexis/versions/2025.10.0/client-guide.md          | source: AvidNEXIS_2025_10_0_Client_Guide.pdf | converted: 14/05/2026 | 1156 lines
+nexis/versions/2025.10.0/setup-guide.md           | source: AvidNEXIS_2025_10_0_Setup_and_Maintenance_Guide.pdf | converted: 14/05/2026 | 1283 lines
+# integration-guide.md — PDF URL unconfirmed (AvidNEXIS_2025_10_0_Integration_Guide.pdf 404s); stub remains at 12 lines pending URL resolution
 
 ## stream-io
 # Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026
