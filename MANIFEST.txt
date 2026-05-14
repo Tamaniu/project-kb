@@ -309,11 +309,13 @@ mediacentral/cloud-ux/versions/2025.10.1/readme.md
 mediacentral/cloud-ux/versions/2025.10.2/readme.md
 mediacentral/cloud-ux/versions/2025.10.3/readme.md
 mediacentral/cloud-ux/versions/2025.10.4/readme.md
+mediacentral/cloud-ux/versions/2025.10.5/readme.md                     | source: MCCUX_2025_10_5_ReadMe.pdf | version: 2025.10.5 | doc-type: readme | converted: 14/05/2026
 mediacentral/cloud-ux/versions/2025.10/new-features.md
 mediacentral/cloud-ux/versions/2025.10/readme.md
+mediacentral/cloud-ux/versions/2025.10/process-modeler-guide.md         | source: MCCUX_2025_10_0_ProcessModeler.pdf | version: 2025.10 | doc-type: process-modeler-guide | converted: 14/05/2026
 mediacentral/cloud-ux/versions/2025.6.0/hardware-guide.md
-mediacentral/cloud-ux/versions/2025.6.0/install-guide.md
-mediacentral/cloud-ux/versions/2025.6.0/readme.md
+mediacentral/cloud-ux/versions/2025.6.0/install-guide.md                | source: MCCUX_2025_6_0_Install_Guide.pdf | version: 2025.6.0 | doc-type: install-guide | converted: 14/05/2026 | note: replaces 12-line stub
+mediacentral/cloud-ux/versions/2025.6.0/readme.md                       | source: MCCUX_2025_6_0_ReadMe.pdf | version: 2025.6.0 | doc-type: readme | converted: 14/05/2026 | note: replaces misfiled 3rd-party tools plugin readme
 mediacentral/cloud-ux/versions/2025.6.0/third-party-guide.md
 mediacentral/cloud-ux/versions/2025.6.0/users-guide.md
 mediacentral/cloud-ux/versions/2025.6.1/readme.md
@@ -321,6 +323,7 @@ mediacentral/cloud-ux/versions/2025.6.2/readme.md
 mediacentral/cloud-ux/versions/2025.6.3/readme.md
 mediacentral/cloud-ux/versions/2025.6/hardware-guide.md
 mediacentral/cloud-ux/versions/2025.6/new-features.md
+mediacentral/cloud-ux/versions/2025.6/process-modeler-guide.md          | source: MCCUX_2025_6_0_ProcessModeler.pdf | version: 2025.6 | doc-type: process-modeler-guide | converted: 14/05/2026
 # versions/current/ — non-version-pinned snapshot of the most recently processed Cloud UX docs.
 # Apply version-bounded reasoning with caution; always prefer an explicitly versioned file when available.
 mediacentral/cloud-ux/versions/current/readme.md
