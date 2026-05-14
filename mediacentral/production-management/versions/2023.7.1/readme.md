@@ -1,0 +1,86 @@
+---
+product: mediacentral-production-management
+product-area: production-management
+version: "2023.7.1"
+release-date: 01/07/2023
+doc-type: readme
+source: pdf
+confidentiality: public
+date-added: 14/05/2026
+status: current
+---
+
+Avid MediaCentral | Production Management Version 2023.7.1 ReadMe Avid recommends that you read all of the information in this ReadMe thoroughly before installing or using the software described in this document.
+See the following Avid Knowledge Base link for the most up-to-date Avid MediaCentral Production Management documentation (all releases):
+https://kb.avid.com/articles/en_US/readme/Avid-Interplay-Production-Documentation For the latest information on this release, see the following Avid Knowledge Base article:
+https://kb.avid.com/articles/en_US/readme/MediaCentral-Production-Management-v2023-x- Documentation MediaCentral Production Management v2023.7 is distributed as a Long-Term Maintenance release. For more information on the differences between Long-Term Maintenance and Feature releases, visit the Avid website at: https://www.avid.com/resource-center/avid-long-term-maintenance-releases Revision History Date Revised Changes Made June 2, 2025 Added the Interplay Web Services (IPWS) component. For more information, see "Interplay Web Services (IPWS) Fixes" on page 6.
+March 6, 2024 Added another confirmed fix for Standalone Transfer (CCUX-7434). For February 15, 2024 Added the Standalone Transfer component. For more information, see Also, added a limitation for Interplay Access. For more information, see January 29, 2024 Added the Interplay Access component. For more information, see We also added new video formats that can be used for Transcode Profile creation. For more information, see "New Video Formats November 8, 2023 Added the Archive Restore, MediaCentral Distribution Service, and Media Indexer components.
+For more information, see the following topics:
+About This Release Date Revised Changes Made October 23, 2023 Added the Transcode and STP Encode components. For more September 29, 2023 Initial v2023.7.1 publication.
+About This Release This section includes additional information for MediaCentral Production Management and related concepts.
+Components This ReadMe describes the changes contained in the MediaCentral Production Management v2023.7.1 release which contains the following products:
+Production Management Server In this release, there were changes in the following Production Management Server components:
+Production Management Engine / Archive Engine
+- Transcode
+- STP Encode
+- Archive Restore
+- Interplay Access
+- Media Indexer
+- MediaCentral Distribution Service
+- Standalone Transfer Manager
+- Interplay Web Services (IPWS)
+- Supported Software
+For a list of software supported with Production Management releases, see the Avid Knowledge Base article “Avid Video Compatibility Charts.” For an article listing end of support dates, see the Avid Knowledge Base article “End of Support Dates.” About This Release Avid Editing Application Compatibility The following Knowledge Base articles provide information on compatibility between Production Management releases and Avid editor releases: https://kb.avid.com/articles/en_US/compatibility/Avid- Video-Compatibility-Charts For details on the operating system (PC and Mac), QuickTime version, and nVidia drivers supported on the different editor releases, see the Avid editing application Readme and the Knowledge Base article “Avid Media Composer Documentation and Version Matrix.” For more information, see your Avid Customer Service Representative.
+Additional Information About Pro Tools For the latest information about using Pro Tools with Production Management, go to the Knowledge Base page titled “Avid Interplay Requirements With Pro Tools.” New for Production Management v2023.7.1 New for Production Management v2023.7.1 This section contains information for all of the new features and improvements for the Production Management v2023.7.1 release.
+New Video Formats Supported for Transcode Profile Creation The following video formats are now being supported for Transcode profile creation:
+- AVC Long GOP 25 1080p 29.97
+- AVC Long GOP 50 1080p 29.97
+- AVC Long GOP 25 1080p 59.94
+- AVC Long GOP 50 1080p 59.94
+Fixed in Production Management v2023.7.1 The following issues have been resolved in MediaCentral Production Management v2023.7.1.
+Archive Restore Fixes This release contains the following Archive Restore fixes:
+Bug Number: IPI-3454. Previous versions of Archive Restore would modify the SourceID when doing a partial restore of a subclip for some assets.
+For example, when attempting to restore a subclip of archived AirSpeed media, the Restore provider would create files with a different SourceID than the original source files. This prevents a proper relink of the restored media files.
+> **Note:** If you perform a full restore, the SourceID will be correct, which indicates the improper SourceIDs are
+generated by the Restore Provider.
+Bug Number: MCCET -5247, SAK-2793. Prior to an upgrade, partially restored clips are not relinking to High Rez and Low Rez audio as expected.
+Interplay Access Fixes This release contains the following Interplay Access fixes:
+> **Note:** This version of Interplay Access does not work for Capture Admin functions. If you want to use it for
+that, you must use Access 2023.7.0.
+Bug Number: PLUS-1084. We have improved performance of Access start-up, new Search tab opening and File Location view, especially when connected to DBs with a high number of Resolutions.
+Fixed in Production Management v2023.7.1 Bug Number: IPI-3574. Sequence frame locators get deleted if the same locator already exists with a different UID.
+Bug Number: IPI-3544. There is an incorrect (i.e., not online) media status after an Update Status from Media Indexer for clips transcoded to a different frame rate.
+Bug Number: SECRMF-1000. We have updated ActiveMQ to a version that fixes a remote code execution security issue.
+For more information, see: https://kb.avid.com/articles/en_US/troubleshooting/en239659 MediaCentral Distribution Service Fixes This release contains the following MediaCentral Distribution Service fixes:
+Bug Number: IPI-3373. Certain media fails on Send To Playback with the error “Remote STP Process failed: Unknown exception”.
+MCDS logs show that the media is offline, but the media is actually online in Interplay Access and MediaCentral Cloud UX.
+Bug Number: IPI-3490. Certain news sequences cannot be sent to a playback AirSpeed from MediaCentral Cloud UX. The job never shows up in Production Services and fails with the error: Remote "STP Process Failed-Unknown Exception".
+Production Management Engine / Archive Engine Fixes This release contains the following Production Management Engine fixes:
+Bug Number: PLUS-1006. Synced assets (from MediaCentral Sync) are all displayed as un-referenced (i.e., not grayed out), even when being referenced in the source system’s folders.
+Bug Number: IPI-3543. Running AppMon (with InterplayEngine profile) can cause the Production Management Engine to delay responses to client requests. This behavior is specifically caused by the “pending requests” Production Engine (Apache) status call, performed by AppMon.
+For this behavior to occur, a client needs to send large requests in parallel to the monitoring. For example, this can happen if a DB has many (200+) existing resolutions when running “Update Status from MI” on large sequences, or when checking in assets with many (or large) frame locators.
+Bug Number: IPI-3536. When running the Production Engine installer to upgrade an existing installation, a configured, external CCS (_InternalData) gets reverted to the internal CCS.
+Media Indexer Fixes This release contains the following Media Indexer fixes:
+Bug Number: IPI-3445. Media Indexer will not trigger Format Independent (FI) indexing for some files during a full reindex.
+Bug Number: IPI-3521. There is an issue where two different Media Indexers are indexing some files with missing data for the CLASSIC approach. The file is present in the CLASSIC index, but there is no Quality Descriptor (no value) for the New Qid field.
+For example, one Media Indexer will put the file in the index, but will have a NULL value for the New Qid field when checking into the Storage Browser/Search. The other Media Indexer will put the file in the index, but if you check in the Storage Browser/Search for the path, you will see that the Quality Descriptor is missing, with error “Quality Descriptor not found!” Limitations for Production Management 2023.7.1 These problems are causing issues in MediaCentral Cloud UX, as it is unable to relink to this file and displays a “Media Offline” message.
+Bug Number: SAK-2935. We have updated ActiveMQ to a version that fixes a remote code execution security issue.
+For more information, see: https://kb.avid.com/articles/en_US/troubleshooting/en239659 Transcode Fixes This release contains the following Transcode fixes:
+Bug Number: IPI-3522. Transcode occasionally fails the job with the following error message: “The operation could not proceed because some clips are offline or are the wrong format”.
+This happens even though the sequence is fully online in Access and Media Composer, and the files are all properly indexed in Media Indexer (applies to both classic and format independent assets).
+STP Encode Fixes There are no STP Encode fixes in this release.
+Standalone Transfer Fixes This release contains the following Standalone Transfer fixes:
+Bug Number: IPI-3361. New AVCI50 media from Telestream plays fine in the Editor and if alone on the timeline can also be sent to playback. However, when another piece of AVCI50 media (imported bars for error:
+instance) is added to the timeline, this new sequence will fail to Send To Playback with the following SendFrames Error: 21, desc: Encoder Exception: AVCIEncoder::Encode() - class MXF::SDK::Exceptions::InvalidFormat Bug Number: IPI-3576. When sending to playback using the Generic_FTP DHM, and selecting the “create clip xml” in the Playback Device field in the TM Config, the XML file is created, but there is no attempt to FTP it to the destination.
+Bug Number: CCUX-7434. With Transfer Engine v2022.3.4, the XML file is not being sent to the FTP Server if SFTP is in use.
+Interplay Web Services (IPWS) Fixes This release contains the following Interplay Web Services (IPWS) fixes:
+Bug Number: IPI-3811. Apache Tomcat v9.0.75 installed on Interplay Web Services (IPWS) contains security vulnerabilities.
+> **Note:** In this release, Avid has upgraded to the latest version of Apache Tomcat (v9.0.104 at the time of
+writing) to address these issues and include additional security fixes.
+Limitations for Production Management 2023.7.1 This section includes information on known limitations and defects related to this release of MediaCentral | Production Management.
+For limitations previous to this release, see the MediaCentral Production Management 2023.7 ReadMe.
+For International Character Set (ICS) limitations, see the topic “International Character Support Limitations in the MediaCentral Production Management v2021.3 ReadMe.
+Limitations for Production Management 2023.7.1 Installation and Configuration Limitations Bug Number: RELENG-3176. When unzipped, the Production Management installer might include long file path names that are incompatible with some versions of Windows. If you need to copy unzipped installation packages from one location to another, Windows 10 and Windows 2016 provide a registry setting that allows for these long path names.
+You can find this setting under: Computer Configuration > Admin Templates > System > FileSystem > Enable Win32 long paths.
+Interplay Access Limitations Bug Number: IPI-3602. Configuring Capture from Interplay Access only works up until 2023.7.0.
+Limitations for Production Management 2023.7.1

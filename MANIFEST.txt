@@ -735,17 +735,17 @@ mediacentral/production-management/versions/2024.10.3/readme.md                |
 # 14 PDFs: fills 2021.x gap + 2022.3.x / 2023.7.x / 2024.10.x point-release readmes
 # Stub files — run mcpm_process_pdfs.sh after downloading PDFs
 # Download helper: working/mcpm_pdf_download_helper.html
-mediacentral/production-management/versions/2021.3/readme.md    | source: ReadMe_Production_Management_v2021.3.pdf | version: 2021.3 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2021.11/readme.md   | source: ReadMe_Production_Management_v2021.11.pdf | version: 2021.11 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2022.3.1/readme.md  | source: Readme_Production_Management_V2022.3.1.pdf | version: 2022.3.1 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2022.3.2/readme.md  | source: Readme_Production_Management_V2022.3.2.pdf | version: 2022.3.2 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2022.3.4/readme.md  | source: Readme_Production_Management_V2022.3.4.pdf | version: 2022.3.4 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2022.3.5/readme.md  | source: Readme_Production_Management_V2022.3.5.pdf | version: 2022.3.5 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2023.7.0/readme.md  | source: MCPM_2023_7_0_ReadMe.pdf | version: 2023.7.0 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2023.7.1/readme.md  | source: MCPM_2023_7_1_ReadMe.pdf | version: 2023.7.1 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2023.7.2/readme.md  | source: MCPM_2023_7_2_ReadMe.pdf | version: 2023.7.2 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2023.7.3/readme.md  | source: MCPM_2023_7_3_ReadMe.pdf | version: 2023.7.3 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2024.10.0/readme.md | source: MCPM_2024_10_0_ReadMe.pdf | version: 2024.10.0 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2024.10.1/readme.md | source: MCPM_2024_10_1_ReadMe.pdf | version: 2024.10.1 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2024.10.2/readme.md | source: MCPM_2024_10_2_ReadMe.pdf | version: 2024.10.2 | doc-type: readme | status: stub — PDF not yet converted
-mediacentral/production-management/versions/2024.10.4/readme.md | source: MCPM_2024_10_4_ReadMe.pdf | version: 2024.10.4 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2021.3/readme.md    | source: ReadMe_Production_Management_v2021.3.pdf | version: 2021.3 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2021.11/readme.md   | source: ReadMe_Production_Management_v2021.11.pdf | version: 2021.11 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2022.3.1/readme.md  | source: Readme_Production_Management_V2022.3.1.pdf | version: 2022.3.1 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2022.3.2/readme.md  | source: Readme_Production_Management_V2022.3.2.pdf | version: 2022.3.2 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2022.3.4/readme.md  | source: Readme_Production_Management_V2022.3.4.pdf | version: 2022.3.4 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2022.3.5/readme.md  | source: Readme_Production_Management_V2022.3.5.pdf | version: 2022.3.5 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2023.7.0/readme.md  | source: MCPM_2023_7_0_ReadMe.pdf | version: 2023.7.0 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2023.7.1/readme.md  | source: MCPM_2023_7_1_ReadMe.pdf | version: 2023.7.1 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2023.7.2/readme.md  | source: MCPM_2023_7_2_ReadMe.pdf | version: 2023.7.2 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2023.7.3/readme.md  | source: MCPM_2023_7_3_ReadMe.pdf | version: 2023.7.3 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2024.10.0/readme.md | source: MCPM_2024_10_0_ReadMe.pdf | version: 2024.10.0 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2024.10.1/readme.md | source: MCPM_2024_10_1_ReadMe.pdf | version: 2024.10.1 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2024.10.2/readme.md | source: MCPM_2024_10_2_ReadMe.pdf | version: 2024.10.2 | doc-type: readme | converted: 14/05/2026
+mediacentral/production-management/versions/2024.10.4/readme.md | source: MCPM_2024_10_4_ReadMe.pdf | version: 2024.10.4 | doc-type: readme | converted: 14/05/2026
