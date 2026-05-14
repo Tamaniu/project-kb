@@ -501,7 +501,7 @@ def main():
                                  "enterprise-admin-guide","fixes-readme","high-res-workflows",
                                  "flexnet-readme","flexnet-admin","flexnet-legacy-admin",
                                  "client-guide","setup-guide","vfs-guide","network-switch-guide",
-                                 "cloud-guide"],
+                                 "cloud-guide","process-modeler-guide"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",
