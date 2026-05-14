@@ -1,6 +1,6 @@
 # project-kb MANIFEST
 # Last updated: 14/05/2026
-# Git-tracked .md files: approx. 611 (excludes raw .vtt files and non-.md assets)
+# Git-tracked .md files: approx. 617 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
@@ -731,18 +731,21 @@ mediacentral/production-management/versions/2024.10.3/readme.md                |
 
 # End PDF conversions batch 08/05/2026
 
-## interplay-production
-# Avid Interplay | Production — legacy/EoS product (all versions EoS)
-# 8 ReadMe PDFs: V3.x era (5) + year-based era (3)
-# Stub files created 14/05/2026 — run interplay_process_pdfs.sh after downloading PDFs
-# Download helper: working/interplay_pdf_download_helper.html
-# PDF source pattern: https://resources.avid.com/SupportFiles/attach/{filename}.pdf
-# Note: filename convention changed between V3.7 and V2017.2 — older: README_ (all caps); newer: ReadMe_ (mixed case)
-interplay-production/versions/3.3/readme.md      | source: README_Interplay_Production_V3_3.pdf | version: 3.3 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/3.4/readme.md      | source: README_Interplay_Production_V3_4.pdf | version: 3.4 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/3.6/readme.md      | source: README_Interplay_Production_V3_6.pdf | version: 3.6 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/3.6.1/readme.md    | source: README_Interplay_Production_V3_6_1.pdf | version: 3.6.1 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/3.7/readme.md      | source: README_Interplay_Production_V3_7.pdf | version: 3.7 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/2017.2/readme.md   | source: README_Interplay_Production_V2017_2.pdf | version: 2017.2 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/2018.9/readme.md   | source: ReadMe_Interplay_Production_V2018_9.pdf | version: 2018.9 | doc-type: readme | status: stub — PDF not yet converted
-interplay-production/versions/2018.11/readme.md  | source: ReadMe_Interplay_Production_V2018_11.pdf | version: 2018.11 | doc-type: readme | status: stub — PDF not yet converted
+## mediacentral/production-management — patch readmes batch 14/05/2026
+# 14 PDFs: fills 2021.x gap + 2022.3.x / 2023.7.x / 2024.10.x point-release readmes
+# Stub files — run mcpm_process_pdfs.sh after downloading PDFs
+# Download helper: working/mcpm_pdf_download_helper.html
+mediacentral/production-management/versions/2021.3/readme.md    | source: ReadMe_Production_Management_v2021.3.pdf | version: 2021.3 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2021.11/readme.md   | source: ReadMe_Production_Management_v2021.11.pdf | version: 2021.11 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2022.3.1/readme.md  | source: Readme_Production_Management_V2022.3.1.pdf | version: 2022.3.1 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2022.3.2/readme.md  | source: Readme_Production_Management_V2022.3.2.pdf | version: 2022.3.2 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2022.3.4/readme.md  | source: Readme_Production_Management_V2022.3.4.pdf | version: 2022.3.4 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2022.3.5/readme.md  | source: Readme_Production_Management_V2022.3.5.pdf | version: 2022.3.5 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2023.7.0/readme.md  | source: MCPM_2023_7_0_ReadMe.pdf | version: 2023.7.0 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2023.7.1/readme.md  | source: MCPM_2023_7_1_ReadMe.pdf | version: 2023.7.1 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2023.7.2/readme.md  | source: MCPM_2023_7_2_ReadMe.pdf | version: 2023.7.2 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2023.7.3/readme.md  | source: MCPM_2023_7_3_ReadMe.pdf | version: 2023.7.3 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2024.10.0/readme.md | source: MCPM_2024_10_0_ReadMe.pdf | version: 2024.10.0 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2024.10.1/readme.md | source: MCPM_2024_10_1_ReadMe.pdf | version: 2024.10.1 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2024.10.2/readme.md | source: MCPM_2024_10_2_ReadMe.pdf | version: 2024.10.2 | doc-type: readme | status: stub — PDF not yet converted
+mediacentral/production-management/versions/2024.10.4/readme.md | source: MCPM_2024_10_4_ReadMe.pdf | version: 2024.10.4 | doc-type: readme | status: stub — PDF not yet converted
