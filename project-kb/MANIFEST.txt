@@ -492,61 +492,56 @@ pro-tools/versions/current/quick-reference-guide.md | source: Pro_Tools_Quick_Re
 pro-tools/versions/current/sketch-guide.md       | source: Using_Pro_Tools_Sketch_Guide.pdf | version: current | doc-type: sketch-guide | converted: 13/05/2026
 
 ## nexis
-nexis/versions/2021.12.0/readme.md
-nexis/versions/2021.12.1/readme.md
+# NEXIS ReadMes — all good (200–900 lines); converted from PDF
 nexis/versions/2021.3.0/readme.md
 nexis/versions/2021.3.1/readme.md
 nexis/versions/2021.5.0/readme.md
 nexis/versions/2021.5.1/readme.md
 nexis/versions/2021.8.1/readme.md
 nexis/versions/2021.8.2/readme.md
+nexis/versions/2021.12.0/readme.md
+nexis/versions/2021.12.1/readme.md
 nexis/versions/22.5.0/readme.md
 nexis/versions/22.9.0/readme.md
 nexis/versions/2022.12.0/readme.md
-nexis/versions/2022.12/new-features.md
-nexis/versions/2022.5/new-features.md
-nexis/versions/2022.9/new-features.md
-nexis/versions/2023.0/new-features.md
-nexis/versions/2023.12.0/readme.md
-nexis/versions/2023.12/new-features.md
 nexis/versions/2023.3.0/readme.md
 nexis/versions/2023.7.0/readme.md
 nexis/versions/2023.8.0/readme.md
 nexis/versions/2023.8.1/readme.md
 nexis/versions/2023.8.2/readme.md
 nexis/versions/2023.8.3/readme.md
-nexis/versions/2023.8/new-features.md
-nexis/versions/2024.10.0/readme.md
-nexis/versions/2024.10.0/vfs-guide.md
-nexis/versions/2024.10/new-features.md
-nexis/versions/2024.11.0/readme.md
-nexis/versions/2024.11/new-features.md
+nexis/versions/2023.12.0/readme.md
 nexis/versions/2024.2.0/readme.md
-nexis/versions/2024.2/new-features.md
 nexis/versions/2024.5.0/readme.md
-nexis/versions/2024.5/new-features.md
 nexis/versions/2024.6.0/readme.md
 nexis/versions/2024.6.1/readme.md
 nexis/versions/2024.6.2/readme.md
-nexis/versions/2024.6/new-features.md
-nexis/versions/2025.10.0/admin-guide.md
-nexis/versions/2025.10.0/client-guide.md
-nexis/versions/2025.10.0/integration-guide.md
-nexis/versions/2025.10.0/readme.md
-nexis/versions/2025.10.0/setup-guide.md
+nexis/versions/2024.10.0/readme.md
+nexis/versions/2024.11.0/readme.md
 nexis/versions/2025.2.2/readme.md
-nexis/versions/2025.2/new-features.md
 nexis/versions/2025.3.0/readme.md
-nexis/versions/2025.3/new-features.md
 nexis/versions/2025.5.0/cloud-guide.md
-nexis/versions/2025.5.0/network-guide.md
 nexis/versions/2025.5.1/readme.md
 nexis/versions/2025.5.3/readme.md
 nexis/versions/2025.5.5/readme.md
 nexis/versions/2025.5.6/readme.md
 nexis/versions/2025.5.7/readme.md
-nexis/versions/2025.5/new-features.md
 nexis/versions/2025.5/readme.md
+nexis/versions/2025.10.0/readme.md
+# NEXIS What's New — only 2025.5 has real content; all others were web-scraped stubs (heading only)
+# 13 stub new-features files DELETED 14/05/2026: 2022.5, 2022.9, 2022.12, 2023.0, 2023.8,
+# 2023.12, 2024.2, 2024.5, 2024.6, 2024.10, 2024.11, 2025.2, 2025.3
+# Nexis does not publish standalone What's New PDFs; content is embedded in ReadMe PDFs.
+nexis/versions/2025.5/new-features.md
+# NEXIS Guides — PDF-based; reprocessing required (empty stubs from original batch)
+# Source PDFs: resources.avid.com/SupportFiles/attach/AvidNEXIS/
+# Download via working/nexis_pdf_download_helper.html; process via nexis_process_pdfs.sh
+nexis/versions/2024.10.0/vfs-guide.md             | source: AvidNEXIS_2024_10_0_VFS_Gateway_Guide.pdf | status: PENDING reprocess
+nexis/versions/2025.5.0/network-guide.md          | source: AvidNEXIS_2025_5_0_Network_Switch_Guide.pdf | status: PENDING reprocess
+nexis/versions/2025.10.0/admin-guide.md           | source: AvidNEXIS_2025_10_0_Administration_Guide.pdf | status: PENDING reprocess
+nexis/versions/2025.10.0/client-guide.md          | source: AvidNEXIS_2025_10_0_Client_Guide.pdf | status: PENDING reprocess
+nexis/versions/2025.10.0/setup-guide.md           | source: AvidNEXIS_2025_10_0_Setup_and_Maintenance_Guide.pdf | status: PENDING reprocess
+nexis/versions/2025.10.0/integration-guide.md     | source: AvidNEXIS_2025_10_0_Integration_Guide.pdf (URL unconfirmed) | status: PENDING reprocess
 
 ## stream-io
 # Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026

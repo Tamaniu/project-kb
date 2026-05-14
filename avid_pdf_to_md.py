@@ -499,7 +499,9 @@ def main():
                                  "readme-mac","readme-win","reference-guide","shortcuts-guide",
                                  "quick-reference-guide","sketch-guide","audio-plugins-guide",
                                  "enterprise-admin-guide","fixes-readme","high-res-workflows",
-                                 "flexnet-readme","flexnet-admin","flexnet-legacy-admin"],
+                                 "flexnet-readme","flexnet-admin","flexnet-legacy-admin",
+                                 "client-guide","setup-guide","vfs-guide","network-switch-guide",
+                                 "cloud-guide"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",
