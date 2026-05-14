@@ -1,0 +1,108 @@
+---
+product: media-composer
+product-area: editing
+version: "2022.12"
+release-date: 01/12/2022
+doc-type: new-features
+source: pdf
+confidentiality: public
+date-added: 14/05/2026
+status: current
+---
+
+New in Media Composer v2022.12 What’s New for Avid® Media Composer® v2022.12 New in Media Composer v2022.12 The following are new for Media Composer v2022.12:
+• Export Pro Tools Session (cid:129) Support for Avid MBOX Studio (cid:129) Mounting UNC Drives in Media Composer (cid:129) Go to Previous Selected Clip and Go to Next Selected Clip (cid:129) Creation Date Column Added to Markers Window (cid:129) Bin Map State (cid:129) Lassoing Bins and Folders in the Bin Container Sidebar (cid:129) Dragging from Any Column in a Bin (cid:129) Ignore Multichannel Audio Layout From File (cid:129) Avid NEXIS API Permissions for Shared Projects Export Pro Tools Session Projects that require additional audio editing, mixing, and picture turnover to a sound department, are now able to move their sessions more easily to Pro Tools by outputting a Pro Tools Session file (.ptx) from Media Composer. Users familiar with AAF export will notice similarities to that process, although a Pro Tools Session file includes options that optimize interchange with Pro Tools.
+> **Note:** Export of Pro Tools Session files is limited to Media Composer | Ultimate and Media Composer |
+Enterprise licenses.
+After completing the export process and opening a session in Pro Tools, you will notice that some new items were created. The inclusion of these new tracks and folders simplifies the setup of a Pro Tools session by automating several time-consuming tasks that were once done manually.
+Export Pro Tools Session Exporting a Pro Tools Session File The following steps demonstrate how to export a Pro Tools Session file.
+Export Pro Tools Session To export a Pro Tools Session file:
+1. Right-click on a sequence in a bin and choose Output > Export to File.
+2. In the “Export As” dialog box, click “Options”.
+The “Export Settings” window opens.
+3. In the “Export As” dropdown menu, select “Pro Tools Session”.
+Export Pro Tools Session The “Export to Pro Tools” window opens.
+4. Make any necessary changes to settings, including the “Export Method” for Video and Audio
+files (Video Mixdown, Link to (Don’t Export) Media, Copy All Media, Consolidate Media) and click “Save”.
+The “Export As” dialog box opens again.
+5. Type a name for your Pro Tools Session, choose a location to store it, and click “Save”.
+The “Select Sequence” dialog box appears.
+6. If “Ask to Include Audio Media from a Previous Sequence” was selected, click on the dropdown
+menu and select the corresponding sequence. Otherwise, choose “None” and click “OK”.
+The export process begins and a progress bar is provided.
+> **Note:** Note: Pro Tools sessions can be opened in any version of Pro Tools that can read .ptx files. However,
+Pro Tools 2022.12 and later are recommended for best compatibility with markers.
+Export to Pro Tools Dialog Box When exporting a Pro Tools Session file, make sure the necessary options are selected in the “Export to Pro Tools” dialog box.
+Export Pro Tools Session Settings (General) Description Use Marks Only the area defined by In and Out points is included in the Pro Tools Session file.
+Use Selected Tracks Only the selected tracks are included in the Pro Tools Session file.
+“Use Selected Tracks” will limit the amount of video included in the export and determine the tracks that are used to build the “Cuts” track, when exporting a “Video Mixdown”.
+Enable Mask Margins Mask margins allow you to preview your video with a different aspect ratio than the project settings.
+Include All Video Tracks in Sequence When selected, the Pro Tools session will include a video track, as determined by the “Video Details” tab.
+When deselected, the session contains no video and the “Video Details” tab and “Media Destination” are removed.
+Export Pro Tools Session Settings (General) Description Tracks, First 8 Tracks, and First 16 Tracks.
+When selected, the Pro Tools session will include audio tracks, as determined by the “Audio Details” tab. When deselected, the session contains no audio and the “Audio Details” tab and “Media Destination” are removed.
+Include Markers in Sequence Selecting “All Markers” opens the “Markers to Export” dialog box, which includes: Tracks (Video, Audio, Timecode and Data), Color (Red, Green, Blue, Cyan, Magenta, Yellow, Black, White).
+Note: You can Option+click (macOS) or Alt+click (Windows) on one of the options in the “Markers to Export” dialog box to enable or disable all of the checkboxes for that section (Tracks or Color).
+Settings (Video Details) Description Export Method Options include: Video Mixdown, Link to (Don’t Export) Media, Copy All Media, Consolidate Media These settings are the same as AAF, with the exception of the options that are available for Video Mixdown. When you generate a Video Mixdown, a cuts tracks is also generated, which includes a sum of all cuts for the included tracks. You can limit the amount of cuts by only using selected tracks.
+The “Mixdown” track is a top down, flattened view of your sequence, which provides a frame accurate reference of your Media Composer video output.
+Note: In Pro Tools, all video tracks are a single track.
+The “Cuts” track is not a playable track, but represents a sum of the cuts on any included tracks, similar to the Mixdown track for video, with cuts applied to a single, offline video track. This provides an additional reference for the editor or mixer.
+With a Pro Tools Session, you have a choice of file wrapper. The default is MOV with DNxHD LB codec and a raster size of 1920x1080, regardless of the project format. This is a low bandwidth format that is easy for the Pro Tools editor to work with, especially when dealing with a complex Pro Tools Session with many tracks.
+Transcode Video To: Options include: MOV, MXF Selecting MXF provides the following options: AVC- Intra 100, DVCPro HD, H.264 800Kbps Proxy, HDV 720p, XDCAM EX 35Mbits, 1:1, 1:1p 10b, DNxHD HQ, DNxHD HQX Export Pro Tools Session Settings (Video Details) Description Codec Family: Options include: DNxHD, DNxHR, Apple ProRes This option is only available for MOV files.
+Compression: This option is only available for MOV files and is dependent on the “Codec Family” chosen.
+Raster: This option is only available for MOV files and is dependent on the “Codec Family” and “Compression” options selected.
+Export Pro Tools Session Settings (Audio Details) Description Export Method: Options include: Copy All Media, Link to (Don’t Export) Media, Consolidate Media It is possible to copy linked audio and video media with a Pro Tools session export using “Copy All Media”. When using this method, linked media is placed in an “Audio Files” or “Video Files” folder, depending on the media type.
+Note: WAV (OMF) media cannot be included in a linked session export. In this case, “Copy All Media” or “Consolidate Media” must be used, or you can transcode the sequence before export.
+Handle Length _ Frames Handle length refers to the amount of additional media included beyond the in and out points set for a clip.
+This option only becomes available when “Export Method” is set to “Consolidate Media”. The default is “Handle Length 60 Frames”.
+Ask to Exclude Audio Media from a Previous Excludes any media that was previously exported by Sequence comparing the current sequence to a previously exported sequence. This saves time and space by exporting only the media that has changed. It also works with files that were converted during the export process, such as converting to WAV and embedding field recorder metadata. When export is initiated, you are asked to choose a previously exported sequence in an open bin to use for comparison.
+This option only becomes available when “Export Method” is set to “Copy All Media”.
+Export Pro Tools Session Settings (Audio Details) Description Include Audio Effects When checked, this option includes all rendered audio effects with your Pro Tools Session file, and three copies of the audio portion of the sequence will be placed in the session, in separate folders labeled “Rendered”, “Rendered Only”, and “Unrendered”.
+When unchecked, only the “Unrendered” folder and media will be created.
+The "Rendered" folder presents a true representation of the Media Composer timeline, with effects applied (audio effects need to be rendered to be heard properly in Pro Tools). This folder is unmuted by default.
+Contents of the folder include: a mix of clips with no effects, along with clips that contain rendered Audio Suite plug-ins and EQ, tracks effects and their settings, and a master fader with the appropriate volume adjustment.
+The "Unrendered" folder is an unprocessed version of the same sequence, without effects applied. This folder contains: a complete, unprocessed instance of the audio sequence, no track effects, and the master fader set to unity (0dB).
+The "Rendered Only" folder provides a quick way to locate and listen to effected audio without any other clips around it, and makes it easer to isolate the processed audio. This folder contains: only clips that contain rendered Audio Suite plug-ins and EQ, track effects and their settings, and a master fader with the appropriate volume adjustment.
+Note: Clips with rendered effects are colored green, and clips with no effects are colored blue.
+Note: Effects are rendered on the main timeline before they are exported for your Pro Tools Session file. This can save you the step of having to re-render audio effects later on for additional exports.
+Add Audio Mixdown to: Options include: Mono, Stereo, 5.1, 7.1 Adds an additional track to the top of the Pro Tools session that is a mixdown of the exported audio tracks.
+Include Master Fader in Mixdown This option becomes available when “Add Audio Mixdown to” is selected Convert Sample Rate to: Options include: Project, 44.1 kHz, 88.2 kHz, 96 kHz Convert Bit Depth to: Options include: Project, 16 Bit, 24 Bit This option is only available when “Export Method” is set to “Link to (Don’t Export).
+Support for Avid MBOX Studio Settings (Audio Details) Description Convert non WAV media to BWF This option is only available when “Export Method” is set to “Copy All Media” and “Consolidate Media”.
+Pro Tools natively supports MXF OP-Atom, WAV, and AIFF media on the timeline. However, it is best optimized for WAV files, which are recommended for any file conversion process.
+Note: Media Composer will automatically convert non-compatible audio files to WAV on export, regardless of this checkbox state. For example, if media is compressed, interleaved with video, or using mixed sample rates, the audio will be converted to WAV on export.
+Embed Field Recorder Bin Metadata in Audio Checking this option ensures that metadata from a filed recorder is correctly passed to Pro Tools and provides the same information that exists in the Media Composer bin columns, including FPS, Name, Scene, Shoot Date, Sound Roll Rate, SoundRoll, SoundRoll TC, Start, Take, Tape, TapeID, Track Names, and UBITS. Pro Tools relies on this information to do dialog matches. This is useful when isolated tracks were recorded on set with a multi-track field recorder, which allows Pro Tools to match back to the correct take from the audio mixdown used in the edit.
+When edits to field recorder metadata are detected, new media files are created with those edits embedded in the media, and the Pro Tools session will use these new files.
+Note: Media Composer cannot detect edits to metadata on files ingested prior to version 2022.12.
+Media ingested prior to 2022.12 is re-generated with fresh metadata applied to it. Further re-generation of this media can be prevented by using the “Ask to Exclude Audio Media from a Previous Sequence” option.
+Support for Avid MBOX Studio Media Composer supports the new Avid MBOX Studio USB audio interface for both Windows and macOS. Connecting the Avid MBOX Studio to Media Composer gives you up to 8 channels of input and output (depending on configuration and additional hardware), including multi-channel, “surround sound” playback on both macOS and Windows. Up to 4 channels can be used for punch- ins, with zero-latency for mixing and monitoring.
+Mounting UNC Drives in Media Composer When using storage volumes with drive letters, the number of drives you can mount is limited and hard to maintain over a network. UNC (Universal Naming Convention) paths resolve these issues and are the standard for identifying servers and other resources in a local network. Previously, only Go to Previous Selected Clip and Go to Next Selected Clip NEXIS workspaces could mount drives with UNC paths. In the latest version of Media Composer, available UNC drives will be displayed in the appropriate menus and available for any read and write operations.
+> **Note:** UNC uses the following format: \\server-name\shared-resource-pathname
+Go to Previous Selected Clip and Go to Next Selected Clip With the new “Go to Previous Selected Clip” and “Go to Next Selected Clip” commands, users can move forward and backward in the Timeline, depending on their selection. Once selected, the position indicator moves to the head of the corresponding clip. If multiple clips are selected in the Timeline, you can use this feature to toggle easily between two positions or move sequentially through your selections. “Go to Next Selected Clip” and “Go to Previous Selected Clip” are both available in the Command Palette and mappable to a keyboard shortcut or as a button in the Tool Palette.
+Creation Date Column Added to Markers Window The Markers window now contains a Creation Date column, which is available for the first time in the Media Composer user interface. This is particularly useful when looking for the latest notes and comments that were added as markers, or when looking to identify changes made on a specific day.
+Bin Map State Bin Map State When creating a new bin, the Bin Map will be turned off by default, until activated by the user. The current state of a bin, including its Bin Map state, is still remembered for each bin. In addition, a new option to set whether the Bin Map is on by default for all new bins has been added to the Bins tab in the Interface settings with the “Default Bin Map on for new Bins” checkbox.
+Lassoing Bins and Folders in the Bin Container Sidebar When making selections in the Bin Container, you can now start by clicking and dragging from the area to the left of the bin icons. In some instances, this makes it easier to grab several items, especially when there are a large number of files that go over the height of the bin and the selection starts from the top.
+Dragging from Any Column in a Bin Dragging from Any Column in a Bin It is now possible to drag an item within a bin and from a bin, regardless of which column you have clicked on. This eliminates the frustration of clicking on a column that might accidentally put you into text edit mode, such as in the Name column, and reduces the risk of overwriting important metadata in those columns. Once you’ve identified an item you want to drag, simply click anywhere in one of its columns and move it while continuing to hold down the mouse button.
+Ignore Multichannel Audio Layout From File Whenever a linked media file contains multichannel audio, Media Composer preserves those channels by default. With the new “Ignore Multichannel Audio Layout from File” checkbox, in the Link Options tab of the Link Settings window, you now have the ability to override this default behavior and use the custom settings you’ve made in the “Set Multichannel Audio” dialog box, which is accessed via the “Edit” button in the same window.
+Avid NEXIS API Permissions for Shared Projects Media Composer now supports Avid NEXIS API permissions for shared projects. For more information, refer to the “Customizing Folder Permissions” section of the “Understanding and Using Folder Level Permissions” chapter in the Avid NEXIS Administration Guide.
+Avid NEXIS API Permissions for Shared Projects Product specifications are subject to change without notice and do not represent a commitment on the part of Avid Technology, Inc.
+This product is subject to the terms and conditions of a software license agreement provided with the software. The product may only be used in accordance with the license agreement.
+This document is protected under copyright law. An authorized licensee of Avid Media Composer may reproduce this publication for the licensee’s own use in learning how to use the software. This document may not be reproduced or distributed, in whole or in part, for commercial purposes, such as selling copies of this document or providing support or educational services to others. This document is supplied as a guide for Avid Media Composer. Reasonable care has been taken in preparing the information it contains. However, this document may contain omissions, technical inaccuracies, or typographical errors. Avid Technology, Inc. does not accept responsibility of any kind for customers’ losses due to the use of this document. Product specifications are subject to change without notice.
+The following disclaimer is required by Apple Computer, Inc.:
+APPLE COMPUTER, INC. MAKES NO WARRANTIES WHATSOEVER, EITHER EXPRESS OR IMPLIED, REGARDING THIS PRODUCT, INCLUDING WARRANTIES WITH RESPECT TO ITS MERCHANTABILITY OR ITS FITNESS FOR ANY PARTICULAR PURPOSE. THE EXCLUSION OF IMPLIED WARRANTIES IS NOT PERMITTED BY SOME STATES. THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. THIS WARRANTY PROVIDES YOU WITH SPECIFIC LEGAL RIGHTS. THERE MAY BE OTHER RIGHTS THAT YOU MAY HAVE WHICH VARY FROM STATE TO STATE.
+The following disclaimer is required by Sam Leffler and Silicon Graphics, Inc. for the use of their TIFF library:
+Permission to use, copy, modify, distribute, and sell this software [i.e., the TIFF library] and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.
+THE SOFTWARE IS PROVIDED “AS-IS” AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+The following disclaimer is required by the Independent JPEG Group:
+This software is based in part on the work of the Independent JPEG Group.
+This Software may contain components licensed under the following conditions:
+Copyright (c) 1989 The Regents of the University of California. All rights reserved.
+Redistribution and use in source and binary forms are permitted provided that the above copyright notice and this paragraph are duplicated in all such forms and that any documentation, advertising materials, and other materials related to such distribution and use acknowledge that the software was developed by the University of California, Berkeley. The name of the University may not be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Copyright (C) 1989, 1991 by Jef Poskanzer.
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided "as is" without express or implied warranty.
+Copyright 1995, Trinity College Computing Center. Written by David Chappell.
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided "as is" without express or implied warranty.
+Copyright 1996 Daniel Dardailler.
+Permission to use, copy, modify, distribute, and sell this software for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Daniel Dardailler not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. Daniel Dardailler makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+Modifications Copyright 1999 Matt Koss, under the same license as above.
+Copyright (c) 1991 by AT&T.

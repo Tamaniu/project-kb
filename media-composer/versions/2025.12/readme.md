@@ -6,7 +6,7 @@ release-date: 01/12/2025
 doc-type: readme
 source: pdf
 confidentiality: public
-date-added: 16/04/2026
+date-added: 14/05/2026
 status: current
 ---
 
@@ -15,7 +15,7 @@ Refer to the Media Composer page on the Avid Knowledge Base for the most up-to-d
 This document describes compatibility issues with previous releases, software installation instructions, hardware and software requirements, and summary information on system and memory requirements.
 This document also lists hardware and software limitations.
 Avid periodically makes software updates available for download on Avid.com at the following location: https://www.avid.com/media-composer/learn-and-support. Please check this site regularly for information on available downloads for your product.
-Contents Limitations 14 Before Installing the Editing Application 18 After Installing the Editing Application 18 Notes on Software Licensing 18 Minimum RAM Recommendation 19 Qualified Hardware and Operating Systems 19 Feature Performance 20 Avid Artist I/O Device Compatibility 23 Compatibility Chart 23 Media Composer Compatibility with Audio Devices 24 Setting up the NVIDIA Card 24 Shared Storage Support 25 Symbols and Conventions Avid documentation uses the following symbols and conventions:
+Symbols and Conventions Avid documentation uses the following symbols and conventions:
 Symbol or Meaning or Action Convention
 > **Note:** A note provides important related information, reminders, recommendations, and
 strong suggestions.
@@ -288,7 +288,7 @@ Minimum RAM Recommendation Minimum RAM Recommendation For this release Avid reco
 Qualified Hardware and Operating Systems Some features are processor-intensive and require specific hardware. See "Feature Performance" on the next page for more info.
 For 3rd-Party Open IO hardware qualification refer to the manufacturer’s documentation. See the Open IO Frequently Asked Questions document on the Knowledge Base: http://kb.avid.com/articles/en_ US/faq/en422991 The following lists the qualified Operating Systems. Depending upon your hardware the qualified Operating Systems are:
 Windows 11 64-bit 22H2 or later (Professional and Enterprise)
-- macOS 13.x to 13.7.x, 14.x to 14.8.x, and 15.x to 15.7.x, 26.x
+- macOS 13.x to 13.7.x, 14.x to 14.8.x, and 15.x to 15.7.x, 26.2
 > **Note:** With the release of macOS 10.13.x and higher, Apple requires manual approval of loading Kernel
 Extensions (KEXTs). (For example BlackMagic, and AJA IO devices install Kernel Extensions.) At installation time, you should get a dialog saying that the KEXT was not loaded. You must go the “Security & Privacy” system preference and manually approve the KEXT. Keep the Security & Privacy pane open after you install the I/O device drivers, so that you will see the notice that the driver has been blocked, and press the “allow” button within 30 minutes of installing or the driver will be permanently blocked.
 Qualified Workstations and Laptops For a list of qualified Windows and macOS systems, go to the following page: Avid qualified systems.
@@ -303,9 +303,7 @@ Lenovo P920, P720, P620 Dell 7920, 7820
 core (72 with HT) AMD WX-7100, WX9100, Pro VII,
 - W6800
 - Nvidia RTX 5000, 6000, A5000,
-A5500, A6000 HP Z6A Lenovo P620, P8 Dell 7865, 7875 or Boxx ApexxT4
-- AMD Threadripper CPU with 32 or 64
-Cores
+A5500, A6000 HP Z6A Lenovo P620, P8 Dell 7865, 7875 or Boxx ApexxT4 Cores
 - Nvidia RTX A5000, A5500, A6000,
 5000Ada, 6000Ada
 - AMD W6800, W7900
@@ -321,7 +319,7 @@ core (72 with HT)
 - AMD WX-7100, WX9100, Pro VII,
 W6800 Nvidia RTX 5000, 6000, A5000,
 - A5500, A6000
-HP Z8, Z6 Lenovo P920, P720, P620 Dell 7920, Dell 7820 AMD Threadripper CPU with 32 or 64
+HP Z8, Z6 Lenovo P920, P720, P620 Dell 7920, Dell 7820
 - Cores
 - Nvidia RTX A5000, A5500, A6000,
 5000Ada, 6000Ada

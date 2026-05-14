@@ -2,11 +2,11 @@
 product: media-composer
 product-area: editing
 version: "2025.6"
-release-date: 01/6/2025
+release-date: 01/06/2025
 doc-type: readme
 source: pdf
 confidentiality: public
-date-added: 16/04/2026
+date-added: 14/05/2026
 status: current
 ---
 
@@ -15,7 +15,7 @@ Refer to the Media Composer page on the Avid Knowledge Base for the most up-to-d
 This document describes compatibility issues with previous releases, software installation instructions, hardware and software requirements, and summary information on system and memory requirements.
 This document also lists hardware and software limitations.
 Avid periodically makes software updates available for download on Avid.com at the following location: https://www.avid.com/media-composer/learn-and-support. Please check this site regularly for information on available downloads for your product.
-Contents Limitations 12 Before Installing the Editing Application 16 After Installing the Editing Application 16 Notes on Software Licensing 16 Minimum RAM Recommendation 17 Qualified Hardware and Operating Systems 17 Feature Performance 18 Avid Artist I/O Device Compatibility 21 Compatibility Chart 21 Media Composer Compatibility with Audio Devices 22 Setting up the NVIDIA Card 22 Shared Storage Support 23 Symbols and Conventions Avid documentation uses the following symbols and conventions:
+Symbols and Conventions Avid documentation uses the following symbols and conventions:
 Symbol or Meaning or Action Convention
 > **Note:** A note provides important related information, reminders, recommendations, and
 strong suggestions.
@@ -274,9 +274,7 @@ Lenovo P920, P720, P620 Dell 7920, 7820
 core (72 with HT) AMD WX-7100, WX9100, Pro VII,
 - W6800
 - Nvidia RTX 5000, 6000, A5000,
-A5500, A6000 HP Z6A Lenovo P620, P8 Dell 7865, 7875 or Boxx ApexxT4
-- AMD Threadripper CPU with 32 or 64
-Cores
+A5500, A6000 HP Z6A Lenovo P620, P8 Dell 7865, 7875 or Boxx ApexxT4 Cores
 - Nvidia RTX A5000, A5500, A6000,
 5000Ada, 6000Ada
 - AMD W6800, W7900
@@ -292,7 +290,7 @@ core (72 with HT)
 - AMD WX-7100, WX9100, Pro VII,
 W6800 Nvidia RTX 5000, 6000, A5000,
 - A5500, A6000
-HP Z8, Z6 Lenovo P920, P720, P620 Dell 7920, Dell 7820 AMD Threadripper CPU with 32 or 64
+HP Z8, Z6 Lenovo P920, P720, P620 Dell 7920, Dell 7820
 - Cores
 - Nvidia RTX A5000, A5500, A6000,
 5000Ada, 6000Ada
