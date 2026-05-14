@@ -513,6 +513,7 @@ nexis/versions/2023.8.3/readme.md
 nexis/versions/2023.12.0/readme.md
 nexis/versions/2024.2.0/readme.md
 nexis/versions/2024.5.0/readme.md
+nexis/versions/2024.5.0/admin-guide.md           | source: AvidNEXIS_Administration_Guide_v2024.5.0.pdf | converted: 14/05/2026 | 2936 lines
 nexis/versions/2024.6.0/readme.md
 nexis/versions/2024.6.1/readme.md
 nexis/versions/2024.6.2/readme.md
@@ -536,6 +537,7 @@ nexis/versions/2025.5/new-features.md
 # NEXIS Guides — PDF-based; reprocessing required (empty stubs from original batch)
 # Source PDFs: resources.avid.com/SupportFiles/attach/AvidNEXIS/
 # Download via working/nexis_pdf_download_helper.html; process via nexis_process_pdfs.sh
+nexis/versions/2024.10.0/admin-guide.md           | source: AvidNEXIS_2024_10_0_Administration_Guide.pdf | converted: 14/05/2026 | 2976 lines
 nexis/versions/2024.10.0/vfs-guide.md             | source: AvidNEXIS_2024_10_0_VFS_Gateway_Guide.pdf | converted: 14/05/2026 | 452 lines
 nexis/versions/2025.5.0/network-guide.md          | source: AvidNEXIS_2025_5_0_Network_Switch_Guide.pdf | converted: 14/05/2026 | 216 lines
 nexis/versions/2025.10.0/admin-guide.md           | source: AvidNEXIS_2025_10_0_Administration_Guide.pdf | converted: 14/05/2026 | 3006 lines
