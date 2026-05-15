@@ -291,7 +291,7 @@ mediacentral/cloud-ux/versions/2024.10.9/readme.md
 mediacentral/cloud-ux/versions/2024.10/new-features.md
 mediacentral/cloud-ux/versions/2024.10/upgrade-guide-from-ltm2.md
 mediacentral/cloud-ux/versions/2024.2.0/install-guide.md
-mediacentral/cloud-ux/versions/2024.2.0/mobile-guide.md
+mediacentral/cloud-ux/versions/2024.2.0/mobile-guide.md              | source: MCCUX_2024_2_0_Collaborate_Mobile.pdf | version: 2024.2.0 | doc-type: mobile-guide | converted: 15/05/2026 | note: replaces 12-line stub
 mediacentral/cloud-ux/versions/2024.2.0/readme.md
 mediacentral/cloud-ux/versions/2024.2.0/users-guide.md
 mediacentral/cloud-ux/versions/2024.2.1/readme.md
