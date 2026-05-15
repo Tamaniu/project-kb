@@ -460,12 +460,12 @@ pro-tools/versions/2024.3/new-features.md        | source: Whats_New_in_Pro_Tool
 pro-tools/versions/2024.3/readme-mac.md          | source: Pro_Tools_2024.3_Read_Me-Mac.pdf | version: 2024.3 | doc-type: readme-mac | converted: 13/05/2026
 pro-tools/versions/2024.3/readme-win.md          | source: Pro_Tools_2024.3_Read_Me-Win.pdf | version: 2024.3 | doc-type: readme-win | converted: 13/05/2026
 pro-tools/versions/2024.3/shortcuts-guide.md     | source: Pro_Tools_Shortcuts_2024.3.pdf | version: 2024.3 | doc-type: shortcuts-guide | converted: 13/05/2026
-# NOTE: audio/MIDI plugins guides for 2024.3, 2024.10, 2025.6 were filed as hardware-guide.md (11/05/2026, pre audio-plugins-guide doc-type) — reclassification pending
-pro-tools/versions/2024.3/hardware-guide.md      | source: Audio_Plug-Ins_Guide_2024.3.pdf | version: 2024.3 | doc-type: hardware-guide | converted: 11/05/2026 | note: audio/MIDI plugins guide; doc-type predates audio-plugins-guide addition; reclassification pending
+# NOTE: audio/MIDI plugins guides for 2024.3, 2024.10, 2025.6 reclassified 15/05/2026 — renamed from hardware-guide.md to audio-plugins-guide.md; frontmatter updated
+pro-tools/versions/2024.3/audio-plugins-guide.md | source: Audio_Plug-Ins_Guide_2024.3.pdf | version: 2024.3 | doc-type: audio-plugins-guide | converted: 11/05/2026 | reclassified: 15/05/2026
 # ── 2024.10 ──────────────────────────────────────────────────────────────────
 pro-tools/versions/2024.10/new-features.md       | source: Whats_New_in_Pro_Tools_2024.10.pdf | version: 2024.10 | doc-type: new-features | converted: 13/05/2026
 pro-tools/versions/2024.10/shortcuts-guide.md    | source: Pro_Tools_Shortcuts_2024.10.pdf | version: 2024.10 | doc-type: shortcuts-guide | converted: 13/05/2026
-pro-tools/versions/2024.10/hardware-guide.md     | source: Audio_and_MIDI_Plugins_Guide_2024.10.pdf | version: 2024.10 | doc-type: hardware-guide | converted: 11/05/2026 | note: audio/MIDI plugins guide; doc-type predates audio-plugins-guide addition; reclassification pending
+pro-tools/versions/2024.10/audio-plugins-guide.md | source: Audio_and_MIDI_Plugins_Guide_2024.10.pdf | version: 2024.10 | doc-type: audio-plugins-guide | converted: 11/05/2026 | reclassified: 15/05/2026
 # ── 2024.10.1 ────────────────────────────────────────────────────────────────
 pro-tools/versions/2024.10.1/readme-mac.md       | source: Pro_Tools_2024.10.1_Read_Me-Mac.pdf | version: 2024.10.1 | doc-type: readme-mac | converted: 13/05/2026
 pro-tools/versions/2024.10.1/readme-win.md       | source: Pro_Tools_2024.10.1_Read_Me-Win.pdf | version: 2024.10.1 | doc-type: readme-win | converted: 13/05/2026
@@ -474,7 +474,7 @@ pro-tools/versions/2025.6/new-features.md        | source: Whats_New_in_Pro_Tool
 pro-tools/versions/2025.6/readme-mac.md          | source: Pro_Tools_2025.6_Read_Me-Mac.pdf | version: 2025.6 | doc-type: readme-mac | converted: 13/05/2026
 pro-tools/versions/2025.6/readme-win.md          | source: Pro_Tools_2025.6_Read_Me-Win.pdf | version: 2025.6 | doc-type: readme-win | converted: 13/05/2026
 pro-tools/versions/2025.6/shortcuts-guide.md     | source: Pro_Tools_Shortcuts_2025.6.pdf | version: 2025.6 | doc-type: shortcuts-guide | converted: 13/05/2026
-pro-tools/versions/2025.6/hardware-guide.md      | source: Audio_and_MIDI_Plugins_Guide_2025.6.pdf | version: 2025.6 | doc-type: hardware-guide | converted: 11/05/2026 | note: audio/MIDI plugins guide; doc-type predates audio-plugins-guide addition; reclassification pending
+pro-tools/versions/2025.6/audio-plugins-guide.md  | source: Audio_and_MIDI_Plugins_Guide_2025.6.pdf | version: 2025.6 | doc-type: audio-plugins-guide | converted: 11/05/2026 | reclassified: 15/05/2026
 # ── 2025.6.1 ─────────────────────────────────────────────────────────────────
 pro-tools/versions/2025.6.1/readme-mac.md        | source: Pro_Tools_2025.6.1_Read_Me-Mac.pdf | version: 2025.6.1 | doc-type: readme-mac | converted: 13/05/2026
 pro-tools/versions/2025.6.1/readme-win.md        | source: Pro_Tools_2025.6.1_Read_Me-Win.pdf | version: 2025.6.1 | doc-type: readme-win | converted: 13/05/2026
