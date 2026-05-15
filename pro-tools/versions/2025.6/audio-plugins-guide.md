@@ -3,7 +3,7 @@ product: pro-tools
 product-area: editing
 version: "2025.6"
 release-date: 01/06/2025
-doc-type: hardware-guide
+doc-type: audio-plugins-guide
 source: pdf
 confidentiality: public
 date-added: 11/05/2026
