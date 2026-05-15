@@ -141,6 +141,18 @@ run_out "AvidNEXIS_2024_10_0_VFS_Gateway_Guide.pdf" \
     "nexis/versions/2024.10.0/vfs-guide.md" \
     "nexis" "2024.10.0" "vfs-guide"
 
+# ─── Version-agnostic guides ──────────────────────────────────────────────────
+# Licensing QSG: V2 October 2025 — not tied to a specific NEXIS release
+# Benchmark Utility Guide: Feb 2022 — general tool guide
+echo ""
+echo "── Version-agnostic guides ──────────────────────────────────────"
+run_out "AvidNEXIS_Licensing_QSG_V2_October2025.pdf" \
+    "nexis/guides/licensing-qsg.md" \
+    "nexis" "current" "licensing-guide"
+run_out "Avid_Benchmark_Utility_Guide_Feb2022.pdf" \
+    "nexis/guides/benchmark-utility-guide.md" \
+    "nexis" "current" "admin-guide"
+
 # ─── Summary ──────────────────────────────────────────────────────────────────
 echo ""
 echo "══════════════════════════════════════════════════════════════════"
