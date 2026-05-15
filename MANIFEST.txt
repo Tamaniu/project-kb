@@ -567,9 +567,39 @@ nexis/versions/2025.10.0/premiere-panel-guide.md  | source: AvidNEXIS_Remote_Pan
 ## stream-io
 # Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026
 stream-io/doc-index.md
-stream-io/versions/2025.10/readme.md
+# ReadMes previously web-scraped (new-features content embedded in ReadMe PDFs for this product)
 stream-io/versions/2025.2/new-features.md
 stream-io/versions/2025.6/new-features.md
+# PDF conversions — scope: v2025.2, v2025.6, v2025.10, v2026.3 + Plugin for Command
+# Source: resources.avid.com/SupportFiles/attach/AvidStreamIO/ — confirmed 15/05/2026
+# Download via working/stream_io_download_helper.html; process via stream_io_process_pdfs.sh
+# ── v2026.3 ──
+stream-io/versions/2026.3.1/readme.md            | source: Avid_Stream_IO_ReadMe_v2026.3.1.pdf | version: 2026.3.1 | doc-type: readme | converted: 15/05/2026
+stream-io/versions/2026.3/users-guide.md         | source: Avid_Stream_IO_UG_2026_3.pdf | version: 2026.3 | doc-type: users-guide | converted: 15/05/2026
+stream-io/versions/2026.3/hardware-guide.md      | source: Avid_Stream_IO_HG_v2026_3.pdf | version: 2026.3 | doc-type: hardware-guide | converted: 15/05/2026
+stream-io/versions/2026.3/conversion-guide.md    | source: FS_Gen2_Conversion_Guide_v2026_3.pdf | version: 2026.3 | doc-type: conversion-guide | converted: 15/05/2026
+# ── v2025.10 ──
+stream-io/versions/2025.10/readme.md             | source: Avid_Stream_IO_ReadMe_v2025.10.pdf (base) | version: 2025.10 | doc-type: readme
+stream-io/versions/2025.10.2/readme.md           | source: Avid_Stream_IO_ReadMe_v2025.10.2.pdf | version: 2025.10.2 | doc-type: readme | converted: 15/05/2026
+stream-io/versions/2025.10/users-guide.md        | source: Avid_Stream_IO_UG_2025_10.pdf | version: 2025.10 | doc-type: users-guide | converted: 15/05/2026
+stream-io/versions/2025.10/hardware-guide.md     | source: Avid_Stream_IO_HG_v2025_10.pdf | version: 2025.10 | doc-type: hardware-guide | converted: 15/05/2026
+stream-io/versions/2025.10/conversion-guide.md   | source: FS_Gen2_Conversion_Guide_v2025_10.pdf | version: 2025.10 | doc-type: conversion-guide | converted: 15/05/2026
+# ── v2025.6 ──
+stream-io/versions/2025.6/readme.md              | source: Avid_Stream_IO_ReadMe_v2025.6.pdf | version: 2025.6 | doc-type: readme | converted: 15/05/2026
+stream-io/versions/2025.6/users-guide.md         | source: Avid_Stream_IO_UG_2025_6.pdf | version: 2025.6 | doc-type: users-guide | converted: 15/05/2026
+stream-io/versions/2025.6/hardware-guide.md      | source: Avid_Stream_IO_HG_v2025_6.pdf | version: 2025.6 | doc-type: hardware-guide | converted: 15/05/2026
+stream-io/versions/2025.6/conversion-guide.md    | source: FS_Gen2_Conversion_Guide_v2025_6.pdf | version: 2025.6 | doc-type: conversion-guide | converted: 15/05/2026
+# ── v2025.2 ──
+stream-io/versions/2025.2.1/readme.md            | source: Avid_Stream_IO_ReadMe_v2025.2.1.pdf | version: 2025.2.1 | doc-type: readme | converted: 15/05/2026
+stream-io/versions/2025.2/users-guide.md         | source: Avid_Stream_IO_UG_2025_2.pdf | version: 2025.2 | doc-type: users-guide | converted: 15/05/2026
+stream-io/versions/2025.2/hardware-guide.md      | source: Avid_Stream_IO_HG_v2025_2.pdf | version: 2025.2 | doc-type: hardware-guide | converted: 15/05/2026
+stream-io/versions/2025.2/conversion-guide.md    | source: FS_Gen2_Conversion_Guide_v2025_2.pdf | version: 2025.2 | doc-type: conversion-guide | converted: 15/05/2026
+# ── Stream IO Plugin for Command ──
+stream-io/plugin-for-command/versions/2024.10.4/readme.md | source: Stream_IO_Plugin_for_Command_ReadMe_v2024.10.4.pdf | version: 2024.10.4 | doc-type: readme | converted: 15/05/2026
+stream-io/plugin-for-command/versions/2024.10.3/readme.md | source: Stream_IO_Plugin_for_Command_ReadMe_v2024.10.3.pdf | version: 2024.10.3 | doc-type: readme | converted: 15/05/2026
+stream-io/plugin-for-command/versions/2024.10.2/readme.md | source: Stream_IO_Plugin_for_Command_ReadMe_v2024.10.2.pdf | version: 2024.10.2 | doc-type: readme | converted: 15/05/2026
+stream-io/plugin-for-command/versions/2024.10.1/readme.md | source: Stream_IO_Plugin_for_Command_ReadMe_v2024.10.1.pdf | version: 2024.10.1 | doc-type: readme | converted: 15/05/2026
+stream-io/plugin-for-command/versions/2024.7.1/readme.md  | source: Stream_IO_Plugin_for_Command_ReadMe_v2024.7.1.pdf | version: 2024.7.1 | doc-type: readme | converted: 15/05/2026
 
 ## transcripts
 transcripts/mediacentral/transcripts/mediacentral-2025.10-ibc-demo.md
