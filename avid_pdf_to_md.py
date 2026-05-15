@@ -503,7 +503,7 @@ def main():
                                  "client-guide","setup-guide","vfs-guide","network-switch-guide",
                                  "cloud-guide","process-modeler-guide","third-party-guide",
                                  "deployment-guide","panel-guide","licensing-guide",
-                                 "conversion-guide"],
+                                 "conversion-guide","mobile-guide"],
                         help="Document type")
     parser.add_argument("--output", help="Override output path")
     parser.add_argument("--kb-root",

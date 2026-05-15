@@ -137,6 +137,10 @@ run_out "MCCUX_StoryDesigner_App_UIG.pdf" \
 run_out "MCCUX_MCDS_ReadMe.pdf" \
     "mediacentral/cloud-ux/distribution-service/readme.md" \
     "cloud-ux" "current" "readme"
+# Collaborate Mobile App User Guide v2024.2.0 — replaces 12-line stub
+run_out "MCCUX_2024_2_0_Collaborate_Mobile.pdf" \
+    "mediacentral/cloud-ux/versions/2024.2.0/mobile-guide.md" \
+    "cloud-ux" "2024.2.0" "mobile-guide"
 
 # ─── Summary ──────────────────────────────────────────────────────────────────
 echo ""
