@@ -504,6 +504,10 @@ pro-tools/versions/current/quick-reference-guide.md | source: Pro_Tools_Quick_Re
 pro-tools/versions/current/sketch-guide.md       | source: Using_Pro_Tools_Sketch_Guide.pdf | version: current | doc-type: sketch-guide | converted: 13/05/2026
 
 ## nexis
+# NEXIS version-agnostic guides — not tied to a specific release
+nexis/guides/licensing-qsg.md                     | source: AvidNEXIS_Licensing_QSG_V2_October2025.pdf | version: current | doc-type: licensing-guide | converted: 15/05/2026
+nexis/guides/benchmark-utility-guide.md           | source: Avid_Benchmark_Utility_Guide_Feb2022.pdf | version: current | doc-type: admin-guide | converted: 15/05/2026
+
 # NEXIS ReadMes — all good (200–900 lines); converted from PDF
 nexis/versions/2021.3.0/readme.md
 nexis/versions/2021.3.1/readme.md
