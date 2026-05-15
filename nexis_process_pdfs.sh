@@ -114,12 +114,25 @@ run_out "AvidNEXIS_2025_10_0_Integration_Guide.pdf" \
     "nexis/versions/2025.10.0/integration-guide.md" \
     "nexis" "2025.10.0" "integration-guide"
 
+# ─── 2025.10.0 additions ──────────────────────────────────────────────────────
+echo ""
+echo "── 2025.10.0 additions ──────────────────────────────────────────"
+run_out "AvidNEXIS_Remote_Panel_for_Adobe_Premiere_Pro_2025_10_0.pdf" \
+    "nexis/versions/2025.10.0/premiere-panel-guide.md" \
+    "nexis" "2025.10.0" "panel-guide"
+
 # ─── 2025.5.0 ─────────────────────────────────────────────────────────────────
 echo ""
 echo "── 2025.5.0 ─────────────────────────────────────────────────────"
 run_out "AvidNEXIS_2025_5_0_Network_Switch_Guide.pdf" \
     "nexis/versions/2025.5.0/network-guide.md" \
     "nexis" "2025.5.0" "network-guide"
+run_out "AvidNEXIS_Cloud_Storage_AWS_EBS_2025_5_0_Deployment_Guide.pdf" \
+    "nexis/versions/2025.5.0/cloud-storage-aws-ebs-guide.md" \
+    "nexis" "2025.5.0" "deployment-guide"
+run_out "AvidNEXIS_Cloud_Storage_AWS_S3_S3Express_2025_5_0_Deployment_Guide.pdf" \
+    "nexis/versions/2025.5.0/cloud-storage-aws-s3-guide.md" \
+    "nexis" "2025.5.0" "deployment-guide"
 
 # ─── 2024.10.0 ────────────────────────────────────────────────────────────────
 echo ""
