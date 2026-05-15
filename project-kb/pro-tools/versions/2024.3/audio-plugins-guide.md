@@ -3,7 +3,7 @@ product: pro-tools
 product-area: editing
 version: "2024.3"
 release-date: 01/03/2024
-doc-type: hardware-guide
+doc-type: audio-plugins-guide
 source: pdf
 confidentiality: public
 date-added: 11/05/2026
