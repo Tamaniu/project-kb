@@ -558,7 +558,7 @@ nexis/versions/2025.10.0/admin-guide.md           | source: AvidNEXIS_2025_10_0_
 nexis/versions/2025.10.0/client-guide.md          | source: AvidNEXIS_2025_10_0_Client_Guide.pdf | converted: 14/05/2026 | 1156 lines
 nexis/versions/2025.10.0/setup-guide.md           | source: AvidNEXIS_2025_10_0_Setup_and_Maintenance_Guide.pdf | converted: 14/05/2026 | 1283 lines
 nexis/versions/2025.10.0/premiere-panel-guide.md  | source: AvidNEXIS_Remote_Panel_for_Adobe_Premiere_Pro_2025_10_0.pdf | version: 2025.10.0 | doc-type: panel-guide | converted: 15/05/2026
-# integration-guide.md — PDF URL unconfirmed (AvidNEXIS_2025_10_0_Integration_Guide.pdf 404s); stub remains at 12 lines pending URL resolution
+# integration-guide.md — DELETED 15/05/2026: AvidNEXIS_2025_10_0_Integration_Guide.pdf confirmed absent from Avid KB page; PDF was never published
 
 ## stream-io
 # Stream IO PDF doc index (v2023.8–v2026.3) — source: kb.avid.com Stream IO Documentation page — added 27/04/2026
