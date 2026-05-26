@@ -1,5 +1,5 @@
 # project-kb MANIFEST
-# Last updated: 15/05/2026
+# Last updated: 26/05/2026
 # Git-tracked .md files: approx. 617 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
@@ -317,8 +317,6 @@ mediacentral/cloud-ux/versions/2025.6.0/hardware-guide.md
 mediacentral/cloud-ux/versions/2025.6.0/install-guide.md                | source: MCCUX_2025_6_0_Install_Guide.pdf | version: 2025.6.0 | doc-type: install-guide | converted: 14/05/2026 | note: replaces 12-line stub
 mediacentral/cloud-ux/versions/2025.6.0/readme.md                       | source: MCCUX_2025_6_0_ReadMe.pdf | version: 2025.6.0 | doc-type: readme | converted: 14/05/2026 | note: replaces misfiled 3rd-party tools plugin readme
 # versions/2025.6.0/third-party-guide.md — 12-line stub; PENDING DELETION after 3P Tools guide processed into plugins/3rd-party-tools/2025.6-guide.md
-mediacentral/cloud-ux/plugins/3rd-party-tools/2026.4-guide.md  | source: MCCUX_2026_4_0_3P_Tools_Guide.pdf | version: 2026.4 | doc-type: third-party-guide | converted: 21/05/2026
-mediacentral/cloud-ux/plugins/3rd-party-tools/2026.4-readme.md | source: MCCUX_2026_4_0_3P_Tools_ReadMe.pdf | version: 2026.4 | doc-type: readme | converted: 21/05/2026
 mediacentral/cloud-ux/versions/2025.6.0/third-party-guide.md
 mediacentral/cloud-ux/versions/2025.6.0/users-guide.md
 mediacentral/cloud-ux/versions/2025.6.1/readme.md
@@ -338,6 +336,8 @@ mediacentral/cloud-ux/versions/current/readme.md
 mediacentral/cloud-ux/versions/current/users-guide.md
 # plugins — optional scope additions; PDFs from resources.avid.com; confirmed 14/05/2026
 mediacentral/cloud-ux/plugins/3rd-party-tools/2025.6-guide.md              | source: MCCUX_2025_6_0_3P_Tools_Guide.pdf | version: 2025.6 | doc-type: third-party-guide | converted: 14/05/2026 | note: replaces stub at versions/2025.6.0/third-party-guide.md
+mediacentral/cloud-ux/plugins/3rd-party-tools/2026.4-guide.md              | source: MCCUX_2026_4_0_3P_Tools_Guide.pdf | version: 2026.4 | doc-type: third-party-guide | converted: 21/05/2026
+mediacentral/cloud-ux/plugins/3rd-party-tools/2026.4-readme.md             | source: MCCUX_2026_4_0_3P_Tools_ReadMe.pdf | version: 2026.4 | doc-type: readme | converted: 21/05/2026
 mediacentral/cloud-ux/plugins/story-designer/guide.md                       | source: MCCUX_StoryDesigner_App_UIG.pdf | version: current | doc-type: users-guide | converted: 14/05/2026
 mediacentral/cloud-ux/distribution-service/readme.md                        | source: MCCUX_MCDS_ReadMe.pdf | version: current | doc-type: readme | converted: 14/05/2026
 
@@ -440,8 +440,7 @@ mediacentral/production-management/versions/2025.10/readme.md
 mediacentral/production-management/versions/2025.10/admin-guide.md
 
 ## pro-tools
-# Pro Tools PDF doc index (2022.4–2025.12.1 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026
-# NOTE: doc-index does not yet include 2026.4 (released after index was written) — update pending
+# Pro Tools PDF doc index (2022.4–2026.4 + Getting Started + plugins) — source: kb.avid.com Pro Tools Documentation page — added 27/04/2026; updated 13/05/2026 to add 2026.4 section
 pro-tools/doc-index.md
 # ── 2022.4 (comparative / innovation-tracking) ───────────────────────────────
 pro-tools/versions/2022.4/reference-guide.md     | source: Pro_Tools_Reference_Guide_2022.4.pdf | version: 2022.4 | doc-type: reference-guide | converted: 13/05/2026 | note: added for comparative/innovation tracking only; not a current support version
