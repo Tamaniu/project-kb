@@ -1,6 +1,6 @@
 # project-kb MANIFEST
-# Last updated: 26/05/2026
-# Git-tracked .md files: approx. 617 (excludes raw .vtt files and non-.md assets)
+# Last updated: 01/06/2026
+# Git-tracked .md files: approx. 640 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
@@ -645,6 +645,40 @@ transcripts/product-webinars/stream-io/stream-io-2025.6-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new-v2.md
 transcripts/product-webinars/wolftech/wolftech-news15-whats-new.md
 transcripts/product-webinars/wolftech/wolftech-v15-cuttingroom.md
+transcripts/product-webinars/wolftech/wolftech-reporter-app-jul2025.md   | source: Wolftech Resource/July 2025- Avid Reporter App : Wolftech Go app.docx | added: 01/06/2026 | topic: Wolftech Go / Reporter App resource centre
+
+## transcripts/nab/2025 — new additions 01/06/2026
+transcripts/nab/2025/nab2025-pro-tools-postproduction.md                 | source: Transcript from NAB Show 2025 — Pro Tools for Postproduction.docx | added: 01/06/2026
+transcripts/nab/2025/nab2025-nexis-remote.md                             | source: Nexis Remote- NAB 2025.docx | added: 01/06/2026
+
+## transcripts/industry — new folder, added 01/06/2026
+# Industry/third-party content: analyst reports, IBC sessions, Thinktank, technology panels
+# Source: Word docs for kb / working folders
+
+### IBC 2024
+transcripts/industry/ibc/2024/ibc2024-accelerating-innovation-ep7.md    | source: IBC 2024 Transcript - Accelerating Innovation Ep7.docx | added: 01/06/2026
+
+### IBC 2025
+transcripts/industry/ibc/2025/ibc2025-accelerating-innovation-ep7.md    | source: IBC 2025 Transcript - Accelerating Innovation Ep7.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-twelvelabs-semantic-content-discovery.md | source: IBC 2025 Transcript - TwelveLabs Semantic Content Discovery.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-deepdub-ai-voice.md               | source: IBC 2025 Transcript - Deepdub AI-Powered Voice.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-netflix-production-innovation.md   | source: IBC 2025 Transcript - Netflix Pioneers Production Innovation.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-connective-tech-ep3-supply-chain.md | source: IBC 2025 Transcript Connective Tech Ep3.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-connective-tech-ep2-mam.md        | source: IBC 2025 Transcript Connective Tech Ep2 MAM.docx | added: 01/06/2026
+transcripts/industry/ibc/2025/ibc2025-octopus-newsroom.md               | source: Octopus Newsroom IBC transcript Sept 2025.docx | added: 01/06/2026 | note: competitor/industry context
+transcripts/industry/ibc/2025/caretta-research-ibc-2025.md              | source: Caretta Research Analyst Insight IBC 2025.pdf | added: 01/06/2026 | topic: analyst insight; six key takeaways from IBC 2025
+transcripts/industry/ibc/2025/iabm-state-of-mediatech-ibc-2025.md       | source: IABM_State of MediaTech Report_IBC 2025.pdf | added: 01/06/2026 | topic: industry state-of-market report
+
+### Other industry
+transcripts/industry/designing-digital-transformation-farnsworth.md     | source: 25th Nov 2025 Transcript - Designing Digital Transformation - Simon Farnsworth.docx | added: 01/06/2026 | topic: digital transformation in global media
+transcripts/industry/making-the-media-generation-game.md                | source: Transcript from Making the Media - The Generation Game 9th June.docx | added: 01/06/2026
+transcripts/industry/gen-ai-news-report-2025.md                         | source: Gen_AI_and_News_Report_2025.pdf | added: 01/06/2026 | topic: generative AI adoption in news
+
+## nexis/guides — new additions 01/06/2026
+nexis/guides/recommended-versions.md                                     | source: Recommended Nexis versions.docx | added: 01/06/2026
+
+## mediacentral/newsroom-management/guides — new folder, added 01/06/2026
+mediacentral/newsroom-management/guides/ctms-workflow-blueprint.md       | source: CTMS_Workflow_Blueprint.docx | added: 01/06/2026 | topic: CTMS integration workflow
 
 ## acc/help
 # ACC in-product Help documentation — extracted from docs.avid.com/acc — version 0.0.3 — added 01/05/2026
