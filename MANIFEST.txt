@@ -2,7 +2,7 @@
 # Last updated: 04/06/2026
 # Git-tracked .md files: approx. 640 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
-# NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
+# NOTE: Wolftech module docs and release notes reinstated to project-kb/wolftech/ on 04/06/2026 — approval hold lifted
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
 #       Edit directly and preserve annotation format when adding or removing files.
 
@@ -408,10 +408,10 @@ mediacentral/newsroom-management/versions/2023.7/new-features.md
 mediacentral/newsroom-management/versions/2024.10.6/readme.md
 mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
 mediacentral/newsroom-management/versions/2024.10/new-features.md
-# Wolftech module docs (26 files) moved to private-kb/wolftech/ — pending external-sharing approval (27/04/2026)
+# Wolftech module docs reinstated to project-kb/wolftech/ on 04/06/2026 — see wolftech/modules/ and wolftech/versions/ below
 
 ## wolftech
-# Release notes reinstated to project-kb by explicit instruction (04/06/2026); module docs remain in private-kb/wolftech/
+# All Wolftech content (release notes + module docs) reinstated to project-kb by explicit instruction (04/06/2026)
 # ⚠ v12 source docx also contains an embedded v12.0 major release overview (July 2024) — not yet extracted; see source-pdfs for source file
 wolftech/versions/12/wolftech-news-12-patch-13-release-notes.md | source: Release notes #12 patch 13 Wolftech News.docx | added: 04/06/2026 | version: v12 cumulative patch notes (patches 1–13; patch 2 absent from source) | scope: bug fixes and improvements only
 wolftech/versions/12.0/wolftech-news-12.0-whats-new.md | source: Release notes #12 patch 13 Wolftech News.docx (embedded v12.0 overview section) | added: 04/06/2026 | version: 12.0 (July 2024) | scope: full what's new overview — Stories, Feeds, Resourcing, Production, Publishing, UX, Admin, Accessibility; 794 lines
