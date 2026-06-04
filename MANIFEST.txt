@@ -419,6 +419,89 @@ wolftech/versions/14.0/wolftech-news-14.0-release-notes.md | source: Wolftech Ne
 wolftech/versions/15.0/wolftech-news-15.0-release-notes.md | source: Wolftech News 15 Release Notes.pdf | added: 04/06/2026 | version: 15.0 (June 2025) | scope: Research, Planning, Resourcing, Production, Communication & Collaboration, Publishing, UX, Admin, API; includes Avid Reporter app, web editor integration, iNEWS preview, Factiverse 2.0, MediaCentral Cloud UX integration
 wolftech/versions/16.0/wolftech-news-16.0-release-notes.md | source: Customer release document — distributed to customers | added: 04/06/2026 | version: 16.0 (April 2026) | scope: Research, Planning, Resourcing, Production, Publishing, UX, Admin, API; includes CuttingRoom web editor AI shortcuts, APM integration, iNEWS improvements, Reality Defender (coming 16.1)
 
+## wolftech/modules
+# Module documentation extracted from Wolftech OFFICIAL_Documentation (SharePoint DRAFT_Documentation)
+# Added to project-kb 04/06/2026 by explicit instruction; external-sharing approval hold lifted
+# All revisions present where available; highest revision is canonical per CONTEXT.md rule
+# Source: OneDrive_3_04-06-2026.zip → OFFICIAL_Documentation/
+
+## wolftech/modules — Administration
+wolftech/modules/administration/api-and-automations/api-and-automations-r13.md | source: API and Automations_R13.docx | added: 04/06/2026 | revision: R13 | note: sparse text content — document is primarily image-based
+wolftech/modules/administration/authorization-security/authorization-security-r12.md | source: Authorization, Authentication, User Groups & Security_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/administration/authorization-security/authorization-security-r13.md | source: Authorization, Authentication, User Groups & Security_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+
+## wolftech/modules — User Experience, Navigation and Accessibility
+wolftech/modules/ux/initial-setup-and-help/initial-setup-and-help-r13.md | source: User Initial Setup and Help_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+wolftech/modules/ux/navigation-and-accessibility/navigation-and-accessibility-r12.md | source: Navigation, Display Preferences and Accessibility_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/ux/navigation-and-accessibility/navigation-and-accessibility-r13.md | source: Navigation, Display Preferences and Accessibility_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+wolftech/modules/ux/search/search-r13.md | source: Search_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+wolftech/modules/ux/wall-monitor/wall-monitor-r14.md | source: Wall Monitor Add on_R14.docx | added: 04/06/2026 | revision: R14 | canonical | note: sparse text — primarily image-based
+
+## wolftech/modules — Research (Feeds and External Calendars)
+wolftech/modules/research/feeds/feeds-r12.md | source: Feeds_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/research/feeds/feeds-r13.md | source: Feeds_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/research/feeds/feeds-r14.md | source: Feeds_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+
+## wolftech/modules — Plan
+wolftech/modules/plan/content-categorisation/content-categorisation-r12.md | source: Content Categorisation_ Tags, Addl Info and IDs_12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/plan/content-categorisation/content-categorisation-r13.md | source: Content Categorisation_Tags, Addl Info and IDs_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/plan/content-categorisation/content-categorisation-r14.md | source: Content Creation and Categorisation_Tags, Addl Info and IDs_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/plan/events-and-calendars/events-and-calendars-r12.md | source: Events & Calendars_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/plan/events-and-calendars/events-and-calendars-r13.md | source: Events & Calendars_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/plan/events-and-calendars/events-and-calendars-r14.md | source: Events & Calendars_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/plan/greenlight/greenlight-r12.md | source: Greenlight_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/plan/greenlight/greenlight-r13.md | source: Greenlight_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+wolftech/modules/plan/plan-view/plan-view-r12.md | source: Plan View_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/plan/plan-view/plan-view-r13.md | source: Plan View_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/plan/plan-view/plan-view-r14.md | source: Plan View_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/plan/read-in-notes/read-in-notes-r12.md | source: Read-in Notes_Logs_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/plan/read-in-notes/read-in-notes-r13.md | source: Read-in Notes_Logs_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/plan/read-in-notes/read-in-notes-r14.md | source: Read-in Notes_Logs_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+
+## wolftech/modules — Resourcing
+wolftech/modules/resourcing/bookings/bookings-r12.md | source: Wolftech Resourcing_ Bookings_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/resourcing/bookings/bookings-r13.md | source: Wolftech Resourcing_ Bookings_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/resourcing/bookings/bookings-r14.md | source: Wolftech Resourcing_ Bookings_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/resourcing/finance/finance-r12.md | source: Resourcing_ Finance - Cost Tracking_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/resourcing/finance/finance-r13.md | source: Resourcing_ Finance - Cost Tracking_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+wolftech/modules/resourcing/location-and-risk/location-and-risk-r12.md | source: Shoots and Location work (Map-risk-equipment, Connect Devices, Mobile)_R12.docx | added: 04/06/2026 | revision: R12 | canonical (only revision present)
+
+## wolftech/modules — Production
+wolftech/modules/production/editorial/editorial-r11.md | source: Editorial (Background Information)_R11.docx | added: 04/06/2026 | revision: R11 | note: older doc, title not set in Word metadata
+wolftech/modules/production/editorial/editorial-r12.md | source: Editorial (Background Information)_R12.docx | added: 04/06/2026 | revision: R12 | note: older doc, title not set in Word metadata
+wolftech/modules/production/editorial/editorial-r13.md | source: Editorial (Background Information)_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/production/editorial/editorial-r14.md | source: Editorial (Background Information)_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/production/ai-assistant/ai-assistant-r13.md | source: AI_Assistant_R13.docx | added: 04/06/2026 | revision: R13 | canonical (only revision present)
+wolftech/modules/production/content-guidance/content-guidance-r13.md | source: Content Guidance_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/production/content-guidance/content-guidance-r14.md | source: Content Guidance_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+wolftech/modules/production/fact-checking/fact-checking-r13.md | source: Fact Checking and Content Authenticity_R13.docx | added: 04/06/2026 | revision: R13 | canonical (only revision present)
+wolftech/modules/production/media-management/media-management-r12.md | source: Media Management & Integrations_R12.docx | added: 04/06/2026 | revision: R12 | note: older doc, title not set in Word metadata
+wolftech/modules/production/media-management/media-management-r13.md | source: Media Management & Integrations_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/production/media-management/media-management-r14.md | source: Media Management & Integrations_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+
+## wolftech/modules — Communication & Collaboration
+wolftech/modules/communication/communication-r12.md | source: Communication_ Chat, Notification, Acvitity, Alerts_R12.docx | added: 04/06/2026 | revision: R12 | note: older doc, title not set in Word metadata
+wolftech/modules/communication/communication-r13.md | source: Communication_ Chat, Notification, Acvitity, Alerts_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/communication/communication-r14.md | source: Communication_ Chat, Notification, Acvitity, Alerts_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+
+## wolftech/modules — Publishing
+wolftech/modules/publishing/publishing-r11.md | source: Publishing_R11.docx | added: 04/06/2026 | revision: R11 | note: older doc, title not set in Word metadata
+wolftech/modules/publishing/publishing-r12.md | source: Publishing_R12.docx | added: 04/06/2026 | revision: R12 | note: older doc, title not set in Word metadata
+wolftech/modules/publishing/publishing-r13.md | source: Publishing_R13.docx | added: 04/06/2026 | revision: R13
+wolftech/modules/publishing/publishing-r14.md | source: Publishing_R14.docx | added: 04/06/2026 | revision: R14 | canonical
+
+## wolftech/modules — Long Form
+wolftech/modules/long-form/long-form-r11.md | source: Long Form Product Overview_R11.docx | added: 04/06/2026 | revision: R11
+wolftech/modules/long-form/long-form-r12.md | source: Long Form Product Overview_R12.docx | added: 04/06/2026 | revision: R12
+wolftech/modules/long-form/long-form-r13.md | source: Long Form Product Overview_R13.docx | added: 04/06/2026 | revision: R13 | canonical
+
+## wolftech/modules — Wolftech Go
+wolftech/modules/wolftech-go/wolftech-go-r12.md | source: Wolftech Go Mobile App User Guide 2024_R12.docx | added: 04/06/2026 | revision: R12 | canonical (only revision present)
+wolftech/modules/wolftech-go/wolftech-go-resource.md | source: wolftech-go.md (pre-converted) | added: 04/06/2026 | topic: Wolftech Go resource overview; retained existing YAML frontmatter
+
+## wolftech/modules — What's New Presentation
+wolftech/modules/whats-new/whats-new-v15.md | source: What's New Wolftech News 15.pptx | added: 04/06/2026 | version: 15.0 | scope: 25-slide presentation deck; slide text extracted in slide order
+
 mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
