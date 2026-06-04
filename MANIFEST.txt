@@ -1,5 +1,5 @@
 # project-kb MANIFEST
-# Last updated: 01/06/2026
+# Last updated: 04/06/2026
 # Git-tracked .md files: approx. 640 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs moved to private-kb/wolftech/ pending external-sharing approval (27/04/2026)
@@ -409,6 +409,16 @@ mediacentral/newsroom-management/versions/2024.10.6/readme.md
 mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
 mediacentral/newsroom-management/versions/2024.10/new-features.md
 # Wolftech module docs (26 files) moved to private-kb/wolftech/ — pending external-sharing approval (27/04/2026)
+
+## wolftech
+# Release notes reinstated to project-kb by explicit instruction (04/06/2026); module docs remain in private-kb/wolftech/
+# ⚠ v12 source docx also contains an embedded v12.0 major release overview (July 2024) — not yet extracted; see source-pdfs for source file
+wolftech/versions/12/wolftech-news-12-patch-13-release-notes.md | source: Release notes #12 patch 13 Wolftech News.docx | added: 04/06/2026 | version: v12 cumulative patch notes (patches 1–13; patch 2 absent from source) | scope: bug fixes and improvements only
+wolftech/versions/13/wolftech-news-13-patch-3-release-notes.md | source: Release notes #13 patch 3 Wolftech News.docx | added: 04/06/2026 | version: v13 cumulative patch notes (patches 1–3) | scope: bug fixes and improvements only
+wolftech/versions/14.0/wolftech-news-14.0-release-notes.md | source: Wolftech News_Release Notes_14.0.docx | added: 04/06/2026 | version: 14.0 (March 2025) | scope: Research, Planning, Resourcing, Production, Communication & Collaboration, Publishing, UX, Admin, API; includes Draft Mode BETA, Wall Monitor, Email Publishing
+wolftech/versions/15.0/wolftech-news-15.0-release-notes.md | source: Wolftech News 15 Release Notes.pdf | added: 04/06/2026 | version: 15.0 (June 2025) | scope: Research, Planning, Resourcing, Production, Communication & Collaboration, Publishing, UX, Admin, API; includes Avid Reporter app, web editor integration, iNEWS preview, Factiverse 2.0, MediaCentral Cloud UX integration
+wolftech/versions/16.0/wolftech-news-16.0-release-notes.md | source: Customer release document — distributed to customers | added: 04/06/2026 | version: 16.0 (April 2026) | scope: Research, Planning, Resourcing, Production, Publishing, UX, Admin, API; includes CuttingRoom web editor AI shortcuts, APM integration, iNEWS improvements, Reality Defender (coming 16.1)
+
 mediacentral/newsroom-management/wsapi/versions/2022.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.3/new-features.md
 mediacentral/newsroom-management/wsapi/versions/2023.7/new-features.md
