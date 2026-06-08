@@ -1,6 +1,6 @@
 # project-kb MANIFEST
-# Last updated: 04/06/2026
-# Git-tracked .md files: approx. 640 (excludes raw .vtt files and non-.md assets)
+# Last updated: 08/06/2026
+# Git-tracked .md files: approx. 700 (excludes raw .vtt files and non-.md assets)
 # Structure: product/versions/{ver}/ for versioned content
 # NOTE: Wolftech module docs and release notes reinstated to project-kb/wolftech/ on 04/06/2026 — approval hold lifted
 # NOTE: This manifest is curated and annotated — do NOT regenerate with a bare find command.
@@ -84,10 +84,14 @@ media-composer/distributed-processing/versions/2025.12.0/admin-guide.md
 media-composer/distributed-processing/versions/2025.12.0/readme.md
 media-composer/distributed-processing/versions/2025.12.1/readme.md
 
-# MC FlexNet — same PDFs shared across 2021–2025 doc pages; converted 13–14/05/2026
-media-composer/flexnet/flexnet-admin.md
-media-composer/flexnet/flexnet-legacy-admin.md
-media-composer/flexnet/flexnet-readme.md
+# MC FlexNet — licensing guides; converted 13–14/05/2026; batch updated 08/06/2026
+media-composer/flexnet/flexnet-admin.md             | source: Avid_FlexNet_License_Server_Administration_Guide.pdf | version: current (created 30/05/2025) | doc-type: admin-guide | updated: 08/06/2026 | note: adds Win10/11, port 7070 (v2025.6+), HTTPS client, Windows Defender Firewall config vs previous extract
+media-composer/flexnet/flexnet-legacy-admin.md      | source: pdf (original batch) | version: v8.x | doc-type: admin-guide | converted: 14/05/2026
+media-composer/flexnet/flexnet-readme.md            | source: README_Avid_FlexNet_License_Server_Manager_v2025.5.pdf | version: 2025.5 | doc-type: readme | converted: 14/05/2026
+media-composer/flexnet/flexnet-device-manager-v6.md | source: Avid_Volume_License_Server_Administration_Guide.pdf | version: v6.x | doc-type: admin-guide | added: 08/06/2026 | note: FlexNet Device Manager for Avid, 0175-30994-00 Rev D, October 2013; volume licensing; historical
+# SOURCE ANOMALY — 2 PDFs in source-pdfs/ not processed due to non-standard font encoding:
+# Avid_FlexNet_License_Server_Administration_Guide_25.5.pdf — v25.5 admin guide; pdftotext, pdfplumber, and OCR (pdftoppm+tesseract) all fail; characters extracted as scrambled glyph sequences; cannot be reliably decoded without original font ToUnicode map
+# README_Avid_FlexNet_License_Server_Manager_v2025.5.pdf — v2025.5 readme; same encoding issue; content already present in flexnet-readme.md (converted from same source on 14/05/2026 when PDF was readable)
 
 # MC guides (rolling, not version-pinned) — PDF conversions batch 13–14/05/2026
 # guides/2024/admin-guide.md — DELETED 27/04/2026 (empty shell, 12 lines)
@@ -401,6 +405,9 @@ mediacentral/newsroom-management/data-receiver/versions/2021.3/install-admin-gui
 mediacentral/newsroom-management/data-receiver/versions/2023.7.4/readme.md
 mediacentral/newsroom-management/data-receiver/versions/2024.10.5/readme.md
 mediacentral/newsroom-management/data-receiver/versions/2024.10.5/install-admin-guide.md
+# Data Receiver v2026.4 — added 08/06/2026
+mediacentral/newsroom-management/data-receiver/versions/2026.4/readme.md           | source: MCDR_2026.4_ReadMe.pdf | version: 2026.4 | doc-type: readme | converted: 08/06/2026 | 81 lines
+mediacentral/newsroom-management/data-receiver/versions/2026.4/install-admin-guide.md | source: MCDR_2026.4_IAG.pdf | version: 2026.4 | doc-type: install-admin-guide | converted: 08/06/2026 | 619 lines
 mediacentral/newsroom-management/versions/2022.12/new-features.md
 mediacentral/newsroom-management/versions/2022.3/new-features.md
 mediacentral/newsroom-management/versions/2023.3/new-features.md
@@ -408,6 +415,10 @@ mediacentral/newsroom-management/versions/2023.7/new-features.md
 mediacentral/newsroom-management/versions/2024.10.6/readme.md
 mediacentral/newsroom-management/versions/2024.10.7/readme.md | source: MCNM_2024.10.7_ReadMe.pdf | added: 27/04/2026 | cumulative ReadMe covering 2024.10 through 2024.10.7; compatibility, new features, full bug-fix register, limitations, Gmail SMTP config, doc errata
 mediacentral/newsroom-management/versions/2024.10/new-features.md
+# MCNM v2026.4 — added 08/06/2026
+mediacentral/newsroom-management/versions/2026.4/readme.md     | source: MCNM_2026.4_ReadMe.pdf | version: 2026.4 | doc-type: readme | converted: 08/06/2026 | 269 lines
+mediacentral/newsroom-management/versions/2026.4/admin-guide.md | source: MCNM_2026.4_AG.pdf | version: 2026.4 | doc-type: admin-guide | converted: 08/06/2026 | 2798 lines
+mediacentral/newsroom-management/versions/2026.4/users-guide.md | source: MCNM_2026.4_UG.pdf | version: 2026.4 | doc-type: users-guide | converted: 08/06/2026 | 2538 lines
 # Wolftech module docs reinstated to project-kb/wolftech/ on 04/06/2026 — see wolftech/modules/ and wolftech/versions/ below
 
 ## wolftech
